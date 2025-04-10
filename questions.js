@@ -72,7 +72,7 @@ function showQuestion(){
 //check checkAnswer(${index}) gets the index of the individual options
 //...it allow me know which option was clicked !!!
   let optionHtml = questionBank[quizState.currentQuestion].options.map((option, index)=>{
-   return `<p data-user-choice = '${option.userSeletedOPtion}' id="${option.id}" class = "single-option" onclick = "checkAnswer(${index}, '${option.id}')">
+   return `<p tabindex = "0" data-user-choice = '${option.userSeletedOPtion}' id="${option.id}" class = "single-option" onclick = "checkAnswer(${index}, '${option.id}')">
              <span>
              ${option.label}.
              </span> &nbsp; ${option.text}
@@ -139,9 +139,6 @@ function checkAnswer(selectedIndex, optionId){
   option.userSeletedOPtion = false;
   })
   questionBank[quizState.currentQuestion].options[selectedIndex].userSeletedOPtion = true;
-
-
-   console.log(selectedOption)
    if(selectedOption.isCorrect && questionBank[quizState.currentQuestion].answeredCount === 0){
     questionBank[quizState.currentQuestion].answeredCount = 1;
    }else if (!selectedOption.isCorrect && questionBank[quizState.currentQuestion].answeredCount === 1){
@@ -158,4 +155,5 @@ function checkAnswer(selectedIndex, optionId){
   })
   return quizState.score
  }
+
 
