@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+    <!-- Meta Description (good for SEO) -->
+    <meta name="description" content="Quiz-Campus: Practice GST and other academic questions for Nigerian colleges and secondary schools." />
+
+    <!-- Meta Keywords (optional for SEO, not as important nowadays) -->
+    <meta name="keywords" content="quiz, GST, Nigerian schools, campus questions, education, practice tests" />
+  
+    <!-- Meta Author -->
+    <meta name="author" content="Joseph Pascal Ugochukwu" />
+
+      <!-- Open Graph tags for social sharing -->
+  <meta property="og:title" content="Quiz-Campus" />
+  <meta property="og:description" content="Test your knowledge with Quiz-Campus. Focused on GST and academic questions for Nigerian students." />
+  <meta property="og:type" content="website" />
+
+  <!-- img not hosted yet -->
+  <!-- <meta property="og:image" content="https://yourdomain.com/thumbnail.jpg" /> -->
+  <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="/general.css">
+  <link rel="stylesheet" href="login.css">
+    <title>Quiz-Campus</title>
+</head>
+<body>
+
+  <header>
+   <div class="logo-container">
+    
+    <img class="logo-img" src="/images/logo.png" alt="Logo">
+    <p class="logo-text">Quiz-Campus</p>
+   </div>
+
+   <div>
+    <a class="bg-dark-blue text-white signup-login-links">
+        Login
+    </a>
+
+    <a class="text-black bg-primary-blue signup-login-links">
+        Sign Up
+    </a>
+   </div>
+  </header>
+
+  <!-- i ll set main to d-grid so it can center the form box -->
+  <main>
+     <form action="#" method="POST">
+         <!-- intro to form text -->
+      <div class="form-intro-text">
+        <h1>Sign Up</h1>
+        <p>
+          Join Quiz campus to  to practice questions for your college courses
+        </p>
+      </div>
+
+      <div class="name-email-input-container">
+        <label for="fullname">FullName</label>
+        <input id="fullname" name="fullname" required autocomplete="name" placeholder="Enter Full Name" type="text">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" required autocomplete="email" placeholder="Enter Email" type="email">
+      </div>
+
+      <!-- passwaord container layout -->
+      <div class="password-input-container">
+          <div>
+            <label  for="password">password</label>
+            <input id="password" name="password" autocomplete="new-password" placeholder="Enter password" type="password">
+          </div>
+
+          <div>
+          <label for="confirmred-password">confirm password</label>
+          <input id = "confirmed-password" name="confirmed-password" autocomplete="new-password" placeholder="Enter password" type="password">
+          </div>
+      </div>
+
+      <!-- ===== school container ==== -->
+       <div>
+        <label for="">School</label>
+        <select name="school" id="school"  required>
+          <option value="Uniben">Uniben</option>
+          <option value="University of Nsukka">University of Nigeria, Nsukka</option>
+          <option value="University of Lagos">University of Lagos</option>
+          <option value="University of Ibadan">University of Ibadan</option>
+          <option value="University of Port Harcourt">University of Port Harcourt</option>
+          <option value="University of Benin">University of Benin</option>
+          <option value="Obafemi Awolowo University">Obafemi Awolowo University</option>  
+          <option value="Ahmadu Bello University ">Ahmadu Bello University</option>
+          <option value="University of Ilorin">University of Ilorin</option>
+          <option value="University of Calabar">University of Calabar</option> 
+          <option value="University of Jos">University of Jos</option>
+        </select>
+       </div>
+
+       <div>
+        <button class="confirm-btn bg-teal-green text-white" type="submit">
+          Confirm
+         </button>
+       </div>
+      
+       <p>
+        Already have an account?
+         <a href="login.html">Login</a>
+       </p>
+     </form>
+  </main>
+
+  <footer>
+    <p class="text-center">
+      &copy; <span>2025</span> 21<sup>st</sup> Century Software
+    </p>
+  </footer>
+  
+</body>
+</html>

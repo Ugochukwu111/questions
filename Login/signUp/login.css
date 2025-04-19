@@ -1,0 +1,120 @@
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+
+main{
+  display: grid;
+  place-items: center;
+  padding: 2rem 0;
+}
+
+input{
+  width: 100%;
+  padding: .8em 1.5em;
+  border-radius: 1em;
+  border: 1px solid var(--light-grey);
+  margin: .3em 0;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid var(--dark-blue);
+}
+
+.signup-login-links{
+  padding: .8em 1.5em;
+  margin:.5em;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: .9rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+form{
+  border: 1px solid var(--light-grey);
+  box-shadow: 10px 10px 15px var(--light-grey);
+  border-radius: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+  padding: 1em 2em;
+}
+
+form p{
+  text-align: center;
+}
+
+form >*{
+  margin-top: 1em;
+}
+
+.form-intro-text{
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.logo-img{
+  transform: scale(.5);
+}
+.logo-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  aspect-ratio: 1/1;
+}
+.logo-text{
+  font-weight: 700;
+  color: var( --dark-blue);
+  font-size: 1.3rem
+}
+
+.password-input-container{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.password-input-container >*{
+  margin: 0 1em; 
+  width: 50%;
+}
+
+select {
+  border: 1px solid var(--light-grey);
+  width: 100%;
+  transition: all 0.3s ease;
+
+  appearance: none; /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background: url('data:image/svg+xml;utf8,<svg fill="%23000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+    background-color: #fff;
+    background-size: 16px 16px;
+
+    padding: 10px 40px 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select:focus{
+  outline: none;
+  border: 1px solid var(--dark-blue);
+}
+
+
+.confirm-btn{
+  width: 100%;
+}
