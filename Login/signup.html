@@ -3,27 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
 
-    <!-- Meta Description (good for SEO) -->
-    <meta name="description" content="Quiz-Campus: Practice GST and other academic questions for Nigerian colleges and secondary schools." />
 
-    <!-- Meta Keywords (optional for SEO, not as important nowadays) -->
-    <meta name="keywords" content="quiz, GST, Nigerian schools, campus questions, education, practice tests" />
+  <!-- my SEOsss -->
   
+    <!-- Meta Description -->
+    <meta name="description" content="Create a free Quiz-Campus account to practice GST and academic questions for Nigerian colleges and secondary schools." />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="Quiz-Campus sign up, create account, student quiz, GST practice, Nigerian schools, academic questions" />
+
     <!-- Meta Author -->
     <meta name="author" content="Joseph Pascal Ugochukwu" />
-
-      <!-- Open Graph tags for social sharing -->
-  <meta property="og:title" content="Quiz-Campus" />
-  <meta property="og:description" content="Test your knowledge with Quiz-Campus. Focused on GST and academic questions for Nigerian students." />
-  <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sign Up - Quiz-Campus" />
+    <meta property="og:description" content="Join Quiz-Campus and start practicing GST and other academic questions designed for Nigerian students." />
+  <!-- <meta property="og:type" content="website" /> -->
 
   <!-- img not hosted yet -->
   <!-- <meta property="og:image" content="https://yourdomain.com/thumbnail.jpg" /> -->
   <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="/general.css">
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="login-sign.css">
     <title>Quiz-Campus</title>
 </head>
 <body>
@@ -36,7 +36,7 @@
    </div>
 
    <div>
-    <a class="bg-dark-blue text-white signup-login-links">
+    <a href="signin.html" class="bg-dark-blue text-white signup-login-links">
         Login
     </a>
 
@@ -48,12 +48,14 @@
 
   <!-- i ll set main to d-grid so it can center the form box -->
   <main>
+
+    <!-- sign up form -->
      <form action="#" method="POST">
          <!-- intro to form text -->
       <div class="form-intro-text">
         <h1>Sign Up</h1>
         <p>
-          Join Quiz campus to  to practice questions for your college courses
+          Create an account to access quizzes and practice tests tailored to Nigerian colleges
         </p>
       </div>
 
@@ -65,22 +67,22 @@
         <input id="email" name="email" required autocomplete="email" placeholder="Enter Email" type="email">
       </div>
 
-      <!-- passwaord container layout -->
+      <!-- password container layout -->
       <div class="password-input-container">
           <div>
             <label  for="password">password</label>
-            <input id="password" name="password" autocomplete="new-password" placeholder="Enter password" type="password">
+            <input required id="password" name="password" autocomplete="new-password" placeholder="Enter password" type="password">
           </div>
 
           <div>
-          <label for="confirmred-password">confirm password</label>
-          <input id = "confirmed-password" name="confirmed-password" autocomplete="new-password" placeholder="Enter password" type="password">
+          <label for="confirmed-password">confirm password</label>
+          <input required id = "confirmed-password" name="confirmed-password" autocomplete="new-password" placeholder="Enter password" type="password">
           </div>
       </div>
 
       <!-- ===== school container ==== -->
        <div>
-        <label for="">School</label>
+        <label for="school">School</label>
         <select name="school" id="school"  required>
           <option value="Uniben">Uniben</option>
           <option value="University of Nsukka">University of Nigeria, Nsukka</option>
@@ -104,9 +106,10 @@
       
        <p>
         Already have an account?
-         <a href="login.html">Login</a>
+         <a href="signin.html">Login</a>
        </p>
      </form>
+
   </main>
 
   <footer>

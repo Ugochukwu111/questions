@@ -98,7 +98,7 @@ function nextQuestion(){
      quizState.currentQuestion = questionBank.length - 1;
      addsCorrectAnswers()
      document.querySelector('.result-container').classList.add('d-flex')
-     document.querySelector('.score-el').textContent = `${quizState.score}`
+     document.querySelector('.score-el').textContent = `${quizState.score} / ${questionBank.length}`
 }
 //now quizState.currentQuestion is 1 which will show the next question
     showQuestion() //displays curent question
