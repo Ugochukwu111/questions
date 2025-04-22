@@ -24,7 +24,7 @@
   <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="/general.css">
   <link rel="stylesheet" href="login-sign.css">
-    <title>Quiz-Campus</title>
+    <title>Quiz-Campus | Sign Up</title>
 </head>
 <body>
 
@@ -35,14 +35,14 @@
     <p class="logo-text">Quiz-Campus</p>
    </div>
 
-   <div>
-    <a href="signin.html" class="bg-dark-blue text-white signup-login-links">
-        Login
-    </a>
+   <div class="signup-signin-container">
+        <a href="signin.html" class="bg-dark-blue text-white signup-login-links">
+            Login
+        </a>
 
-    <a class="text-black bg-primary-blue signup-login-links">
-        Sign Up
-    </a>
+        <a class="text-black bg-primary-blue signup-login-links">
+            Sign Up
+        </a>
    </div>
   </header>
 
@@ -50,7 +50,7 @@
   <main>
 
     <!-- sign up form -->
-     <form action="#" method="POST">
+     <form class="sign-up-form" action="#" method="POST">
          <!-- intro to form text -->
       <div class="form-intro-text">
         <h1>Sign Up</h1>
@@ -71,7 +71,11 @@
       <div class="password-input-container">
           <div>
             <label  for="password">password</label>
+            <span class="display-password-btn">
+              👀
+            </span>
             <input required id="password" name="password" autocomplete="new-password" placeholder="Enter password" type="password">
+            <small class="passwaord-show-error FWB  text-crimson-red"> &nbsp; &nbsp; </small>
           </div>
 
           <div>
@@ -118,5 +122,7 @@
     </p>
   </footer>
   
+
+  <script src="login-signup.js"></script>
 </body>
 </html>

@@ -2,12 +2,14 @@
 /* change the backgroung color for sign up page */
 body{
   background-color: var(--light-grey);
+  /* background-color: red; */
 }
 
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-items: stretch;
   padding: 0 2em;
 }
 
@@ -28,19 +30,23 @@ input{
   transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
+#email{
+   text-transform: lowercase;
+}
+
 input:focus{
   outline: none;
   border: 1px solid var(--dark-blue);
 }
 
 .signup-login-links{
-  padding: .8em 1.5em;
-  margin:.5em;
+  padding: .7em 1.3em;
+  margin:.3em;
   border: none;
   border-radius: 2rem;
   cursor: pointer;
   font-weight: bolder;
-  font-size: .9rem;
+  font-size: .8rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -73,17 +79,26 @@ form >*{
 }
 .logo-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 250px;
   height: 100px;
   display: flex;
   aspect-ratio: 1/1;
+  border: 2px solid red;
 }
 .logo-text{
   font-weight: 700;
   color: var( --dark-blue);
   font-size: 1.3rem
+}
+
+.signup-signin-container{
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
 }
 
 .password-input-container{
@@ -203,3 +218,27 @@ form {
 }
 /*  ANIMATING THE FORM INTRO CONTENT END */
 /*  ANIMATING THE FORM INTRO CONTENT END */
+
+/* js addclasslist */
+.error{
+  border: 1px solid var(--crimson-red);
+}
+
+
+@media(max-width: 600px){
+    .password-input-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .password-input-container >*{
+      width: 100%;
+      margin: 0;
+    }
+    form{
+      margin: 1em;
+    }
+    header{
+      border: 1px solid red;
+      padding: 0;
+    }
+}

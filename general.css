@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary-blue: #1E90FF; /* Branding & CTA buttons */
   --dark-blue: #000080; /* Headers, buttons, strong accents */
@@ -39,6 +43,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  min-height: 100svh;
 }
 
 h1, h2, h3, h4 {
@@ -118,6 +123,9 @@ button:active{
 .text-center{
   text-align: center;
 }
+.FWB{
+  font-weight: 700;
+}
 
 /* img{
   /* display: block; 
@@ -130,4 +138,7 @@ button:active{
 footer {
   font-family: 'Lato', sans-serif;
   padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
