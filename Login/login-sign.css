@@ -2,7 +2,6 @@
 /* change the backgroung color for sign up page */
 body{
   background-color: var(--light-grey);
-  /* background-color: red; */
 }
 
 header{
@@ -10,7 +9,7 @@ header{
   justify-content: space-between;
   align-items: center;
   align-items: stretch;
-  padding: 0 2em;
+  padding: 0 1em;
 }
 
 main{
@@ -46,7 +45,7 @@ input:focus{
   border-radius: 2rem;
   cursor: pointer;
   font-weight: bolder;
-  font-size: .8rem;
+  font-size: clamp(0.875rem, 2.5vw, 1.2rem); 
   font-family: 'Poppins', sans-serif;
 }
 
@@ -85,16 +84,14 @@ form >*{
   height: 100px;
   display: flex;
   aspect-ratio: 1/1;
-  border: 2px solid red;
 }
 .logo-text{
   font-weight: 700;
   color: var( --dark-blue);
-  font-size: 1.3rem
+  font-size: clamp(0.875rem, 2.5vw, 1.25rem); 
 }
 
 .signup-signin-container{
-  border: 2px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
@@ -234,11 +231,23 @@ form {
       width: 100%;
       margin: 0;
     }
-    form{
-      margin: 1em;
-    }
+}
+
+@media(max-width: 300px){
     header{
-      border: 1px solid red;
       padding: 0;
     }
+    .logo-container{
+      width: 100%;
+    }
+    header{
+      padding: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+     form{
+      transform: scale(.6);
+      padding: 1em;
+     }
 }

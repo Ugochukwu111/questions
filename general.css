@@ -11,6 +11,10 @@ html{
   scroll-behavior: smooth;
 }
 
+body{
+  position: relative; /* to always keep footer at the bottom */
+}
+
 :root {
   --primary-blue: #1E90FF; /* Branding & CTA buttons */
   --dark-blue: #000080; /* Headers, buttons, strong accents */
@@ -137,7 +141,8 @@ button:active{
 
 footer {
   font-family: 'Lato', sans-serif;
-  padding: 1em;
+  padding: .3em;
+  margin-top: 2em;
   position: absolute;
   bottom: 0;
   width: 100%;
