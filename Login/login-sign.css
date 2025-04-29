@@ -110,10 +110,9 @@ form >*{
 }
 .display-password-btn{
   background-color: transparent;
-  background-image: url(../images/eyeSvg.png);
+  transition: all 0.3s ease;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: 1.5em; */
   transform: scale(0.7);
   margin: 0;
 
@@ -126,6 +125,7 @@ form >*{
 .display-password-btn[aria-label="hide password"] {
   background-image: url(../images/visibilityHidden.png);
 }
+
 
 .password-input-container{
 width: 100%;
@@ -242,6 +242,7 @@ form {
 .form-intro-text p {
   animation: descriptionAnimation 1s 0.5s ease-out forwards; /* Delay for description */
 }
+
 /*  ANIMATING THE FORM INTRO CONTENT END */
 /*  ANIMATING THE FORM INTRO CONTENT END */
 

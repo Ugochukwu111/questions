@@ -45,7 +45,7 @@
 
   <main>
        <!-- sigin form -->
-       <form action="#" method="POST">
+       <form class="sign-in-form" action="#" method="POST">
         <!-- intro to form text -->
      <div class="form-intro-text">
        <h1>Sign In</h1>
@@ -62,8 +62,12 @@
      <!-- passwaord container layout -->
      <div class="">
          <div>
-           <label   for="signIn-password">password</label>
+           <label class="display-password-label"  for="signIn-password">password
+                            <!-- this button is used to show password when clicked -->
+          <button type="button" aria-label="Show password" class="display-password-btn js-display-password-btn"></button>
+           </label>
            <input required id="signIn-password" name="signIn-password" autocomplete="password" placeholder="Enter password" type="password">
+           <small aria-live="polite" class="password-show-error FWB text-crimson-red"></small>
          </div>
      </div>
   
@@ -86,5 +90,7 @@
       &copy; <span>2025</span> 21<sup>st</sup> Century Software
     </p>
   </footer>
+
+  <script src="siginIn.js"></script>
 </body>
 </html>

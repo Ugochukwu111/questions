@@ -21,7 +21,6 @@ signUpForm.addEventListener('submit', (e) => {
         } else if (password.length <= 7) {
             e.preventDefault()
             document.querySelector('.passwaord-show-error').innerHTML = 'Password must be at least 8 characters long.' // show the error message;
-
             // loop through the inputs and add the error class to each of them
             Inputs.forEach((input) => {
               input.classList.add('error')}); // add error class to the inputs
