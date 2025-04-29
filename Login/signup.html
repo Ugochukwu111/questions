@@ -70,12 +70,16 @@
       <!-- password container layout -->
       <div class="password-input-container">
           <div>
-            <label  for="password">password</label>
-            <span class="display-password-btn">
-              👀
-            </span>
+            <label class="display-password-label"  for="password">password
+                <!-- this button is used to show password when clicked -->
+              <button type="button" aria-label="Show password" class="display-password-btn"></button>
+            </label>
+          
+         
             <input required id="password" name="password" autocomplete="new-password" placeholder="Enter password" type="password">
-            <small class="passwaord-show-error FWB  text-crimson-red"> &nbsp; &nbsp; </small>
+            <!-- this element displays password errors -->
+             <!-- aria-live="polite" is here for screen reader read out the error-->
+            <small aria-live="polite" class="passwaord-show-error FWB  text-crimson-red"></small>
           </div>
 
           <div>
@@ -85,6 +89,7 @@
       </div>
 
       <!-- ===== school container ==== -->
+       <!-- wanted to use an api to get a list of schools here but at the time api site was not working -->
        <div>
         <label for="school">School</label>
         <select name="school" id="school"  required>
@@ -103,7 +108,7 @@
        </div>
 
        <div>
-        <button class="confirm-btn bg-teal-green text-white" type="submit">
+        <button aria-label = "Confirm inputed data  and sign up" class="confirm-btn bg-teal-green text-white" type="submit">
           Confirm
          </button>
        </div>
@@ -118,7 +123,7 @@
 
   <footer>
     <p class="text-center">
-      &copy; <span>2025</span> 21<sup>st</sup> Century Software
+      &copy; <span>2025 21<sup>st</sup> Century Software </span>
     </p>
   </footer>
   
