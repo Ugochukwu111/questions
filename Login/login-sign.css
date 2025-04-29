@@ -119,6 +119,14 @@ form >*{
 
 }
 
+.display-password-btn[aria-label="Show password"] {
+  background-image: url(../images/eyeSvg.png);
+}
+
+.display-password-btn[aria-label="hide password"] {
+  background-image: url(../images/visibilityHidden.png);
+}
+
 .password-input-container{
 width: 100%;
 display: flex;

@@ -33,3 +33,23 @@ signUpForm.addEventListener('submit', (e) => {
             }
 })
 
+document.querySelector('.js-display-password-btn').addEventListener('click', (e) => {
+  const passwordInput = document.getElementById('password'); // grab the password input from the dom
+  const confirmPasswordInput = document.getElementById('confirmed-password'); // grab the confirm password input from the dom
+  const passwordContainerEl = document.querySelector('.password-input-container'); // grab the password container from the dom
+
+  // check if the password is type password or text and change it to the opposite type
+  if (passwordInput.type === 'password') {
+    passwordInput.type = 'text'; // change the type to text
+    confirmPasswordInput.type = 'text'; // change the type to text
+    // passwordContainerEl.classList.add('show-password'); // add the show-password class to the password container
+    e.target.setAttribute('aria-label', 'hide password');
+  } else {
+    passwordInput.type = 'password'; // change the type to password
+    confirmPasswordInput.type = 'password'; // change the type to password
+    // passwordContainerEl.classList.remove('show-password'); // remove the show-password class from the password container
+    e.target.setAttribute('aria-label', 'Show password');
+  }
+  console.log('clicked')
+})
+
