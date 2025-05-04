@@ -187,9 +187,11 @@ footer {
   font-family: 'Lato', sans-serif;
   padding: .3em;
   margin-top: 2em;
-  position: absolute;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
 }
+
+
 
 

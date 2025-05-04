@@ -2,8 +2,13 @@
 .d-flex{display: flex;}
 .align-center{align-items: center;}
 .j-c-center{justify-content: center;}
+
 .j-c-space-btw{justify-content: space-between;}
 .d-block{display: block;}
+.flex-column{flex-direction: column;}
+
+.text-end{text-align: end;}
+.text-start{text-align: start;}
 
 /*  UTILITY THAT CENTERS BUTTONS, LINKS THAT HAVE ICONS IN THEM */
 .text-icon-container{
@@ -19,6 +24,7 @@
 
 body{
   background-color: var(--white);
+  position: relative;
 }
 
 h1 {
@@ -72,8 +78,21 @@ svg{
 .logo-container{
   width: 10vw;        /* or use % based on parent */
   max-width: 80px; 
+
+  opacity: 0;  /* Logo is initially invisible */
+  animation: fadeIn 2s forwards;
 }
 
+
+/* Define the keyframes for fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
                         /* ======= Search Input ======= */
 
@@ -218,7 +237,40 @@ main{
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-  transition: all 350ms ease;
+
+
+  opacity: 0;  /* Initially hidden */
+  transform: translateY(50px);  /* Start from below */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Keyframe animation to slide up */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Trigger the animation when it becomes in the viewport (pseudo-class trick) */
+.question-card {
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+.question-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.question-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.question-card:nth-child(3) {
+  animation-delay: 0.6s;
 }
 
 .question-card:hover{
@@ -250,4 +302,95 @@ main{
 .question-card .difficulty{
   font-style: italic;
   font-weight: 700;
+}
+
+footer{
+  padding: 2.5em 1em;
+  background-color: var(--dull-white);
+  margin-top: 2em;
+}
+
+.footer-content{
+  font-size: 1.2rem;
+  list-style: 1.6;
+}
+
+footer >*{
+  width: 33%;
+  margin: 0 1em;
+
+  opacity: 0;  /* Initially hidden */
+  transform: translateY(50px);  /* Start offscreen (bottom) */
+  transition: all 0.5s ease-out;
+}
+
+/* Slide-in effect for left content */
+.footer-left-child.in-view {
+  animation: slideLeft 1s ease-out forwards;
+}
+
+/* Slide-in effect for center content */
+.footer-middle-child.in-view {
+  animation: slideUp 1s ease-out forwards;
+}
+
+/* Slide-in effect for right content */
+.footer-right-child.in-view {
+  animation: slideRight 1s ease-out forwards;
+}
+
+/* Animation for left content */
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);  /* Start offscreen from left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animation for right content */
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);  /* Start offscreen from right */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animation for center content */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);  /* Start from bottom */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+footer ul{
+  text-align: end;
+}
+
+.footer-logo{
+  width: 20vw;          /* Use viewport width for fluid resizing */
+  max-width: 200px;     /* Optional: Limit the max size */
+  min-width: 100px;     /* Optional: Set a minimum width to prevent it from shrinking too small */
+  height: auto;         /* Maintain aspect ratio */
+  transition: all 1s ease; 
+
+
+}
+
+.footer-logo:hover{
+ transform: scale(1.1);   
+ margin-bottom: 2em;  
 }
