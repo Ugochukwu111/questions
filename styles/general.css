@@ -111,6 +111,14 @@ input{
   background-color: transparent;
 }
 
+img{
+  display: block; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 
 /* ======= Background Colors ======= */
 .bg-primary-blue { background-color: var(--primary-blue); }

@@ -35,7 +35,8 @@ h3 {
 }
 
 nav{
-  align-items: start;
+  /* align-items: start; */
+  padding: 1em 1.5em;
 }
 
 ul{
@@ -67,6 +68,11 @@ svg{
   transition: all 350ms ease;
 }
 /* to center icon and text in my button */
+
+.logo-container{
+  width: 10vw;        /* or use % based on parent */
+  max-width: 80px; 
+}
 
 
                         /* ======= Search Input ======= */
@@ -177,8 +183,8 @@ main{
 }
 
 .main-content-container{
-  border: 2px solid var(--light-grey);
-  max-width: 800px;
+  background-color: var(--dull-white);
+  max-width: 900px;
   width: 100%;
   padding: 2em;
   /* margin: 0 auto; */
@@ -207,7 +213,7 @@ main{
   margin: 1em 0;
   width: fit-content;
   gap: 1em;
-  background-color: var( --dull-white);
+  background-color: var( --white);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -231,6 +237,14 @@ main{
  border-radius: .5rem;
  color: var(--white);
  margin: 0;
+ border: 2px solid transparent;
+ transition: all 350ms ease;
+}
+
+.question-card button:focus{
+  border: 2px solid var(--black);
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .question-card .difficulty{
