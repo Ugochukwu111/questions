@@ -81,24 +81,7 @@ svg{
 }
 /* to center icon and text in my button */
 
-.logo-container{
-  width: 10vw;        /* or use % based on parent */
-  max-width: 80px; 
 
-  opacity: 0;  /* Logo is initially invisible */
-  animation: fadeIn 2s forwards;
-}
-
-
-/* Define the keyframes for fade-in */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
                         /* ======= Search Input ======= */
 
@@ -399,4 +382,16 @@ footer ul{
 .footer-logo:hover{
  transform: scale(1.1);   
  margin-bottom: 2em;  
+}
+
+
+/*  ======== END OF STYLES FOR THE FOOTER ========  */
+
+
+/* ========= MEDIA QUERIES =========== */
+@media (max-width: 55.5rem) {
+  /* Mobile styles here */
+  header{
+    background-color: var(--black);
+  }
 }

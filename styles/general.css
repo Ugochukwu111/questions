@@ -178,5 +178,22 @@ footer {
 }
 
 
+/* keeps displaying through out site hade to put it here */
+
+.logo-container{
+  width: 10vw;        /* or use % based on parent */
+  max-width: 80px; 
+  opacity: 0;  /* Logo is initially invisible */
+  animation: fadeIn 2s forwards;
+}
 
 
+/* Define the keyframes for fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
