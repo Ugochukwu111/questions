@@ -40,7 +40,7 @@
       </button>
      </div>
 
-     <ul class="d-flex">
+     <ul aria-live="polite" aria-label="sidebar closed" class="d-flex sidebar">
       <li><a href="#">About us</a></li>
       <li><a href="#">Scholarships</a></li>
       <li  class="dropdown">
@@ -53,8 +53,13 @@
             <li><a href="#">My Profile</a></li>
           </ul>
       </li>
+      
      </ul>
+     <button  class="sidebar-btn">
+      <svg class="sidebar-btn-icon show-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
 
+      <svg  class="sidebar-btn-icon close-icon hide-icon " xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    </button>
     </nav>
   </header>
 
@@ -67,7 +72,7 @@
 
        <!-- this div contains the call to action content -->
         <div class="d-flex j-c-space-btw align-center">
-          <h2>Jump into action</h2>
+          <p class="FWB text-black">Jump into action</p>
           <button class="text-icon-container bg-white take-random-quiz-btn" aria-label="Take a random quiz">
             <span>take a quiz</span>
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>

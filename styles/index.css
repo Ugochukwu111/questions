@@ -31,6 +31,7 @@ body{
 main{
   flex: 1;
   align-items: start;
+  margin-top: 5em;
 }
 
 h1 {
@@ -55,6 +56,7 @@ ul{
   list-style: none;
   align-items: start;
   align-items: center;
+  transform: translateX(0%);
 }
 
 ul li{
@@ -210,6 +212,7 @@ main{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1em;
+  place-items: center;
 
 }
 
@@ -296,7 +299,7 @@ main{
 footer{
   padding: 2.5em 1em;
   background-color: var(--dull-white);
-  margin-top: 2em;
+  margin-top: 0em;
 }
 
 .footer-content{
@@ -387,11 +390,115 @@ footer ul{
 
 /*  ======== END OF STYLES FOR THE FOOTER ========  */
 
+.sidebar-btn-icon{
+   fill: var(--black);
+   transform: scale(1.1);
+   transition: opacity 0.3s ease;
+   
+}
+
+.sidebar-btn{
+   background-color: transparent;
+   display: none;
+   margin: 0;
+   padding: .2em;
+   /* overflow: hidden; */
+}
+
+.hide-icon{
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+/* 
+=======JS CLASS LIST
+ */
+
+ .js-d-flex{display: flex;}
+ .js-d-none{display: none;}
+ .hide-sidebar{
+  transform: translateX(100%);
+  transition: all 350ms ease;
+}
+.show-sidebar{
+  transform: translateX(0%);
+  transition: all 350ms ease;
+}
+
+
 
 /* ========= MEDIA QUERIES =========== */
 @media (max-width: 55.5rem) {
-  /* Mobile styles here */
-  header{
-    background-color: var(--black);
+  .sidebar-btn{
+    display: flex;
+    z-index: 100;
+  }
+
+  nav{
+    padding: .8em 1em ;
+  }
+
+  nav ul{
+     position: fixed;
+     top: 0;
+     right: 0;
+     flex-direction: column;
+     z-index: 50;
+     background-color: var(--white);
+     height: 100svh;
+     width: 80%;
+     align-items: start;
+     padding: 2em 1em;
+     padding-top: 5em;
+     transition: all 350ms ease;
+     transform: translateX(100%);
+  }
+  nav ul li{
+     width: 100%;
+     margin: 1em 0;
+  }
+
+  .search-input-container button{
+    transform: translateX(0%);
+    margin: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 1px solid var(--light-grey);
+  }
+
+  .search-input-container{
+    margin: 0 2em;
+  }
+
+  .dropdown-menu{
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .dropdown-menu li a{
+    text-align: center;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+  footer >*{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2em;
+    text-align: center; 
+  }
+
+  .footer-middle-child{
+    order: 3;
+  }
+
+  footer ul{
+    text-align: center;
   }
 }
