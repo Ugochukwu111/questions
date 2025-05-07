@@ -6,6 +6,7 @@ body{
 
 header{
   display: flex;
+  align-items: start;
   justify-content: space-between;
   padding: 1em 1.5em;
   position: relative;
