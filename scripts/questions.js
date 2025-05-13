@@ -94,7 +94,7 @@ showQuestion()// immiedately show question once page loads
 function nextQuestion(){
   quizState.currentQuestion++ //adds 1 to quizState.currentQuestion
   //this makes sure the addition of 1 to quizState.currentQuestion does not exceed the questions length
-    if (quizState.currentQuestion === questionBank.length){
+    if (quizState.currentQuestion === questionBank.length) {
      quizState.currentQuestion = questionBank.length - 1;
      addsCorrectAnswers()
      document.querySelector('.result-container').classList.add('d-flex')
@@ -134,17 +134,49 @@ function checkAnswer(selectedIndex, optionId){
   // this gets the object of the currentquestion = questionBank[quizState.currentQuestion]
   // this gets the seletented option of the current question = questionBank[quizState.currentQuestion].options[selectedIndex]
   let selectedOption = questionBank[quizState.currentQuestion].options[selectedIndex];
+  // console.log(selectedOption);
 
   questionBank[quizState.currentQuestion].options.forEach((option)=>{
   option.userSeletedOPtion = false;
   })
+
+
+  console.log(selectedOption);
+   highlightSelectedOption(optionId);
+
   questionBank[quizState.currentQuestion].options[selectedIndex].userSeletedOPtion = true;
    if(selectedOption.isCorrect && questionBank[quizState.currentQuestion].answeredCount === 0){
     questionBank[quizState.currentQuestion].answeredCount = 1;
    }else if (!selectedOption.isCorrect && questionBank[quizState.currentQuestion].answeredCount === 1){
     questionBank[quizState.currentQuestion].answeredCount = 0;
    }
+
+ 
 }
+
+// Function to handle the styling of the selected option
+function highlightSelectedOption(optionId) {
+
+    // First, deselect all options
+  document.querySelectorAll('.single-option').forEach(option => {
+    option.classList.remove('selected');
+  });
+
+
+  // Get the corresponding <p> element using the id
+  const selectedPElement = document.getElementById(optionId);
+
+  // Add the 'selected' class to the <p> element
+  selectedPElement.classList.add('selected');
+}
+
+  // document.querySelectorAll('.single-option').forEach(option => {
+  //   option.classList.remove('selected');
+  //   option.addEventListener('click', function() {
+      
+  //     option.classList.add('selected');
+  //   });
+  // });
 
 // let myInterval;
 //funciton that loops and add the correct answers

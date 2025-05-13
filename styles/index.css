@@ -1,26 +1,7 @@
-/* === LAYOUT UTILITIES */
-.d-flex{display: flex;}
-.align-center{align-items: center;}
-.j-c-center{justify-content: center;}
 
-.j-c-space-btw{justify-content: space-between;}
-.d-block{display: block;}
-.flex-column{flex-direction: column;}
-
-.text-end{text-align: end;}
-.text-start{text-align: start;}
 
 /*  UTILITY THAT CENTERS BUTTONS, LINKS THAT HAVE ICONS IN THEM */
-.text-icon-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: .5em;
-  transition: all 350ms ease;
-}
-.text-icon-container:hover svg{
-  fill: var(--black);
-}
+
 
 body{
   background-color: var(--white);
@@ -102,22 +83,28 @@ svg{
   flex: 1;
   margin: 0 .5em;
   height: 55px;
+  align-items: center;
   justify-content: center;
 }
+
+
 
 .search-input-container button{
   transform: translateX(-100%);
   margin: 0;
   border-radius: 0;
+ 
   background-color: transparent;
-  border-bottom: 1px solid var(--light-grey);
+  border-bottom: none;
 }
 .search-input-container button svg{
   transition: all 550ms ease;
 }
+
 .search-input-container input{
   /* height: 100%; */
   width: 100%;
+  height: 100%;
  max-width: 500px;
  padding: 0em 1.3em;
  font-size: 1rem;
@@ -138,7 +125,6 @@ the code below add a transition effect to the button when the input is focused.
  */
 .search-input-container:focus-within button {
   transform: translateX(0%);
-  border-bottom: 1px solid var(--black);
 }
 .search-input-container:focus-within button svg {
   fill: var(--black); /
@@ -210,10 +196,12 @@ main{
   /* margin: 0 auto; */
 }
 
+
 .take-random-quiz-btn:hover svg,
 .take-random-quiz-btn:focus svg
 {
   transform: translateX(5px);
+  fill: var(--white);
 }
 
 
@@ -469,11 +457,8 @@ footer ul{
   }
 
   .search-input-container button{
-    transform: translateX(0%);
-    margin: 0;
-    border-radius: 0;
-    background-color: transparent;
-    border-bottom: 1px solid var(--light-grey);
+   transform: translateX(0%); 
+
   }
 
   .search-input-container{

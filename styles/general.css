@@ -125,6 +125,21 @@ img{
   object-position: center;
 }
 
+svg{
+  transition: all 350ms ease;
+}
+
+footer {
+  font-family: 'Lato', sans-serif;
+  margin-top: 2em;
+  width: 100%;
+}
+
+
+/* ======== UTILITIES START ====== */
+
+/* ======= COLOR UTILITIES ==== */
+
 
 /* ======= Background Colors ======= */
 .bg-primary-blue { background-color: var(--primary-blue); }
@@ -167,13 +182,29 @@ img{
 .text-mustard-yellow { color: var(--mustard-yellow); }
 
 
+
+/* === LAYOUT UTILITIES ======= */
+
+.d-flex{display: flex;}
+.align-center{align-items: center;}
+.j-c-center{justify-content: center;}
+
+.j-c-space-btw{justify-content: space-between;}
+.d-block{display: block;}
+.flex-column{flex-direction: column;}
+
+.text-end{text-align: end;}
+.text-start{text-align: start;}
+
+
+/* ====== TEXT UTILITIES ===== */
+
 /* ======= font families ======= */
 .font-roboto { font-family: var(--font-roboto); }
 .font-open-sans { font-family: var(--font-open-sans); }
 .font-poppins { font-family: var(--font-poppins); }
 .font-lato { font-family: var(--font-lato); }
 
-/* =======other utilities ======= */
 .text-center{
   text-align: center;
 }
@@ -181,12 +212,8 @@ img{
   font-weight: 700;
 }
 
-footer {
-  font-family: 'Lato', sans-serif;
-  margin-top: 2em;
-  width: 100%;
-}
 
+/* ===== OTHERS === */
 
 /* keeps displaying through out site hade to put it here */
 
@@ -195,6 +222,19 @@ footer {
   max-width: 80px; 
   opacity: 0;  /* Logo is initially invisible */
   animation: fadeIn 2s forwards;
+}
+
+/* ==== ALIGNS AND SPACE TEXT EXPECIALLY BTNS WITH SVGS/ICONS */
+.text-icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;
+  transition: all 350ms ease;
+}
+.text-icon-container:hover svg{
+  transform: scale(1.15);
+  transition: all 350ms ease;
 }
 
 

@@ -3,57 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Counter app</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Quiz-Campus | questions</title>
+  <link rel="stylesheet" href="/styles/general.css">
+  <link rel="stylesheet" href="/styles/questions.css">
+  <link rel="icon" href="/">
 </head>
 
 <body>
-  <div class="result-container">
-    <div class="result-box">
-      <h4>Hello Pascsl you result is </h4>
-      <h6 class="score-el">10</h6>
-    </div>
 
-    <button>Try Again</button>
-    <button>Review Wins</button>
-  </div>
       <!-- this div below contains all my quetions and options -->
         <main class="container ">
-          <div class="number-of-questions js-number-of-questions-container">
 
-          </div>
-          <!-- This div contains only my questions -->
-            <div class="js-question-container question-container">
-              <p class="question"></p>
-            </div>
-          <!-- div below contains my question  options -->
-            <div class="js-options-container options-container">
-              
-            </div>  
-             <!-- div below contains my button that takes me to the next question -->
-            <div class="btn-container">
-             
-              <button onclick="previuosQuestion()">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
-                <span>
-                  Back
-                </span>  
-              </button>
-              <button onclick="nextQuestion()">
-                <span>
-                  Next
-                </span>
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
-              </button>
+          <div class="question-card-container j-c-space-btw d-flex flex-column">
+              <div class="number-of-questions js-number-of-questions-container">
+
+              </div>
+              <!-- This div contains only my questions -->
+                <div class="js-question-container question-container">
+                  <p class="question"></p>
+                </div>
+              <!-- div below contains my question  options -->
+                <div class="js-options-container options-container">
+                  
+                </div>  
+                <!-- div below contains my button that takes me to the next question -->
+                <div class="d-flex j-c-space-btw align-center">
+                
+                  <button class="text-icon-container bg-black text-white" onclick="previuosQuestion()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+                    <span>
+                      Back
+                    </span>  
+                  </button>
+                  <button class="text-icon-container bg-black text-white" onclick="nextQuestion()">
+                    <span>
+                      Next
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                  </button>
+                </div>
             </div>
           </main>
 
           <footer>
-            &copy; 2025 &nbsp;<b>21<sup>st</sup> Centuary SoftWare</b>
+            <p class="text-center">
+              &copy; 2025 &nbsp;<b>21<sup>st</sup> Centuary SoftWare</b>
+            </p>
           </footer>
         
 
 
-  <script src="questions.js"></script>
+  <script src="scripts/questions.js"></script>
 </body>
 </html>

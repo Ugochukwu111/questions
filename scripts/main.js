@@ -1,3 +1,5 @@
+import { courses } from "./courses.js";
+console.log(courses);
 // animations for the main page site
 document.addEventListener("DOMContentLoaded", function () {
   // Get all the children of the footer
@@ -34,7 +36,6 @@ SidebarBtn.addEventListener("click",  ()=>{
     sidebar.setAttribute('aria-label', 'sidebar opened');
     showIcon.classList.add("hide-icon");
     closeIcon.classList.remove("hide-icon");
-    console.log(sidebar)
 
     sidebar.classList.add("show-sidebar");
 
@@ -46,8 +47,38 @@ SidebarBtn.addEventListener("click",  ()=>{
 
     closeIcon.classList.add("hide-icon");
     showIcon.classList.remove("hide-icon");
-
-    console.log(sidebar.getAttribute('aria-label'));
   }
 
 });
+
+
+// display courses on the main page (from my courses.js file module)
+const courseContainer = document.querySelector(".question-card-container");
+
+let courseHTML = '';
+function displayCourses() {
+  courses.forEach(course => {
+    courseHTML += `
+     <div class="question-card">
+                <div class="card-header">
+                  <h2>${course.code}</h2>
+                  <p class="topic"><strong>Title</strong>: ${course.name}</p>
+                  <p class="">Difficulty:<span class="difficulty">&nbsp; Easy</span></p>
+                </div>
+                
+                <ul class="details">
+                  <li><strong>Questions</strong> 10</li>
+                  <li><strong>Time:</strong> ${course.time}</li>
+                  <li><strong>Type:</strong> ${course.type}</li>
+                </ul>
+
+                
+                  <button class="start-btn">Start Quiz</button>
+                
+              </div>
+    `;
+  });
+  courseContainer.innerHTML = courseHTML;
+}
+
+displayCourses()
