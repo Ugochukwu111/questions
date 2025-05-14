@@ -45,3 +45,39 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   background-color: black;
   color: white;
 }
+
+.result-container{
+  width: 100%;
+  display: none;
+  place-items: center;
+  position: absolute;
+  min-height: 100svh;
+    background: rgba(0, 0, 0, 0.1); /* light background */
+  backdrop-filter: blur(10px); /* glass blur */
+  -webkit-backdrop-filter: blur(15px); /* for Safari */
+   
+}
+
+.result-card{
+  background-color: var(--white);
+  border-radius: 1rem;
+  padding: 2em;
+ 
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-card > *{
+  margin: .5em 0;
+}
+
+.stats{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em 1em;
+}

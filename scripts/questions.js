@@ -97,8 +97,11 @@ function nextQuestion(){
     if (quizState.currentQuestion === questionBank.length) {
      quizState.currentQuestion = questionBank.length - 1;
      addsCorrectAnswers()
-     document.querySelector('.result-container').classList.add('d-flex')
-     document.querySelector('.score-el').textContent = `${quizState.score} / ${questionBank.length}`
+     document.querySelector('.result-container').style.display = 'grid';
+    //  document.querySelector('.score-el').textContent = `${quizState.score} / ${questionBank.length}`
+      showResult()
+      console.log(showResult());
+      console.log('last question');
 }
 //now quizState.currentQuestion is 1 which will show the next question
     showQuestion() //displays curent question
@@ -188,4 +191,30 @@ function highlightSelectedOption(optionId) {
   return quizState.score
  }
 
+
+ function showResult(){
+    let resultHtml = ` 
+      <!-- result card -->
+        <div class="result-card">
+
+            <h2>Quiz Results</h2>
+            <h3 class="score">${quizState.score}/${questionBank.length}</h3>
+            <p class="font-lato">Great job! You're getting better. 🎉</p>
+
+            <div class="stats  FWB">
+              <p>Correct: <span class ="text-emerald-green">8</span></p>
+              <p>Wrong: <span class = "text-tomato-red">2</span></p>
+            </div>
+
+            <div class="button-group ">
+              <button>Review</button>
+              <button>Retry</button>
+              <button>
+              <a href="index.html">Home</a>
+              </button>
+            </div>
+
+      `
+    document.querySelector('.result-container').innerHTML = resultHtml;
+ }
 
