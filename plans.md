@@ -2,7 +2,7 @@
 
 ## Must-Have
 - [ ] User login system
-- [ ] Responsive design for mobile
+- [ ] Responsive design for mobile  ✔️(may 14th 2023)
 
 
 ## Nice-to-Have
@@ -14,7 +14,7 @@
 - [ ]   Save results	Use localStorage.setItem()
 - [ ]   Timer per question	Add a questionStartTime, then compare it on answer
 - [ ]   Retry feature	Reset all answeredCount and userSelectedOption values
-- [ ]
+- [ ]   arrow keys (pc) to move to next question and option  A,B,C,D keys to select respective options.
 
 
 ## Long-Term Ideas

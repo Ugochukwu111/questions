@@ -438,7 +438,9 @@ footer ul{
      flex-direction: column;
      z-index: 50;
      background-color: var(--white);
-     height: 100svh;
+    /* Good fallback + best fit */
+        height: 100vh;       /* Fallback for older browsers */
+        height: 100dvh;      /* Dynamic height: accounts for browser chrome resizing */ 
      width: 80%;
      align-items: start;
      padding: 2em 1em;
