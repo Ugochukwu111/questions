@@ -55,6 +55,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     background: rgba(0, 0, 0, 0.1); /* light background */
   backdrop-filter: blur(10px); /* glass blur */
   -webkit-backdrop-filter: blur(15px); /* for Safari */
+  z-index: 999;
    
 }
 
@@ -62,7 +63,6 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   background-color: var(--white);
   border-radius: 1rem;
   padding: 2em;
- 
   max-width: 600px;
   margin: auto;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);

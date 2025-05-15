@@ -59,7 +59,9 @@ const quizState = {
   score: 0, 
   currentQuestion: 0, 
   totalQuestions: 5,
-  stopIntervalTime: 0
+  stopIntervalTime: 0,
+  noRightAnswers: 0,
+  noWrongAnswers: 0,
 };
 
 //this function displays my questions an options
@@ -97,6 +99,7 @@ function nextQuestion(){
     if (quizState.currentQuestion === questionBank.length) {
      quizState.currentQuestion = questionBank.length - 1;
      addsCorrectAnswers()
+     getCorrectWrongAnswer()
      document.querySelector('.result-container').style.display = 'grid';
     //  document.querySelector('.score-el').textContent = `${quizState.score} / ${questionBank.length}`
       showResult()
@@ -202,8 +205,8 @@ function highlightSelectedOption(optionId) {
             <p class="font-lato">Great job! You're getting better. 🎉</p>
 
             <div class="stats  FWB">
-              <p>Correct: <span class ="text-emerald-green">8</span></p>
-              <p>Wrong: <span class = "text-tomato-red">2</span></p>
+              <p>Correct: <span class ="text-emerald-green">${quizState.noRightAnswers}</span></p>
+              <p>Wrong: <span class = "text-tomato-red">${quizState.noWrongAnswers}</span></p>
             </div>
 
             <div class="button-group ">
@@ -218,3 +221,16 @@ function highlightSelectedOption(optionId) {
     document.querySelector('.result-container').innerHTML = resultHtml;
  }
 
+//  this function gets the number of the correct answer
+//  and the number of the wrong answer
+function getCorrectWrongAnswer(){
+
+  questionBank.forEach((question)=>{
+       quizState.noRightAnswers += question.answeredCount;
+       // total number of questions - noRightAnswers = noWrongAnswer
+     quizState.noWrongAnswers = questionBank.length - quizState.noRightAnswers; //gets wrong answers
+  })
+
+  
+         
+}
