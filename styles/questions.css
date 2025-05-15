@@ -81,3 +81,12 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   justify-content: space-around;
   padding: 0.5em 1em;
 }
+
+.correct {
+  background-color: #01751c;
+  color: #ffffff;
+}
+.wrong {
+  background-color: #c50010;
+  color: #ffffff;
+}

@@ -50,6 +50,9 @@ const questionBank = [
 },
 ]
 
+
+ 
+
 //in  the array of objects above for every question their is an answer count indicates 
 // whether the user gets the answer or not
 
@@ -62,6 +65,7 @@ const quizState = {
   stopIntervalTime: 0,
   noRightAnswers: 0,
   noWrongAnswers: 0,
+  reviewMode : false,
 };
 
 //this function displays my questions an options
@@ -103,8 +107,7 @@ function nextQuestion(){
      document.querySelector('.result-container').style.display = 'grid';
     //  document.querySelector('.score-el').textContent = `${quizState.score} / ${questionBank.length}`
       showResult()
-      console.log(showResult());
-      console.log('last question');
+
 }
 //now quizState.currentQuestion is 1 which will show the next question
     showQuestion() //displays curent question
@@ -135,19 +138,20 @@ function restoreSelectedOption() {
   });
 }
 
-function checkAnswer(selectedIndex, optionId){
+let checkAnswer = function (selectedIndex, optionId){
+  if (quizState.reviewMode) return;
   //seleted option
   // this gets the object of the currentquestion = questionBank[quizState.currentQuestion]
   // this gets the seletented option of the current question = questionBank[quizState.currentQuestion].options[selectedIndex]
   let selectedOption = questionBank[quizState.currentQuestion].options[selectedIndex];
-  // console.log(selectedOption);
+
 
   questionBank[quizState.currentQuestion].options.forEach((option)=>{
   option.userSeletedOPtion = false;
   })
 
 
-  console.log(selectedOption);
+  
    highlightSelectedOption(optionId);
 
   questionBank[quizState.currentQuestion].options[selectedIndex].userSeletedOPtion = true;
@@ -158,22 +162,6 @@ function checkAnswer(selectedIndex, optionId){
    }
 
  
-}
-
-// Function to handle the styling of the selected option
-function highlightSelectedOption(optionId) {
-
-    // First, deselect all options
-  document.querySelectorAll('.single-option').forEach(option => {
-    option.classList.remove('selected');
-  });
-
-
-  // Get the corresponding <p> element using the id
-  const selectedPElement = document.getElementById(optionId);
-
-  // Add the 'selected' class to the <p> element
-  selectedPElement.classList.add('selected');
 }
 
   // document.querySelectorAll('.single-option').forEach(option => {
@@ -187,9 +175,9 @@ function highlightSelectedOption(optionId) {
 // let myInterval;
 //funciton that loops and add the correct answers
  function addsCorrectAnswers(){
+  if (quizState.reviewMode) return;
   questionBank.forEach((question)=>{
       quizState.score += question.answeredCount;
-      console.log(quizState.score);
   })
   return quizState.score
  }
@@ -210,8 +198,8 @@ function highlightSelectedOption(optionId) {
             </div>
 
             <div class="button-group ">
-              <button>Review</button>
-              <button>Retry</button>
+              <button onclick = "review()">Review</button>
+              <button onclick = "retry()">Retry</button>
               <button>
               <a href="index.html">Home</a>
               </button>
@@ -224,13 +212,94 @@ function highlightSelectedOption(optionId) {
 //  this function gets the number of the correct answer
 //  and the number of the wrong answer
 function getCorrectWrongAnswer(){
-
+   if (quizState.reviewMode) return;
   questionBank.forEach((question)=>{
        quizState.noRightAnswers += question.answeredCount;
        // total number of questions - noRightAnswers = noWrongAnswer
      quizState.noWrongAnswers = questionBank.length - quizState.noRightAnswers; //gets wrong answers
   })
 
-  
          
+}
+
+// this function basically reset the quiz
+// in js term it resets the quiz state object and render showQuestion()
+function retry(){
+location.reload();
+}
+
+function review(){
+  quizState.reviewMode = true;
+  quizState.currentQuestion = 0;
+  document.querySelector('.result-container').style.display = 'none';
+  showQuestion()
+}
+
+// Function to handle the styling of the selected option
+function highlightSelectedOption(optionId) {
+
+    // First, deselect all options
+  document.querySelectorAll('.single-option').forEach(option => {
+    option.classList.remove('selected');
+  });
+
+
+  // Get the corresponding <p> element using the id
+  const selectedPElement = document.getElementById(optionId);
+
+  // Add the 'selected' class to the <p> element
+  selectedPElement.classList.add('selected');
+}
+
+function restoreSelectedOption() {
+
+   if (quizState.reviewMode){
+      displayRightWrongOption()
+   };
+
+  document.querySelectorAll('.single-option').forEach(option => {
+    const isSelected = option.getAttribute('data-user-choice') === 'true';
+
+    if (isSelected) {
+      option.classList.add('selected'); // or style it however you want
+    } else {
+      option.classList.remove('selected');
+    }
+  });
+}
+
+// function displayRightWrongOption(){
+//     questionBank.forEach((question)=>{
+//      question.options.forEach((option)=>{
+//          if (option.userSeletedOPtion === true){
+//               document.getElementById(`${option.id}`).forEach((optionElement)=>{
+//                 console.log(optionElement)
+//               })
+//          }else{
+//             // console.log('hi')
+//          }
+//      })
+//    })
+// }
+
+// displayRightWrongOption()
+
+function displayRightWrongOption() {
+  questionBank.forEach((question) => {
+    question.options.forEach((option) => {
+      if (option.userSeletedOPtion === true) {
+        const optionElement = document.getElementById(option.id);
+        if (optionElement) {
+          // console.log(optionElement);
+          // Add custom styles or classes based on correctness
+          if (option.isCorrect) {
+            optionElement.classList.add('correct');
+          } else {
+            console.log(optionElement);
+            optionElement.classList.add('wrong');
+          }
+        }
+      }
+    });
+  });
 }
