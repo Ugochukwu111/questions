@@ -1,5 +1,8 @@
 //array that holds all my questions
-const questionBank = [
+// import { questionBank } from './questionBank.js';
+// console.log(questionBank)
+
+let questionBank = [
  {
   question : 'What is the capital of France ?', 
   answeredCount: 0,
@@ -49,8 +52,6 @@ const questionBank = [
   ]
 },
 ]
-
-
  
 
 //in  the array of objects above for every question their is an answer count indicates 
@@ -126,17 +127,6 @@ showQuestion()// displays current question
 }
 
 
-function restoreSelectedOption() {
-  document.querySelectorAll('.single-option').forEach(option => {
-    const isSelected = option.getAttribute('data-user-choice') === 'true';
-
-    if (isSelected) {
-      option.classList.add('selected'); // or style it however you want
-    } else {
-      option.classList.remove('selected');
-    }
-  });
-}
 
 let checkAnswer = function (selectedIndex, optionId){
   if (quizState.reviewMode) return;
@@ -164,15 +154,6 @@ let checkAnswer = function (selectedIndex, optionId){
  
 }
 
-  // document.querySelectorAll('.single-option').forEach(option => {
-  //   option.classList.remove('selected');
-  //   option.addEventListener('click', function() {
-      
-  //     option.classList.add('selected');
-  //   });
-  // });
-
-// let myInterval;
 //funciton that loops and add the correct answers
  function addsCorrectAnswers(){
   if (quizState.reviewMode) return;
@@ -268,38 +249,24 @@ function restoreSelectedOption() {
   });
 }
 
-// function displayRightWrongOption(){
-//     questionBank.forEach((question)=>{
-//      question.options.forEach((option)=>{
-//          if (option.userSeletedOPtion === true){
-//               document.getElementById(`${option.id}`).forEach((optionElement)=>{
-//                 console.log(optionElement)
-//               })
-//          }else{
-//             // console.log('hi')
-//          }
-//      })
-//    })
-// }
-
-// displayRightWrongOption()
-
 function displayRightWrongOption() {
-  questionBank.forEach((question) => {
-    question.options.forEach((option) => {
-      if (option.userSeletedOPtion === true) {
-        const optionElement = document.getElementById(option.id);
-        if (optionElement) {
-          // console.log(optionElement);
-          // Add custom styles or classes based on correctness
-          if (option.isCorrect) {
-            optionElement.classList.add('correct');
-          } else {
-            console.log(optionElement);
-            optionElement.classList.add('wrong');
-          }
-        }
+   // Get the currently displayed question object from the questionBank array
+  const currentQuestion = questionBank[quizState.currentQuestion];
+
+    // Loop through each option in the current question
+  currentQuestion.options.forEach(option => {
+    const optionElement = document.getElementById(option.id);
+
+    if (optionElement) {
+      if (option.isCorrect) {
+        optionElement.classList.add('correct');
       }
-    });
+
+      if (option.userSeletedOPtion && !option.isCorrect) {
+        optionElement.classList.add('wrong');
+      }
+    }
   });
 }
+
+

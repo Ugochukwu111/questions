@@ -1,1 +1,13 @@
 i can make this sie as a normal question and answer site i can also add the backend so that onnce you score it will be on a public score board
+
+======== BUGS ========
+i had run into problems, especially th option problem and the start of this project and at the end,
+
+the problem: the options for the next and prv question is not existing, untill next or prv question is called, 
+this made it hard for me to style the options 
+why?
+when you click on an option it is styled, and immiediately you go to the nextit loses it styling because 
+it no longer exist in the dorm, now when you come back to it there is no applied style becausefunctions only run once in js, i fixed this by making each option an object and when a style is clicked i save its own global obj 
+since global obj doesnt change and based
+
+
