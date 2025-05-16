@@ -9,6 +9,8 @@ main{
   flex: 1;  /* takes the entire space push footer and other section to the down for wider screens responsive ness  */
 }
 
+
+
 .question-card-container{
   border: 1px solid var(--light-grey);
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);

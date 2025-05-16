@@ -13,7 +13,7 @@ export const homePageGreetings = [
  'Hey, unstoppable user! 💥',
 ];
 
-const retryMessages = [
+export const retryMessages = [
   "Let’s do this again, unstoppable user! 💪",
   "Ready for round two, champion user? 🔥",
   "You got this, amazing user! 🚀",

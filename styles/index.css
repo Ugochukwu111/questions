@@ -19,11 +19,7 @@ header{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-main{
-  flex: 1;
-  align-items: start;
-  margin-top: 5em;
-}
+
 
 h1 {
   font-size: clamp(1.85rem, 2vw + 1rem, 2.2rem);
@@ -36,41 +32,6 @@ h2 {
 
 h3 {
   font-size: clamp(.9rem, 1.2vw + 0.8rem, 1.2rem);
-}
-
-nav{
-  /* align-items: start; */
-  padding: 1em 1.5em;
-}
-
-ul{
-  list-style: none;
-  align-items: start;
-  align-items: center;
-  transform: translateX(0%);
-}
-
-ul li{
-  margin: .2em;
-  align-items: center;
-}
-
-/* css text links for this page */
-
-ul li a{
-  display: block;
-  padding: .5em 1.2em;
-  color: var(--light-grey);
-  transition: all 350ms ease;
-}
-ul li a:hover{
-  color: var(--black);
-
-}
-
-svg{
-  fill: var(--light-grey);
-  transition: all 350ms ease;
 }
 /* to center icon and text in my button */
 
@@ -133,51 +94,6 @@ the code below add a transition effect to the button when the input is focused.
               /*  END OF ALL SEACRH INPUT CONTAINER AND CHILDREN STYLE  */
 
 
-              /* dropdown menu css */
-/* Hide the dropdown by default */
-.dropdown-menu {
-  display: flex;
-  position: absolute;
-  background: white;
-  padding: 0.5em;
-  border: 1px solid #ddd;
-  white-space: nowrap;
-  top: 100%; /* places it below the parent li */
-  right: 0;
-  margin: .5em 1.5em;
-  z-index: 10;
-  flex-direction: row;
-
-    /* Animation styles */
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-50%);
-    transition: all 450ms ease;
-}
-
-.dropdown-menu li {
-  list-style: none;
-}
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown-menu li a {
-  font-size: clamp(0.75rem, 0.5vw + 0.8rem, .9rem);
-}
-
-/* Parent <li> should be relatively positioned */
-
-
-/* Show on hover */
-.dropdown:focus-within .dropdown-menu,
-.dropdown:hover .dropdown-menu
- {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);/* shows it in one horizontal row */
-}
 
 
 
@@ -294,164 +210,11 @@ main{
   font-weight: 700;
 }
 
-footer{
-  padding: 2.5em 1em;
-  background-color: var(--dull-white);
-  margin-top: 0em;
-}
-
-.footer-content{
-  font-size: 1.2rem;
-  list-style: 1.6;
-}
-
-footer >*{
-  width: 33%;
-  margin: 0 1em;
-
-  opacity: 0;  /* Initially hidden */
-  transform: translateY(50px);  /* Start offscreen (bottom) */
-  transition: all 0.5s ease-out;
-}
-
-/* Slide-in effect for left content */
-.footer-left-child.in-view {
-  animation: slideLeft 1s ease-out forwards;
-}
-
-/* Slide-in effect for center content */
-.footer-middle-child.in-view {
-  animation: slideUp 1s ease-out forwards;
-}
-
-/* Slide-in effect for right content */
-.footer-right-child.in-view {
-  animation: slideRight 1s ease-out forwards;
-}
-
-/* Animation for left content */
-@keyframes slideLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-50px);  /* Start offscreen from left */
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Animation for right content */
-@keyframes slideRight {
-  0% {
-    opacity: 0;
-    transform: translateX(50px);  /* Start offscreen from right */
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Animation for center content */
-@keyframes slideUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50px);  /* Start from bottom */
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-footer ul{
-  text-align: end;
-}
-
-.footer-logo{
-  width: 20vw;          /* Use viewport width for fluid resizing */
-  max-width: 200px;     /* Optional: Limit the max size */
-  min-width: 100px;     /* Optional: Set a minimum width to prevent it from shrinking too small */
-  height: auto;         /* Maintain aspect ratio */
-  transition: all 1s ease; 
-
-
-}
-
-
-/*  ======== END OF STYLES FOR THE FOOTER ========  */
-
-.sidebar-btn-icon{
-   fill: var(--black);
-   transform: scale(1.1);
-   transition: opacity 0.3s ease;
-   
-}
-
-.sidebar-btn{
-   background-color: transparent;
-   display: none;
-   margin: 0;
-   padding: .2em;
-   /* overflow: hidden; */
-}
-
-.hide-icon{
-  position: absolute;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-/* 
-=======JS CLASS LIST
- */
-
- .js-d-flex{display: flex;}
- .js-d-none{display: none;}
- .hide-sidebar{
-  transform: translateX(100%);
-  transition: all 350ms ease;
-}
-.show-sidebar{
-  transform: translateX(0%);
-  transition: all 350ms ease;
-}
-
 
 
 /* ========= MEDIA QUERIES =========== */
 @media (max-width: 55.5rem) {
-  .sidebar-btn{
-    display: flex;
-    z-index: 100;
-  }
 
-  nav{
-    padding: .8em 1em ;
-  }
-
-  nav ul{
-     position: fixed;
-     top: 0;
-     right: 0;
-     flex-direction: column;
-     z-index: 50;
-     background-color: var(--white);
-    /* Good fallback + best fit */
-        height: 100vh;       /* Fallback for older browsers */
-        height: 100dvh;      /* Dynamic height: accounts for browser chrome resizing */ 
-     width: 80%;
-     align-items: start;
-     padding: 2em 1em;
-     padding-top: 5em;
-     transition: all 350ms ease;
-     transform: translateX(100%);
-  }
-  nav ul li{
-     width: 100%;
-     margin: 1em 0;
-  }
 
   .search-input-container button{
    transform: translateX(0%); 
@@ -462,35 +225,5 @@ footer ul{
     margin: 0 2em;
   }
 
-  .dropdown-menu{
-    flex-direction: column;
-    height: fit-content;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    border: none;
-    background-color: transparent;
-  }
-  .dropdown-menu li a{
-    text-align: center;
-  }
 
-  footer{
-    flex-direction: column;
-  }
-  footer >*{
-    width: 100%;
-    margin: 0;
-    margin-bottom: 2em;
-    text-align: center; 
-  }
-
-  .footer-middle-child{
-    order: 3;
-  }
-
-  footer ul{
-    text-align: center;
-  }
 }

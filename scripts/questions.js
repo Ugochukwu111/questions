@@ -1,6 +1,8 @@
 //array that holds all my questions
 import { questionBank } from './questionBank.js';
-console.log(questionBank)
+import { getNotificationBox, generatesRandomNumber } from "./reuseablefunc.js";
+import { retryMessages }  from "./compliments.js";
+
 
 
  
@@ -61,6 +63,9 @@ function showQuestion(){
              </span> &nbsp; ${option.text}
              </p>`
   }).join('')//removes the , in the array and displays it
+
+  document.querySelector('.js-number-of-questions-container')
+  .innerHTML = `<h3>${quizState.currentQuestion + 1}/${questionBank.length}</h3>`
 
   document.querySelector('.js-options-container')
   .innerHTML = optionHtml;
@@ -192,6 +197,8 @@ function retry() {
   // Hide the result section
   document.querySelector('.result-container').style.display = 'none';
 
+  getNotificationBox(generatesRandomNumber(retryMessages));
+
   // Show the first question again
   showQuestion();
 }
@@ -202,8 +209,6 @@ function review(){
   document.querySelector('.result-container').style.display = 'none';
   showQuestion()
 }
-
-
 
 // Function to handle the styling of the selected option
 function highlightSelectedOption(optionId) {
