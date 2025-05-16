@@ -10,6 +10,8 @@
 </head>
 
 <body>
+  <aside id="notification"  role="alert" aria-live="assertive"></aside>
+
   <!-- result div -->
         <div class="result-container">
         <!-- result card -->
@@ -53,13 +55,13 @@
                 <!-- div below contains my button that takes me to the next question -->
                 <div class="d-flex j-c-space-btw align-center">
                 
-                  <button class="text-icon-container bg-black text-white" onclick="previuosQuestion()">
+                  <button class="text-icon-container bg-black text-white previous-question-btn" onclick="previuosQuestion()">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
                     <span>
                       Back
                     </span>  
                   </button>
-                  <button class="text-icon-container bg-black text-white" onclick="nextQuestion()">
+                  <button class="text-icon-container bg-black text-white next-question-btn" onclick="nextQuestion()">
                     <span>
                       Next
                     </span>
@@ -77,6 +79,6 @@
         
 
 
-  <script  src="scripts/questions.js"></script>
+  <script type="module" src="scripts/questions.js"></script>
 </body>
 </html>

@@ -7,6 +7,7 @@
 
 ## Nice-to-Have
 - [ ]   Dark mode toggle
+- [ ]   temporarily dislay my score while i retry, ans save current score
 - [ ]   Push notifications
 - [ ]   AI-powered quiz suggestions 
 - [ ]   AI-powered hints (answers) quiz questions

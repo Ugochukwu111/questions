@@ -1,57 +1,8 @@
 //array that holds all my questions
-// import { questionBank } from './questionBank.js';
-// console.log(questionBank)
+import { questionBank } from './questionBank.js';
+console.log(questionBank)
 
-let questionBank = [
- {
-  question : 'What is the capital of France ?', 
-  answeredCount: 0,
-  options: [
-    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Rome", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Paris", isCorrect: true },
-    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Berlin", isCorrect: false },
-    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Madrid", isCorrect: false },]
-  },
- {
-  question : 'Which planet is known as the Red Planet ?',
-  answeredCount: 0,
-  options:  [
-    { id: "q1_1", userSeletedOPtion: false, label: "A", text: "Earth", isCorrect: false },
-    { id: "q1_2", userSeletedOPtion: false, label: "B", text: "Venus", isCorrect: false },
-    { id: "q1_3", userSeletedOPtion: false, label: "C", text: "Mars", isCorrect: true },
-    { id: "q1_4", userSeletedOPtion: false, label: "D", text: "Jupiter", isCorrect: false }
-  ] 
- },
- {
-  question : 'Who wrote the play Romeo and Juliet ?',
-  answeredCount: 0,
-  options: [
-    { id: "q2_1", userSeletedOPtion: false, label: "A", text: "William Shakespeare", isCorrect: true },
-    { id: "q2_2", userSeletedOPtion: false, label: "B", text: "Charles Dickens", isCorrect: false },
-    { id: "q2_3", userSeletedOPtion: false, label: "C", text: "Mark Twain", isCorrect: false },
-    { id: "q2_4", userSeletedOPtion: false, label: "D", text: "Jane Austen", isCorrect: false }]
- },
- {
-  question: 'How many continents are there on Earth?',
-  answeredCount: 0,
-  options: [
-    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: false },
-    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "6", isCorrect: false },
-    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "7", isCorrect: true },
-    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "8", isCorrect: false }
-  ]
-},
-{
-  question: 'What is the largest mammal in the world?',
-  answeredCount: 0,
-  options: [
-    { id: "q4_1", userSeletedOPtion: false, label: "A", text: "Elephant", isCorrect: false },
-    { id: "q4_2", userSeletedOPtion: false, label: "B", text: "Blue Whale", isCorrect: true },
-    { id: "q4_3", userSeletedOPtion: false, label: "C", text: "Giraffe", isCorrect: false },
-    { id: "q4_4", userSeletedOPtion: false, label: "D", text: "Hippopotamus", isCorrect: false }
-  ]
-},
-]
+
  
 
 //in  the array of objects above for every question their is an answer count indicates 
@@ -68,65 +19,6 @@ const quizState = {
   noWrongAnswers: 0,
   reviewMode : false,
 };
-
-//this function displays my questions an options
-function showQuestion(){
-  document.querySelector('.question')
-//currentquestion property of the obj quiz state allows this function to
-// //show same questions and its rellated options  used here allows 
-  .innerHTML = `<h2>${questionBank[quizState.currentQuestion].question}</h2>`;
-//loops through the options and dispays it
-//check checkAnswer(${index}) gets the index of the individual options
-//...it allow me know which option was clicked !!!
-  let optionHtml = questionBank[quizState.currentQuestion].options.map((option, index)=>{
-   return `<p tabindex = "0" data-user-choice = '${option.userSeletedOPtion}' id="${option.id}" class = "single-option" onclick = "checkAnswer(${index}, '${option.id}')">
-             <span>
-             ${option.label}.
-             </span> &nbsp; ${option.text}
-             </p>`
-  }).join('')//removes the , in the array and displays it
-
-  document.querySelector('.js-options-container')
-  .innerHTML = optionHtml;
-    //i added 1 in the current question here because quizState.currentQuestion itself starts from 0
-  //...and questions usually starts from 1
-  document.querySelector('.js-number-of-questions-container')
-  .innerHTML = `<h3>${quizState.currentQuestion + 1}/${questionBank.length}</h3>`;
-  restoreSelectedOption()
-}
-
-showQuestion()// immiedately show question once page loads
-
-
-function nextQuestion(){
-  quizState.currentQuestion++ //adds 1 to quizState.currentQuestion
-  //this makes sure the addition of 1 to quizState.currentQuestion does not exceed the questions length
-    if (quizState.currentQuestion === questionBank.length) {
-     quizState.currentQuestion = questionBank.length - 1;
-     addsCorrectAnswers()
-     getCorrectWrongAnswer()
-     document.querySelector('.result-container').style.display = 'grid';
-    //  document.querySelector('.score-el').textContent = `${quizState.score} / ${questionBank.length}`
-      showResult()
-
-}
-//now quizState.currentQuestion is 1 which will show the next question
-    showQuestion() //displays curent question
-}
-
-//same principle as nextquestion function but reverse
-function previuosQuestion(){
-  quizState.currentQuestion--
-    if (quizState.currentQuestion === questionBank.length){
-     quizState.currentQuestion = questionBank.length - 1;
-     console.log(quizState)   
-}else if(quizState.currentQuestion < 1){
-  quizState.currentQuestion = 0;
-}
-showQuestion()// displays current question
-}
-
-
 
 let checkAnswer = function (selectedIndex, optionId){
   if (quizState.reviewMode) return;
@@ -153,6 +45,75 @@ let checkAnswer = function (selectedIndex, optionId){
 
  
 }
+//this function displays my questions an options
+function showQuestion(){
+  document.querySelector('.question')
+//currentquestion property of the obj quiz state allows this function to
+// //show same questions and its rellated options  used here allows 
+  .innerHTML = `<h2>${questionBank[quizState.currentQuestion].question}</h2>`;
+//loops through the options and dispays it
+//check checkAnswer(${index}) gets the index of the individual options
+//...it allow me know which option was clicked !!!
+  let optionHtml = questionBank[quizState.currentQuestion].options.map((option, index)=>{
+   return `<p tabindex = "0" data-user-choice = '${option.userSeletedOPtion}' id="${option.id}" class = "single-option">
+             <span>
+             ${option.label}.
+             </span> &nbsp; ${option.text}
+             </p>`
+  }).join('')//removes the , in the array and displays it
+
+  document.querySelector('.js-options-container')
+  .innerHTML = optionHtml;
+
+    // ✅ Attach event listeners properly
+  document.querySelectorAll('.single-option').forEach((option, index) => {
+    option.addEventListener('click', () => {
+      checkAnswer(index, option.id);
+    });
+  });
+
+  restoreSelectedOption()
+}
+
+showQuestion()// immiedately show question once page loads
+
+
+
+function nextQuestion(){
+  quizState.currentQuestion++ //adds 1 to quizState.currentQuestion
+  //this makes sure the addition of 1 to quizState.currentQuestion does not exceed the questions length
+    if (quizState.currentQuestion === questionBank.length) {
+     quizState.currentQuestion = questionBank.length - 1;
+     addsCorrectAnswers()
+     getCorrectWrongAnswer()
+     document.querySelector('.result-container').style.display = 'grid';
+    //  document.querySelector('.score-el').textContent = `${quizState.score} / ${questionBank.length}`
+      showResult()
+
+}
+//now quizState.currentQuestion is 1 which will show the next question
+    showQuestion() //displays curent question
+}
+document.querySelector('.next-question-btn').addEventListener('click', nextQuestion);
+
+//same principle as nextquestion function but reverse
+function previuosQuestion(){
+  quizState.currentQuestion--
+    if (quizState.currentQuestion === questionBank.length){
+     quizState.currentQuestion = questionBank.length - 1;
+     console.log(quizState)   
+}else if(quizState.currentQuestion < 1){
+  quizState.currentQuestion = 0;
+}
+showQuestion()// displays current question
+}
+document.querySelector('.previous-question-btn').addEventListener('click', previuosQuestion);
+
+
+
+
+
+
 
 //funciton that loops and add the correct answers
  function addsCorrectAnswers(){
@@ -179,8 +140,8 @@ let checkAnswer = function (selectedIndex, optionId){
             </div>
 
             <div class="button-group ">
-              <button onclick = "review()">Review</button>
-              <button onclick = "retry()">Retry</button>
+              <button class = "review-btn" >Review</button>
+              <button class = "retry-btn" >Retry</button>
               <button>
               <a href="index.html">Home</a>
               </button>
@@ -188,6 +149,9 @@ let checkAnswer = function (selectedIndex, optionId){
 
       `
     document.querySelector('.result-container').innerHTML = resultHtml;
+
+    document.querySelector('.review-btn').addEventListener('click', review);
+    document.querySelector('.retry-btn').addEventListener('click', retry);
  }
 
 //  this function gets the number of the correct answer
@@ -197,16 +161,39 @@ function getCorrectWrongAnswer(){
   questionBank.forEach((question)=>{
        quizState.noRightAnswers += question.answeredCount;
        // total number of questions - noRightAnswers = noWrongAnswer
-     quizState.noWrongAnswers = questionBank.length - quizState.noRightAnswers; //gets wrong answers
   })
+
+// after the loop runs summing all the right answers it subtracts from the total question bank and gives
+// the number of wrong answers
+       quizState.noWrongAnswers = questionBank.length - quizState.noRightAnswers; //gets wrong answers
 
          
 }
 
 // this function basically reset the quiz
 // in js term it resets the quiz state object and render showQuestion()
-function retry(){
-location.reload();
+function retry() {
+  // Reset quiz state
+  quizState.timer = 30;
+  quizState.score = 0;
+  quizState.currentQuestion = 0;
+  quizState.noRightAnswers = 0;
+  quizState.noWrongAnswers = 0;
+  quizState.reviewMode = false;
+
+  // Reset question bank data
+  questionBank.forEach(question => {
+    question.answeredCount = 0;
+    question.options.forEach(option => {
+      option.userSeletedOPtion = false;
+    });
+  });
+
+  // Hide the result section
+  document.querySelector('.result-container').style.display = 'none';
+
+  // Show the first question again
+  showQuestion();
 }
 
 function review(){
@@ -215,6 +202,8 @@ function review(){
   document.querySelector('.result-container').style.display = 'none';
   showQuestion()
 }
+
+
 
 // Function to handle the styling of the selected option
 function highlightSelectedOption(optionId) {

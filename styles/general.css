@@ -237,6 +237,33 @@ footer {
   transition: all 350ms ease;
 }
 
+/* pop that push messages like hello user, quiz resarted etc */
+.notification {
+  position: fixed;
+  top: 0;
+   transform: translateY(-150%);
+  min-width: 200px;
+  background-color: var(--black);
+  color: var(--dull-white);
+  place-self: center;
+  padding: .5rem 2rem;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px var(--dark-grey);
+  font-weight: 700;
+  z-index: 9999;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.show {
+  transform: translateY(50%);
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0.5;
+} 
+
+
 
 /* Define the keyframes for fade-in */
 @keyframes fadeIn {

@@ -1,5 +1,7 @@
 import { courses } from "./courses.js";
-console.log(courses);
+import { getNotificationBox, generatesRandomNumber } from "./reuseablefunc.js";
+import { homePageGreetings }  from "./compliments.js";
+
 // animations for the main page site
 document.addEventListener("DOMContentLoaded", function () {
   // Get all the children of the footer
@@ -24,7 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+ document.addEventListener('DOMContentLoaded', () => {
+  getNotificationBox(generatesRandomNumber(homePageGreetings));
+});
+
 // MOBILE NAVIGATION JS
+
 const SidebarBtn = document.querySelector(".sidebar-btn");
 SidebarBtn.addEventListener("click",  ()=>{
   let closeIcon = document.querySelector(".close-icon ");
@@ -55,8 +62,9 @@ SidebarBtn.addEventListener("click",  ()=>{
 // display courses on the main page (from my courses.js file module)
 const courseContainer = document.querySelector(".question-card-container");
 
-let courseHTML = '';
+
 function displayCourses() {
+  let courseHTML = '';
   courses.forEach(course => {
     courseHTML += `
      <div class="question-card">
