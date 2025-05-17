@@ -20,8 +20,8 @@ function displayCourses() {
   courses.forEach(course => {
     courseHTML += `
      <div class="question-card">
-                <div class="card-header">
-                  <h2>${course.code}</h2>
+                <div data-id="${course.id}" class="card-header">
+                  <h2 class = "course-code">${course.code}</h2>
                   <p class="topic"><strong>Title</strong>: ${course.name}</p>
                   <p class="">Difficulty:<span class="difficulty">&nbsp; Easy</span></p>
                 </div>
@@ -33,7 +33,7 @@ function displayCourses() {
                 </ul>
 
                 
-                  <button class="start-btn">Start Quiz</button>
+                  <button data-code="${course.coursequestion}" class="start-btn">Start Quiz</button>
                 
               </div>
     `;
@@ -42,3 +42,24 @@ function displayCourses() {
 }
 
 displayCourses()
+
+
+function handleStartClick(event) {
+  const button = event.currentTarget;
+  const courseName = button.getAttribute('data-code');
+  console.log("Clicked course:", courseName);
+
+      if (!courseName) {
+    alert('No course code found on button.');
+    return;
+  }
+  localStorage.setItem('selectedCourse', courseName);
+
+
+  window.location.href = 'questions.html'; 
+   
+}
+
+document.querySelectorAll('.start-btn').forEach(button => {
+  button.addEventListener('click', handleStartClick);
+});

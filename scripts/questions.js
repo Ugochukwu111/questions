@@ -1,12 +1,17 @@
 //array that holds all my questions
-import { questionBank } from './questionBank.js';
+import { questionBank1, questionBank2 } from './questionBank.js';
 import { getNotificationBox, generatesRandomNumber } from "./reuseablefunc.js";
 import { retryMessages }  from "./compliments.js";
 
 
+const selected = localStorage.getItem('selectedCourse');
 
+const questionBankMap = {
+  questionBank1,
+  questionBank2,
+};
  
-
+const questionBank = questionBankMap[selected];
 //in  the array of objects above for every question their is an answer count indicates 
 // whether the user gets the answer or not
 
@@ -50,8 +55,6 @@ let checkAnswer = function (selectedIndex, optionId){
 //this function displays my questions an options
 function showQuestion(){
   document.querySelector('.question')
-//currentquestion property of the obj quiz state allows this function to
-// //show same questions and its rellated options  used here allows 
   .innerHTML = `<h2>${questionBank[quizState.currentQuestion].question}</h2>`;
 //loops through the options and dispays it
 //check checkAnswer(${index}) gets the index of the individual options

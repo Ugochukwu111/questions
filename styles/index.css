@@ -119,7 +119,15 @@ main{
   transform: translateX(5px);
   fill: var(--white);
 }
+/* remove global default style of button */
+.take-random-quiz-btn{
+  padding: 0;
+}
+/* add styling to the actual link inside the btn */
+.take-random-quiz-btn-link{
+  padding: .5em 1.2em;
 
+}
 
 /* course card css */
 .question-card-container{

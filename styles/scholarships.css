@@ -1,0 +1,11 @@
+body{
+   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  padding: 5em 0;
+  display: grid;
+  place-items: center;
+}

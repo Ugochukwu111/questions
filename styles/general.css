@@ -220,23 +220,15 @@ footer {
   font-family: 'Lato', sans-serif;
   margin-top: 2em;
   width: 100%;
-}
-
-footer{
-  padding: 2.5em 1em;
+   padding: 2.5em 1em;
   background-color: var(--dull-white);
   margin-top: 0em;
 }
 
-.footer-content{
-  font-size: 1.2rem;
-  list-style: 1.6;
-}
 
 footer >*{
   width: 33%;
-  margin: 0 1em;
-
+  padding: 2.5em 1em;
   opacity: 0;  /* Initially hidden */
   transform: translateY(50px);  /* Start offscreen (bottom) */
   transition: all 0.5s ease-out;
@@ -259,9 +251,7 @@ footer >*{
 
 
 footer{
-  padding: 2.5em 1em;
-  background-color: var(--dull-white);
-  margin-top: 0em;
+
 }
 
 .footer-content{
@@ -548,4 +538,21 @@ footer ul{
   .dropdown-menu li a{
     text-align: center;
   }
+
+  footer{
+    flex-direction: column;
+  }
+
+   footer >*{
+    width: 100%;
+    padding: 1em 0;
+   }
+
+   footer ul{
+    text-align: center;
+   }
+.footer-left-child{
+  text-align: center;
+}
+  
 }
