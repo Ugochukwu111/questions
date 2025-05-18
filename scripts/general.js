@@ -1,3 +1,5 @@
+import {  hideSpinner } from "./reuseablefunc.js";
+
 // animations for the main page site
 document.addEventListener("DOMContentLoaded", function () {
   // Get all the children of the footer
@@ -20,6 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
   footerElements.forEach(element => {
     observer.observe(element);
   });
+});
+
+ document.addEventListener('DOMContentLoaded', () => {
+  hideSpinner();
+  const nav = document.getElementsByTagName('nav')[0];
+  nav.classList.add('show');
 });
 
 // MOBILE NAVIGATION JS

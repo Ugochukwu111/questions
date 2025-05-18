@@ -1,5 +1,5 @@
 import { courses } from "./courses.js";
-import { getNotificationBox, generatesRandomNumber } from "./reuseablefunc.js";
+import { getNotificationBox, generatesRandomNumber ,  } from "./reuseablefunc.js";
 import { homePageGreetings }  from "./compliments.js";
 
 

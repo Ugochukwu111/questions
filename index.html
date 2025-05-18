@@ -25,7 +25,14 @@
     <title>Quiz-Campus</title>
   
   </head>
-<body>
+<body class="loading">
+
+  <div class="spiner-container">
+        <figure class="spinner-card">
+          <img src="/images/logo.png" alt="logo">
+        </figure>
+  </div>
+
   <aside id="notification" class="notification text-center" role="alert" aria-live="assertive"></aside>
 
   <header>
@@ -43,7 +50,7 @@
 
      <ul aria-live="polite" aria-label="sidebar closed" class="d-flex sidebar">
       <li><a href="about.html">About us</a></li>
-      <li><a href="#">Scholarships</a></li>
+      <li><a href="scholarships.html">Scholarships</a></li>
       <li  class="dropdown">
 
        <a  class="myaccount text-icon-container" tabindex="0" >
@@ -122,12 +129,12 @@
     <ul class="footer-right-child" >
       <li><a href="#">Terms of Service</a></li>
       <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Feedback</a></li>
+      <li><a href="mailto:pascaljoseph729@gmail.com">Contact Us</a></li>
+      <li><a href="mailto:pascaljoseph729@gmail.com">Feedback</a></li>
     </ul>
   </footer>
   
- <script src="scripts/general.js"></script>
+ <script type="module" src="scripts/general.js"></script>
   <script type="module" src="scripts/main.js"></script>
 </body>
 </html>

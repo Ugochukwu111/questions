@@ -3,3 +3,41 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+main{
+  display: flex;
+  justify-content: space-around;
+  padding: 5em;
+  align-items: center;
+}
+
+.about-us-heading{
+  margin: 1em 0;
+}
+
+.about-us-img-container{
+  width: 100%;
+  height: 500px;
+  max-width: 500px;
+}
+
+.container{
+  width: 100%;
+  max-width: 700px;
+  margin-inline: auto;
+  padding: 2em 1em;
+}
+
+
+@media (max-width: 55.5rem){
+  main{
+    flex-direction: column;
+     padding: 3em;
+  }
+
+  .about-us-img-container{
+  width: 100%;
+  height: 400px;
+  max-width: 500px;
+}
+}

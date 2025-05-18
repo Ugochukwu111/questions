@@ -10,10 +10,19 @@ export function getNotificationBox(message) {
   // Optional: Remove the class after 3 seconds to hide the notification
   setTimeout(() => {
     notificationContainer.classList.remove('show');
-  }, 3000);
+  }, 5000);
 }
 
 export function generatesRandomNumber(array){
  const index = Math.floor(Math.random() * array.length);
   return array[index];
+}
+
+
+export function hideSpinner(){
+  const spinner = document.querySelector('.spiner-container');
+   setTimeout (()=>{
+      spinner.style.display = 'none';
+      document.body.classList.remove('loading');
+   }, 3000)
 }

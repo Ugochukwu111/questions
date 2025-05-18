@@ -1,7 +1,14 @@
 //array that holds all my questions
 import { questionBank1, questionBank2 } from './questionBank.js';
-import { getNotificationBox, generatesRandomNumber } from "./reuseablefunc.js";
+import { getNotificationBox, generatesRandomNumber , hideSpinner} from "./reuseablefunc.js";
 import { retryMessages }  from "./compliments.js";
+
+
+ document.addEventListener('DOMContentLoaded', () => {
+  hideSpinner();
+  // const nav = document.getElementsByTagName('nav')[0];
+  // nav.classList.add('show');
+});
 
 
 const selected = localStorage.getItem('selectedCourse');
