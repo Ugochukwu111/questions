@@ -56,13 +56,13 @@ let checkAnswer = function (selectedIndex, optionId){
    }else if (!selectedOption.isCorrect && questionBank[quizState.currentQuestion].answeredCount === 1){
     questionBank[quizState.currentQuestion].answeredCount = 0;
    }
-
+  // setTimeout(nextQuestion, 1000)//after user selects an answer waits 1 secs and move to the next question
  
 }
 //this function displays my questions an options
 function showQuestion(){
   document.querySelector('.question')
-  .innerHTML = `<h2>${questionBank[quizState.currentQuestion].question}</h2>`;
+  .innerHTML = `<h3>${questionBank[quizState.currentQuestion].question}</h3>`;
 //loops through the options and dispays it
 //check checkAnswer(${index}) gets the index of the individual options
 //...it allow me know which option was clicked !!!
@@ -75,7 +75,7 @@ function showQuestion(){
   }).join('')//removes the , in the array and displays it
 
   document.querySelector('.js-number-of-questions-container')
-  .innerHTML = `<h3>${quizState.currentQuestion + 1}/${questionBank.length}</h3>`
+  .innerHTML = `<h4>${quizState.currentQuestion + 1}/${questionBank.length}</h4>`
 
   document.querySelector('.js-options-container')
   .innerHTML = optionHtml;
@@ -147,7 +147,7 @@ document.querySelector('.previous-question-btn').addEventListener('click', previ
 
             <h2>Quiz Results</h2>
             <h3 class="score">${quizState.score}/${questionBank.length}</h3>
-            <p class="font-lato">Great job! You're getting better. 🎉</p>
+
 
             <div class="stats  FWB">
               <p>Correct: <span class ="text-emerald-green">${quizState.noRightAnswers}</span></p>

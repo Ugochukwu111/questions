@@ -9,7 +9,8 @@ import { homePageGreetings }  from "./compliments.js";
 });
 
 
-
+const totalNumberOfCourses = courses.length;
+document.querySelector('.number-of-courses').textContent = totalNumberOfCourses;
 
 // display courses on the main page (from my courses.js file module)
 const courseContainer = document.querySelector(".question-card-container");

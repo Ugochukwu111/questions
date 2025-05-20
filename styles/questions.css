@@ -1,3 +1,5 @@
+
+
 body{
 display: flex;
 flex-direction: column;
@@ -9,6 +11,10 @@ main{
   flex: 1;  /* takes the entire space push footer and other section to the down for wider screens responsive ness  */
 }
 
+h3{
+  text-transform:none;
+  font-size: 1.2rem;
+}
 
 
 .question-card-container{
