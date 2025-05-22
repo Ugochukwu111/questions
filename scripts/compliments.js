@@ -25,3 +25,23 @@ export const retryMessages = [
   "Back in action, awesome user! 🏆",
   "Let’s ace it this time, shining user! 🌞",
 ];
+
+
+
+export const ImprovementMessages = [
+    "Don't worry, try again and you'll get better!",
+    "Keep practicing — you're on the right path.",
+    "Mistakes help you learn. Give it another shot!"
+];
+
+export const EncouragementMessages = [
+    "Nice try! You're getting there.",
+    "Good effort! Just a little more practice.",
+    "You're doing well — keep it up!"
+];
+
+export const SuccessMessages = [
+    "Awesome job! You're a quiz master!",
+    "Excellent score! Keep shining!",
+    "You nailed it! Great work!"
+];

@@ -1,7 +1,7 @@
 //array that holds all my questions
 import { questionBank1, questionBank2 } from './questionBank.js';
-import { getNotificationBox, generatesRandomNumber , hideSpinner} from "./reuseablefunc.js";
-import { retryMessages }  from "./compliments.js";
+import { getNotificationBox, getRandomMessage , hideSpinner} from "./reuseablefunc.js";
+import { retryMessages, EncouragementMessages , SuccessMessages , ImprovementMessages }  from "./compliments.js";
 
 
  document.addEventListener('DOMContentLoaded', () => {
@@ -149,19 +149,20 @@ document.querySelector('.previous-question-btn').addEventListener('click', previ
             <h3 class="score">${quizState.score}/${questionBank.length}</h3>
 
 
-            <div class="stats  FWB">
-              <p>Correct: <span class ="text-emerald-green">${quizState.noRightAnswers}</span></p>
-              <p>Wrong: <span class = "text-tomato-red">${quizState.noWrongAnswers}</span></p>
+            <div class=" FWB">
+              <div class = "stats">
+                <p>Correct: <span class ="text-emerald-green">${quizState.noRightAnswers}</span></p>
+                <p>Wrong: <span class = "text-tomato-red">${quizState.noWrongAnswers}</span></p>
+              </div>
+              <p class ="d-block">${givePerformanceFeedback()}</p>
             </div>
 
             <div class="button-group ">
               <button class = "review-btn" >Review</button>
               <button class = "retry-btn" >Retry</button>
-              <button>
-              <a href="index.html">Home</a>
-              </button>
+              <a class = "question-result-home-btn" href="index.html">Home</a>  
             </div>
-
+          </div>
       `
     document.querySelector('.result-container').innerHTML = resultHtml;
 
@@ -172,7 +173,8 @@ document.querySelector('.previous-question-btn').addEventListener('click', previ
 //  this function gets the number of the correct answer
 //  and the number of the wrong answer
 function getCorrectWrongAnswer(){
-   if (quizState.reviewMode) return;
+   if (quizState.reviewMode) return;// dont calculate correct answers again when app is in review
+
   questionBank.forEach((question)=>{
        quizState.noRightAnswers += question.answeredCount;
        // total number of questions - noRightAnswers = noWrongAnswer
@@ -207,7 +209,7 @@ function retry() {
   // Hide the result section
   document.querySelector('.result-container').style.display = 'none';
 
-  getNotificationBox(generatesRandomNumber(retryMessages));
+  getNotificationBox(getRandomMessage(retryMessages));
 
   // Show the first question again
   showQuestion();
@@ -274,3 +276,18 @@ function displayRightWrongOption() {
 }
 
 
+function givePerformanceFeedback(){
+  let message = "";
+if (quizState.noRightAnswers <= questionBank.length / 2){
+   message = getRandomMessage(ImprovementMessages);
+}else if(  quizState.noRightAnswers >= questionBank.length / 2 &&
+  quizState.noRightAnswers <= questionBank.length / 1.5){
+    message = getRandomMessage(EncouragementMessages);
+  }else if (quizState.noRightAnswers > questionBank.length / 1.5 &&
+  quizState.noRightAnswers <= questionBank.length / 1.2){
+     message = getRandomMessage(SuccessMessages);
+  }else{
+   message = getRandomMessage(SuccessMessages);
+  }
+return message;
+}

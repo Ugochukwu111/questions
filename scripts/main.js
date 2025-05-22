@@ -1,11 +1,11 @@
 import { courses } from "./courses.js";
-import { getNotificationBox, generatesRandomNumber ,  } from "./reuseablefunc.js";
+import { getNotificationBox, getRandomMessage ,  } from "./reuseablefunc.js";
 import { homePageGreetings }  from "./compliments.js";
 
 
 
  document.addEventListener('DOMContentLoaded', () => {
-  getNotificationBox(generatesRandomNumber(homePageGreetings));
+  getNotificationBox(getRandomMessage(homePageGreetings));
 });
 
 

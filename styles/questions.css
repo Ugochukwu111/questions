@@ -98,3 +98,28 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   background-color: #c50010;
   color: #ffffff;
 }
+
+.button-group{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.question-result-home-btn{
+    padding: .8em 1.5em;
+  margin:.5em;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: .9rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--dull-white);
+  color: var(--black);
+  transition: all 350ms ease;
+}
+
+.question-result-home-btn:hover{
+  transform: scale(1.05);
+}

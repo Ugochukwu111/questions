@@ -13,7 +13,7 @@ export function getNotificationBox(message) {
   }, 5000);
 }
 
-export function generatesRandomNumber(array){
+export function getRandomMessage(array){
  const index = Math.floor(Math.random() * array.length);
   return array[index];
 }
