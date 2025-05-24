@@ -79,9 +79,6 @@ nav.show {
   transform: translateY(0);
 }
 
- nav ul{
-  overflow: scroll;
- }
 
 ul{
   list-style: none;

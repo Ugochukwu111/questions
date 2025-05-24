@@ -582,17 +582,17 @@ export let questionBank2 = [
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Clement of Alexandra", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Sophists", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Sophists", isCorrect: false },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "St Augustine", isCorrect: false },
-    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Echekwube", isCorrect: false },]
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Echekwube", isCorrect: true },]
   },
  {
   question : 'the title of the gst 112 book is?',
   answeredCount: 0,
   options:  [
-    { id: "q1_1", userSeletedOPtion: false, label: "A", text: "Philosophy and logic : A concise approach", isCorrect: false },
+    { id: "q1_1", userSeletedOPtion: false, label: "A", text: "Philosophy and logic : A concise approach", isCorrect: true },
     { id: "q1_2", userSeletedOPtion: false, label: "B", text: "Philosophy and logic : A First Cousre", isCorrect: false },
-    { id: "q1_3", userSeletedOPtion: false, label: "C", text: "Philosophy and logic : General Studies", isCorrect: true },
+    { id: "q1_3", userSeletedOPtion: false, label: "C", text: "Philosophy and logic : General Studies", isCorrect: false },
     { id: "q1_4", userSeletedOPtion: false, label: "D", text: "Philosophy and logic : All of the above", isCorrect: false }
   ] 
  },
@@ -600,10 +600,10 @@ export let questionBank2 = [
   question : 'Is science an objective discipline?',
   answeredCount: 0,
   options: [
-    { id: "q2_1", userSeletedOPtion: false, label: "A", text: "Yes", isCorrect: true },
+    { id: "q2_1", userSeletedOPtion: false, label: "A", text: "Yes", isCorrect: false },
     { id: "q2_2", userSeletedOPtion: false, label: "B", text: "A & B", isCorrect: false },
     { id: "q2_3", userSeletedOPtion: false, label: "C", text: "True", isCorrect: false },
-    { id: "q2_4", userSeletedOPtion: false, label: "D", text: "Probably", isCorrect: false }]
+    { id: "q2_4", userSeletedOPtion: false, label: "D", text: "Probably", isCorrect: true }]
  },
  {
   question: 'A goal definition should be --?',
@@ -611,8 +611,8 @@ export let questionBank2 = [
   options: [
     { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Neither too broad nor too narrow", isCorrect: false },
     { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Not be negative were it can be affirmative", isCorrect: false },
-    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "State the essential attributes of the species", isCorrect: true },
-    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the Above", isCorrect: false }
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "State the essential attributes of the species", isCorrect: false },
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the Above", isCorrect: true }
   ]
 },
  {
@@ -621,19 +621,488 @@ export let questionBank2 = [
   options: [
     { id: "q3_1", userSeletedOPtion: false, label: "A", text: "directive", isCorrect: false },
     { id: "q3_2", userSeletedOPtion: false, label: "B", text: "multiple function", isCorrect: false },
-    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "interogative", isCorrect: true },
-    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Transparency", isCorrect: false }
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "interogative", isCorrect: false },
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Transparency", isCorrect:  true }
   ]
 },
  {
-  question: 'A goal definition should be --?',
+  question: '"For an action to have moral worth it must be done out of duty" This was proposed by ____',
   answeredCount: 0,
   options: [
-    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Neither too broad nor too narrow", isCorrect: false },
-    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Not be negative were it can be affirmative", isCorrect: false },
-    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "State the essential attributes of the species", isCorrect: true },
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "John Rawls", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Emmanuel Kant", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Thomas Aquinas", isCorrect: false},
     { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the Above", isCorrect: false }
   ]
 },
+ {
+  question: '"If Ezine is Lasy, she fails the examination" is known as a _____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Hypothetical Proposition", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "An example of non-categorial proposition", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Compound proposition", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false }
+  ]
+},
+ {
+  question: 'In the I proposition the subject term is distributed, the predicate term is ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Undistributed", isCorrect: true },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Distributed", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Undetermined", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
+ {
+  question: 'In a verbal argurment if all the premises of an argumentare true, then the conclusion must also be true. this is a problem of ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Invalidity", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Valid Arguement", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Sound Arguement", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false }
+  ]
+},
+ {
+  question: 'Philosophizing started when men no longer accepted ____ & ____ explanations of the world',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Mythological & MetaPhysical", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Mythological & Religious", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Religious & Scientific", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Metaphysical & religious", isCorrect: true }
+  ]
+},
+ {
+  question: 'Aesthetics include all but one ?',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Painting", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Drama", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Drawing", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Literature", isCorrect: true }
+  ]
+},
+ {
+  question: 'An argument is said to be sound when ____?',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "It is not only valid", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Such that all its premises are true", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "The conclusions are also true", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true }
+  ]
+},
+ {
+  question: 'A collection of objects which have similar or agreed set of characteristics is called ____?',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Membership", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Categorical Propositions", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Class", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false }
+  ]
+},
+ {
+  question: 'The fact that one has not seen  a cloned animal does not imply that cloning is impossible',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "True", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "False", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Undetermined", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
+ {
+  question: '____ holds that the physical universe is a self projection of a spiritual reality',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Subjective Idealism", isCorrect: true },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Objective Idealism", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Idealism", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
+ {
+  question: 'Hemi Bergson and Karl Popper made a distinction between ____ society',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Open and Totalitarian", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Closed and Functional", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Good and Bad", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Open and Closed", isCorrect: true}
+  ]
+},
+ {
+  question: 'In Singular A proposition the subject term is distributed while the predicate term is _____ ',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Distributed", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Inference", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Undistributed", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false }
+  ]
+},
+ {
+  question: 'Pythagoras was the first to coin the term philosophy. Do you agree?',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Disagree", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Agree", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Undetermined", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
+ {
+  question: 'The person that should rule the state is the person who has been trained in the art of leadership, which for plato is the ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Politician", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Administrator", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Philosopher", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Democrat", isCorrect: false }
+  ]
+},
+ {
+  question: 'Which of these is a definition of philosophy ?',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "A rational investigation which examins nature", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "A way of simplifying complex ideas, about experiences in life", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Principles which prompts one to act in different ways.", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true }
+  ]
+},
+ {
+  question: 'A valid arguement is the same as a sound arguement',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "True and false", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "False", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "True", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Undetermined", isCorrect: false }
+  ]
+},
+ {
+  question: 'Who opined that there is no truth in science?',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Thomas Aquinas", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Thomas Kuhn", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Paul Feyerabend", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Karl Popper", isCorrect: true }
+  ]
+},
+ {
+  question: 'Beyond it symbolic aspects such as music, dance and art, it includes the belief values and attitudes which shape a people thoughts and actions. this is ____?',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Philosophy", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Values", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Culture", isCorrect: true },
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false }
+  ]
+},
+ {
+  question: 'No conclusion can be formed from two negative premises. which rule of validity is this ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Rule of Quantity", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Rule of Quality", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Rule of regarding structure", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Rule of Corollary", isCorrect: false }
+  ]
+},
+ {
+  question: 'Division of African philosophy into Early, Middle  Later and New Contemporary periods was done by ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Odera Henry Oruka", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Chimakonam Jonathan", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "S.C Momoh", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  question: '"Nigeria must develop Join Party XYZ; therfore, vote ZYX" is guilty of...',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Non-sequitor", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Ignorantio-ELichi", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Ad Bacullum", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Ad Popullum", isCorrect: true }
+  ]
+},
+ {
+  question: 'Eurocentriacism and Afrocentriacism are two basic ____ in African philosophy',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "schools of thought", isCorrect: true },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "schools of language", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "schools of belief", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "schools of debate", isCorrect: false }
+  ]
+},
+ {
+  question: 'If either premises is negative, the conclusion must be negative. This is the ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Rule of quality", isCorrect: true },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Rule regarding structure", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Rule of corollary", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Rule of quantity", isCorrect: false }
+  ]
+},
+ {
+  question: 'Inferences drawn from a given propositon with the aid of a third proposition are known as',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Immediate inferences", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "mediate inferences", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Intermediate inferences", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Direct inferences", isCorrect: false }
+  ]
+},
+ {
+  question: 'S. Momoh divided the History of African philosophy into_____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Egyptological; Colonial/Missionary ideological", isCorrect: true },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Ancient period, Greek period and contemporary period", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Ethniphilosophy; Philosophic sagacity", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Early period; Middle period; Later period", isCorrect: false }
+  ]
+},
+ {
+  question: 'The second period in the History of Greek period can also be called ______',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Greek philosophy", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Sophism", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Hellenic", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
+ {
+  question: 'Medieval philosophy contained thoughts that flourished between the ____ to ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "6th century AD to 15th century AD", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "5th century AD to 14th century AD", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "5th century AD to 10th century AD", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "10th century AD to 15th century AD", isCorrect: false }
+  ]
+},
+ {
+  question: 'A closed society is _____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Authoritarian", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Totalitarian", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Supported by an ideology", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true }
+  ]
+},
+ {
+  question: 'When a negative conclusion cannot follow from two premises, is the ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Corollary rule", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Rule of quantity", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Rule of quality", isCorrect:true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Rule regarding structure", isCorrect: false }
+  ]
+},
+ {
+  question: 'In an E proposition when the subject term is distributed, the predicate term is ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Distributed", isCorrect: true },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Undistributed", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Undetermined", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false}
+  ]
+},
+ {
+  question: 'Proponents of Eco-feminism are _____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Vandana Shiva", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Lorigrven", isCorrect: false},
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Greta Gaard", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true}
+  ]
+},
+ {
+  question: 'In a combination of A and E proposition when the A proposition is true, the E proposition is ____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "True", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "False", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Undetermined", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
+ {
+  question: 'The A and T propositions were derived from the Latin word called _____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "affirmative", isCorrect: false},
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "affirmo", isCorrect: true},
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "affiliatee", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "affiminine", isCorrect: false }
+  ]
+},
+ {
+  question: 'Euler\'s formulation or diagram is used to represent diagrammatically ______',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Class membership", isCorrect: true },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Cult membership", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Object membership", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false }
+  ]
+},
+ {
+  question: 'A and O propositions are _____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Subalterns", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Contraries", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Contradictories", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
+ {
+  question: 'The period of consensus amongg scientists is_____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Normal science", isCorrect: true },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Abnormal science", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "revolutionary science", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "positive heuristic", isCorrect: false }
+  ]
+},
+ {
+  question: '_____ argued that the function of philosophy should be logical clarification of thought',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Dewey", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "G E Moore", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Rorty", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Wittgenstein", isCorrect: true }
+  ]
+},
+ {
+  question: 'Main philosophical schools in ancient Egypt include:',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Tel- el Armana; Memphites", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Hermopolitan; Thebean, Avaris", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Heliopolitan", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true}
+  ]
+},
+ {
+  question: 'Which of these represent the major branches of philosophy',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Logic and Philosophy ", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Axiology; Epistemology; Logic; Value", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Axiology; epistemology; Value; Metaphysics", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false }
+  ]
+},
+ {
+  question: 'The \'E\' and \'O\' propositions were derived from the Latin word called?',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "nebula", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "nego", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "nelo", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "negative", isCorrect: false }
+  ]
+},
+ {
+  question: 'One central task of logic is to outline the procedure for arriving at valid conclusion when one is given a set of ____ premise',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "false", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "true", isCorrect: true },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "undetermined", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
+  ]
+},
+ {
+  question: 'One good reason for supposing that we cannot know the kind of things that most people think they can know is that _____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "People cannot be trusted", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "People tell lies", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Human beings are fallible", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false }
+  ]
+},
+ {
+  question: 'Materialist metaphysics is a system of philosophy which upholds ______',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "The primacy of spirit", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "The primacy of ideas", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "the primacy of matter", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false }
+  ]
+}, 
+{
+  question: 'The relationship between "A and O" propositions is called______',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Contraries", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Alternation", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Contradictories", isCorrect: true},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "sub-contraries", isCorrect: false }
+  ]
+}, 
+{
+  question: 'According to Ruch and Anyanwu, the rejection of African philosophy was due to _____',
+  answeredCount: 0,
+  options: [
+    { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Slavery", isCorrect: false },
+    { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Colonial caricature", isCorrect: false },
+    { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Racism", isCorrect: false},
+    { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true }
+  ]
+},/*Finished at 03:01 AM....that's 50 questions right?*/
 ]

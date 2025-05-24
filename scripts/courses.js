@@ -8,5 +8,7 @@ export const courses = [
 
   {id: 'id-2', code:'GST112', difficulty:'Hard', name: 'Philosophy and logic', type:'Multiple choice', time: '1hr', coursequestion: 'questionBank2'},
 
+  {id: 'id-2', code:'ENT 211', difficulty:'Hard', name: 'Enterpreneurship Development', type:'Multiple choice', time: '1hr', coursequestion: 'questionBank2'},
+
 ];
 

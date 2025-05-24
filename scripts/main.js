@@ -28,7 +28,6 @@ function displayCourses() {
                 </div>
                 
                 <ul class="details">
-                  <li><strong>Questions</strong> 10</li>
                   <li><strong>Time:</strong> ${course.time}</li>
                   <li><strong>Type:</strong> ${course.type}</li>
                 </ul>
