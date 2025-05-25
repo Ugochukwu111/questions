@@ -1081,6 +1081,7 @@ export let questionBank2 = [
 
 
 // ENT START
+// questionBank3 TYPE A
 export let questionBank3 = [
    {
   question : 'Nigeria since 1960 in an attempt to achieve economic independence, the country has introduced several policies aimed at capacity building and utilization. Which of the following is not part of these policies?', 
@@ -1531,6 +1532,464 @@ export let questionBank3 = [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "ncremental innovation", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "radical innovation", isCorrect: true },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "mixed innovation", isCorrect: false },
-    { id: "q0_4", userSeletedOPtion: false, label: "D", text: ") satisficing innovation", isCorrect: false },]
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "satisficing innovation", isCorrect: false },]
   },
 ]
+
+
+
+// ENT START
+// questionBank3 TYPE B
+ export let questionBank3B = [
+ {
+  question : 'A business idea that requires an improvement to a current product or services is said to be  ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "incremental innovation", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "radical innovatio", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "mixed innovation ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "satisficing innovation.", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following is not a source of business opportunity ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "self discovery or improving an existing product", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "joint effort or work experience ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: ") using an existing products for an untapped market, formal search for investment opportunity or franchise ", isCorrect: false }, 
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  },
+   {
+  question : 'The SWOT process addresses the ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "external strength and weaknesses of entrepreneur", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Internal strength and opportunities of entrepreneurs", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "nternal and external strength of individual concerned", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Internal strengths of entrepreneurs and weaknesses of the business", isCorrect: false },]
+  },
+   {
+  question : '.... analysis is a technique for assessing a business, its resources and its environment is...', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Survey", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "SWOT", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "SWEET", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "SWART", isCorrect: false },]
+  },
+   {
+  question : 'Opportunities can be divided into ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "2", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "4", isCorrect: false },]
+  },
+   {
+  question : 'Misfortune of competitors who are not performing well which provide an entrepreneur with the opportunity to do better is known as ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "nternal opportunity", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " external opportunity", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "spill over opportunity", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'Threats that come from lack of resources to exploit an identified opportunity can be regarded as', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "internal", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "external", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "spill over", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following is not one of the mistakes in using SWOT analysis ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "focusing just on a few issue", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "completing your SWOT analysis on your ow", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "using your analysis for the next ten years", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "using SWOT as an ongoing business analysis.", isCorrect: true },]
+  },
+   {
+  question : 'Which of the following are steps in analysing business opportunities ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "develop the basic business idea, scan and assess the external environmen", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "decide whether to go or not and generate a business plan that specifies", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "implement the business plan and evaluate the implemented business plan", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'Which of the following is a factor to be considered in selecting a business opportunity', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "business experience and skills required for the successful operation of the business", isCorrect: false },     
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "financial capability and desired level of income", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "legal constraints and support from friends and family members", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'A business concept is a general idea concerning a business especially an abstract one', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "true", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "false", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "not at all", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "may be", isCorrect: false },]
+  },
+
+   {
+  question : 'The following persons are prohibited by law from participating in the formation of a company ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "a person below the age of 18yrs and a person of unsound mind", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "an un-discharged bankrupt and a corporate body in liquidatio", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "an un-discharged bankrupt and a corporate body in liquidatio", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'The body responsible for the registration of enterprise in Nigeria is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "SON", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "CAC", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "CPU", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'Corporate Affairs Commission provides the following services except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "payment of dividend to share holders", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "incorporation of companies", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " registration of business names", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "registration of incorporated trustees", isCorrect: false },]
+  },
+   {
+  question : 'The name of a private company limited by shares usually ends with the word ...., while that of a public company limited by share ends with the word ....,', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "plc, ltd", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "ltd, plc", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "ultd, plc ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "plc, ultd", isCorrect: false },]
+  },
+   {
+  question : 'Partnership and the sole proprietorships are usually registered as ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "incorporation", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "business names", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "incorporated trustees", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "companies linited by guarantee", isCorrect: false },]
+  },
+   {
+  question : 'The maximum number of members a private limited company is authorized to have is ...., while the minimum authorized share capital should not be less than ...., ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "50 persons, N50,000 ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "10 persons, N50,000", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "50 persons, N10,000", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "10 persons, N10,000", isCorrect: false },]
+  },
+   {
+  question : 'The maximum number of members of a public company share holders is ..., and the minimum authorized share capital is', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "50 persons, N50,000", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "unlimited members, N500,000", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "unlimited members, N50,000", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "unlimited members, unlimited capital", isCorrect: false },]
+  },
+   {
+  question : 'There are ...types of registration ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "2", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "4", isCorrect: false },]
+  },
+   {
+  question : '....is the point or extent in space where an organization or a process is placed while.... on the other hand is refers to the piece of land on which the process or organization is located', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "site, location", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "location, site", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "site, environment", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "area, region", isCorrect: false },]
+  },
+   {
+  question : 'Factors that affect location decision include the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "owner`s personal preferences, objective of location decisions, position in the supply chain, the size of the organization", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "nearness to markets, cost and access to raw materials, labour factor, infrastructural facilities", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "transportation, demography, climate, environment, community factor, site specific factor", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'Which of these is a step in the location decision ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "identification and definition of factors", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "definition of decision constraint and scanning and developing location alternativ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " evaluating location alternative", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  }, {
+  question : '.....is the application of science or the utilization of scientific method, means and materials in achieving commercial or industrial objectives', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " laboratory scienc", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: ") research science", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "technologia", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "science", isCorrect: false },]
+  },
+   {
+  question : 'An entrepreneur can source information on technologies from which of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "published materials especially newspapers, news magazines, technical journals and existing firms in the industry or joint venture partners", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " trade fairs and exhibitions, or vendors or consultants ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "universities and research institutes or national office for technology Acquisition and Promotion", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'Criteria for selection of appropriate technology include ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "real and implied costs of technology, maintenance costs and the capacity of the technology in relation to the expected level of operation", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "adaptability and flexibility of technology, efficiency and life span of the technology", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "user`s lack of competence, inappropriate operational condition, the quality of the technology and the location and experience of the technology vendor", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'he technical term "Manpower" emerged in.......', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1950s", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "1960s", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "1970s", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "1980s", isCorrect: false },]
+  },
+   {
+  question : 'The term "personel" emerged in', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1920s", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "1930s", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "1940s", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "1950s", isCorrect: false },]
+  },
+   {
+  question : 'One of the objectives of human resource planning is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "to efficiently utilize resources in the most cost beneficiary approach", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "to provide for the future human resources requirement needs of the enterprise", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "to provide for the present human resources requirement of the enterpris", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : '......is the process of matching jobs and people ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "recruitment and selection", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "recruitment and planning ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "planning and coordinating", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "organizing and programming", isCorrect: false },]
+  },
+   {
+  question : 'The traditional selection process in an organization consists of.....steps ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "6", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "7", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "8", isCorrect: false },]
+  },
+   {
+  question : 'The selection process for human resources usually begins with ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " completion of application form", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " employment test", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "physical examination", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "initial screening interview.", isCorrect: true },]
+  },
+   {
+  question : 'The traditional selection process in an organization does not include one of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "initial screening interview and completion of the application form", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "employment tests and comprehensive interview ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "background investigation and physical examination", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "emuneration and compensation", isCorrect: true },]
+  },
+   {
+  question : 'The National Institute of Industrial Organization Psychology, UK provided........ Point plan which can be used when studying people', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "3", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "5", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "7", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "9", isCorrect: false },]
+  },
+   {
+  question : 'ob component does not include one of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "job analysis ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "job description", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "job implementation", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "job evaluation", isCorrect: false },]
+  },
+   {
+  question : 'Test is not classified according to one of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "aptitude and personality", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "achievement", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "situational", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "upward locomotive", isCorrect: true },]
+  },
+   {
+  question : 'Gouging of the British Association for Commercial and Industrial Education developed ....... steps for interviewing job applicants ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "56 ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "26", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "6", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "16", isCorrect: false },]
+  },
+   {
+  question : 'SMEDAN stands for ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Sales Management Enterprise Development Association of Nigeria ?", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Small and Medium Enterprise Development Agency of Nigeria", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "mall Entrepreneur Development Agency of Nigeria", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Seasonal Market Enterprise Development of Nigeria", isCorrect: false },]
+  },
+   {
+  question : 'The venture capitalists have.... ways to get return on investment – ROI ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "4", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "5", isCorrect: false },]
+  },
+   {
+  question : 'Business angel is............. ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "a promoter", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "a financier", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "a law enforcer", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "a bridge", isCorrect: false },]
+  },
+   {
+  question : 'There are basically ___ traditional stages of development for entrepreneurial venture', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "4", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "5", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "6", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "7", isCorrect: false },]
+  },
+   {
+  question : 'The stages of new venture development include all except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "conception and start up", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " first stage and second stage", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "third stage and fourth stage", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " maturity stage and harvest stage", isCorrect: false },]
+  },
+   {
+  question : 'For all intents and purposes, all types and sources of financing for new ventures can be categorized into.... ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "4", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "5", isCorrect: false },]
+  },
+   {
+  question : 'The major forms of financing sources for new ventures does not include one of the following', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "personal resources, loansfrom family, friends, associates, partners and entrepreneurial team", isCorrect: false },    
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "rotating saving scheme and lenders, trade credit and accruals or hire purchase", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "borrowing from ministry of finance", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " finance lease, bank borrowing, debentures or stock/equity financing", isCorrect: false },]
+  },
+   {
+  question : 'Financial institutions usually consider the following factors when evaluating entrepreneur loan proposal ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the purpose for which the entrepreneur wants the loan and the amount required", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the entrepreneur`s stake in the business and the character of the entrepreneu", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "source of repayment and collateral", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'The key steps involve in financial planning identified by Pandey include which of the following', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " review of performance and operating characteristics ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "corporate strategy and investment needs", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "operations cash flow and financing alternatives ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'The word ethic is derived from ....... word “ethos” which means customary behaviour, character and morals', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Latin", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Greek", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "French", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "German", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following is an element of marketing mix ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "product", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "price", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "promotion", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect:true },]
+  },
+   {
+  question : 'Product and service are the two marketing element ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "true", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "false", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "may be", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "not at all", isCorrect: false },]
+  },
+   {
+  question : 'Repair of machine, legal services, hair salons, dry cleaning are all examples of ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "products", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "services", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "both products and services", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'A product is not classified into one of the following spectra ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "consumer goods ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "industrial goods", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "dual product", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+  
+];

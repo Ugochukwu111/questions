@@ -1,5 +1,5 @@
 //array that holds all my questions
-import { questionBank1, questionBank2 , questionBank3} from './questionBank.js';
+import { questionBank1, questionBank2 , questionBank3 , questionBank3B} from './questionBank.js';
 import { getNotificationBox, getRandomMessage , hideSpinner} from "./reuseablefunc.js";
 import { retryMessages, EncouragementMessages , SuccessMessages , ImprovementMessages }  from "./compliments.js";
 
@@ -17,6 +17,7 @@ const questionBankMap = {
   questionBank1,
   questionBank2,
   questionBank3,
+  questionBank3B,
 };
  
 const questionBank = questionBankMap[selected];
