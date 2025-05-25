@@ -825,36 +825,6 @@ export let questionBank2 = [
     { id: "q3_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false }
   ]
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
   question: '"Nigeria must develop Join Party XYZ; therfore, vote ZYX" is guilty of...',
   answeredCount: 0,
@@ -1105,4 +1075,462 @@ export let questionBank2 = [
     { id: "q3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true }
   ]
 },/*Finished at 03:01 AM....that's 50 questions right?*/
+]
+
+
+
+
+// ENT START
+export let questionBank3 = [
+   {
+  question : 'Nigeria since 1960 in an attempt to achieve economic independence, the country has introduced several policies aimed at capacity building and utilization. Which of the following is not part of these policies?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the relaxation of most restriction of current and capital transfer", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the introduction of tax relief formulti-nationals willing to invest in the country", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "improved access to foreign exchange at near market rates", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  },
+     {
+  question : ' A person that has possession of an enterprise or venture and assumes significant accountability for the inherent risk and the out come of the enterprise is known as.', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "An Entrepreneur", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "An Entrepreneurship", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "An Enterpreneur", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "A share holder.", isCorrect: false },]
+  },
+     {
+  question : 'The term entrepreneur is a ____ origin “Entreprendre” meaning to undertake. It was first defined by Richard Cantillon', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "British", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "French", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "German", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Latin", isCorrect: false },]
+  },
+     {
+  question : '____ is the process of performing the roles of an entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "entrepreneur", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "entrepreneurship", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "marketing", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "organizing", isCorrect: false },]
+  },
+     {
+  question : 'The first phase in the entrepreneurial activities is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "gestation ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "infancy", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "conception", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "adolescence", isCorrect: false },]
+  },
+     {
+  question : 'Which of the following is a characteristics of Nigerian Entrepreneurship ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "they are relatively small in size", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "they are usually unprofessional", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "they lack idea", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "they lack innovation", isCorrect: false },]
+  },
+       {
+  question : 'Which of the following is not a characteristics of an entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "awareness, optimism, autonomy and conceptual ability", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "effectiveness of operation, emotional stability, calm and meticulous", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " innovation, highly organized, competition and unique service/product", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  },
+         {
+  question : 'An underdeveloped country is a country with good potential prospects for using more labour or more available natural resources to support its present population to achieve a higher level of living standard ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "True", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "false", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "all of the above", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+  {
+  question : 'Which of these is a characteristics of underdeveloped/developing societies ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "low average real income and a low growth rate of per capital income and high and rising levels of unemployment", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "high consumption ratio or a low savings ratio and high illiteracy", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "low level of technology and low level of production", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'Which of the following is not a role of entrepreneurship in a developing society in achieving economic development ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "employment generation and increase productivity through", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "facilitate the transfer/adaptation of technology and ensures increase resource utilization", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "encourages and sustain economic dynamism and enables individuals to explore", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  },
+    {
+  question : 'Which of the following best describe the Nigeria state ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "a developed economy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "a developing economy", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "an underdeveloped economy", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "about to developed economy", isCorrect: false },]
+  },
+    {
+  question : 'The process of structural transformation of an economy towards a modern, technologically advanced economy based on services and manufacturing is referred to as _____' , 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Entrepreneurship", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "public policy", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "economic development", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "marketing", isCorrect: false },]
+  },
+    {
+  question : 'Whom among the following cannot be regarded as a Nigerian entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Aliko Dangote", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Mike Adenuga", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " the Ibrus", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Bill Gates", isCorrect: true },]
+  },
+    {
+  question : 'The vision 2020 of Nigeria is an example of ____ ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "micro-economic goal ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "macro-economic goal", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "geo-political goal", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "bilateral relationship", isCorrect: false },]
+  },
+    {
+  question : 'Which of the following process is not among the phases of entrepreneurship ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "adolescence", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "conception", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "enlightenment", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "gestation", isCorrect: false },]
+  },
+    {
+  question : 'The central ideas of the conception of entrepreneurship incorporate the following except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Uncertainty ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "risk taking", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "innovation, perception and change", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "none of the above", isCorrect: true },]
+  },
+    {
+  question : ' In a developing society, entrepreneurship plays the following roles except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "generates unemployment", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "increases productivity through innovation", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "ensures increase resource utilization", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "facilitate the transfer of technology", isCorrect: false },]
+  },
+    {
+  question : 'The process of discussing a business plan with friends and advisers in order to reduce the risk of failure and losimoney is known as ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "enquiry", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "business plan", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "a feasibility study", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "business study", isCorrect: true },]
+  },
+    {
+  question : 'Which of these is true about a business plan  ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " a business plan is developed only after one is convinced that a business opportunity exist ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "business plan deals with business growth and sustainability", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " a business plan is prepared only after the business venture has been deemed to be feasible ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+  //20 ent questions mark
+    {
+  question : 'Which of the following is true about a feasibility study ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "a feasibility study is carried out to know if the intended business venture is worth the effort and resources", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "a feasibility study is about business idea viability", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "a feasibility study is carried out before a business plan", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'When the outcome of a feasibility study is written down in a document, the written document is known as ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "feasibility statement ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "a business statement ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "a  business plan", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "a feasibility document.", isCorrect: false },]
+  },
+    {
+  question : 'Feasibility study can be use to determine which of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the demand for the intended product/project or services ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "other people producing similar product i.e. competitors", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "the resources needed to produce the product both human and material", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'The reason for conducting a feasibility study is to ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "narrow business alternatives and identify new business opportunities", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "provides quality information for decision making and enhance theprobability of success of a business idea and identify reasons to", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "provides documentation that business venture was thoroughly investigated and helped in securing loan/fund from lending institutions and other monetary sources", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'Who can conduct a feasibility study ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the intended business owner with skills in the relevant area of study or a qualified consultant with a recognized expertise in the type of operation being analyzed", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " an in-house analyst or a vendor", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "a consultant with proprietaryinterest in the project", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "a consultant with .a potential conflict of interest or vested interest in the outcome of the study", isCorrect: false },]
+  },
+    {
+  question : ' Feasibility study covers such areas/scope or components as ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "economic feasibility study", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "market feasibility study", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "technical feasibility study", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'A feasibility report should include which of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "introduction and basic information", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the product/services and the market", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "finance", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'The estimate of proportion of the total market that a new business could reasonably expect to have is known as ………… ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Feasibility study", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "market share ", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "market survey", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "market value", isCorrect: false },]
+  },
+    {
+  question : 'Technical feasibility essentially involve all but one ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "production planning", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "equipment requirement", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " start up cost", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "package and staff level", isCorrect: false },]
+  },
+    {
+  question : '____ are ongoing cost which can be separated into fixed costs and variable costs ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Start up costs/capita", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "operating/production costs", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "revenue analysis", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "source fund.", isCorrect: false },]
+  },
+    {
+  question : '____ is the cost that can be incurred even if production is not taking place ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "fixed cost", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "variable cost ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "semi-variable cost", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "marginal cost", isCorrect: false },]
+  },
+    {
+  question : 'Which of these is not an example of fixed cost ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Rent", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "advertisement", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "production", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "power", isCorrect: false },]
+  },
+      {
+  question : 'Total revenue can be expressed thus ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "T = Selling Price – Fixed Cost", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "TR =Selling Price x Quantity Sold", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "TR = Selling Price + Profit", isCorrect:false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Selling Price – Variable Cost", isCorrect: false },]
+  },
+       {
+  question : 'Profit is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "P * Q", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "TC - VC ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "TR - FC", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "TR - TC", isCorrect: true },]
+  },
+       {
+  question : 'Contribution is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "TR - TC", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "TR - VC", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "TR - FC", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "TR/TC", isCorrect: false },]
+  },
+       {
+  question : 'Which of the following is not a specific function of an entrepreneur?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Leadership", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Promotion", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Innovation", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Marketing", isCorrect: true },]
+  },
+       {
+  question : 'which of the following is an essential factor that determines the success of a new business venture ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "anagerial expertise and industry experience", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " superior responsiveness to customers and regard for competitors", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "continuous improvement and learning and overcoming inertia", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true },]
+  },
+         {
+  question : 'Which of the following best explain organizational inertia ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "respect for those already existing in an organization", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "learning from initial setback", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "oo big to change or inability to change", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+         {
+  question : 'superior responsiveness to customers mean the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "acting as a superior to your customers", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "giving the customers value for their money", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "the belief that the customer is the king", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " know your Customer KYC", isCorrect: false },]
+  },
+         {
+  question : 'Which of the following is not a characteristic of an entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "optimism", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "innovation", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "emotional stability", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "external locus of control belief. ", isCorrect: true },]
+  },
+         {
+  question : 'Mrs Abiola relocated from Benin City to Lagos following the transfer of her husband who is a staff of First Bank Plc. On getting to Lagos, she started her small scale business. This is a.......', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "push factor", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "pull factor", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "elocation factor", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+         {
+  question : 'Which of the following is not a factor that motivates an individual to become entreprene ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: ") loss/lack of job or job dissatisfaction and the need for autonomy ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "unfavourable treatment from superior and lack of incentives", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "lack of advancement in current employment, marriage/marriage", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  },
+         {
+  question : 'Which of the following is not important to an entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "knowing his goals for the venture and employing the best", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "be an honest person", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "having a survivor strategy", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "embarking on complex vision ", isCorrect: true },]
+  },
+         {
+  question : 'The following are some specific contributions of entrepreneurship to our society excep', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "engine for economic growth ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "improved welfare ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "free and fair election", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "creativity and innovation", isCorrect: false },]
+  },
+         {
+  question : 'Which of these is not important to consider in discovering business opportunities, ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "economic environment ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "demographic environment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "social environment", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "none of the above", isCorrect: true },]
+  },
+         {
+  question : 'Which of the following best explain the behaviour of potential customers', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "when the customers buy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "why they buy", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "their level of education, income and buying habits", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+         {
+  question : 'Opportunities available to organization can be grouped into ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "4", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "1", isCorrect: false },]
+  },
+         {
+  question : 'Opportunities that arise from new processes, new products and new techniques developed within the organization is known as ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "internal opportunities", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "external opportunities", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "spill over opportunities", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+         {
+  question : 'Opportunities that emerged from several exploitable circumstances available in the organization`s environment is known as ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "internal opportunities", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "external opportunities", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "spill over opportunities", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+         {
+  question : 'Business idea differs from business opportunity on the ground that not all business idea can translate into viable business opportunities ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "true", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "false", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "A & B", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+         {
+  question : 'A business idea that requires a brand new concept can be said to be ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "ncremental innovation", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "radical innovation", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "mixed innovation", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: ") satisficing innovation", isCorrect: false },]
+  },
 ]

@@ -1,5 +1,5 @@
 //array that holds all my questions
-import { questionBank1, questionBank2 } from './questionBank.js';
+import { questionBank1, questionBank2 , questionBank3} from './questionBank.js';
 import { getNotificationBox, getRandomMessage , hideSpinner} from "./reuseablefunc.js";
 import { retryMessages, EncouragementMessages , SuccessMessages , ImprovementMessages }  from "./compliments.js";
 
@@ -16,6 +16,7 @@ const selected = localStorage.getItem('selectedCourse');
 const questionBankMap = {
   questionBank1,
   questionBank2,
+  questionBank3,
 };
  
 const questionBank = questionBankMap[selected];
