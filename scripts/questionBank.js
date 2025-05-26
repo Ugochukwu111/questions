@@ -1556,7 +1556,7 @@ export let questionBank3 = [
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "self discovery or improving an existing product", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "joint effort or work experience ", isCorrect: false },
-    { id: "q0_3", userSeletedOPtion: false, label: "C", text: ") using an existing products for an untapped market, formal search for investment opportunity or franchise ", isCorrect: false }, 
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "using an existing products for an untapped market, formal search for investment opportunity or franchise ", isCorrect: false }, 
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
   },
    {
@@ -1565,7 +1565,7 @@ export let questionBank3 = [
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "external strength and weaknesses of entrepreneur", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Internal strength and opportunities of entrepreneurs", isCorrect: false },
-    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "nternal and external strength of individual concerned", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Internal and external strength of individual concerned", isCorrect: true },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Internal strengths of entrepreneurs and weaknesses of the business", isCorrect: false },]
   },
    {
@@ -1590,8 +1590,8 @@ export let questionBank3 = [
   question : 'Misfortune of competitors who are not performing well which provide an entrepreneur with the opportunity to do better is known as ', 
   answeredCount: 0,
   options: [
-    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "nternal opportunity", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " external opportunity", isCorrect: true },
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Internal opportunity", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "external opportunity", isCorrect: true },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "spill over opportunity", isCorrect: false },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
   },
@@ -1714,7 +1714,7 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "4", isCorrect: false },]
   },
    {
-  question : '....is the point or extent in space where an organization or a process is placed while.... on the other hand is refers to the piece of land on which the process or organization is located', 
+  question : '....is the point or extent in space where an organization or a process is placed. while.... on the other hand is refers to the piece of land on which the process or organization is located', 
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "site, location", isCorrect: false },
@@ -1744,7 +1744,7 @@ export let questionBank3 = [
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: " laboratory scienc", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: ") research science", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "research science", isCorrect: false },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "technologia", isCorrect: true },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "science", isCorrect: false },]
   },
@@ -1767,7 +1767,7 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
   },
    {
-  question : 'he technical term "Manpower" emerged in.......', 
+  question : 'The technical term "Manpower" emerged in.......', 
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1950s", isCorrect: false },
@@ -1839,7 +1839,7 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "9", isCorrect: false },]
   },
    {
-  question : 'ob component does not include one of the following ?', 
+  question : 'Job component does not include one of the following ?', 
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "job analysis ", isCorrect: false },
@@ -1871,7 +1871,7 @@ export let questionBank3 = [
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Sales Management Enterprise Development Association of Nigeria ?", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Small and Medium Enterprise Development Agency of Nigeria", isCorrect: true },
-    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "mall Entrepreneur Development Agency of Nigeria", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Small Entrepreneur Development Agency of Nigeria", isCorrect: false },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Seasonal Market Enterprise Development of Nigeria", isCorrect: false },]
   },
    {
@@ -1888,7 +1888,7 @@ export let questionBank3 = [
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "a promoter", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "a financier", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "a financier", isCorrect: true },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "a law enforcer", isCorrect: false },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "a bridge", isCorrect: false },]
   },
@@ -1988,7 +1988,7 @@ export let questionBank3 = [
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "consumer goods ", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "industrial goods", isCorrect: false },
-    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "dual product", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "dual product", isCorrect: true },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
   },
   
