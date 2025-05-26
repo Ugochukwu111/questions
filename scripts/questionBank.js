@@ -1993,3 +1993,458 @@ export let questionBank3 = [
   },
   
 ];
+
+
+// ENT TYPE C QUESTIONS START
+ export let questionBank3C = [
+  {
+  question : 'The industrial market does not consist of one of the following group of buyers', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "producers ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "marketing intermediaries/middle men", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "consumers", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "government", isCorrect: false },]
+  },
+    {
+  question : 'Which of the following is a feature of consumer goods market ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "large numbers of potential buyers", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "consumer market tends to be widely dispersed geographically", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "consumer buyers generally lack specialized product knowledge ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'Product cannot be classified into one of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "tangible", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "intangible", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "reactive", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+    {
+  question : 'Intangible products are referred to as services ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "true", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "false", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "both", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "none of the above", isCorrect: false },]
+  },
+    {
+  question : 'Consumer goods can be classified into.....major heads ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "4", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "5", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "6", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "7", isCorrect: false },]
+  },
+    {
+  question : 'Consumer goods are not classified into one of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "perishable and consumable goods", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "shopping and specialty goods", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "unsought and impulse goods", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "emergency and convenience goods", isCorrect: false },]
+  },
+    {
+  question : 'Soap, newspapers, biro, soft drinks and snacks are examples of ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "shopping goods", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "specialty goods", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "convenience goods", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "unsought goods", isCorrect: false },]
+  },
+    {
+  question : 'Furniture, bicycles, used cars, clothing and home appliances are examples of', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "shopping goods", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "specialty goods", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "convenience goods", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "unsought goods", isCorrect: false },]
+  },
+    {
+  question : 'Custom made products, flashy cars, photographic equipment, men`s suit and ladies wears are examples of', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "shopping goods", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "specialty goods", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "convenience goods ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "emergency goods", isCorrect: false },]
+  },
+    {
+  question : 'The lion symbol of Peugeot cars, 7-up, Volkswagen symbol or the red and yellow colours of Edo Line Transport service are examples of ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "brand mark", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "product line", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "brand name", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+    {
+  question : 'The original (first) registration of a trade mark is for a period of ____?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "10 years", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "15 years", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "20 years", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "30 years", isCorrect: false },]
+  },
+    {
+  question : 'The subsequent renewal of a trade mark registration is done every ....... year ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "10 years without limit", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "10 years with a limit of five consecutive times", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "20 years without limit", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "20 years with a limit of two consecutive times", isCorrect: false },]
+  },
+    {
+  question : 'Original copyright is issued for a period of............, and can be renewed once for another.........., year ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "21,28", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "20,10", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "21,28", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "10,10", isCorrect: false },]
+  },
+    {
+  question : 'Labels are not classified into one of the following groups ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "grade", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "information", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "quality", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "descriptive", isCorrect: false },]
+  },
+    {
+  question : 'Which of the following is not a function of packaging ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "protecting and promoting the products", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "reducing cost and improving quality ", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "adapting to production line speeds and increasing product density", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "facilitating the use of the product and having re-used value for the consumer", isCorrect: false },]
+  },
+    {
+  question : 'A good packaging must possess the following qualities except that it must ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "be convenience", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "be attractive", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "have professional appeal", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "be expensive", isCorrect: true },]
+  },
+    {
+  question : 'The following are stages which a new product must pass through before it is finally commercialized except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "idea generation and screening stage", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "concept testing and business analysis", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "prototype development and product testing", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "product expansion and benefit evaluation", isCorrect: true },]
+  },
+    {
+  question : 'The developmental stages which a new product goes through right from when it is introduced to the market to the point of decline and extermination is known as', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "roduct maturity process", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "product generation stage", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "product life cycle", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "product development", isCorrect: false },]
+  },
+    {
+  question : 'The stages of product life cycle include  ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "introduction", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "growth", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "maturity", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'Which of the following is not a characteristic of services ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "tangibility", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "inseperability", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "heterogeneity", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "perishability and fluctuating demand", isCorrect: false },]
+  },
+    {
+  question : '........is the exchange value for goods or services ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "money", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "capital", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "price", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "cost", isCorrect: false },]
+  },
+    {
+  question : 'There are ........factors of production available to the entrepreneur', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "4", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "5", isCorrect: false },]
+  },
+    {
+  question : 'Which of the following is not a factor of production ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "land", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "labour", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "capital", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "plan", isCorrect: true },]
+  },
+    {
+  question : '..........is the technique of setting a low initial price in order to penetrate the market segment quickly and deeply to attract a large number of buyers and win large market share ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "price skimming strategy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "market penetration pricing strategy", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "product mix strategy", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "price policy strategy", isCorrect: false },]
+  },
+    {
+  question : 'There are .......basic types of pricing policies that marketers consider ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "4", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "5", isCorrect: false },]
+  },
+    {
+  question : 'The price of a mobile phone is set at N4, 999. This is an example of', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "unit pricing", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "odd pricing", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "promotional pricing", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "price flexibility", isCorrect: false },]
+  },
+    {
+  question : 'Which of the following is a type of pricing policies  ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "psychological pricing policy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "price flexibility policy", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "product line policy", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " all of the above.", isCorrect: false },]
+  },
+    {
+  question : 'Generally, there are three export pricing strategies from which marketers can choose except ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " a standard world – wide pricing", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "dual pricing", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "differentiating pricing", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "uniform pricing", isCorrect: true },]
+  },
+    {
+  question : 'One of the following is not a type of distribution intensity ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "intensive distribution", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "random distribution", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "selective distribution", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "exclusive distribution", isCorrect: false },]
+  },
+    {
+  question : 'The roles of distribution channels in marketing strategy include ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "they facilitate the exchange process of goods and services ?", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "they adjust discrepancies in the assortment of goods and services", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "distribution channels facilitate search behaviour for both buyers and sellers ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+    {
+  question : 'One of the following is not a type of conflict in channel management ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Diagonal", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "horizontal", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "vertical", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "inter-type", isCorrect: false },]
+  },
+    {
+  question : 'Conflicts in distribution channels can be resolved by using any or a combination of any of the following techniques except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "persuasion, negotiation or bargaining", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: ") mediation involving a third party ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "adoption of super-ordinate goals", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "threat or actual punishment ", isCorrect: true },]
+  },
+    {
+  question : 'One of the following is not a variable in the promotion mix ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "price", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "publicity", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "product", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "place", isCorrect: false },]
+  },
+    {
+  question : 'Which of the following is not an objective of promotion in marketing ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "provide information and increase demand", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "increase price and value", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "differentiate a product ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "stabilize sales", isCorrect: false },]
+  },
+    {
+  question : 'Advertising can be any one of the following except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "information", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "persuasive", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "sales", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "reminder", isCorrect: false },]
+  },
+    {
+  question : 'One of the following is not an advantage of effective advertising', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " reaches a large group of potential customers for a relatively low price per exposure", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "allow strict control over the final stage", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "an be adapted to either mass audience or specific audience segments ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "reduce product effectiveness", isCorrect: true },]
+  },
+    {
+  question : 'Which of the following level in the distribution chain is sales promotion not targeted at ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the customer", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the retailer", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "the customers` sales force", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "the manufacturer", isCorrect: true },]
+  },
+    {
+  question : 'Which of the following is not an advantage of sales promotion ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " it produces a more immediate consumer response", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "allows easier measurement of results", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "produces short term sales increases", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "produces long-term sales increases.", isCorrect: true },]
+  },
+    {
+  question : 'Advantages of public relations in a company include the following except', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "it can enhance the credibility of a company and its product", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " it is liable to create a possible attitude towards a company and its products", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "public relations create a false impression about a company and its products ", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "public relations can have a strong impact on public awareness at a much lower cost than advertising.", isCorrect: false },]
+  },
+    {
+  question : 'One of the following is not a demerit of public relations in a company ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "it may not permit accurate measurement of effect on sales", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "public relations, like sales promotion, are often described as a marketing stepchild", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "public relations are capable of building goodwill between the organization and the public", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "public relations involve much efforts directed toward non-marketing oriented goal", isCorrect: false },]
+  },
+    {
+  question : 'The advantage of personal selling include all but  ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "it elicits a more immediate response", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "it permits measurements of effectiveness ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "it involves high cost per contact", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "it allows tailoring of the message to fit customers.", isCorrect: false },]
+  },
+    {
+  question : 'One of the following is not a disadvantage of personal selling ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "it relies almost exclusively upon the ability and ingenuity of the sales forces", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "it permits measurements of effectiveness ", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "it involves high cost per contact ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+    {
+  question : 'The selling process include all except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "prospecting and qualifying", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "approach and presentation", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "demonstration and handling objections", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "computation and calculation of profit", isCorrect: true },]
+  },
+    {
+  question : 'The first stage in the selling process is  ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "demonstration", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "presentation", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "prospecting and qualifying", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "approach", isCorrect: false },]
+  },
+    {
+  question : 'The authority responsible for the policy implementation of Small and Medium Scale Enterprise in Nigeria is', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "he ministry of Trade and Industry", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the ministry of Commerce and Industry", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "the ministry of Finance and Industry ", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "the ministry of Finance and Foreign Affairs", isCorrect: false },]
+  },
+    {
+  question : 'IDCC was replaced with which of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "SON", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "NIPC", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "NEEDS", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "SEEDS", isCorrect: false },]
+  },
+      {
+  question : 'The Nigerian Investment Promotion Commission started operation in', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1979", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "1776", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "1997", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "1999", isCorrect: false },]
+  },
+       {
+  question : 'The Industrial Development Centres was perform the following functions except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Establishment of industries", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "technical services to SMEs ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "training of SMES workers", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "consultancy service to the proprietors and managers of SME", isCorrect: false },]
+  },
+       {
+  question : 'Raw Materials Research and development Council was established by decree No. 39 of', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1992", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "1987", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "1987", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "1979", isCorrect: false },]
+  },
+       {
+  question : 'The........ is the apex institution in Nigeria that is responsible for ensuring the development and sustenance of high quality environment', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "LEPA", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "SON", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "NAFDAC", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+ ];

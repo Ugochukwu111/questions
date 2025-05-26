@@ -10,7 +10,9 @@ export const courses = [
 
   {id: 'id-2', code:'ENT 211', difficulty:'Hard', name: 'Enterpreneurship Development', type:'Multiple choice', part: 'A', coursequestion: 'questionBank3'},
 
-   {id: 'id-2', code:'ENT 211', difficulty:'Hard', name: 'Enterpreneurship Development', type:'Multiple choice', part: 'B', coursequestion: 'questionBank3B'},
+   {id: 'id-2', code:'ENT 211', difficulty:'Hard', name: 'Enterpreneurship Development', type:'Multiple choice', part: 'B', coursequestion: 'questionBank3B'}, 
+
+    {id: 'id-2', code:'ENT 211', difficulty:'Hard', name: 'Enterpreneurship Development', type:'Multiple choice', part: 'C', coursequestion: 'questionBank3C'},
 
 ];
 
