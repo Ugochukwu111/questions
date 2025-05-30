@@ -296,3 +296,6 @@ if (quizState.noRightAnswers <= questionBank.length / 2){
   }
 return message;
 }
+
+
+function showResult(){}
