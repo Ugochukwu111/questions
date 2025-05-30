@@ -46,6 +46,8 @@ h3 {
   height: 55px;
   align-items: center;
   justify-content: center;
+  pointer-events: none;
+ background-color: var(--dull-white);
 }
 
 

@@ -503,77 +503,6 @@ export let questionBank1 = [
 ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // phylosiphy and logi === questionBank2
 
 export let questionBank2 = [
@@ -1076,8 +1005,6 @@ export let questionBank2 = [
   ]
 },/*Finished at 03:01 AM....that's 50 questions right?*/
 ]
-
-
 
 
 // ENT START
@@ -2446,5 +2373,710 @@ export let questionBank3 = [
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "SON", isCorrect: true },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "NAFDAC", isCorrect: false },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+ ];
+
+
+
+
+ // ENT TYPE D QUESTIONS START
+ export let questionBank3D = [
+ {
+  question : 'Under SMEEIS, banks are required to set aside what percentage of their profit before tax for investment in SMEs ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "10%", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "15%", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "20%", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "25%", isCorrect: false },]
+  },
+   {
+  question : 'Agricultural Credit Guarantee Scheme Fund was established in ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1777", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "1977", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "1877", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "1776", isCorrect: false },]
+  },
+   {
+  question : 'The distinguishing features of micro finance to other formal financial products include all except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "absence of asset based collateral", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "smallness of loan advance", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "complexity of operation", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "simplicity of operation", isCorrect: false },]
+  },
+   {
+  question : 'Sole proprietorship is an unincorporated business owned by ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "one person", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "two persons", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "three persons", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "four persons", isCorrect: false },]
+  },
+   {
+  question : 'A defining feature of the sole proprietorship is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "at least one limited partner and one general partner", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "unlimited liability and unshared responsibility", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "limited responsibility", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'A sole proprietor is vulnerable to the following challenges except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "unlimited resources", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "unlimited and unshared liability", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "business cessation ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'The article of partnership does not include one of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " names of partner", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "nature of business to be conducted", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "capital contribution of each partners", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "matital status of each partners", isCorrect: true },]
+  },
+   {
+  question : 'The dividend received by shareholders are paid net of tax – withholding tax – is presently charged at ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "5%", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "10%", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "15%", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "20%", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following statement about partnership is correct ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "each partner must obtain the consent of all other partners for each business transaction", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "each partner can sell his or her interest to a third party without the consent of the other", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "all of the above", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'The following are the common legal forms of business outfit which an entrepreneur has to consider in choosing a business ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "sole proprietorship", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "partnership ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "limited liability company", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: false },]
+  },
+   {
+  question : 'A number of factors may guild an entrepreneur in the choice of an appropriate legal form for his business. These include all except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "control and transferability of ownership", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "taxes and liability", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "profit and customer strength", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "capital and the longevity of the business", isCorrect: false },]
+  },
+   {
+  question : 'The principal law that regulate the establishment and regulation of business enterprises in general is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Standard Organization of Nigeria ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Company and Allied Matter Acts", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Small and Medium scale Enterprise Development Agency", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : '____ is a type of contract that can only be enforced if writing is signed, sealed and delivered ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "simple contract", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "contract by deed", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " express contract", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "quasi contract", isCorrect: false },]
+  },
+   {
+  question : 'For there to be valid contract all of these must be present except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "consideration", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "intention to create social relations", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "offer", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "acceptance", isCorrect: false },]
+  },
+   {
+  question : 'In one of the National Dailies, University of Benin, Benin City published an advertisement requesting suitably qualified candidates to apply for admission into her B. Agriculture (Part -Time) programme. In the law of contract, this is called', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "subrogation", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "acceptance", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "invitation to treat", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "consideration", isCorrect: false },]
+  },
+   {
+  question : 'An offer cannot be terminated in one of the following way ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "revocation and rejection", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " lapse of time or death of the offer", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " failure of condition", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "consideration and acceptance.", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following has the legal capacity to enter into contract ?',  
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " the minors of infants", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the illiterates", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "competent authority", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "the drunkard", isCorrect: false },]
+  },
+   {
+  question : 'Contract ultra vires means', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "expansion", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "illegal", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "legal", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "valid", isCorrect: false },]
+  },
+   {
+  question : 'There are ____ specific ways by which contract can be discharge ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "4", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "5", isCorrect: false },]
+  },
+   {
+  question : 'Contract cannot be discharge by one of the following way ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "by frustration", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "by agreement", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "by breach", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " by deed", isCorrect: true },]
+  },
+   {
+  question : 'When a party fail to fulfil his legal obligation in a contract, such act is known as ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "damages", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "breach", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "ultra vires", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'One of the following is not a remedy to breach of contract ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "specific performance", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "damages", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "injunction", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "conclusion", isCorrect: true },]
+  },
+   {
+  question : '____ is the compensation awards in excess of the actual loss sustained by an innocent party to serve as a deterrent to other would-be parties who break contract obligation ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "damages", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "exemplary damages", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "substantial damages", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "nominal damages", isCorrect: false },]
+  },
+   {
+  question : '____ is an amount considered by a court to be paid to an innocent party in the case of contract breach after assessing the level of damages', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "remedy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "fine", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "penalty", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "cost", isCorrect: false },]
+  },
+   {
+  question : 'Where a court feels that damages will be inadequate to remedy for a breach of contract, the court may order the offending party to do what he promised to do. This is known as ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "penalty", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "discretionary remedy", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "legal remedy", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "exemplary remedy", isCorrect: false },]
+  },
+   {
+  question : 'The Labour Act specifies the working age in Nigeria to be?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "18", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "21", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "16", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "12", isCorrect: false },]
+  },
+   {
+  question : 'The contract that requires a person to work, having full control and directive of how the job should be done is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "contract of employment", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "contract for employment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "contract in employment", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'Incapacities can be classified on two bases. On the basis of Duration of Injury and on the basis of Nature of injury ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "True", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "False", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "probably", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "maybe", isCorrect: false },]
+  },
+   {
+  question : 'In accordance to section 7 of the workmen compensationAct, a workman who sustains an injury leading to partial disability but of permanent nature shall get 54 months earnings subject to the percentage of disability. If Lawrence sustains permanent partial disability of about 70% and his monthly salary is N19,500, then he will be entitle to', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "N370, 700", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " N737,100", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "NOTA", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: false },]
+  },
+   {
+  question : 'The Factory Act requires every organization to provide for his workers the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "first Aid Box and equipment ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "fence round any dangerous equipment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "safety wears", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : '____ is the extant mark which regulates the use of trademarks or service marks in Nigeria ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Trade Marks Laws", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Trade Marks Act ", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Trade Mark Regulation ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: false },]
+  },
+   {
+  question : 'At the time of Christ ____ was responsible for the collection of tax', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "middle men", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the republicans", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "the civil servants", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "the Gentiles", isCorrect: false },]
+  },
+   {
+  question : 'Adam Smith wrote the book entitled “the Wealth of Nation” in', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1976", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "1776", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "1996", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "1777", isCorrect: false },]
+  },
+   {
+  question : 'Adam Smith identified the following basic characteristics of a tax system except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "canon of inequality", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "canon of certainty", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "canon of convenience", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " canon of economy", isCorrect: false },]
+  },
+   {
+  question : 'Tax ....... is a criminal offence ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "avoidance", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "evasion", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "non compliance", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "falsification", isCorrect: false },]
+  },
+   {
+  question : 'Taxes can be classified into ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "4", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "5", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following is a not type of direct tax ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " Personal Income Tax", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Company Income Tax ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Value Added Tax", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Capital Gains Tax.", isCorrect: false },]
+  },
+   {
+  question : 'The tax regime that allows payment according to ability is known as', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "pay as you earn", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "advalorem regime ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "provisional regime", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "purchase tax regime", isCorrect: false },]
+  },
+   {
+  question : 'All of the following are allowable expenses for tax purpose except', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "interest on loan taken to finance business", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "bad debt written - off", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " rent of accommodation for the staff subject to the annual basic salary of the staff ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  },
+   {
+  question : 'Value Added Tax (VAT) was introduced in Nigeria in ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1992", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "1994", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "1979", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "1999", isCorrect: false },]
+  },
+   {
+  question : '...... is the standard document that tells us how well a business is performing and where it stands in financial terms ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "receipt ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "accounting statement", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "financial statement", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "income statement", isCorrect: false },]
+  },
+   {
+  question : 'The following are forms of financial statement except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "statement of cash flow", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "balance sheet", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " income statement", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "cash expenditure", isCorrect: true },]
+  },
+   {
+  question : 'The presentation of simple financial statement usually take two formats (i) the traditional (ii) the orthodox (iii) the vertical (iv)horizontal ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "i & ii", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " i only", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "i & iii", isCorrect: true},
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "i, ii & iii", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following statement is not correct about cash flow', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "cash is more important than profit", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "profit is more important than cash", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "profit is only an illusion", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "cash is the ultimate reality", isCorrect: false },]
+  },
+   {
+  question : 'One of the following is not a method of preparing cash flow statement', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "direct method", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "indirect method", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "simple method", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+   {
+  question : 'Etymologically, ethics comes from..... Word “ethicus”', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Latin", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Greek", isCorrect: false},
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "French", isCorrect: false},
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "German", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following is a factor that influences ethics ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "personal experience, peer group or the rule of law", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "societal culture, personal values and aspirations and social organization", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "situation, family influences and the mass media", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  },
+   {
+  question : 'There are ____ principles of ethics ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "4", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "5", isCorrect: false },]
+  },
+   {
+  question : 'The following are principles of ethics except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the good must be avoided", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the good must be done", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "the evil must be avoided", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "when one is faced with two evil, the lesser evil should be chosen", isCorrect: false },]
+  },
+   {
+  question : 'Which of the following is correct about the principle of rationality', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "we must be concerned with promoting thewell-being of all human beings and not only our own", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "we should strive to act intelligently especially when it comes to dealing with our employees and esteemed customers ", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "we should be neutral, fair, unbiased, not supporting one group more than another", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " in trying to promote human fulfilment, good intentions are not enough. One must endeavour to use effective mean", isCorrect: false },]
+  },
+ ];
+
+
+//  ENT TYPE E QUESTIONS START
+ export let questionBank3E = [
+     {
+  question : 'Which of the following is correct about the principle of Efficiency ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "we must be concerned with promoting the well-being of all human beings and not only our own", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "we should strive to act intelligently especially when it comes to dealing with our employees and esteemed customers", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "we should be neutral, fair, unbiased, not supporting one group more than another", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "in trying to promote human fulfilment, good intentions are not enough. One must endeavour to use effective means", isCorrect: true },]
+  },
+     {
+  question : 'Which of the following is correct about the principle of refraining from willing harm to a human being ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "one should not choose directly to harm a human being either emotionally, physically, economically, socially or otherwise ", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "we should strive to act intelligently especially when it comes to dealing with our employees and esteemed customers ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "we should be neutral, fair, unbiased, not supporting one group more than anothe", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " in trying to promote human fulfilment, good intentions are not enough. One must endeavour to use effective means", isCorrect: false },]
+  },
+     {
+  question : 'Which of the following is correct about the principle of objectivity ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "we must be concerned with promoting the well-being of all human beings and not only our own", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "we should strive to act intelligently especially when it comes to dealing with our employees and esteemed customers", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "we should be neutral, fair, unbiased, not supporting one group more than another", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " in trying to promote human fulfilment, good intentions are not enough. One must endeavour to use effective means", isCorrect: false },]
+  },
+     {
+  question : 'Which of the following is correct about the principle of co-operation in immorality ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "we must be concerned with promoting the well-being of all human beings and not only our own", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "we should strive to act intelligently especially when it comes to dealing with our employees and esteemed customers", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "under certain situations, it is logical and reasonable to co-operate with others who may in any way engage in immoral actions ", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "in trying to promote human fulfilment, good intentions are not enough. One must endeavour to use effective means. ", isCorrect: false },]
+  },
+     {
+  question : 'Stoner et al identified ...... categories of ethical questions ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "2", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "4", isCorrect: true },]
+  },
+     {
+  question : 'The basic ethical tools include which of the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Moral Rules ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Rights and Duties", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Values ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: false },]
+  },
+     {
+  question : 'Which of the following is not a model of ethics', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Utilitarian mode", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Moral rights model", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Justice model", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+     {
+  question : 'Jones et al identified ____ major sources of code of ethics in an organization ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "2", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "4", isCorrect: false },]
+  },
+     {
+  question : 'Which of the following is not a major source of code of ethics identified by Jones et al ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "societal ethics", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "professional ethics", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "elite ethics", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "individual ethics", isCorrect: false },]
+  },
+     {
+  question : 'There are ____ approaches to social responsibility ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "2", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "4", isCorrect: false },]
+  },
+     {
+  question : 'Which of the following is not an approach to social responsibility?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " reactive", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "proactive", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "obstructionist and the defensive ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "none of the above", isCorrect: true },]
+  },
+     {
+  question : 'Which of the following is correct about stakeholder', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "stakeholders can be primary or secondary", isCorrect:true},
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "stakeholders can be primary, secondary or tertiary", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " stakeholders can be secondary or tertiary", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: ") stakeholders can be primary or tertiary", isCorrect: false },]
+  },
+     {
+  question : 'Owners of share holders, employees, customers, business partners, communities, future generation and the natural environment can be regarded to as', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "primary stakeholders", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "secondary stakeholders", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: " tertiary stakeholders", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above. ", isCorrect: false },]
+  },
+     {
+  question : 'Public or special interest group in an organization for example, Local, State and Federal government, and civil institution are regarded as ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "primary stakeholders", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "secondary stakeholders", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "tertiary stakeholders ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above.", isCorrect: false },]
+  },
+     {
+  question : 'In a business there are ..... ethical question', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "1", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "2", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "4", isCorrect: true },]
+  },
+     {
+  question : 'Which of the following is a level of ethical question in business ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "societal level ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "stakeholder level ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Internal policy level", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true },]
+  },
+     {
+  question : 'The models of ethical decisions include', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "utilitarian ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "moral right", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "social justice", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true },]
+  },
+     {
+  question : 'The book title “the Gospel of wealth” was published by', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Andrew Carnegie", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Karl Marx", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Max Weber", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+     {
+  question : 'Which of these statement is true', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Andrew Carnegie Gospel supported and promoted the doctrine of corporate social responsibility based on the charity principle and the stewardship principle", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Andrew Carnegie Gospel opposed and challenged the doctrine of corporate social responsibility based on the charity principle and the stewardship principle", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Karl Marx Gospel supported and promoted the doctrine of corporate social responsibility based on the charity principle and the stewardship principle", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Andrew Carnegie Gospel opposed and challenged the doctrine of corporate social responsibility based on the charity principle and the stewardship principle", isCorrect: false },]
+  },
+     {
+  question : 'Corporate social responsibility entails the following except', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "anticipating new social demands", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "leading the way", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "meeting recognized public expectations", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "disobedience to constituted authority", isCorrect:true },]
+  },
+     {
+  question : 'The monthly contribution by employers to the pension fund is', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "7.5%", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "15%", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "5%", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "2.5%", isCorrect: false },]
+  },
+     {
+  question : 'The Personal Income Tax Act (PITA) of 2011 specified a consolidated tax allowance of', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "200,000", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "200,000 + 20% of total income", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "2% of total income", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "100,000 + 2% of total income.", isCorrect: false },]
+  },
+     {
+  question : '......... states that the owner is different from the business for accounting purpose', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: " periodic concept", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: " accrual concept", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "separate entity concept ", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "matching concept", isCorrect: false },]
+  },
+     {
+  question : 'Unrelieved losses can be carried forward for a maximum of ...... years from the year of assessment', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "One", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "two", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "three", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "four", isCorrect: true },]
+  },
+     {
+  question : '.......... is one of the formal sources of discovering business opportunity in the entrepreneurship literature', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "self discovery", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "existing product", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "business journal", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true },]
+  },
+     {
+  question : 'The final stage of a new product development process is', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "product marketing ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "commercialization", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "test marketing", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "product promotion", isCorrect: false },]
+  },
+     {
+  question : 'The following are ways of dealing with conflicts in firms except', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "avoidance", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "contentment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "utilization of solution", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "diffusion", isCorrect: false },]
   },
  ];
