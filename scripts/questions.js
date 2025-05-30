@@ -2,7 +2,6 @@
 import { questionBank1, questionBank2 , questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E} from './questionBank.js';
 import { getNotificationBox, getRandomMessage , hideSpinner} from "./reuseablefunc.js";
 import { retryMessages, EncouragementMessages , SuccessMessages , ImprovementMessages }  from "./compliments.js";
-//import { Analytics } from "@vercel/analytics/next";
 
 
  document.addEventListener('DOMContentLoaded', () => {
