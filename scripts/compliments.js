@@ -11,7 +11,7 @@ export const homePageGreetings = [
 //  'Hello hello, energetic user! ⚡️',
 //  'Welcome back, shining user! 🌞',
 //  'Hey, unstoppable user! 💥',
-'please note questions will  be inassessible once ENT commerce to avoid cheating good luck in your exams!!!🤝,  if you found this site helpful you can contat us email us at the bottom of the page "we love to see your reviews!!✅, as it helps us improve the site."',
+'Please note that questions will  be inassessible once ENT commerce to avoid cheating good luck in your exams!!!🤝,  if you found this site helpful you can contact us email us at the bottom of the page "we\'ll love to see your reviews!!✅, as it helps us improve the site."',
 ];
 
 export const retryMessages = [
