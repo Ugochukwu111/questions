@@ -3357,9 +3357,9 @@ export let questionBank3 = [
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Small business", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Start-Up", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Start-Up", isCorrect: true },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Cooperation", isCorrect: false },
-    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Company CEO", isCorrect: true }, ]
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Company CEO", isCorrect: false }, ]
   },
     {
   question : 'Which of the following is a concept for new product or services ?', 
@@ -3465,8 +3465,8 @@ export let questionBank3 = [
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Market research", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Environmental scanning", isCorrect: true },
-    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "innovation brain storming", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Environmental scanning", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "innovation brain storming", isCorrect: truee },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "social listing and monitoring", isCorrect: false }, ]
   },
      {
