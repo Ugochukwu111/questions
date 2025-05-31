@@ -3466,7 +3466,7 @@ export let questionBank3 = [
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Market research", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Environmental scanning", isCorrect: false },
-    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "innovation brain storming", isCorrect: truee },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "innovation brain storming", isCorrect: true },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "social listing and monitoring", isCorrect: false }, ]
   },
      {
