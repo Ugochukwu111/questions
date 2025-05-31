@@ -1015,7 +1015,7 @@ export let questionBank3 = [
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the relaxation of most restriction of current and capital transfer", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the introduction of tax relief formulti-nationals willing to invest in the country", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the introduction of tax relief for multi-nationals willing to invest in the country", isCorrect: false },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "improved access to foreign exchange at near market rates", isCorrect: false },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
   },
@@ -1164,7 +1164,7 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "facilitate the transfer of technology", isCorrect: false },]
   },
     {
-  question : 'The process of discussing a business plan with friends and advisers in order to reduce the risk of failure and losimoney is known as ?', 
+  question : 'The process of discussing a business plan with friends and advisers in order to reduce the risk of failure and losing money is known as ?', 
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "enquiry", isCorrect: false },
@@ -1201,7 +1201,7 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "a feasibility document.", isCorrect: false },]
   },
     {
-  question : 'Feasibility study can be use to determine which of the following ?', 
+  question : 'Feasibility study can be used to determine which of the following ?', 
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the demand for the intended product/project or services ", isCorrect: false },
@@ -1214,7 +1214,7 @@ export let questionBank3 = [
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "narrow business alternatives and identify new business opportunities", isCorrect: false },
-    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "provides quality information for decision making and enhance theprobability of success of a business idea and identify reasons to", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "provides quality information for decision making and enhance the probability of success of a business idea and identify reasons to", isCorrect: false },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "provides documentation that business venture was thoroughly investigated and helped in securing loan/fund from lending institutions and other monetary sources", isCorrect: false },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
   },
@@ -1341,7 +1341,7 @@ export let questionBank3 = [
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "respect for those already existing in an organization", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "learning from initial setback", isCorrect: false },
-    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "oo big to change or inability to change", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Too big to change or inability to change", isCorrect: true },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
   },
          {
@@ -3078,5 +3078,212 @@ export let questionBank3 = [
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "contentment", isCorrect: false },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "utilization of solution", isCorrect: true },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "diffusion", isCorrect: false },]
+  },
+      {
+  question : 'The number of taxes authorized by the acts to be be collected by local Government ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "20", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "11", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "15", isCorrect: false },]
+  },
+       {
+  question : 'which of the following is not included in taxes to be collected by the state government ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "personnal income tax", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "withholding tax", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "tenement rates", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "value added tax", isCorrect: false },]
+  },
+       {
+  question : 'Which of the following errors affects the trial balance ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "error of omission", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "compensation error", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "error of principle", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "error of comission", isCorrect: false },]
+  },
+       {
+  question : 'Which of the following is  not a component of feasibility study ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Analysis and Decision making", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Product quality survey", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Market share and ompetition", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "staffing levels", isCorrect: true },]
+  },
+       {
+  question : 'Which of the following is not a source of business opportunity ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Self discoveery", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "joint effort ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "break through", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "franchise", isCorrect: false },]
+  },
+       {
+  question : 'Selecting a business opportunity includes the following ?' , 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Business experience", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "scanning external environment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Evaluate business plan", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "SWOT", isCorrect: false },]
+  },
+       {
+  question : 'process of employing the right people include the following ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Job analysis", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Section tests", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Interview", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Placement and training", isCorrect: false },]
+  },
+       {
+  question : 'which of the following is not a selection process ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Reception", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Screening", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Tests", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Recruitment", isCorrect: false },]
+  },
+       {
+  question : '____ is defiine as the process by which different companies of firms differentiate their product offering from that of competitors ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Brand mark", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Branding", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Brand image", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Brand equity", isCorrect: false },]
+  },
+       {
+  question : 'Brand image is the set of beliefs that consumer hold about a particukar brand ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "True", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "False", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "True or False", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+       {
+  question : 'One of these is not a type of brands', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Manufacturers brand", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Own label brand", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Brand mark", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Generic brand", isCorrect: false },]
+  },
+    {
+  question : 'A component of the current assets in the balance sheet is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Dividend", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "debtors", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "overdraft", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "profit", isCorrect: false },]
+  },
+       {
+  question : 'Which of the following is not a dimension of cooperate social responsibility ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "responsibility to the government", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "responsibility to customers", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "responsibility to employees", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "responsibility to investors and share-holders", isCorrect: false },]
+  },
+       {
+  question : 'Factors that play vital roles in the formation of individual and organisational ethics and values includes the ollowing but ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Personal experience", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Societal culture", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "immorality", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "family influence", isCorrect: false },]
+  },
+  {
+  question : 'One of the following is not a characteristics of a successful entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "optimistic", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "dynamic leader", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Creativity", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "criticism of market", isCorrect: true },]
+  },
+  {
+  question : 'The Nigerian Law requires that before a company commences BUssiness, it has to be duely registered with', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "CAMA", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "CAC", isCorrect:  true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "SON", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NAFDAC", isCorrect: false },]
+  },
+       {
+  question : 'foremen are examples of ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Middle level Staff", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "First Level Staff", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Top level staff", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Strategic level staff", isCorrect: false },]
+  },
+       {
+  question : 'An approach to entrepreneurship that is concerned with the personality traits of the entrepreneur is?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Psychological", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Sociological", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Economic", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Management", isCorrect: false },]
+  },
+       {
+  question : 'The amount to  which a tax rate is applied is called ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Tax base", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Tax yeild", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Average tax rate", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Marginal Tax rate", isCorrect: false },]
+  },
+       {
+  question : 'The act of sing a brand name to launch a new or modified product in a new category is ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Brand image", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Brand extension", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Brand Equity", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Brand mark", isCorrect: false },]
+  },
+       {
+  question : 'The statuary body vested with the responsibility, the quality of all product in Nigeria is?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "National agency for food and drug adminstration control", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Cooperate affairs Comission", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Manufacturer association of Nigeria", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Standard orginization of Nigeria", isCorrect: true },]
+  },
+       {
+  question : 'The practice in accounting where financial transactions are recorded, on their practical reality instead  of their legal form  is known as ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Materiality", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Prudence", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Objectivity", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Substance over form", isCorrect: false },]
+  },
+       {
+  question : 'A long term debt finance raised by a company for which interest is paid at a fix rate is known as', 
+  answeredCount: 0, 
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "equity financing", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "finance lease", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "bank loan", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "hire purchase", isCorrect: false },]
   },
  ];
