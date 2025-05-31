@@ -1,16 +1,17 @@
 // contains all my compliments
 
 export const homePageGreetings = [
- 'Hey, awesome user! 🌟',
- 'Hello, superstar user! 🚀',
- 'Good day, fantastic user! 😄',
- 'Hi there, brilliant user! ✨',
- 'What’s up, rockstar user! 🤘',
- 'Yo, amazing user! 🎉',
- 'Hey hey, champion user! 🏆',
- 'Hello hello, energetic user! ⚡️',
- 'Welcome back, shining user! 🌞',
- 'Hey, unstoppable user! 💥',
+//  'Hey, awesome user! 🌟',
+//  'Hello, superstar user! 🚀',
+//  'Good day, fantastic user! 😄',
+//  'Hi there, brilliant user! ✨',
+//  'What’s up, rockstar user! 🤘',
+//  'Yo, amazing user! 🎉',
+//  'Hey hey, champion user! 🏆',
+//  'Hello hello, energetic user! ⚡️',
+//  'Welcome back, shining user! 🌞',
+//  'Hey, unstoppable user! 💥',
+'please note questions will  be inassessible once ENT commerce to avoid cheating good luck in your exams!!!🤝,  if you found this site helpful you can contat us email us at the bottom of the page "we love to see your reviews!!✅, as it helps us improve the site."',
 ];
 
 export const retryMessages = [

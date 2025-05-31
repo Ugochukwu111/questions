@@ -1,13 +1,11 @@
-//array that holds all my questions
-import { questionBank1, questionBank2 , questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E} from './questionBank.js';
+
+import { questionBank1, questionBank2 , questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E, questionBank3F} from './questionBank.js';
 import { getNotificationBox, getRandomMessage , hideSpinner} from "./reuseablefunc.js";
 import { retryMessages, EncouragementMessages , SuccessMessages , ImprovementMessages }  from "./compliments.js";
 
 
  document.addEventListener('DOMContentLoaded', () => {
   hideSpinner();
-  // const nav = document.getElementsByTagName('nav')[0];
-  // nav.classList.add('show');
 });
 
 
@@ -20,7 +18,8 @@ const questionBankMap = {
   questionBank3B,
   questionBank3C,
   questionBank3D,
-  questionBank3E
+  questionBank3E,
+  questionBank3F
 };
  
 const questionBank = questionBankMap[selected];

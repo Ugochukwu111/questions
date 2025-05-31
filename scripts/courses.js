@@ -17,5 +17,7 @@ export const courses = [
   {id: 'id-2', code:'ENT 211', name: 'Enterpreneurship Development', type:'Multiple choice', part: 'D', coursequestion: 'questionBank3D'},
 
   {id: 'id-2', code:'ENT 211', name: 'Enterpreneurship Development', type:'Multiple choice', part: 'E', coursequestion: 'questionBank3E'},
+
+  {id: 'id-2', code:'ENT 211', name: 'Enterpreneurship Development', type:'Multiple choice', part: 'F', coursequestion: 'questionBank3F'},
 ];
 

@@ -1464,7 +1464,6 @@ export let questionBank3 = [
 ]
 
 
-
 // ENT START
 // questionBank3 TYPE B
  export let questionBank3B = [
@@ -3287,3 +3286,232 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "hire purchase", isCorrect: false },]
   },
  ];
+
+
+ let questionBank3F = [
+  {
+  question : '___ is an individual who percieve a need for a product or service and take the initiative to produce ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "employer", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "entrepreneur", isCorrect: true},
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "strategist", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "sharreholder", isCorrect: false }, ]
+  },
+    {
+  question : '___ is the most notable function of an entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Produce goods and services", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Sourcing capital ", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Employment of labour", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "discovery of oppottubity", isCorrect: false }, ]
+  },
+    {
+  question : 'An entrepreneur is driven by all the following except ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "accomplishment something", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "conducting innovative experiments", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "drive to impress others", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "drive for self independent", isCorrect: false }, ]
+  },
+    {
+  question : 'Which of the following is not a feature of successful entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "risk averse", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "curiosity", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "team building", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "innovation", isCorrect: false }, ]
+  },
+    {
+  question : 'Which best describe the process of starting up a business ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "entrepreneur", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "enterprise", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "entrepreneurship", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "entrepreneur", isCorrect: false }, ]
+  },
+    {
+  question : '___ is not a form of debt financing ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "commercial papers", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "debentures", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "retained earnings ", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "take credit", isCorrect: true }, ]
+  },
+    {
+  question : 'Entrepreneurship contribute to the development of the economy through the following except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "breed politicians", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "generate employment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "wealth creation", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "improve standard of living", isCorrect: false }, ]
+  },
+    {
+  question : 'Which of the terms is more closely associated with the term entrepreneur ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Small business", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Start-Up", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Cooperation", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Company CEO", isCorrect: true }, ]
+  },
+    {
+  question : 'Which of the following is a concept for new product or services ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "business oppoertunities", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "concept formartion", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "business idea", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "ideation", isCorrect: false }, ]
+  },
+    {
+  question : 'Which of the following best describe market gap that can be exploited for potential profits ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "business opportunities", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "angel venture", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "business idea", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Start-Ups", isCorrect: false }, ]
+  },
+    {
+  question : '____ determines weather entrepreneurial venture is possible', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Market research", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Maraketing research", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Business plan", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Feasibility study", isCorrect: true }, ]
+  },
+    {
+  question : 'which do not describe ways in which partner ship is formed ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "oral agreement", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "partnership deed", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "registion", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "by conduct", isCorrect: false }, ]
+  },
+    {
+  question : 'which of the following is not a source of financing for startups?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Crowd funding", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "venture capital", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "initial public offer", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "angel financing", isCorrect: false }, ]
+  },
+    {
+  question : 'business opportunities are grouped into ____ and ____', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "foreign and local opportunities", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "siple and complex", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "individual and cooperate", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "internal and external", isCorrect: true }, ]
+  },
+    {
+  question : 'every business idea with a prospect for growth must have the following except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "solve customer problem", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "patent", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "have a prospective market", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "be innovative", isCorrect: false }, ]
+  },
+    {
+  question : 'One of the following least describe sources of business idea ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Financial statement", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "development in other nations", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "observing market", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "franchise", isCorrect: true }, ]
+  },
+    {
+  question : 'The work of micheal potter explains ___', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "SWOT", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "PESTEL", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "FIVE FORCES", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOISE", isCorrect: false }, ]
+  },
+    {
+  question : 'Which of the following does not qualify a business opportunity ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "high gross margin", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "saturated market", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "potential for residual income", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "potential to reach break even cash flow", isCorrect: false }, ]
+  },
+    {
+  question : 'Which least describes source of business opp?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Economic changes", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Inate abilities", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Unsatisfied needs", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Social changes", isCorrect: false }, ]
+  },
+    {
+  question : 'Which of the method of identifying business opp involve constant search for new ways and methods in creating value for customers ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Market research", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Environmental scanning", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "innovation brain storming", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "social listing and monitoring", isCorrect: false }, ]
+  },
+     {
+  question : '___ see an entrepreneur as one that exploit business opp ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "profitier", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "philosopher", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "psychologist", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "economist", isCorrect: true }, ]
+  },
+     {
+  question : '___ sees an entrepreneur driven by heuristic based logic ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "profitier", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "philosopher", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "psychologist", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "economist", isCorrect: false }, ]
+  },
+     {
+  question : 'Which of the type of business opp allows an entrepreneur to utilise existing business model of another business to develop their own business at a lower risk ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "marketing", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "franchising", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "distributorship", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "licensing", isCorrect: false }, ]
+  },
+     {
+  question : 'One of the following do not describe the relationship between business opportunity and a business concept ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Value proposition", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Identification", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Alignment", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Viability assessment", isCorrect: false }, ]
+  },
+     {
+  question : '___ is a critical initial step in launching a new business ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Execution strategy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Risk assessment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Feasibility study", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Revenue model", isCorrect: false }, ]
+  },
+ ]
