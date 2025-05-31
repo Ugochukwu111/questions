@@ -3288,7 +3288,7 @@ export let questionBank3 = [
  ];
 
 
- let questionBank3F = [
+ export let questionBank3F = [
   {
   question : '___ is an individual who percieve a need for a product or service and take the initiative to produce ? ', 
   answeredCount: 0,
