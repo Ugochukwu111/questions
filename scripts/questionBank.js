@@ -1267,7 +1267,7 @@ export let questionBank3 = [
   question : '____ are ongoing cost which can be separated into fixed costs and variable costs ?', 
   answeredCount: 0,
   options: [
-    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Start up costs/capita", isCorrect: false },
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Start up costs/capital", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: "operating/production costs", isCorrect: true },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "revenue analysis", isCorrect: false },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "source fund.", isCorrect: false },]
@@ -1330,7 +1330,7 @@ export let questionBank3 = [
   question : 'which of the following is an essential factor that determines the success of a new business venture ', 
   answeredCount: 0,
   options: [
-    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "anagerial expertise and industry experience", isCorrect: false },
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "managerial expertise and industry experience", isCorrect: false },
     { id: "q0_2", userSeletedOPtion: false, label: "B", text: " superior responsiveness to customers and regard for competitors", isCorrect: false },
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "continuous improvement and learning and overcoming inertia", isCorrect: false },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true },]
@@ -1345,7 +1345,7 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
   },
          {
-  question : 'superior responsiveness to customers mean the following ?', 
+  question : 'superior responsiveness to customers mean the following except?', 
   answeredCount: 0,
   options: [
     { id: "q0_1", userSeletedOPtion: false, label: "A", text: "acting as a superior to your customers", isCorrect: true },
