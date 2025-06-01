@@ -175,6 +175,7 @@ button{
   cursor: pointer;
   font-weight: bolder;
   font-size: .9rem;
+  text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
   transition: all 350ms ease;
 }
@@ -270,7 +271,6 @@ footer >*{
 
 .footer-content{
   font-size: 1.2rem;
-  list-style: 1.6;
 }
 
 
@@ -419,11 +419,11 @@ footer ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .5em;
+  gap: .3em;
   transition: all 350ms ease;
 }
 .text-icon-container:hover svg{
-  transform: scale(1.15);
+  transform: scale(1.1);
   transition: all 350ms ease;
 }
 

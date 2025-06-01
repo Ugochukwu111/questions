@@ -23,8 +23,7 @@ const questionBankMap = {
 };
  
 const questionBank = questionBankMap[selected];
-//in  the array of objects above for every question their is an answer count indicates 
-// whether the user gets the answer or not
+
 
 
 const quizState = {
@@ -63,7 +62,8 @@ let checkAnswer = function (selectedIndex, optionId){
   // setTimeout(nextQuestion, 1000)//after user selects an answer waits 1 secs and move to the next question
  
 }
-//this function displays my questions an options
+
+//this function displays my questions and options
 function showQuestion(){
   document.querySelector('.question')
   .innerHTML = `<h3>${questionBank[quizState.currentQuestion].question}</h3>`;
@@ -93,27 +93,31 @@ function showQuestion(){
 
   restoreSelectedOption()
 }
-
 showQuestion()// immiedately show question once page loads
-
 
 
 function nextQuestion(){
   quizState.currentQuestion++ //adds 1 to quizState.currentQuestion
-  //this makes sure the addition of 1 to quizState.currentQuestion does not exceed the questions length
+
     if (quizState.currentQuestion === questionBank.length) {
-     quizState.currentQuestion = questionBank.length - 1;
-     addsCorrectAnswers()
-     getCorrectWrongAnswer()
-     document.querySelector('.result-container').style.display = 'grid';
-    //  document.querySelector('.score-el').textContent = `${quizState.score} / ${questionBank.length}`
-      showResult()
+     quizState.currentQuestion = questionBank.length - 1;  //this makes sure the addition of 1 to quizState.currentQuestion does not exceed the questions length,
 
 }
 //now quizState.currentQuestion is 1 which will show the next question
     showQuestion() //displays curent question
 }
 document.querySelector('.next-question-btn').addEventListener('click', nextQuestion);
+
+
+function submit(){
+      addsCorrectAnswers()
+     getCorrectWrongAnswer()
+          document.querySelector('.result-container').style.display = 'grid';
+      showResult()
+      console.log('submitted')
+}
+document.querySelector('.submit-btn').addEventListener('click', submit);
+
 
 //same principle as nextquestion function but reverse
 function previuosQuestion(){
@@ -162,9 +166,9 @@ document.querySelector('.previous-question-btn').addEventListener('click', previ
             </div>
 
             <div class="button-group ">
-              <button class = "review-btn" >Review</button>
-              <button class = "retry-btn" >Retry</button>
-              <a class = "question-result-home-btn" href="index.html">Home</a>  
+              <button class = "review-btn bg-emerald-green text-white" >Review</button>
+              <button class = "retry-btn bg-teal-green text-white" >Retry</button>
+              <a class = "question-result-home-btn " href="index.html">Home</a>  
             </div>
           </div>
       `
@@ -172,6 +176,7 @@ document.querySelector('.previous-question-btn').addEventListener('click', previ
 
     document.querySelector('.review-btn').addEventListener('click', review);
     document.querySelector('.retry-btn').addEventListener('click', retry);
+    
  }
 
 //  this function gets the number of the correct answer

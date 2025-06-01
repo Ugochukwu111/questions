@@ -46,7 +46,6 @@ SidebarBtn.addEventListener("click",  ()=>{
 
     sidebar.classList.add("show-sidebar");
 
-    console.log(sidebar.getAttribute('aria-label'));
   }else{
     sidebar.setAttribute('aria-label', 'sidebar closed');
     

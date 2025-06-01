@@ -12,4 +12,30 @@ since global obj doesnt change and based
 
 
 
+2.A friend of mine found a bug - in summary 👇👇👇
+  when you click next question button to go to the next page , continuous hitting the keyboard
+   "enterkey" will cause the next function to keep on runing, this does not break it, but what it breaks is when the enter key is held 
+  
+  what code logic when enterkey is held:
+   the question skips with speed to the next question, eventually it reaching the last quetion,
+   when it reaches end the same next question function has an `if` statement inside it, which calls functions that calculates and display the score once you click the nextfunction again i.e after reaching the last question, it calculates the score perfectly .
+   but because the enter key is held down it recalulates your score adding or subtracting it again and again which is bad. 
+
+   note: the bug only happen when the nextbtn is in focus and you hold down the enterkey which iterate the questions with speed,
+         it does not happen by consecutively clicking on the enterkey
+   note: only  destop users has the possiblity to experience this !!
+
+   fix: I fixed number (2) by making submit its own function and adding submit btn at the page,
+        then called the functions that calcalute and display result inside it. so when you click 
+        next btn which calls the nextquestionfunction ... holding enterkey will skip questions fast 
+        and take you to the last question this time  nothing will happen because i removed the functions
+        needed for calcaluting and displaying result and included it in the submit btn function.
+
+         the submit btn is available from the start of the question till the last quesstion, this is a new feature
+         because some users whould want to submit earlier than required even tho not finished all questions, as in real life
+
+         
+
+
+
 learnt about the attribut "role alert:  makes screen readers announce it immediately."
