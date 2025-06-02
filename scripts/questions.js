@@ -166,8 +166,15 @@ document.querySelector('.previous-question-btn').addEventListener('click', previ
             </div>
 
             <div class="button-group ">
-              <button class = "review-btn bg-emerald-green text-white" >Review</button>
-              <button class = "retry-btn bg-teal-green text-white" >Retry</button>
+              <button class = "review-btn bg-emerald-green text-white text-icon-container" >
+              Review
+              <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="black"><path d="M480-312q70 0 119-49t49-119q0-70-49-119t-119-49q-70 0-119 49t-49 119q0 70 49 119t119 49Zm0-72q-40 0-68-28t-28-68q0-40 28-68t68-28q40 0 68 28t28 68q0 40-28 68t-68 28Zm0 192q-142.6 0-259.8-78.5Q103-349 48-480q55-131 172.2-209.5Q337.4-768 480-768q142.6 0 259.8 78.5Q857-611 912-480q-55 131-172.2 209.5Q622.6-192 480-192Zm0-288Zm0 216q112 0 207-58t146-158q-51-100-146-158t-207-58q-112 0-207 58T127-480q51 100 146 158t207 58Z"/></svg>
+              </button>
+
+              <button class = "retry-btn bg-teal-green text-white text-icon-container" >
+              Retry
+              <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#ffffff"><path d="M444-144q-107-14-179.5-94.5T192-430q0-61 23-113.5t63-91.5l51 51q-30 29-47.5 69T264-430q0 81 51.5 140T444-217v73Zm72 0v-73q77-13 128.5-72.5T696-430q0-90-63-153t-153-63h-7l46 46-51 50-132-132 132-132 51 51-45 45h6q120 0 204 84t84 204q0 111-72.5 192T516-144Z"/></svg>
+              </button>
               <a class = "question-result-home-btn " href="index.html">Home</a>  
             </div>
           </div>

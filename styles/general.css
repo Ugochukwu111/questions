@@ -371,7 +371,9 @@ footer ul{
 .text-gold-yellow { color: var(--gold-yellow); }
 .text-mustard-yellow { color: var(--mustard-yellow); }
 
-
+.fill-white{
+  fill: var(--white);
+}
 
 /* === LAYOUT UTILITIES ======= */
 
@@ -419,7 +421,7 @@ footer ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .3em;
+  gap: .2em;
   transition: all 350ms ease;
 }
 .text-icon-container:hover svg{
