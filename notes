@@ -30,6 +30,9 @@ since global obj doesnt change and based
         next btn which calls the nextquestionfunction ... holding enterkey will skip questions fast 
         and take you to the last question this time  nothing will happen because i removed the functions
         needed for calcaluting and displaying result and included it in the submit btn function.
+            inside the submit btn i put an if statemaent wchich checks for the property in the quizState obj
+            if the user has submitted if true, i only render the result with call any other function else,
+                  i call other functions which adds and gets my write and wrong answer before displaying the result.
 
          the submit btn is available from the start of the question till the last quesstion, this is a new feature
          because some users whould want to submit earlier than required even tho not finished all questions, as in real life

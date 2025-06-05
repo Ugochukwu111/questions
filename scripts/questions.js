@@ -35,6 +35,7 @@ const quizState = {
   noRightAnswers: 0,
   noWrongAnswers: 0,
   reviewMode : false,
+  submitted: false,
 };
 
 let checkAnswer = function (selectedIndex, optionId){
@@ -110,11 +111,17 @@ document.querySelector('.next-question-btn').addEventListener('click', nextQuest
 
 
 function submit(){
-      addsCorrectAnswers()
+  if (quizState.submitted === true){
+     document.querySelector('.result-container').style.display = 'grid';
+    showResult()
+  }else{
+    addsCorrectAnswers()
      getCorrectWrongAnswer()
           document.querySelector('.result-container').style.display = 'grid';
       showResult()
-      console.log('submitted')
+      quizState.submitted = true;
+  }
+  
 }
 document.querySelector('.submit-btn').addEventListener('click', submit);
 
@@ -213,6 +220,7 @@ function retry() {
   quizState.noRightAnswers = 0;
   quizState.noWrongAnswers = 0;
   quizState.reviewMode = false;
+  quizState.submitted = false;
 
   // Reset question bank data
   questionBank.forEach(question => {
