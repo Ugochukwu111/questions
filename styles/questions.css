@@ -16,6 +16,7 @@ h3{
   text-transform:none;
   font-size: 1.2rem;
 }
+
 .flex-wrap{
   flex-wrap: wrap;
 }
@@ -73,8 +74,8 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 .result-card{
   background-color: var(--white);
   border-radius: 1rem;
-  padding: 2em;
-  max-width: 600px;
+  padding: 2em 1.5em;
+ max-width: 600px; 
   margin: auto;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -97,19 +98,21 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .correct {
-  background-color: #01751c;
-  color: #ffffff;
+  background-color: var(--emerald-green);
+  color: var(--white);
 }
 .wrong {
-  background-color: #c50010;
-  color: #ffffff;
+  background-color: var(--crimson-red);
+  color: var(--white);
 }
 
 .button-group{
   width: 100%;
   justify-content: space-between;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  margin-top: 1em;
 }
 
 .question-result-home-btn{
@@ -128,4 +131,13 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 
 .question-result-home-btn:hover{
   opacity: .8;
+}
+
+.confirmation-card{
+  background-color: var(--white);
+  padding: 1em 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -72,7 +72,7 @@ function showQuestion(){
 //check checkAnswer(${index}) gets the index of the individual options
 //...it allow me know which option was clicked !!!
   let optionHtml = questionBank[quizState.currentQuestion].options.map((option, index)=>{
-   return `<p tabindex = "0" data-user-choice = '${option.userSeletedOPtion}' id="${option.id}" class = "single-option">
+   return `<p role="button" tabindex = "0" data-user-choice = '${option.userSeletedOPtion}' id="${option.id}" class = "single-option">
              <span>
              ${option.label}.
              </span> &nbsp; ${option.text}
@@ -90,6 +90,12 @@ function showQuestion(){
     option.addEventListener('click', () => {
       checkAnswer(index, option.id);
     });
+      option.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();  // Prevent page scroll when space is pressed
+      checkAnswer(index, option.id);
+    }
+  });
   });
 
   restoreSelectedOption()
@@ -110,6 +116,41 @@ function nextQuestion(){
 document.querySelector('.next-question-btn').addEventListener('click', nextQuestion);
 
 
+document.querySelector('.submit-btn-pop').addEventListener('click',()=>{
+ if (quizState.reviewMode === false){
+     let confirmationCard =  `
+    <div class = "confirmation-card">
+     <p class = "text-center">Are you sure you want to submit ?</p>
+     
+    <div class = "button-group">
+      <button class = "submit-btn text-white bg-teal-green">yes</button>
+      <button class = "cancel-submit-btn text-white bg-crimson-red">cancel</button>
+    </div>
+    </div>
+    `;
+    
+    document.querySelector('.result-container').style.display = 'grid';
+   document.querySelector('.result-container').innerHTML = confirmationCard; 
+
+    document.querySelector('.cancel-submit-btn').addEventListener('click',  ()=>{
+   document.querySelector('.result-container').style.display = 'none';
+ })
+  document.querySelector('.submit-btn-pop').innerHTML = 'view result';
+  document.querySelector('.submit-btn').addEventListener('click', ()=>{
+  submit();
+ })
+   
+   
+ }else if (quizState.reviewMode === true){
+    submit();
+ }
+
+})
+
+  
+ 
+
+
 function submit(){
   if (quizState.submitted === true){
      document.querySelector('.result-container').style.display = 'grid';
@@ -123,7 +164,7 @@ function submit(){
   }
   
 }
-document.querySelector('.submit-btn').addEventListener('click', submit);
+
 
 
 //same principle as nextquestion function but reverse
@@ -234,6 +275,8 @@ function retry() {
   document.querySelector('.result-container').style.display = 'none';
 
   getNotificationBox(getRandomMessage(retryMessages));
+
+  document.querySelector('.submit-btn-pop').innerHTML = 'Submit';
 
   // Show the first question again
   showQuestion();

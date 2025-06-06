@@ -90,7 +90,7 @@ the code below add a transition effect to the button when the input is focused.
   transform: translateX(0%);
 }
 .search-input-container:focus-within button svg {
-  fill: var(--black); /
+  fill: var(--black); 
 }
 
               /*  END OF ALL SEACRH INPUT CONTAINER AND CHILDREN STYLE  */

@@ -535,7 +535,7 @@ export let questionBank2 = [
     { id: "q2_4", userSeletedOPtion: false, label: "D", text: "Probably", isCorrect: true }]
  },
  {
-  question: 'A goal definition should be --?',
+  question: 'A goal definition  uld be --?',
   answeredCount: 0,
   options: [
     { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Neither too broad nor too narrow", isCorrect: false },
