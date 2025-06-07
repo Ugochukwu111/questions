@@ -171,3 +171,8 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   }
 }
 
+@media (max-width: 400px) {
+  .previous-question-btn { order: 1; }
+  .next-question-btn { order: 2; }  /* Move last button to second position */
+  .submit-btn-pop { order: 3; }
+}
