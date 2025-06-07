@@ -135,8 +135,9 @@ document.querySelector('.submit-btn-pop').addEventListener('click',()=>{
     document.querySelector('.cancel-submit-btn').addEventListener('click',  ()=>{
    document.querySelector('.result-container').style.display = 'none';
  })
-  document.querySelector('.submit-btn-pop').innerHTML = 'view result';
+
   document.querySelector('.submit-btn').addEventListener('click', ()=>{
+      document.querySelector('.submit-btn-pop').innerHTML = 'view result';
   submit();
  })
    
