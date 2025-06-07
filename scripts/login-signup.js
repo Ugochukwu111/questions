@@ -52,3 +52,72 @@ document.querySelector('.js-display-password-btn').addEventListener('click', (e)
   console.log('clicked')
 })
 
+
+//const select = document.getElementById("school");
+// fetch("https://corsproxy.io/?https://nigerian-universities.onrender.com")
+//   .then(response => response.text())
+//   .then(text => {
+//     const parsed = JSON.parse(text);
+//     const universities = parsed.data; // ✅ actual list is under "data"
+
+//     if (!Array.isArray(universities)) {
+//       throw new Error("Unexpected format: 'data' is not an array");
+//     }
+
+//     const select = document.getElementById("school");
+//     select.innerHTML = '<option value="">-- Select a university --</option>';
+
+//     universities.forEach(uni => {
+//       const option = document.createElement("option");
+//       option.value = uni.name;
+//       option.textContent = uni.name;
+//       select.appendChild(option);
+//     });
+
+//     select.disabled = false;
+//   })
+//   .catch(error => {
+//     console.error("Error loading universities:", error);
+//   });
+
+
+// Fetch the list of Nigerian universities through a CORS proxy
+fetch("https://corsproxy.io/?https://nigerian-universities.onrender.com")
+  .then(response => response.text()) // Read the raw text response
+  .then(text => {
+    // Parse the text into a JSON object
+    const parsed = JSON.parse(text);
+
+    // Extract the array of universities from the 'data' property
+    const universities = parsed.data;
+
+    // Check if we actually got an array
+    if (!Array.isArray(universities)) {
+      throw new Error("Unexpected format: 'data' is not an array");
+    }
+
+    // Get the <select> element where the options will be added
+    const select = document.getElementById("school");
+
+    // Add the default option to the dropdown
+    select.innerHTML = '<option value="">-- Select a university --</option>';
+
+    // Sort the universities alphabetically by name
+    universities.sort((a, b) => a.name.localeCompare(b.name));
+
+    // Loop through each university and add it as an <option> in the dropdown
+    universities.forEach(uni => {
+      const option = document.createElement("option");
+      option.value = uni.name;         // Set the option value to the university name
+      option.textContent = uni.name;   // Set the text shown to the user
+      select.appendChild(option);      // Add the option to the dropdown
+    });
+
+    // Enable the dropdown now that it's populated
+    select.disabled = false;
+  })
+  .catch(error => {
+    // Log any errors to the console for debugging
+    console.error("Error loading universities:", error);
+  });
+
