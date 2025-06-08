@@ -220,7 +220,12 @@ main{
   font-weight: 700;
 }
 
-
+.dark-mode-btn-container{
+  border: 2px solid red;
+}
+.dark-mode-icon{
+  display: none;
+}
 
 /* ========= MEDIA QUERIES =========== */
 @media (max-width: 55.5rem) {

@@ -63,3 +63,5 @@ function handleStartClick(event) {
 document.querySelectorAll('.start-btn').forEach(button => {
   button.addEventListener('click', handleStartClick);
 });
+
+

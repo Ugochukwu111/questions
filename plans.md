@@ -2,16 +2,12 @@
 
 ## Must-Have
 - [ ] User login system
-- [ ] Responsive design for mobile  ✔️(may 14th 2023)
+- [ ] Responsive design for mobile ✅✅
 
 
 ## Nice-to-Have
 - [ ]   Dark mode toggle
-- [ ]   temporarily dislay my score while i retry, ans save current score
-- [ ]   Push notifications 
-- [ ]   AI-powered hints (answers) quiz questions
-- [ ]   Random question order	Shuffle questionBank on load
-- [ ]   Timer per question	Add a questionStartTime, then compare it on answer
+- [ ]   Timer per question session	
 - [ ]   Retry feature	Reset all answeredCount and userSelectedOption values  ✅✅
 - [ ]   arrow keys (pc) to move to next question and option  A,B,C,D keys to select respective options.
 
@@ -19,5 +15,8 @@
 ## Long-Term Ideas
 - [ ] Monetization options (ads,)
 - [ ] Backend
-- [ ] api so render list of schools at login page
+- [ ] api so render list of schools at login page ✅✅
 - [ ] Admin panel
+- [ ]   AI-powered hints (answers) quiz questions
+- [ ]   Random question order	Shuffle questionBank on load
+- [ ]   Push notifications 

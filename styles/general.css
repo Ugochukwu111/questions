@@ -52,6 +52,28 @@ html{
     --font-dmnono: "DM Mono", monospace;
   }
 
+  .dark-mode {
+  --primary-blue: #1E90FF; /* keep vibrant */
+  --dark-blue: #87CEFA;
+  --light-blue: #0B2F5A;
+  --steel-blue: #2C3E50;
+  
+  --black: #f9f9f9; /* light text */
+  --dark-grey: #CCCCCC;
+  --light-grey: #555555;
+  --white: #121212; /* dark background */
+  --dull-white: #1E1E1E;
+  
+  --crimson-red: #FF6F61;
+  --tomato-red: #FF8265;
+  
+  --emerald-green: #66CDAA;
+  --teal-green: #20B2AA;
+  
+  --gold-yellow: #FFD700;
+  --mustard-yellow: #FFC54C;
+}
+
 
 
 body {
@@ -169,10 +191,18 @@ svg{
 h1, h2, h3, h4 {
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
+  color: var(--dark-grey);
 }
 
+small{
+  color: var(--dark-grey);
+}
+li{
+    color: var(--dark-grey);
+}
 p {
   font-family: 'Open Sans', sans-serif;
+  color: var(--dark-grey);
 }
 
 button{
@@ -223,6 +253,10 @@ a {
 
 input{
   background-color: transparent;
+  color: var(--dark-grey);
+}
+figcaption{
+  color: var(--dark-grey);
 }
 
 img{

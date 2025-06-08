@@ -1,4 +1,8 @@
-import {  hideSpinner } from "./reuseablefunc.js";
+import {  hideSpinner, Footer } from "./reuseablefunc.js";
+
+//call the Footer function to render the footer 
+Footer()
+
 
 // animations for the main page site
 document.addEventListener("DOMContentLoaded", function () {
@@ -56,3 +60,5 @@ SidebarBtn.addEventListener("click",  ()=>{
   }
 
 });
+
+
