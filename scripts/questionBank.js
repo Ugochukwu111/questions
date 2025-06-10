@@ -1007,6 +1007,460 @@ export let questionBank2 = [
 ]
 
 
+export let questionBank2B = [
+  {
+  question : 'According to Aquinas is there clear demarcation between natural law and moral law?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "No", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "True", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "May be", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "I don't know", isCorrect: false },]
+  },
+    {
+  question : 'For the naturalist any law that go against the natural  law ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "good", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "bad", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "fair", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "just", isCorrect: false },]
+  },
+    {
+  question : '____ are the bricks with which arguments are made ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "syllogisms", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "sentences", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "inferences", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "propositions", isCorrect: true },]
+  },
+    {
+  question : '____ are laws that will simply be laws which has with or without any moral grounding ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Evil law theory", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "positivist law theory", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Natural law theory", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "A & B", isCorrect: false },]
+  },
+    {
+  question : 'J.Austin, J.Betham, H.A.L. Hart are proponents of ____', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Evil law theory", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "positivist law theory", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Natural law theory", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "A & B", isCorrect: false },]
+  },
+    {
+  question : '____ is the central focus of logic ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Prepositions", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Facts", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Truth", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Argument", isCorrect: true },]
+  },
+    {
+  question : 'Who averred that laws were "self-consistent systems" ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "J. Austin", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "J.Bentham", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "H.A.L Hart", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Julius Stone", isCorrect: true },]
+  },
+    {
+  question : 'Which of these is not a type of law ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Natural theory of law", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Historical history of law", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Positivist theory of law", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  },
+  {
+  question : '____ is a type of arguement whose premises make a probable rather than conclusive claim to assert their conclusions ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Deductive argument", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Inductive argument", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Syllogistic argument", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Counter argument", isCorrect: false },]
+  },
+    {
+  question : 'Not to obey laws promulgated by authorized or competent authority is ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Protest", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Referendum", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Civil Disobedience", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Opinion pull", isCorrect: false },]
+  },
+    {
+  question : '____ defines civil disobedience as the right to disagree.. ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "M. Gandhi", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Jane Sharp", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Howard Zinn", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Hobbies", isCorrect: false },]
+  },
+    {
+  question : 'An argument is ____ where the conclusion is implied by the premises or where the premises are supporting evidence for the conclusion ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "true", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "invalid", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "false", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Valid", isCorrect: true },]
+  },
+    {
+  question : 'According to Jane Sharp ____ is a peaceful disagreement with constituted authorities ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Civil disobedience", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Opinion pull", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Referendum", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Protest", isCorrect: false },]
+  },
+    {
+  question : 'Accordint to Socrates, there is no room for civil disobedience ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Yes", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A & D", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Probably", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NO", isCorrect: true },]
+  },
+    {
+  question : '___ are valid when we can refer their conclusion from the premises ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Inductive arguement", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "prepositional arguement", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "deductive arguement", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "sentential arguement", isCorrect: false },]
+  },
+    {
+  question : 'Who is interested in contextual clarification ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Political scientist", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Social scientist", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Lawyers", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Philosophers", isCorrect: true },]
+  },
+    {
+  question : 'Which of the following is not an essential feature of language ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Transparency", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Meaningfulness", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Commissive", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Relativity", isCorrect: false },]
+  },
+    {
+  question : 'Validity has nothing to do with the truth of the premises or conclusion of a syllogistic argument', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "False", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Uncertain", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "True", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Undetermined", isCorrect: false },]
+  },
+      {
+  question : 'Political philosophy can be traced to ___?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "J.S. Mill", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Socrates", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Politicians", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Leo Stauss", isCorrect: false },]
+  },
+       {
+  question : 'The sort of philosophy that commerce from Socrates was known as ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Medival polithical philosophy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Classical polithical philosophy", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Modern polithical philosophy", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: " polithical philosophy", isCorrect: false },]
+  },
+       {
+  question : '____ was the predominant polithical philosophy until the emergence of modern polithical philosophy in the 16th and 17th centuary ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Classical polithical philosophy", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Medival polithical philosophy", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Ancient polithical philosophy", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  },
+       {
+  question : 'An argument is sound when it\'s premises and conclusion are all ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "False", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Valid", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "True", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Invalid", isCorrect: false },]
+  },
+       {
+  question : 'Aristotle hinge is polithical philosophy on ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Love", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Morality", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Kindness", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Happiness", isCorrect: true },]
+  },
+       {
+  question : '____ is a collection of objects with the same features or characteristics ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Species", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Class", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Term", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Proposition", isCorrect: false },]
+  },
+       {
+  question : 'The end which should be realised through the state, according to Aristotle is ___ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Virtue & Morality", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Happiness & Morality", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Happiness & virtue", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Love & Kindness", isCorrect: false },]
+  },
+       {
+  question : 'The term utopian state implies  ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "the stae in ethiopia", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "the state of nature", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "the greek state", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "the perfect state", isCorrect: true },]
+  },
+       {
+  question : 'The A and I propositions were derived from the latin word called ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Affirmative", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Affirmo", isCorrect:  true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Affiliatee", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Affiminine", isCorrect: false },]
+  },
+       {
+  question : 'Those who seek beautitudes for the state through the church according to saint Augstine belong to ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Heavenly city", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Earthly city", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "A & B", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Roman city", isCorrect: false },]
+  },
+       {
+  question : '___ means a situation, where a strong herds impose their will and strength over the weak ones and the weak herds did the biddings of the strong ones ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Polithical morality", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Evil morality", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Slave morality", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Herds morality", isCorrect: true },]
+  },
+       {
+  question : 'The "E" and "O" propositions were derived from the latin word called ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "nebula", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "nego", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "nelo", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "negative", isCorrect: false },]
+  },
+       {
+  question : 'According to Nietzsche, master morality represents _____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Strong Herds", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Weak Herds", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Fair Herds", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Lord herds", isCorrect: false },]
+  },
+       {
+  question : 'According to Nietzsche, the death of god would enable man to realise his full potentials ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "No", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Yes", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "", isCorrect: false },]
+  },
+       {
+  question : 'The proposition "every girl is a potential mother" when translated to standard form categorical proposition is _____?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "E proposition (universal negative)", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "I proposition (particular affirmative)", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "O proposition (particular negative)", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "A proposition (universal affirmative)", isCorrect: true },]
+  },
+       {
+  question : 'Who represents the political philiosopher in the contemporary period ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Niccolo Machiavelli", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "St.Augustine ", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Aristotle", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Frederick Nietzsches", isCorrect: true },]
+  },
+       {
+  question : 'Which of these forms  of polictics is usually encumbered with religious biases ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Democratic", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Conservative", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Communism", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "gods politics", isCorrect: false },]
+  },
+       {
+  question : 'A proposition that denies or reject completely the inclusion of class in other class is ____?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "O proposition (particular affirmative)", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A proposition (universal affirmative)", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "I proposition (particular negative)", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "E proposition (universal negative)", isCorrect: true },]
+  },
+       {
+  question : '____ represent the political philosopher for the modern period', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Niccolo Machiavelli", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "St. Augstine", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Frederick Nietzsches", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Aristotle", isCorrect: false },]
+  },
+       {
+  question : 'THose who seek the good of the state through honesty or virtue, love of country constitute according to augstine the ___ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Earthly city", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Heavenly city", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Roman city", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Ionian city", isCorrect: false },]
+  },
+    {
+  question : 'A proposition that affirms or claims that all the members of a given class are included or contained in another class is ___?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "O proposition (particular affirmative)", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A proposition (universal affirmative)", isCorrect:  true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "E proposition (universal negative)", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "I proposition (particular negative)", isCorrect: false },]
+  },
+       {
+  question : 'St Agustine represent the political philosopher of the ___ period ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Medival", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Modern", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Ancient", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Contemporary", isCorrect: false },]
+  },
+       {
+  question : 'Consider the following propositions, (i) some schools are worth attending (ii) some schools are not worth attending. these two propositions can be treated as ___ ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "subaltern", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "contraries", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "subcontraries", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "contradictories", isCorrect: false },]
+  },
+       {
+  question : 'The term poisoning the well can be classified under which type of fallcy ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "argumentum ad hominem", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "argumentum ad misericdian", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "argumentum ad bacculum", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "inconsistency", isCorrect: false },]
+  },
+       {
+  question : 'The term "argumentum ad" means ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "arguing by appealing to", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "arguing by addition", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "argumentative", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "argument by address", isCorrect: false },]
+  },
+       {
+  question : '___ is the fallacy in which the stated conclusion does not follow from the premises ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "accent", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "equivocation", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "amphiboli", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "non-sequitor", isCorrect: true },]
+  },
+       {
+  question : 'According to St Augstine "the heavenly city of the predestined and the earthly city of the ____" ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Damned ", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Fulfillment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Happiness", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Destiny", isCorrect: false },]
+  },
+    {
+  question : 'The proposition "christians are not terrorist" when translated into standard form categorical proposition is ___? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "O proposition (particular affirmative)", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A proposition (universal affirmative)", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "E proposition (universal negative)", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "I proposition (particular negative)", isCorrect: false },]
+  },
+       {
+  question : '____ brought politics down to earth ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Aristotle", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Frederick Nietzsches", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "St Augstine", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Niccolo Machiavelli", isCorrect: true },]
+  },
+       {
+  question : 'By quality the following proposition are affirmative', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "E proposition $ A proposition", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A proposition $ O proposition", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "A proposition $ I proposition", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "E proposition $ I proposition", isCorrect: false },]
+  },
+       {
+  question : 'One of these is not a problem of philosophy ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Free will and determinism", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "The existence of God", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Mind ad body", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  },
+       {
+  question : 'By quality the following propositions are negative ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "E proposition & I proposition", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A proposition & O proposition", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "E proposition & O proposition", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "E proposition & A proposition", isCorrect: false },]
+  },
+       
+];
+
 // ENT START
 // questionBank3 TYPE A
 export let questionBank3 = [
@@ -2376,8 +2830,6 @@ export let questionBank3 = [
  ];
 
 
-
-
  // ENT TYPE D QUESTIONS START
  export let questionBank3D = [
  {
@@ -3286,7 +3738,6 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "hire purchase", isCorrect: false },]
   },
  ];
-
 
  export let questionBank3F = [
   {

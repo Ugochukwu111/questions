@@ -19,5 +19,5 @@ git push origin frontend-mvp
   ## 🌿 Starting Backend Work on a New Branch
 
 A new Git branch was created to begin backend development separately from the stable
-git checkout -b pascal-backend
-git push origin pascal-backend
+git checkout pascal-user-database
+git push origin pascal-user-database

@@ -1,5 +1,5 @@
 
-import { questionBank1, questionBank2 , questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E, questionBank3F} from './questionBank.js';
+import { questionBank1, questionBank2 ,questionBank2B, questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E, questionBank3F } from './questionBank.js';
 import { getNotificationBox, getRandomMessage , hideSpinner} from "./reuseablefunc.js";
 import { retryMessages, EncouragementMessages , SuccessMessages , ImprovementMessages }  from "./compliments.js";
 
@@ -14,6 +14,7 @@ const selected = localStorage.getItem('selectedCourse');
 const questionBankMap = {
   questionBank1,
   questionBank2,
+  questionBank2B,
   questionBank3,
   questionBank3B,
   questionBank3C,
