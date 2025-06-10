@@ -1,0 +1,26 @@
+{
+  "name": "questions",
+  "version": "1.0.0",
+  "description": "This project uses a structured Git workflow to manage transitions between major phases of development. Below is a summary of the process followed:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ugochukwu111/questions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ugochukwu111/questions/issues"
+  },
+  "homepage": "https://github.com/Ugochukwu111/questions#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
+}

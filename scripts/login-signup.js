@@ -121,3 +121,85 @@ fetch("https://corsproxy.io/?https://nigerian-universities.onrender.com")
     console.error("Error loading universities:", error);
   });
 
+
+  document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const emailError = params.get('emailError');
+  if (emailError) {
+    const errorElem = document.querySelector('.email-errormsg');
+    errorElem.textContent = decodeURIComponent(emailError);
+    errorElem.style.color = 'red';
+  }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const emailError = params.get('emailError');
+  console.log("emailError from URL:", emailError);  // Debug log
+  if (emailError) {
+    const errorElem = document.querySelector('.email-errormsg');
+    if (errorElem) {
+      errorElem.textContent = decodeURIComponent(emailError);
+      errorElem.style.color = 'red';
+    } else {
+      console.error(".email-errormsg element not found");
+    }
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+
+  // Show email error if present
+  const emailError = params.get('emailError');
+  if (emailError) {
+    const errorElem = document.querySelector('.email-errormsg');
+    if (errorElem) {
+      errorElem.textContent = decodeURIComponent(emailError);
+      errorElem.style.color = 'red';
+    }
+  }
+
+  // Repopulate all form fields if present in URL params
+  const fullname = params.get('fullname');
+  if (fullname) {
+    document.getElementById('fullname').value = decodeURIComponent(fullname);
+  }
+
+  const email = params.get('email');
+  if (email) {
+    document.getElementById('email').value = decodeURIComponent(email);
+  }
+
+  const password = params.get('password');
+  if (password) {
+    document.getElementById('password').value = decodeURIComponent(password);
+  }
+
+  const confirmPassword = params.get('confirmPassword');
+  if (confirmPassword) {
+    document.getElementById('confirmed-password').value = decodeURIComponent(confirmPassword);
+  }
+
+  const school = params.get('school');
+  if (school) {
+    const schoolSelect = document.getElementById('school');
+    // Wait until schools are loaded, then set value
+    if (schoolSelect) {
+      // If the select is disabled/loading, wait for it to enable first
+      const trySetSchool = () => {
+        if (!schoolSelect.disabled) {
+          schoolSelect.value = decodeURIComponent(school);
+        } else {
+          // retry after some time
+          setTimeout(trySetSchool, 100);
+        }
+      };
+      trySetSchool();
+    }
+  }
+});
+
+
+//window.history.replaceState({}, document.title, window.location.pathname);
