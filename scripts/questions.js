@@ -197,7 +197,6 @@ function submit(){
      document.querySelector('.result-container').style.display = 'grid';
     showResult()
   }else{
-      console.log('already submitted');
       stopTimer();
     addsCorrectAnswers()
      getCorrectWrongAnswer()
@@ -215,7 +214,6 @@ function previuosQuestion(){
   quizState.currentQuestion--
     if (quizState.currentQuestion === questionBank.length){
      quizState.currentQuestion = questionBank.length - 1;
-     console.log(quizState)   
 }else if(quizState.currentQuestion < 1){
   quizState.currentQuestion = 0;
 }
@@ -509,7 +507,6 @@ setquizTimerBtn.addEventListener('click', () => {
        timeValueNumber = Number(timeValue);
 
        const UserSelectedTimeLimit = Math.floor(timeValueNumber / 3);
-       console.log(UserSelectedTimeLimit);
 
        clearInterval(quizState.quizintervaltime);
        backgroundContainer.style.display = 'none';
@@ -557,5 +554,4 @@ function colorBolt(){
 
 function stopTimer(){
   clearInterval(quizState.quizintervaltime);
-  console.log('timer stopped')
 }
