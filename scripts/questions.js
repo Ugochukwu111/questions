@@ -1,5 +1,5 @@
 
-import { questionBank1, questionBank2 ,questionBank2B, questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E, questionBank3F } from './questionBank.js';
+import { questionBank1, questionBank2 ,questionBank2B,questionBank2C, questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E, questionBank3F } from './questionBank.js';
 import { getNotificationBox, getRandomMessage , hideSpinner} from "./reuseablefunc.js";
 import { retryMessages, EncouragementMessages , SuccessMessages , ImprovementMessages }  from "./compliments.js";
 
@@ -15,6 +15,7 @@ const questionBankMap = {
   questionBank1,
   questionBank2,
   questionBank2B,
+  questionBank2C,
   questionBank3,
   questionBank3B,
   questionBank3C,
@@ -32,12 +33,27 @@ const quizState = {
   score: 0, 
   currentQuestion: 0, 
   totalQuestions: 5,
-  stopIntervalTime: 0,
+  autoAdvance: false,
   noRightAnswers: 0,
   noWrongAnswers: 0,
   reviewMode : false,
   submitted: false,
+  ativeMode: false,
 };
+
+function autoAdvance(callback, delay = 1500){
+  let timer;
+  
+  function timeDelay(){
+    clearTimeout(timer)
+    timer = setTimeout(callback, delay);
+  }
+
+  return timeDelay
+}
+
+ const advance = autoAdvance(nextQuestion, 200); // 1000 milliseconds = 1 second
+
 
 let checkAnswer = function (selectedIndex, optionId){
   if (quizState.reviewMode) return;
@@ -61,9 +77,25 @@ let checkAnswer = function (selectedIndex, optionId){
    }else if (!selectedOption.isCorrect && questionBank[quizState.currentQuestion].answeredCount === 1){
     questionBank[quizState.currentQuestion].answeredCount = 0;
    }
-  // setTimeout(nextQuestion, 1000)//after user selects an answer waits 1 secs and move to the next question
- 
+   
+if (quizState.autoAdvance){
+ advance();
 }
+
+}
+
+
+document.querySelector('.js-auto-advance').addEventListener('click', ()=>{
+  if(!quizState.autoAdvance){
+    quizState.autoAdvance = true;
+    colorBolt();
+  }else{
+      quizState.autoAdvance = false;
+      colorBolt();
+  }
+});
+
+
 
 //this function displays my questions and options
 function showQuestion(){
@@ -344,7 +376,7 @@ function displayRightWrongOption() {
   });
 }
 
-
+// the function for giving performance feedback based on the number of correct answers
 function givePerformanceFeedback(){
   let message = "";
 if (quizState.noRightAnswers <= questionBank.length / 2){
@@ -359,6 +391,137 @@ if (quizState.noRightAnswers <= questionBank.length / 2){
    message = getRandomMessage(SuccessMessages);
   }
 return message;
+}
+
+// quis active state js
+const quizActiveBtn = document.querySelector('.quiz-active-btn');
+const quizActiveOptionsCtn = document.querySelector('.dropdown-menu-quiz-active-mode');
+
+let timer;
+
+quizActiveBtn.addEventListener('click', () => {
+  const isExpanded = quizActiveBtn.getAttribute('aria-expanded') === 'true';
+
+  // Toggle dropdown
+  quizActiveOptionsCtn.classList.toggle('dropdown-visible');
+  quizActiveBtn.setAttribute('aria-expanded', String(!isExpanded));
+
+  // Handle dropdown close timer
+  timerToCloseDropdown();
+});
+
+function timerToCloseDropdown() {
+  // Always clear previous timer
+  clearTimeout(timer);
+
+  if (quizActiveBtn.getAttribute('aria-expanded') === 'true') {
+    timer = setTimeout(() => {
+      quizActiveOptionsCtn.classList.remove('dropdown-visible');
+      quizActiveBtn.setAttribute('aria-expanded', 'false');
+    }, 10000);
+  }
+}
+
+
+
+// js code for timer
+let setquizTimerBtn = document.querySelector('.set-quiz-timer-btn');
+let timerCtnHtml = document.querySelector('.timer-container');
+
+setquizTimerBtn.addEventListener('click', () => {
+  let backgroundContainer = document.querySelector('.result-container');
+  backgroundContainer.style.display = 'grid';
+  backgroundContainer.innerHTML = `
+    <div class = "result-card d-flex flex-column">
+      <div class="timer-close-btn-container d-flex">
+      <button class="close-set-time-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+      </button>
+      </div>
+
+      
+      <h3>Set Quiz Timer</h3>
+      <small class = "FWB js-time-value-error">*Timer value in minutes</small>
+      <input type="number" min="5" max="60" step="5" id="quiz-timer-input" placeholder="5" />
+      <button class="set-timer-confirm-btn">Set Timer</button>
+    </div>
+  `;
+  let timeValueErrorEl = document.querySelector('.js-time-value-error');
+
+  // event lister to close set up question timer
+  document.querySelector('.close-set-time-btn').addEventListener('click', ()=>{
+    backgroundContainer.style.display = 'none';
+  })
+
+  const confirmSetTimeBtn = document.querySelector('.set-timer-confirm-btn');
+  let quizintervaltime;
+  let  timeValueNumber;
+
+  confirmSetTimeBtn.addEventListener('click', ()=>{
+
+    if (quizState.reviewMode){
+      timeValueErrorEl.textContent = 'Quiz in review mode cannot set timer';
+      return;
+    };
+
+    let timeValue = document.querySelector('#quiz-timer-input').value;
+
+
+     if(timeValue < 5 || timeValue > 60){
+       timeValueErrorEl.textContent = 'Time must be greater than 5 and lesser than 60';
+       timeValueErrorEl.classList.add('text-crimson-red');
+       
+     }else{
+
+      quizState.ativeMode = true;
+       colorBolt()
+
+       timeValueErrorEl.textContent = 'Timer value in minutes';
+       timeValueErrorEl.classList.remove('text-crimson-red');
+       timeValueNumber = Number(timeValue);
+
+       const UserSelectedTimeLimit = Math.floor(timeValueNumber / 3);
+       console.log(UserSelectedTimeLimit);
+
+       clearInterval(quizintervaltime);
+       backgroundContainer.style.display = 'none';
+       
+        timerCtnHtml.innerHTML = `<span
+        class ="time-number">${timeValueNumber}</span>`;
+        timerCtnHtml.classList.add('show-timer-container');
+
+      quizintervaltime = setInterval(()=>{
+        timerCtnHtml.innerHTML = `<span
+        class ="time-number">${timeValueNumber}</span>`;
+        // timerCtnHtml.classList.add('show-timer-container');
+        timeValueNumber = timeValueNumber - 1;
+        
+// if(timeValueNumber === -1) i used this condition here so the number zero will display before the timer disappears
+//hint: i used -1 because when i added submit() function the conter stoped at 1; using -1 made it stop at 0
+        if(timeValueNumber === -1){
+              document.querySelector('.time-number').classList.add('time-is-running-out');// change color of time to red
+              timerCtnHtml.classList.remove('show-timer-container');   
+              clearInterval(quizintervaltime);
+              quizState.ativeMode = false;
+              colorBolt()
+              submit();
+     } else if(timeValueNumber <=  UserSelectedTimeLimit){
+       document.querySelector('.time-number').classList.add('time-is-running-out');
+     }
+    }, 60000);
+      
+     }
+  })
+})
+
+// this functions fills the bolt icon to green anytime   quizState.ativeMode = true or quizState.autoAdvance;
+function colorBolt(){
+  const boltIconHtml = document.querySelector('.bolt-icon');
+  if(quizState.ativeMode || quizState.autoAdvance){
+    boltIconHtml.style.fill = 'green';
+  }else{
+     boltIconHtml.style.fill = 'gold';
+  }
 }
 
 

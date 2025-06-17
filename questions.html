@@ -23,19 +23,60 @@
   <aside id="notification" class="notification text-center" role="alert" aria-live="assertive"></aside>
 
 
-  <!-- result div -->
+<!-- result div -->
         <div class="result-container">
         </div>
 
-        <div>
-            <ul>
-              <li>
-                <a href="index.html" class="text-icon-container">
-                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
-                  <span>Home</span>
-                </a>
-            </li>
+        <!--  -->
+        <div class="questions-page-navigations-container">
+            <ul class="d-flex">
+              <!-- home icon -->
+               <!-- the link tag a was added  to ico ns that are not links to preserve  styling with the icon thats a link eg the home icon -->
+                <li>
+                  <a href="index.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+                  </a>
+                </li>
+                        <!-- bolt icon -->
+                <li class="quiz-active-btn" aria-expanded="false" aria-haspopup="true" role="button" >
+                  <a href="#" onclick="event.preventDefault();"  >
+                  <svg class="bolt-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="m422-232 207-248H469l29-227-185 267h139l-30 208ZM320-80l40-280H160l360-520h80l-40 320h240L400-80h-80Zm151-390Z"/></svg>
+                  </a>
+
+                  <ul class="dropdown-menu-quiz-active-mode">
+                    <li>
+                      <button class="text-icon-container set-quiz-timer-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M360-840v-80h240v80H360Zm80 440h80v-240h-80v240Zm40 320q-74 0-139.5-28.5T226-186q-49-49-77.5-114.5T120-440q0-74 28.5-139.5T226-694q49-49 114.5-77.5T480-800q62 0 119 20t107 58l56-56 56 56-56 56q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80Zm0-80q116 0 198-82t82-198q0-116-82-198t-198-82q-116 0-198 82t-82 198q0 116 82 198t198 82Zm0-280Z"/></svg>
+                      <span>Timer</span>
+                      </button>
+                    </li>
+                     <li>
+                      <button class="text-icon-container js-auto-advance">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M100-240v-480l360 240-360 240Zm400 0v-480l360 240-360 240ZM180-480Zm400 0Zm-400 90 136-90-136-90v180Zm400 0 136-90-136-90v180Z"/></svg>
+                      <span>AutoAdvance</span>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="text-icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M280-200v-80h284q63 0 109.5-40T720-420q0-60-46.5-100T564-560H312l104 104-56 56-200-200 200-200 56 56-104 104h252q97 0 166.5 63T800-420q0 94-69.5 157T564-200H280Z"/></svg>
+                        <span>
+                          Reset
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+
+                <li >
+                  <a href="profile.html" >
+                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+                   </a>
+                </li>
             </ul>
+         </div>
+
+         <div class="timer-container d-flex">
+          <!-- time value injected with javascript -->
          </div>
 
       <!-- this div below contains all my quetions and options -->
@@ -77,7 +118,7 @@
                     </span>
                     <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#ffffff"><path d="M522-480 333-669l51-51 240 240-240 240-51-51 189-189Z"/></svg>
                   </button>
-
+                  
                 </div>
             </div>
           </main>

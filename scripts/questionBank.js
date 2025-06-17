@@ -1170,7 +1170,7 @@ export let questionBank2B = [
     { id: "q0_3", userSeletedOPtion: false, label: "C", text: "True", isCorrect: true },
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Undetermined", isCorrect: false },]
   },
-      {
+    {
   question : 'Political philosophy can be traced to ___?', 
   answeredCount: 0,
   options: [
@@ -1459,6 +1459,450 @@ export let questionBank2B = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "E proposition & A proposition", isCorrect: false },]
   },
        
+];
+
+export let questionBank2C = [
+   {
+  question : 'Morality hinges on _____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Law", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Punishment", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "capacity to reason", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: false },]
+  }, 
+    {
+  question : 'By quantity the following propositions are universals ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "I Proposition & A proposition", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A proposition & E proposition", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "I proposition & O proposition", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "E proposition & I proposition", isCorrect: false },]
+  }, 
+     {
+  question : '____ is the theory that laws outside the control of man govern the universe ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Freewill", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Determinism", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "knowledge", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "science", isCorrect: false },]
+  }, 
+     {
+  question : 'All except one are different sorts of determinism ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "religious determinism", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "scientific determinism", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "moral determinism", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "economic determinism", isCorrect: false },]
+  }, 
+     {
+  question : 'By quantity the following propositions are particulars ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "I propositio & A propositions", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A propositio & E propositions", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "I propositio & O propositions", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "E propositio & I propositions", isCorrect: false },]
+  }, 
+     {
+  question : 'The concept "omniscience" means ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "all knowing", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "all powerful", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "all good", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all worthy", isCorrect: false },]
+  }, 
+     {
+  question : 'The immiediate objection to religious determinism is that there is no sufficient proof for the existence of god ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "No", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Perhaps", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Indifferent", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "yes", isCorrect: true },]
+  }, 
+  {
+  question : 'The standard form categorical proposition that does not distribute both the subject term and predicate term is ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "O proposition", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A proposition", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "E proposition", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "I proposition", isCorrect: true },]
+  }, 
+     {
+  question: 'The main exponent of physical determinism is _____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Thomas Kuhn", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Charles Darwin", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Isaac Newton", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Sigmund Freud", isCorrect: false },]
+  }, 
+     {
+  question : 'Scientific determinism is divided into two namely ____ & ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "chemistry and biological", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "physical and chemistry", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "biological and physical", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "biological and genetic", isCorrect: false },]
+  }, 
+     {
+  question : 'The standard form categorical proposition that does not distribute the subject term but only the predicate term is ___ ?' , 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "O proposition", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "A proposition", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "E proposition", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "I proposition", isCorrect: false },]
+  }, 
+     {
+  question : 'Who opined that the universe and those that dwell in it are subject to natural laws ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Charles Darwin", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Sigmund Freud", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Thomas Kuhn", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Isaac Newton", isCorrect: false },]
+  }, 
+      {
+  question : 'Psychological determinism has it foundation in ____ theory of psychoanalysis ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Sigmund Freud", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "psychologist", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Charles Darwin", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Isaac Newton", isCorrect: false },]
+  },
+     {
+  question : 'Who stated that our conciousness is determined by our economic situation ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "J.S. Mill", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Thomas Hobbes", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Karl Marx", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Sigmund Freud", isCorrect: false },]
+  }, 
+     {
+  question : 'Economic determinism is derived from the work of ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Karl Marx", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Karl Popper", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "J.S. Mill", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Thomas Kuhn", isCorrect: false },]
+  }, 
+     {
+  question : 'Sigmund Freud explains determinisim with two major concepts ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Electra and psychological complex", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Oedipusand Electracomplex", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Psychological and Oedipus complex", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Oedipus and psycho complex", isCorrect: false },]
+  }, 
+     {
+  question : 'Philosophical skeptism _____ judgment on a subject matter ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Pronounce", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Withdraw", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Validate", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Suspends", isCorrect: true },]
+  }, 
+     {
+  question : 'The ontological proof of the existence of God is articulated by who ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Saint Augustine", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Saint Thomas Aquinas", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Saint Aquinas", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Saint Anselm", isCorrect: true },]
+  }, 
+     {
+  question : 'The cosmological proof of God\'s existence is articulated by who ? ', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Saint Augustine", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Saint Thomas Aquinas", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Saint Aquinas", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Saint Anselm", isCorrect: false },]
+  }, 
+     {
+  question : 'There are two types of evil namely ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "moral and ethical", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "natural and spiritual", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "intellectual and moral", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "moral and natural", isCorrect: true },]
+  }, 
+     {
+  question : 'The following are ways of illustrating the relationship between mind and body except', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Materialism", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Epiphenomenalism", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Occasionalism", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Interactionism", isCorrect: false },]
+  }, 
+     {
+  question : 'The following are laws of thought except', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Laws of identity", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Laws of non contadiction", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Law of excluded middle", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  }, 
+     {
+  question : 'The law of thought that states that "an object is what it is and nothing else" is ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Law of identity", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Law of excluded middle", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Law of contradiction", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Law of counter-identity", isCorrect: false },]
+  }, 
+     {
+  question : 'The law of thought that states that "an object cannot be and  be at the same time" is _____?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Law of identity", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Law of excluded middle", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Law of contradiction", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Law of counter-identity", isCorrect: false },]
+  }, 
+     {
+  question : 'The law that states that everything or proposition is either true or False is ___ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Law of contradiction", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Law of identity", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Law of excluded middle", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: false },]
+  }, 
+     {
+  question : ' If the proposition "A" is true, what can be infered about "I" proposition', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "False", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Undertermined", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "True", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Determined", isCorrect: false },]
+  }, 
+     {
+  question : '____ is a means of human communication, particularly by arrangement of vocal sounds conventionally representing concepts, feelings objects and other aspect of culture', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Sign", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Linguistics", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Peace", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Language", isCorrect: true },]
+  }, 
+     {
+  question : 'Language express reality ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "False", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "True", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Undetermined", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Uncertain", isCorrect: false },]
+  }, 
+    {
+  question : 'The two aspects that characterized languages are _____ & _____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "utterance and speech", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "utterance and communication", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "utterance and vocal", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "uttrance and meaning", isCorrect: true },]
+  }, 
+     {
+  question : 'The following are kinds of languages expect ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "pidgin", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "spoken", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "sign", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "brail", isCorrect: false },]
+  }, 
+     {
+  question : 'By language man express his ___ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "will", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "desire", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "intentions", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  }, 
+     {
+  question : 'Language involves the interplay of ____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "letters", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "words", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "phrases & clauses", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  }, 
+     {
+  question : '____ is the vechile for which we express our thoughts, emotions & reality', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "language", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "communication", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "sign", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "speech", isCorrect: false },]
+  }, 
+     {
+  question : 'The following are features of language ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Transparency", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Universality", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Relativity", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "all of the above", isCorrect: true },]
+  }, 
+     {
+  question : '____ is a feature of language that shows that language is dependent on culture, especially natural language ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Relativity", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Meaningfulness", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Universality", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Transparency", isCorrect: false },]
+  }, 
+     {
+  question : 'Language can be used for the following except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Quarreling", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Greeting", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Teasing", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  }, 
+     {
+  question : 'The following are uses of languages except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Informative", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Expressive", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Interrogative", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "NOTA", isCorrect: true },]
+  }, 
+     {
+  question : 'The following are multiple functions of language except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Declarative", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Ceremonial", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Performative", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Emotive", isCorrect: false },]
+  }, 
+     {
+  question : 'The two broad kind of disagreements are ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "disagreement in belief & disagreement in fact", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "disagreement in disposition & disagreement in manner", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "disagreement in creed  & disagreement in culture", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "disagreement in belief & disagreement in attitude", isCorrect: true },]
+  }, 
+     {
+  question : 'According to ____ defnition is by symbols, that phenomenon being defined called definiendum, while other groups of symbols used to define it are called definiens ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Bello", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Hans", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Alvin", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Copi", isCorrect: true },]
+  }, 
+     {
+  question : 'The following are purposes of definition except ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "to eliminate ambiguity", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "to influence attitudes", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "to stipulate argument", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "to increase vocalbulary", isCorrect: false },]
+  }, 
+     {
+  question : 'Philosophical problems have confronted philosophers from _____ ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Medieval time", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Modern time", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Ancient time", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Contemporary time", isCorrect: false },]
+  }, 
+     {
+  question : 'One of these is not a philosophical problem ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Free-will and determinism ", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "mind and body", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "peace and conflict", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "cause and effect", isCorrect: false },]
+  }, 
+     {
+  question : 'One of theses is a proponent of free-will ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Karl Marx", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "John Searle", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Hospers", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Democritus", isCorrect: false },]
+  }, 
+     {
+  question : '_____ opines that freewill is illusion ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Hospers", isCorrect: true },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "John Searle", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "J.P. Sarte", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Socrates", isCorrect: false },]
+  }, 
+     {
+  question : '_____ defines free-will as the choice of a person to act in a manner suitable to a particular situation', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "Clement of Alexandra", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Echekwube", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "St. Augustine", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Sophists", isCorrect: false },]
+  }, 
+     {
+  question : 'Morality is hinged on _____', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "determinism", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "praises", isCorrect: true },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "blame", isCorrect: false },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "reason", isCorrect: false },]
+  }, 
+      {
+  question : '____ fallacy is often mistaken for "ignoratio Elenchi" ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "False Analogy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "Argumentum ad Verecumdia", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Non-sequitor", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Argumentum ad popullum", isCorrect: false },]
+  },
+      {
+  question : 'The statement "Brazil is the greatest foot-balling nation on earth because Brazil is the home of football" leads to the fallacy called ?', 
+  answeredCount: 0,
+  options: [
+    { id: "q0_1", userSeletedOPtion: false, label: "A", text: "False analogy", isCorrect: false },
+    { id: "q0_2", userSeletedOPtion: false, label: "B", text: "False cause", isCorrect: false },
+    { id: "q0_3", userSeletedOPtion: false, label: "C", text: "Begging the question", isCorrect: true },
+    { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Poising the well", isCorrect: false },]
+  },
 ];
 
 // ENT START
