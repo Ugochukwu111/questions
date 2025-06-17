@@ -35,11 +35,14 @@ const quizState = {
   totalQuestions: 5,
   autoAdvance: false,
   noRightAnswers: 0,
+  quizintervaltime: undefined, // Timer variable
+  quizTimed: false, // Timer state
   noWrongAnswers: 0,
   reviewMode : false,
   submitted: false,
   ativeMode: false,
 };
+
 
 function autoAdvance(callback, delay = 1500){
   let timer;
@@ -86,10 +89,13 @@ if (quizState.autoAdvance){
 
 
 document.querySelector('.js-auto-advance').addEventListener('click', ()=>{
+  if(quizState.reviewMode){return};
   if(!quizState.autoAdvance){
     quizState.autoAdvance = true;
+    quizState.ativeMode = true;
     colorBolt();
   }else{
+    quizState.ativeMode = false;
       quizState.autoAdvance = false;
       colorBolt();
   }
@@ -187,9 +193,12 @@ document.querySelector('.submit-btn-pop').addEventListener('click',()=>{
 
 function submit(){
   if (quizState.submitted === true){
+    
      document.querySelector('.result-container').style.display = 'grid';
     showResult()
   }else{
+      console.log('already submitted');
+      stopTimer();
     addsCorrectAnswers()
      getCorrectWrongAnswer()
           document.querySelector('.result-container').style.display = 'grid';
@@ -215,8 +224,14 @@ showQuestion()// displays current question
 document.querySelector('.previous-question-btn').addEventListener('click', previuosQuestion);
 
 
-
-
+// Keyboard navigation for next and previous questions
+document.addEventListener("keydown", function (event) {
+  if (event.key === "ArrowRight") {
+    nextQuestion();
+  } else if (event.key === "ArrowLeft") {
+    previuosQuestion();
+  }
+});
 
 
 
@@ -296,6 +311,8 @@ function retry() {
   quizState.noWrongAnswers = 0;
   quizState.reviewMode = false;
   quizState.submitted = false;
+  quizState.ativeMode = false;
+  quizState.quizTimed = false;
 
   // Reset question bank data
   questionBank.forEach(question => {
@@ -314,13 +331,19 @@ function retry() {
 
   // Show the first question again
   showQuestion();
+
+  colorBolt();
+   timerCtnHtml.classList.remove('show-timer-container');
 }
 
 function review(){
   quizState.reviewMode = true;
+  quizState.ativeMode = false;
+  quizState.autoAdvance = false;
   quizState.currentQuestion = 0;
   document.querySelector('.result-container').style.display = 'none';
   showQuestion()
+  colorBolt()
 }
 
 // Function to handle the styling of the selected option
@@ -428,6 +451,8 @@ function timerToCloseDropdown() {
 let setquizTimerBtn = document.querySelector('.set-quiz-timer-btn');
 let timerCtnHtml = document.querySelector('.timer-container');
 
+
+// generate the timer  html and necessary event listeners
 setquizTimerBtn.addEventListener('click', () => {
   let backgroundContainer = document.querySelector('.result-container');
   backgroundContainer.style.display = 'grid';
@@ -454,7 +479,7 @@ setquizTimerBtn.addEventListener('click', () => {
   })
 
   const confirmSetTimeBtn = document.querySelector('.set-timer-confirm-btn');
-  let quizintervaltime;
+
   let  timeValueNumber;
 
   confirmSetTimeBtn.addEventListener('click', ()=>{
@@ -462,7 +487,10 @@ setquizTimerBtn.addEventListener('click', () => {
     if (quizState.reviewMode){
       timeValueErrorEl.textContent = 'Quiz in review mode cannot set timer';
       return;
-    };
+    }else if(quizState.quizTimed){
+      timeValueErrorEl.textContent = 'Timer has already been set';
+        return;
+    }
 
     let timeValue = document.querySelector('#quiz-timer-input').value;
 
@@ -472,8 +500,8 @@ setquizTimerBtn.addEventListener('click', () => {
        timeValueErrorEl.classList.add('text-crimson-red');
        
      }else{
-
-      quizState.ativeMode = true;
+       quizState.quizTimed = true;
+       quizState.ativeMode = true;
        colorBolt()
 
        timeValueErrorEl.textContent = 'Timer value in minutes';
@@ -483,14 +511,14 @@ setquizTimerBtn.addEventListener('click', () => {
        const UserSelectedTimeLimit = Math.floor(timeValueNumber / 3);
        console.log(UserSelectedTimeLimit);
 
-       clearInterval(quizintervaltime);
+       clearInterval(quizState.quizintervaltime);
        backgroundContainer.style.display = 'none';
        
         timerCtnHtml.innerHTML = `<span
         class ="time-number">${timeValueNumber}</span>`;
         timerCtnHtml.classList.add('show-timer-container');
 
-      quizintervaltime = setInterval(()=>{
+      quizState.quizintervaltime = setInterval(()=>{
         timerCtnHtml.innerHTML = `<span
         class ="time-number">${timeValueNumber}</span>`;
         // timerCtnHtml.classList.add('show-timer-container');
@@ -501,10 +529,12 @@ setquizTimerBtn.addEventListener('click', () => {
         if(timeValueNumber === -1){
               document.querySelector('.time-number').classList.add('time-is-running-out');// change color of time to red
               timerCtnHtml.classList.remove('show-timer-container');   
-              clearInterval(quizintervaltime);
+              clearInterval(quizState.quizintervaltime);
               quizState.ativeMode = false;
-              colorBolt()
+              quizState.quizTimed = false;
+              colorBolt();
               submit();
+
      } else if(timeValueNumber <=  UserSelectedTimeLimit){
        document.querySelector('.time-number').classList.add('time-is-running-out');
      }
@@ -517,7 +547,7 @@ setquizTimerBtn.addEventListener('click', () => {
 // this functions fills the bolt icon to green anytime   quizState.ativeMode = true or quizState.autoAdvance;
 function colorBolt(){
   const boltIconHtml = document.querySelector('.bolt-icon');
-  if(quizState.ativeMode || quizState.autoAdvance){
+  if(quizState.ativeMode){
     boltIconHtml.style.fill = 'green';
   }else{
      boltIconHtml.style.fill = 'gold';
@@ -525,3 +555,7 @@ function colorBolt(){
 }
 
 
+function stopTimer(){
+  clearInterval(quizState.quizintervaltime);
+  console.log('timer stopped')
+}

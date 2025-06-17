@@ -10,7 +10,7 @@ export function getNotificationBox(message) {
   // Optional: Remove the class after 3 seconds to hide the notification
   setTimeout(() => {
     notificationContainer.classList.remove('show');
-  }, 8000);
+  }, 5000);
 }
 
 export function getRandomMessage(array){
