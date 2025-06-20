@@ -39,7 +39,7 @@
 
   <main>
        <!-- sigin form -->
-       <form class="sign-in-form" action="#" method="POST">
+       <form class="sign-in-form" action="/signin" method="POST">
         <!-- intro to form text -->
      <div class="form-intro-text">
        <h1>Sign In</h1>
@@ -51,6 +51,10 @@
      <div class="name-email-input-container">
        <label for="email">Email</label>
        <input id="email" name="email" required autocomplete="email" placeholder="Enter Email" type="email">
+       <small class="FWB text-crimson-red" id="emailError"></small>
+
+      
+
      </div>
   
      <!-- passwaord container layout -->
@@ -60,8 +64,9 @@
                             <!-- this button is used to show password when clicked -->
           <button type="button" aria-label="Show password" class="display-password-btn js-display-password-btn"></button>
            </label>
-           <input required id="signIn-password" name="signIn-password" autocomplete="password" placeholder="Enter password" type="password">
-           <small aria-live="polite" class="password-show-error FWB text-crimson-red"></small>
+           <input required id="signIn-password" name="password" autocomplete="password" placeholder="Enter password" type="password">
+            <small aria-live="polite" class="password-show-error FWB text-crimson-red" id="passwordError"></small>
+           
          </div>
      </div>
   
@@ -79,6 +84,6 @@
         </form>
   </main>
 
-  <script src="siginIn.js"></script>
+  <script src="scripts/siginIn.js"></script>
 </body>
 </html>

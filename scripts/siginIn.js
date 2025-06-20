@@ -25,3 +25,24 @@ document.querySelector('.js-display-password-btn').addEventListener('click', (e)
   }
   console.log('clicked')
 })
+
+
+// code below handles error from backend missing email or password
+// This code checks the URL for query parameters and displays error messages accordingly
+const query = new URLSearchParams(window.location.search);
+const error = query.get("error");
+const email = query.get("email");
+
+// Show error messages
+if (error === "email") {
+  document.getElementById("emailError").textContent = "Email not found. Try again.";
+} else if (error === "password") {
+  document.getElementById("passwordError").textContent = "Incorrect password.";
+}
+
+// Refill email input
+if (email) {
+  document.getElementById("email").value = email;
+}
+
+

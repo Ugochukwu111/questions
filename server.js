@@ -4,9 +4,20 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const bcrypt = require('bcrypt');
+const session = require('express-session');
 
-// Middleware to parse URL-encoded bodies (form data)
+app.set('view engine', 'ejs'); // Set EJS as the view engine
+
+
 app.use(bodyParser.urlencoded({ extended: true }));
+
+    app.use(session({
+  secret: 'quizcampus_secret_key', // signs the cookie to protect it
+  resave: false,    // don't save if nothing changed
+  saveUninitialized: false,   // don't create session until something stored
+}));
+
+
 
 // Connect to MongoDB
 mongoose.connect("mongodb+srv://pascal:Pascal2025@cluster0.iwr216l.mongodb.net/quizcampus")
@@ -80,6 +91,62 @@ app.post("/", async function (req, res) {
     res.status(500).send("Something went wrong.");
   }
 });
+
+
+app.post('/signin', async (req, res) => {
+  const { email, password } = req.body;
+
+  try {
+    // Find user by email
+    const user = await quizcampus.findOne({ email });
+
+    if (!user) {
+      // If user not found, redirect with error
+      // retain email while showing error
+        return res.redirect(`/signin.html?error=email&email=${encodeURIComponent(email)}`);
+      // redirect with email error
+      return res.redirect('/signin.html?error=email');
+    }
+
+    // Compare password with hashed version in DB
+    const isMatch = await bcrypt.compare(password, user.password);
+
+    if (!isMatch) {
+      // If password is incorrect, redirect with error
+      // retain emial while showing error
+        return res.redirect(`/signin.html?error=password&email=${encodeURIComponent(email)}`);
+       // redirect with password error
+      return res.redirect('/signin.html?error=password');
+    }
+
+    
+// ✅ SET SESSION USER DATA HERE
+req.session.user = {
+  fullname: user.fullname,
+  email: user.email,
+  school: user.school
+};
+
+    // If login is successful take user to homepage
+    res.redirect('/index.html');
+    
+  } catch (err) {
+    console.error("Login error:", err);
+    res.status(500).send("Internal server error");
+  }
+});
+
+app.get('/profile', (req, res) => {
+ // If session or user is missing, redirect to login
+  if (!req.session || !req.session.user) {
+    return res.redirect('/signin.html');
+  }
+
+  // Otherwise, render the profile page
+
+  res.render('profile', { user: req.session.user });
+});
+
 
 // Start server on port 3000
 app.listen(3000, function(){
