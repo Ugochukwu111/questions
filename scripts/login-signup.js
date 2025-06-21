@@ -1,84 +1,68 @@
-// yes na my sigin in sign up logic be this!!!
-const signUpForm = document.querySelector('.sign-up-form') // grab my form from the dom
-signUpForm.addEventListener('submit', (e) => {
+const signUpForm = document.querySelector('.sign-up-form'); // grab my form from the dom
 
-  // grabs the passwaord and confirmed password from the dom and trims the space
+signUpForm.addEventListener('submit', (e) => {
   const password = document.getElementById('password').value.trim();
   const confirmPassword = document.getElementById('confirmed-password').value.trim();  
-
   const passwordContainerEl = document.querySelector('.password-input-container');
+  const Inputs = passwordContainerEl.querySelectorAll('input');
 
-  // grabs the inputs (confirm password and passwprd) of the password container
-  const Inputs = passwordContainerEl.querySelectorAll('input') ;
+  // Check if passwords match
+  if (password !== confirmPassword) {
+    e.preventDefault();
+    document.querySelector('.passwaord-show-error').innerHTML = 'Passwords do not match.';
+    Inputs.forEach((input) => input.classList.add('error'));
+  
+  } else if (password.length <= 7) {
+    e.preventDefault();
+    document.querySelector('.passwaord-show-error').innerHTML = 'Password must be at least 8 characters long.';
+    Inputs.forEach((input) => input.classList.add('error'));
+  
+  } else if (password === confirmPassword) {
+    e.preventDefault(); // prevent default form action
 
-  // check if the password and confirmed password are equal
-        if (password !== confirmPassword){
-          e.preventDefault()
-          document.querySelector('.passwaord-show-error').innerHTML = 'Passwords do not match.' // show the error message
-          // loop through the inputs and add the error class to each of them
-             Inputs.forEach((input) => {
-            input.classList.add('error')}) // add error class to the inputs
-        } else if (password.length <= 7) {
-            e.preventDefault()
-            document.querySelector('.passwaord-show-error').innerHTML = 'Password must be at least 8 characters long.' // show the error message;
-            // loop through the inputs and add the error class to each of them
-            Inputs.forEach((input) => {
-              input.classList.add('error')}); // add error class to the inputs
-          }else if (password === confirmPassword) {
-            // loop through the inputs and remove the error class from each of them
-            Inputs.forEach((input) => {
-              document.querySelector('.passwaord-show-error').innerHTML = '';
-              input.classList.remove('error')})// remove error class from the inputs 
-            }
-})
+    // ✅ Passed validation, clear error state
+    Inputs.forEach((input) => {
+      document.querySelector('.passwaord-show-error').innerHTML = '';
+      input.classList.remove('error');
+    });
 
-document.querySelector('.js-display-password-btn').addEventListener('click', (e) => {
-  const passwordInput = document.getElementById('password'); // grab the password input from the dom
-  const confirmPasswordInput = document.getElementById('confirmed-password'); // grab the confirm password input from the dom
-  const passwordContainerEl = document.querySelector('.password-input-container'); // grab the password container from the dom
+    // 🧠 Grab other input values
+    const fullname = document.getElementById('fullname').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const school = document.getElementById('school').value.trim();
 
-  // check if the password is type password or text and change it to the opposite type
-  if (passwordInput.type === 'password') {
-    passwordInput.type = 'text'; // change the type to text
-    confirmPasswordInput.type = 'text'; // change the type to text
-    // passwordContainerEl.classList.add('show-password'); // add the show-password class to the password container
-    e.target.setAttribute('aria-label', 'hide password');
-  } else {
-    passwordInput.type = 'password'; // change the type to password
-    confirmPasswordInput.type = 'password'; // change the type to password
-    // passwordContainerEl.classList.remove('show-password'); // remove the show-password class from the password container
-    e.target.setAttribute('aria-label', 'Show password');
+    const formData = {
+      fullname,
+      email,
+      password,
+      confirmPassword,
+      school
+    };
+
+    // 🚀 Send data to backend API
+    fetch("https://quiz-campus-backend.onrender.com", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.error) {
+          alert(data.error); // Show error message from backend
+        } else {
+          alert(data.message); // Signup successful
+          window.location.href = "/login.html"; // Redirect user
+        }
+      })
+      .catch(err => {
+        console.error("Signup error:", err);
+        alert("An unexpected error occurred. Please try again.");
+      });
   }
-  console.log('clicked')
-})
+});
 
-
-//const select = document.getElementById("school");
-// fetch("https://corsproxy.io/?https://nigerian-universities.onrender.com")
-//   .then(response => response.text())
-//   .then(text => {
-//     const parsed = JSON.parse(text);
-//     const universities = parsed.data; // ✅ actual list is under "data"
-
-//     if (!Array.isArray(universities)) {
-//       throw new Error("Unexpected format: 'data' is not an array");
-//     }
-
-//     const select = document.getElementById("school");
-//     select.innerHTML = '<option value="">-- Select a university --</option>';
-
-//     universities.forEach(uni => {
-//       const option = document.createElement("option");
-//       option.value = uni.name;
-//       option.textContent = uni.name;
-//       select.appendChild(option);
-//     });
-
-//     select.disabled = false;
-//   })
-//   .catch(error => {
-//     console.error("Error loading universities:", error);
-//   });
 
 
 // Fetch the list of Nigerian universities through a CORS proxy
@@ -121,3 +105,30 @@ fetch("https://corsproxy.io/?https://nigerian-universities.onrender.com")
     console.error("Error loading universities:", error);
   });
 
+
+
+  const formData = {
+  fullname: fullnameInput.value,
+  email: emailInput.value,
+  password: passwordInput.value,
+  confirmPassword: confirmPasswordInput.value,
+  school: schoolInput.value
+};
+
+fetch("https://quiz-campus-backend.onrender.com/signup", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify(formData)
+})
+  .then(res => res.json())
+  .then(data => {
+    if (data.error) {
+      alert(data.error); // show error message
+    } else {
+      alert(data.message); // "Signup successful"
+      window.location.href = "/login.html"; // redirect to login page
+    }
+  })
+  .catch(err => console.error("Signup error:", err));
