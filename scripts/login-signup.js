@@ -40,7 +40,7 @@ signUpForm.addEventListener('submit', (e) => {
     };
 
     // 🚀 Send data to backend API
-    fetch("https://quiz-campus-backend.onrender.com", {
+    fetch("https://quiz-campus-backend.onrender.com/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
