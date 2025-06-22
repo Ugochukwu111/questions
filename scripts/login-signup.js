@@ -40,7 +40,7 @@ signUpForm.addEventListener('submit', (e) => {
     };
 
     // 🚀 Send data to backend API
-    fetch("https://quiz-campus-backend.onrender.com/signup", {
+    fetch("https://quiz-campus-backend-new.onrender.com/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -107,28 +107,4 @@ fetch("https://corsproxy.io/?https://nigerian-universities.onrender.com")
 
 
 
-  const formData = {
-  fullname: fullnameInput.value,
-  email: emailInput.value,
-  password: passwordInput.value,
-  confirmPassword: confirmPasswordInput.value,
-  school: schoolInput.value
-};
-
-fetch("https://quiz-campus-backend.onrender.com/signup", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify(formData)
-})
-  .then(res => res.json())
-  .then(data => {
-    if (data.error) {
-      alert(data.error); // show error message
-    } else {
-      alert(data.message); // "Signup successful"
-      window.location.href = "/login.html"; // redirect to login page
-    }
-  })
-  .catch(err => console.error("Signup error:", err));
+  
