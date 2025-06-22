@@ -1,17 +1,52 @@
-const signInForm = document.querySelector('.sign-in-form'); // grab the sign in form from the dom
-const errorEl = document.querySelector('.password-show-error') ;// grab the error element from the dom
+// ===== Grab DOM elements =====
+console.log('Sign-in script loaded'); // Debugging log
+const signInForm = document.querySelector('.sign-in-form'); // form
+const errorEl     = document.querySelector('.password-show-error'); // small tag for errors
+
+// ===== Form submit handler =====
 signInForm.addEventListener('submit', (e) => {
+  e.preventDefault();                    // always stop default form post
+  const email    = document.getElementById('email').value.trim();
   const password = document.getElementById('signIn-password').value.trim();
-   if (password.length <= 7) {
-    e.preventDefault()
-   errorEl.innerHTML = 'Password must be at least 8 characters long.' ;
-  }else if (password.length > 7) {
-    errorEl.innerHTML = '';} // remove the error message
 
-})
+  // ---- Simple client-side validation ----
+  if (password.length < 8) {
+    errorEl.textContent = 'Password must be at least 8 characters long.';
+    return;                               // don’t continue
+  }
+  errorEl.textContent = '';               // clear any previous error
+
+  // ---- Hit backend /login route ----
+  fetch('http://localhost:3000/signin', {
+    method : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body   : JSON.stringify({ email, password })
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.error) {
+      // Backend-provided error (invalid creds, etc.)
+      errorEl.textContent = data.error;
+    } else {
+      // ---- Success: store token + user, redirect ----
+      localStorage.setItem('quizcampus_token', data.token);
+      localStorage.setItem('quizcampus_user',  JSON.stringify(data.user));
+      window.location.href = '/index.html';
+    }
+  })
+  .catch(err => {
+    console.error('Login fetch error:', err);
+    errorEl.textContent = 'Something went wrong. Please try again.';
+  });
+});
 
 
 
+
+
+
+
+// icon to see password js
 document.querySelector('.js-display-password-btn').addEventListener('click', (e) => {
   const passwordInput = document.getElementById('signIn-password'); // grab the password input from the dom
 
@@ -23,5 +58,5 @@ document.querySelector('.js-display-password-btn').addEventListener('click', (e)
     passwordInput.type = 'password'; // change the type to password
     e.target.setAttribute('aria-label', 'Show password');
   }
-  console.log('clicked')
+  
 })

@@ -40,7 +40,7 @@ signUpForm.addEventListener('submit', (e) => {
     };
 
     // 🚀 Send data to backend API
-    fetch("https://quiz-campus-backend-new.onrender.com/signup", {
+    fetch("http://localhost:3000/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -53,7 +53,7 @@ signUpForm.addEventListener('submit', (e) => {
           alert(data.error); // Show error message from backend
         } else {
           alert(data.message); // Signup successful
-          window.location.href = "/login.html"; // Redirect user
+           window.location.href = "/signin.html"; 
         }
       })
       .catch(err => {
