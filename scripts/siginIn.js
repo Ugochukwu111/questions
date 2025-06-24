@@ -22,7 +22,7 @@ signInForm.addEventListener('submit', (e) => {
   errorEl.textContent = '';               // clear any previous error
 
   // ---- Hit backend /login route ----
-  fetch('http://localhost:3000/signin', {
+  fetch('https://quiz-campus-backend-new.onrender.com/signin', {
     method : 'POST',
     headers: { 'Content-Type': 'application/json' },
     body   : JSON.stringify({ email, password })
