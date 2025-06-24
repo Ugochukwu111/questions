@@ -1,5 +1,10 @@
+console.log('Sign-in script loaded');
+ import { setSignedIn } from './auth.js';
+console.log('Sign-in script loaded');
+
+
+
 // ===== Grab DOM elements =====
-console.log('Sign-in script loaded'); // Debugging log
 const signInForm = document.querySelector('.sign-in-form'); // form
 const errorEl     = document.querySelector('.password-show-error'); // small tag for errors
 
@@ -28,9 +33,9 @@ signInForm.addEventListener('submit', (e) => {
       // Backend-provided error (invalid creds, etc.)
       errorEl.textContent = data.error;
     } else {
-      // ---- Success: store token + user, redirect ----
-      localStorage.setItem('quizcampus_token', data.token);
-      localStorage.setItem('quizcampus_user',  JSON.stringify(data.user));
+      // Successful login
+      // Set user in local storage
+      setSignedIn(data.user, data.token);
       window.location.href = '/index.html';
     }
   })

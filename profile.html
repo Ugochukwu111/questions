@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/profile.css">
+  <title>Quiz Campus | Profile</title>
+</head>
+<body>
+   <div class="spiner-container">
+        <figure class="spinner-card">
+          <img src="/images/logo.png" alt="logo">
+        </figure>
+  </div>
+  
+  <div class="container">
+    <header class="d-flex">
+    
+      <div class="user-name-img-container">
+         <!-- Profile picture -->
+         <figure class="user-profile-photo-container">
+          <input type="file" id="profilePicInput" accept="image/*" style="display: none;">
+          <img id="profilePic" loading="lazy" src="/images/quiz campus default profile pic.png" alt="User profile photo">
+          <button class="edith-user-profile-photo-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l74-80h240l74 80h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Zm0-80h640v-480H638l-73-80H395l-73 80H160v480Zm320-240Z"/></svg>
+              <path d="..." />
+            </svg>
+          </button>
+         </figure>
+          
+         <!-- Dynamic user info -->
+          <div class="content">
+            <h3>@User name</h3>
+            <h1 id="profile-name">joseph pascal</h1>
+            <p>
+              Welcome back to Quiz Campus. Ready to challenge your mind?
+            </p>
+          </div>
+         
+      </div>
+      <!-- Edit button -->
+      <div class="edit-btn-div">
+        <button>Edit</button>
+      </div>
+    </header>
+    <main>
+       <div class="user-details-container d-flex">
+        <div>
+          <h3>Email: <span id="profile-email">pascal@gmail.com</span></h3>
+        </div>
+        <div>
+          <h3>School: <span id="profile-school">uniben</span></h3>
+        </div>
+       </div>
+       <!-- Quiz records -->
+        <div class="quiz-records-container">
+          <h2>Saved Quizzes</h2>
+          <br><hr><br>
+          <!-- Static placeholder — replace with real user quiz records later -->
+          <div class="quiz-records">
+            <span>questionBankA</span> <span>45 / 50</span> <span>13 June 2025</span>
+          </div>
+          <div class="quiz-records">
+            <span>questionBankA</span> <span>45 / 50</span> <span>12 June 2025</span>
+          </div>
+        </div>
+    </main>
+    <footer class="d-flex j-c-space-btw align-center">
+   <!-- injected by js -->
+    </footer>
+  </div>
+  <script type="module" src="scripts/general.js"></script>
+  <script type="module" src="scripts/profile.js"></script>
+</body>
+</html>

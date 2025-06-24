@@ -1,6 +1,7 @@
 import { courses } from "./courses.js";
 import { getNotificationBox, getRandomMessage ,  } from "./reuseablefunc.js";
 import { homePageGreetings }  from "./compliments.js";
+import { signOut } from './auth.js';
 
 
 
@@ -65,3 +66,7 @@ document.querySelectorAll('.start-btn').forEach(button => {
 });
 
 
+document.querySelector('.signout-btn').addEventListener('click', () => {
+  signOut();
+  // window.location.href = 'signin.html';
+});
