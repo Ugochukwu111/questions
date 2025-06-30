@@ -57,7 +57,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: start;  
-    animation: slideUP 1s ease forwards;
+    animation: slideUP 4s ease forwards;
     opacity: 0;
   }
   @keyframes slideUP{
@@ -96,13 +96,21 @@ main{
   margin: 2em 0;
   border-radius: 1rem;
   border: 1px solid var(--light-grey);
-  padding: 2em;
+  padding: 1em;
+  overflow-x: scroll;
+}
+.scroll-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  min-width: 400px;
 }
 .quiz-records{
   display: flex;
   padding: .5em .8em;
   margin: .3em 0;
   justify-content: space-between;
+    background: #f5f5f5;
 }
 header{
   position: relative;

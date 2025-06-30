@@ -24,7 +24,7 @@ export function hideSpinner(){
    setTimeout (()=>{
       spinner.style.display = 'none';
       document.body.classList.remove('loading');
-   }, 3000)
+   }, 2500)
 }
 
 

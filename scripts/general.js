@@ -4,7 +4,7 @@ import {  hideSpinner, Footer } from "./reuseablefunc.js";
 Footer()
 
 
-// animations for the main page site
+// animations for footer elements
 document.addEventListener("DOMContentLoaded", function () {
   // Get all the children of the footer
   const footerElements = document.querySelectorAll("footer > *");
@@ -31,16 +31,20 @@ document.addEventListener("DOMContentLoaded", function () {
  document.addEventListener('DOMContentLoaded', () => {
   hideSpinner();
   const nav = document.getElementsByTagName('nav')[0];
+  if(!nav) return;
   nav.classList.add('show');
+  
 });
 
 // MOBILE NAVIGATION JS
 
 const SidebarBtn = document.querySelector(".sidebar-btn");
-SidebarBtn.addEventListener("click",  ()=>{
-  let closeIcon = document.querySelector(".close-icon ");
-  let showIcon = document.querySelector(".show-icon ");
-  let sidebar = document.querySelector(".sidebar");
+// Ensure the button exists before adding event listener
+if (SidebarBtn) {
+  SidebarBtn.addEventListener("click", () => {
+    let closeIcon = document.querySelector(".close-icon ");
+    let showIcon = document.querySelector(".show-icon ");
+    let sidebar = document.querySelector(".sidebar");
   let sidebarLabel = sidebar.getAttribute('aria-label');
 
   if (sidebarLabel === "sidebar closed") {
@@ -60,5 +64,4 @@ SidebarBtn.addEventListener("click",  ()=>{
   }
 
 });
-
-
+}
