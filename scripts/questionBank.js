@@ -4410,3 +4410,507 @@ export let questionBank3 = [
     { id: "q0_4", userSeletedOPtion: false, label: "D", text: "Revenue model", isCorrect: false }, ]
   },
  ]
+
+
+ export let questionBank4A = [
+  {
+    question: "Every business that is required to be registered must be done within ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q1_1", userSeletedOPtion: false, label: "A", text: "14 days", isCorrect: false },
+      { id: "q1_2", userSeletedOPtion: false, label: "B", text: "7 days", isCorrect: false },
+      { id: "q1_3", userSeletedOPtion: false, label: "C", text: "28 days", isCorrect: true },
+      { id: "q1_4", userSeletedOPtion: false, label: "D", text: "31 days", isCorrect: false },
+    ]
+  },
+  {
+    question: "Variability in returns from a business is referred to as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q2_1", userSeletedOPtion: false, label: "A", text: "Reward", isCorrect: false },
+      { id: "q2_2", userSeletedOPtion: false, label: "B", text: "Earnings", isCorrect: false },
+      { id: "q2_3", userSeletedOPtion: false, label: "C", text: "Risk", isCorrect: true },
+      { id: "q2_4", userSeletedOPtion: false, label: "D", text: "Uncertainty", isCorrect: false },
+    ]
+  },
+  {
+    question: "Which of the following will have a credit balance?",
+    answeredCount: 0,
+    options: [
+      { id: "q3_1", userSeletedOPtion: false, label: "A", text: "Motor van account", isCorrect: false },
+      { id: "q3_2", userSeletedOPtion: false, label: "B", text: "Receivable account", isCorrect: false },
+      { id: "q3_3", userSeletedOPtion: false, label: "C", text: "Loan account", isCorrect: true },
+      { id: "q3_4", userSeletedOPtion: false, label: "D", text: "Purchases account", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ is an example of an internal source of financing?",
+    answeredCount: 0,
+    options: [
+      { id: "q4_1", userSeletedOPtion: false, label: "A", text: "Equity financing", isCorrect: false },
+      { id: "q4_2", userSeletedOPtion: false, label: "B", text: "Retained earnings", isCorrect: true },
+      { id: "q4_3", userSeletedOPtion: false, label: "C", text: "Lease", isCorrect: false },
+      { id: "q4_4", userSeletedOPtion: false, label: "D", text: "Debenture", isCorrect: false },
+    ]
+  },
+  {
+    question: "Which of the following is not a model for businesses owned by related persons?",
+    answeredCount: 0,
+    options: [
+      { id: "q5_1", userSeletedOPtion: false, label: "A", text: "Two-cycle model", isCorrect: false },
+      { id: "q5_2", userSeletedOPtion: false, label: "B", text: "Developmental model", isCorrect: false },
+      { id: "q5_3", userSeletedOPtion: false, label: "C", text: "Balanced point model", isCorrect: true },
+      { id: "q5_4", userSeletedOPtion: false, label: "D", text: "Three cycle model", isCorrect: false },
+    ]
+  },
+  {
+    question: "Which of the following is the right process in entrepreneurship?",
+    answeredCount: 0,
+    options: [
+      { id: "q6_1", userSeletedOPtion: false, label: "A", text: "Idea - Opportunity - Concept", isCorrect: true },
+      { id: "q6_2", userSeletedOPtion: false, label: "B", text: "Concept - Idea - Opportunity", isCorrect: false },
+      { id: "q6_3", userSeletedOPtion: false, label: "C", text: "Concept - Opportunity - Idea", isCorrect: false },
+      { id: "q6_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ analysis is used to determine if a project will produce enough money to be profitable?",
+    answeredCount: 0,
+    options: [
+      { id: "q7_1", userSeletedOPtion: false, label: "A", text: "Financial feasibility", isCorrect: true },
+      { id: "q7_2", userSeletedOPtion: false, label: "B", text: "Market feasibility", isCorrect: false },
+      { id: "q7_3", userSeletedOPtion: false, label: "C", text: "Economic feasibility", isCorrect: false },
+      { id: "q7_4", userSeletedOPtion: false, label: "D", text: "Operational feasibility", isCorrect: false },
+    ]
+  },
+  {
+    question: "In the book keeping process, first entries of a transaction are documented in the ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q8_1", userSeletedOPtion: false, label: "A", text: "Ledger", isCorrect: false },
+      { id: "q8_2", userSeletedOPtion: false, label: "B", text: "Original entry", isCorrect: false },
+      { id: "q8_3", userSeletedOPtion: false, label: "C", text: "Source document", isCorrect: true },
+      { id: "q8_4", userSeletedOPtion: false, label: "D", text: "Prime book", isCorrect: false },
+    ]
+  },
+  {
+    question: "The process by which organizations monitor their environment to identify opportunities and threats is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q9_1", userSeletedOPtion: false, label: "A", text: "Business analysis", isCorrect: false },
+      { id: "q9_2", userSeletedOPtion: false, label: "B", text: "SWOT analysis", isCorrect: false },
+      { id: "q9_3", userSeletedOPtion: false, label: "C", text: "Environmental scanning", isCorrect: true },
+      { id: "q9_4", userSeletedOPtion: false, label: "D", text: "Feasibility analysis", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ spells out the way and manner a partnership business is managed?",
+    answeredCount: 0,
+    options: [
+      { id: "q10_1", userSeletedOPtion: false, label: "A", text: "Memorandum of association", isCorrect: false },
+      { id: "q10_2", userSeletedOPtion: false, label: "B", text: "Deed of partnership", isCorrect: true },
+      { id: "q10_3", userSeletedOPtion: false, label: "C", text: "Article of association", isCorrect: false },
+      { id: "q10_4", userSeletedOPtion: false, label: "D", text: "Partners' Constitution", isCorrect: false },
+    ]
+  },
+  {
+    question: "Business environment is broadly grouped into how many categories?",
+    answeredCount: 0,
+    options: [
+      { id: "q11_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: false },
+      { id: "q11_2", userSeletedOPtion: false, label: "B", text: "4", isCorrect: false },
+      { id: "q11_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+      { id: "q11_4", userSeletedOPtion: false, label: "D", text: "2", isCorrect: true },
+    ]
+  },
+  {
+    question: "___ is not a class of account?",
+    answeredCount: 0,
+    options: [
+      { id: "q12_1", userSeletedOPtion: false, label: "A", text: "Real account", isCorrect: false },
+      { id: "q12_2", userSeletedOPtion: false, label: "B", text: "Income account", isCorrect: true },
+      { id: "q12_3", userSeletedOPtion: false, label: "C", text: "Nominal account", isCorrect: false },
+      { id: "q12_4", userSeletedOPtion: false, label: "D", text: "Personal account", isCorrect: false },
+    ]
+  },
+  {
+    question: "Generic business plans made from readily available templates are ___ the best ones?",
+    answeredCount: 0,
+    options: [
+      { id: "q13_1", userSeletedOPtion: false, label: "A", text: "Always", isCorrect: false },
+      { id: "q13_2", userSeletedOPtion: false, label: "B", text: "Never", isCorrect: false },
+      { id: "q13_3", userSeletedOPtion: false, label: "C", text: "Often", isCorrect: false },
+      { id: "q13_4", userSeletedOPtion: false, label: "D", text: "Rarely", isCorrect: true },
+    ]
+  },
+  {
+    question: "Hydrocarbon tax is payable by ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q14_1", userSeletedOPtion: false, label: "A", text: "Insurance companies", isCorrect: false },
+      { id: "q14_2", userSeletedOPtion: false, label: "B", text: "Financial service companies", isCorrect: false },
+      { id: "q14_3", userSeletedOPtion: false, label: "C", text: "Water transport companies", isCorrect: false },
+      { id: "q14_4", userSeletedOPtion: false, label: "D", text: "Petroleum companies", isCorrect: true },
+    ]
+  },
+  {
+    question: "___ is the way the law sees, regards, and treats a business?",
+    answeredCount: 0,
+    options: [
+      { id: "q15_1", userSeletedOPtion: false, label: "A", text: "Business opportunity", isCorrect: false },
+      { id: "q15_2", userSeletedOPtion: false, label: "B", text: "Legal form of business", isCorrect: true },
+      { id: "q15_3", userSeletedOPtion: false, label: "C", text: "Business succession", isCorrect: false },
+      { id: "q15_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "Business opportunities are broadly grouped into how many categories?",
+    answeredCount: 0,
+    options: [
+      { id: "q16_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: false },
+      { id: "q16_2", userSeletedOPtion: false, label: "B", text: "4", isCorrect: false },
+      { id: "q16_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+      { id: "q16_4", userSeletedOPtion: false, label: "D", text: "2", isCorrect: true },
+    ]
+  },
+  {
+    question: "In developing a business, ___ answers the question 'can we'?",
+    answeredCount: 0,
+    options: [
+      { id: "q17_1", userSeletedOPtion: false, label: "A", text: "Business plan", isCorrect: false },
+      { id: "q17_2", userSeletedOPtion: false, label: "B", text: "Business evaluation", isCorrect: false },
+      { id: "q17_3", userSeletedOPtion: false, label: "C", text: "Business analysis", isCorrect: false },
+      { id: "q17_4", userSeletedOPtion: false, label: "D", text: "Feasibility study", isCorrect: true },
+    ]
+  },
+  {
+    question: "QUEST is a step process that uses scenario writing to identify opportunities and threats that can affect business. How many steps?",
+    answeredCount: 0,
+    options: [
+      { id: "q18_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: false },
+      { id: "q18_2", userSeletedOPtion: false, label: "B", text: "4", isCorrect: true },
+      { id: "q18_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+      { id: "q18_4", userSeletedOPtion: false, label: "D", text: "2", isCorrect: false },
+    ]
+  },
+  {
+    question: "Section 386(1) requires how many directors to sign the final account?",
+    answeredCount: 0,
+    options: [
+      { id: "q19_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: false },
+      { id: "q19_2", userSeletedOPtion: false, label: "B", text: "4", isCorrect: false },
+      { id: "q19_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+      { id: "q19_4", userSeletedOPtion: false, label: "D", text: "2", isCorrect: true },
+    ]
+  },
+  {
+    question: "The acronym 'Ltd' is associated with ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q20_1", userSeletedOPtion: false, label: "A", text: "Public limited company", isCorrect: false },
+      { id: "q20_2", userSeletedOPtion: false, label: "B", text: "Private limited company", isCorrect: true },
+      { id: "q20_3", userSeletedOPtion: false, label: "C", text: "Unlimited company", isCorrect: false },
+      { id: "q20_4", userSeletedOPtion: false, label: "D", text: "Limited by guarantee", isCorrect: false },
+    ]
+  },
+  {
+    question: "The basic difference between a small business firm and an entrepreneurial venture is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q21_1", userSeletedOPtion: false, label: "A", text: "Type of goods/services offered", isCorrect: false },
+      { id: "q21_2", userSeletedOPtion: false, label: "B", text: "View on growth & innovation", isCorrect: true },
+      { id: "q21_3", userSeletedOPtion: false, label: "C", text: "Ownership type", isCorrect: false },
+      { id: "q21_4", userSeletedOPtion: false, label: "D", text: "Registration requirements", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ is not among the list of financial statements prescribed by IFRS 1?",
+    answeredCount: 0,
+    options: [
+      { id: "q22_1", userSeletedOPtion: false, label: "A", text: "Value added statement", isCorrect: true },
+      { id: "q22_2", userSeletedOPtion: false, label: "B", text: "Notes to the account", isCorrect: false },
+      { id: "q22_3", userSeletedOPtion: false, label: "C", text: "Statement of cash flows", isCorrect: false },
+      { id: "q22_4", userSeletedOPtion: false, label: "D", text: "Statement of changes in equity", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ opportunity is an extension of what a business is currently doing without changes to its fundamental character?",
+    answeredCount: 0,
+    options: [
+      { id: "q23_1", userSeletedOPtion: false, label: "A", text: "Additive", isCorrect: true },
+      { id: "q23_2", userSeletedOPtion: false, label: "B", text: "Complementary", isCorrect: false },
+      { id: "q23_3", userSeletedOPtion: false, label: "C", text: "Breakthrough", isCorrect: false },
+      { id: "q23_4", userSeletedOPtion: false, label: "D", text: "Incremental", isCorrect: false },
+    ]
+  },
+  {
+    question: "The first academic usage of the term entrepreneur is credited to a/an ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q24_1", userSeletedOPtion: false, label: "A", text: "Accountant", isCorrect: false },
+      { id: "q24_2", userSeletedOPtion: false, label: "B", text: "Engineer", isCorrect: false },
+      { id: "q24_3", userSeletedOPtion: false, label: "C", text: "Economist", isCorrect: true },
+      { id: "q24_4", userSeletedOPtion: false, label: "D", text: "Manager", isCorrect: false },
+    ]
+  },
+  {
+    question: "The first usage of the term entrepreneur can be traced to which century?",
+    answeredCount: 0,
+    options: [
+      { id: "q25_1", userSeletedOPtion: false, label: "A", text: "11th", isCorrect: false },
+      { id: "q25_2", userSeletedOPtion: false, label: "B", text: "12th", isCorrect: false },
+      { id: "q25_3", userSeletedOPtion: false, label: "C", text: "13th", isCorrect: true },
+      { id: "q25_4", userSeletedOPtion: false, label: "D", text: "14th", isCorrect: false },
+    ]
+  },
+  {
+    question: "The forces that shape the competition within an industry are grouped into ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q26_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: true },
+      { id: "q26_2", userSeletedOPtion: false, label: "B", text: "4", isCorrect: false },
+      { id: "q26_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+      { id: "q26_4", userSeletedOPtion: false, label: "D", text: "2", isCorrect: false },
+    ]
+  },
+  {
+    question: "The level of uncertainty in the business environment is a combination of the degree of change and degree of ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q27_1", userSeletedOPtion: false, label: "A", text: "Risk", isCorrect: false },
+      { id: "q27_2", userSeletedOPtion: false, label: "B", text: "Competition", isCorrect: false },
+      { id: "q27_3", userSeletedOPtion: false, label: "C", text: "Flexibility", isCorrect: false },
+      { id: "q27_4", userSeletedOPtion: false, label: "D", text: "Complexity", isCorrect: true },
+    ]
+  },
+  {
+    question: "The model that explains the competition within an industry is credited to ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q28_1", userSeletedOPtion: false, label: "A", text: "Adam Smith", isCorrect: false },
+      { id: "q28_2", userSeletedOPtion: false, label: "B", text: "Ansoff", isCorrect: false },
+      { id: "q28_3", userSeletedOPtion: false, label: "C", text: "Michael Porter", isCorrect: true },
+      { id: "q28_4", userSeletedOPtion: false, label: "D", text: "Robbin Coulter", isCorrect: false },
+    ]
+  },
+  {
+    question: "The responsibility for preparing the financial statement rests with ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q29_1", userSeletedOPtion: false, label: "A", text: "The accountant", isCorrect: false },
+      { id: "q29_2", userSeletedOPtion: false, label: "B", text: "The Bookkeeper", isCorrect: false },
+      { id: "q29_3", userSeletedOPtion: false, label: "C", text: "Company directors", isCorrect: true },
+      { id: "q29_4", userSeletedOPtion: false, label: "D", text: "Finance and accounts department", isCorrect: false },
+    ]
+  },
+  {
+    question: "The case of Salomon v. Salomon & Co. is associated with ___ principle?",
+    answeredCount: 0,
+    options: [
+      { id: "q30_1", userSeletedOPtion: false, label: "A", text: "Corporate personality", isCorrect: true },
+      { id: "q30_2", userSeletedOPtion: false, label: "B", text: "Ultra Vires", isCorrect: false },
+      { id: "q30_3", userSeletedOPtion: false, label: "C", text: "a & b", isCorrect: false },
+      { id: "q30_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "The evidence to show that a financial transaction has occurred is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q31_1", userSeletedOPtion: false, label: "A", text: "Invoice", isCorrect: false },
+      { id: "q31_2", userSeletedOPtion: false, label: "B", text: "Original entry", isCorrect: false },
+      { id: "q31_3", userSeletedOPtion: false, label: "C", text: "Source document", isCorrect: true },
+      { id: "q31_4", userSeletedOPtion: false, label: "D", text: "Book of account", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ is the first academician to have described entrepreneurship as an activity?",
+    answeredCount: 0,
+    options: [
+      { id: "q32_1", userSeletedOPtion: false, label: "A", text: "Luke", isCorrect: false },
+      { id: "q32_2", userSeletedOPtion: false, label: "B", text: "Zahra", isCorrect: false },
+      { id: "q32_3", userSeletedOPtion: false, label: "C", text: "Cantillon", isCorrect: true },
+      { id: "q32_4", userSeletedOPtion: false, label: "D", text: "Neumann", isCorrect: false },
+    ]
+  },
+  {
+    question: "Issues of water pollution are classified as ___ of the general business environment?",
+    answeredCount: 0,
+    options: [
+      { id: "q33_1", userSeletedOPtion: false, label: "A", text: "Geographic factor", isCorrect: false },
+      { id: "q33_2", userSeletedOPtion: false, label: "B", text: "Socio-economic factor", isCorrect: false },
+      { id: "q33_3", userSeletedOPtion: false, label: "C", text: "Ecological factor", isCorrect: true },
+      { id: "q33_4", userSeletedOPtion: false, label: "D", text: "Natural factor", isCorrect: false },
+    ]
+  },
+  {
+    question: "One of the following is not a characteristic of a successful entrepreneur?",
+    answeredCount: 0,
+    options: [
+      { id: "q34_1", userSeletedOPtion: false, label: "A", text: "Adaptability", isCorrect: false },
+      { id: "q34_2", userSeletedOPtion: false, label: "B", text: "Decisiveness", isCorrect: false },
+      { id: "q34_3", userSeletedOPtion: false, label: "C", text: "Short term perspective", isCorrect: true },
+      { id: "q34_4", userSeletedOPtion: false, label: "D", text: "Risk tolerance", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ is not among the 4Ps of marketing?",
+    answeredCount: 0,
+    options: [
+      { id: "q35_1", userSeletedOPtion: false, label: "A", text: "Package", isCorrect: true },
+      { id: "q35_2", userSeletedOPtion: false, label: "B", text: "Price", isCorrect: false },
+      { id: "q35_3", userSeletedOPtion: false, label: "C", text: "Promotion", isCorrect: false },
+      { id: "q35_4", userSeletedOPtion: false, label: "D", text: "Place", isCorrect: false },
+    ]
+  },
+  {
+    question: "A Non-Governmental Organization, religious or social organization will most likely be ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q36_1", userSeletedOPtion: false, label: "A", text: "Sole Proprietorship", isCorrect: false },
+      { id: "q36_2", userSeletedOPtion: false, label: "B", text: "Partnership", isCorrect: false },
+      { id: "q36_3", userSeletedOPtion: false, label: "C", text: "Incorporated Trusteeship", isCorrect: true },
+      { id: "q36_4", userSeletedOPtion: false, label: "D", text: "Incorporated company", isCorrect: false },
+    ]
+  },
+  {
+    question: "A strategy outlining how a business will move from its current state to an envisioned state is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q37_1", userSeletedOPtion: false, label: "A", text: "Business plan", isCorrect: true },
+      { id: "q37_2", userSeletedOPtion: false, label: "B", text: "Business evaluation", isCorrect: false },
+      { id: "q37_3", userSeletedOPtion: false, label: "C", text: "Business analysis", isCorrect: false },
+      { id: "q37_4", userSeletedOPtion: false, label: "D", text: "Feasibility study", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ is usually referred to as the company's constitution?",
+    answeredCount: 0,
+    options: [
+      { id: "q38_1", userSeletedOPtion: false, label: "A", text: "Memorandum of association", isCorrect: false },
+      { id: "q38_2", userSeletedOPtion: false, label: "B", text: "Deed of partnership", isCorrect: false },
+      { id: "q38_3", userSeletedOPtion: false, label: "C", text: "Article of association", isCorrect: false },
+      { id: "q38_4", userSeletedOPtion: false, label: "D", text: "a & c", isCorrect: true },
+    ]
+  },
+  {
+    question: "A list of all ledger balances at a given point to show the arithmetic accuracy of the ledger is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q39_1", userSeletedOPtion: false, label: "A", text: "Account list", isCorrect: false },
+      { id: "q39_2", userSeletedOPtion: false, label: "B", text: "Suspense account", isCorrect: false },
+      { id: "q39_3", userSeletedOPtion: false, label: "C", text: "Trial list", isCorrect: false },
+      { id: "q39_4", userSeletedOPtion: false, label: "D", text: "Trial balance", isCorrect: true },
+    ]
+  },
+  {
+    question: "According to the CAMA (2020), a partnership business can be formed in how many ways?",
+    answeredCount: 0,
+    options: [
+      { id: "q40_1", userSeletedOPtion: false, label: "A", text: "5", isCorrect: false },
+      { id: "q40_2", userSeletedOPtion: false, label: "B", text: "4", isCorrect: false },
+      { id: "q40_3", userSeletedOPtion: false, label: "C", text: "3", isCorrect: false },
+      { id: "q40_4", userSeletedOPtion: false, label: "D", text: "2", isCorrect: true },
+    ]
+  },
+  {
+    question: "An entrepreneur who does not care about the continuity of the business will most likely go for ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q41_1", userSeletedOPtion: false, label: "A", text: "Sole Proprietorship", isCorrect: true },
+      { id: "q41_2", userSeletedOPtion: false, label: "B", text: "Partnership", isCorrect: false },
+      { id: "q41_3", userSeletedOPtion: false, label: "C", text: "Incorporated Trusteeship", isCorrect: false },
+      { id: "q41_4", userSeletedOPtion: false, label: "D", text: "Incorporated company", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ approach involves conducting special surveys to deal with specific environmental issues observed?",
+    answeredCount: 0,
+    options: [
+      { id: "q42_1", userSeletedOPtion: false, label: "A", text: "Systematic", isCorrect: false },
+      { id: "q42_2", userSeletedOPtion: false, label: "B", text: "Ad hoc", isCorrect: true },
+      { id: "q42_3", userSeletedOPtion: false, label: "C", text: "Processed form", isCorrect: false },
+      { id: "q42_4", userSeletedOPtion: false, label: "D", text: "Situational", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ approach involves the identification of a business opportunity first before considering resources for funding?",
+    answeredCount: 0,
+    options: [
+      { id: "q43_1", userSeletedOPtion: false, label: "A", text: "Effectuation", isCorrect: false },
+      { id: "q43_2", userSeletedOPtion: false, label: "B", text: "Factual", isCorrect: false },
+      { id: "q43_3", userSeletedOPtion: false, label: "C", text: "Causation", isCorrect: true },
+      { id: "q43_4", userSeletedOPtion: false, label: "D", text: "Snowballing", isCorrect: false },
+    ]
+  },
+  {
+    question: "An error that occurs when a transaction is posted to the wrong class of account is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q44_1", userSeletedOPtion: false, label: "A", text: "Omission error", isCorrect: false },
+      { id: "q44_2", userSeletedOPtion: false, label: "B", text: "Error of principle", isCorrect: true },
+      { id: "q44_3", userSeletedOPtion: false, label: "C", text: "Error of Commission", isCorrect: false },
+      { id: "q44_4", userSeletedOPtion: false, label: "D", text: "Compensation error", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ is not an unanticipated reason for business succession?",
+    answeredCount: 0,
+    options: [
+      { id: "q45_1", userSeletedOPtion: false, label: "A", text: "Relocation", isCorrect: false },
+      { id: "q45_2", userSeletedOPtion: false, label: "B", text: "Marriage", isCorrect: false },
+      { id: "q45_3", userSeletedOPtion: false, label: "C", text: "Career advancement", isCorrect: false },
+      { id: "q45_4", userSeletedOPtion: false, label: "D", text: "Retirement", isCorrect: true },
+    ]
+  },
+  {
+    question: "Businesses owned, managed and controlled by persons related by blood or marriage are generally referred to as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q46_1", userSeletedOPtion: false, label: "A", text: "Private businesses", isCorrect: false },
+      { id: "q46_2", userSeletedOPtion: false, label: "B", text: "Related businesses", isCorrect: false },
+      { id: "q46_3", userSeletedOPtion: false, label: "C", text: "Contained businesses", isCorrect: false },
+      { id: "q46_4", userSeletedOPtion: false, label: "D", text: "Family businesses", isCorrect: true },
+    ]
+  },
+  {
+    question: "Cases on dissolution of incorporated companies are first determined by ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q47_1", userSeletedOPtion: false, label: "A", text: "State High Courts", isCorrect: false },
+      { id: "q47_2", userSeletedOPtion: false, label: "B", text: "Courts of Appeal", isCorrect: false },
+      { id: "q47_3", userSeletedOPtion: false, label: "C", text: "Federal High Courts", isCorrect: true },
+      { id: "q47_4", userSeletedOPtion: false, label: "D", text: "Supreme Court", isCorrect: false },
+    ]
+  },
+  {
+    question: "___ is not a metric that can be used to measure the performance of a product marketing campaign?",
+    answeredCount: 0,
+    options: [
+      { id: "q48_1", userSeletedOPtion: false, label: "A", text: "Customer satisfaction", isCorrect: false },
+      { id: "q48_2", userSeletedOPtion: false, label: "B", text: "Sales", isCorrect: false },
+      { id: "q48_3", userSeletedOPtion: false, label: "C", text: "Lead generation", isCorrect: false },
+      { id: "q48_4", userSeletedOPtion: false, label: "D", text: "Profit", isCorrect: true },
+    ]
+  },
+  {
+    question: "An entrepreneur who wants to maximize the ability to raise capital should consider which business type?",
+    answeredCount: 0,
+    options: [
+      { id: "q49_1", userSeletedOPtion: false, label: "A", text: "Sole Proprietorship", isCorrect: false },
+      { id: "q49_2", userSeletedOPtion: false, label: "B", text: "Partnership", isCorrect: false },
+      { id: "q49_3", userSeletedOPtion: false, label: "C", text: "Incorporated Trusteeship", isCorrect: false },
+      { id: "q49_4", userSeletedOPtion: false, label: "D", text: "Incorporated company", isCorrect: true },
+    ]
+  },
+  {
+    question: "An organization's response to changes in strategic issues will depend on all except ___?",
+    answeredCount: 0,
+    options: [
+      { id: "q50_1", userSeletedOPtion: false, label: "A", text: "Perceived impact of change", isCorrect: false },
+      { id: "q50_2", userSeletedOPtion: false, label: "B", text: "Signal strength", isCorrect: false },
+      { id: "q50_3", userSeletedOPtion: false, label: "C", text: "Time of change", isCorrect: true },
+      { id: "q50_4", userSeletedOPtion: false, label: "D", text: "Urgency of change", isCorrect: false },
+    ]
+  }
+];
