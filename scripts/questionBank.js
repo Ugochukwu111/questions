@@ -502,9 +502,7 @@ export let questionBank1 = [
 },
 ]
 
-
 // phylosiphy and logi === questionBank2
-
 export let questionBank2 = [
  {
   question : '-- defines free will as the choice of a person to act in a manner suitable to a particuler situation?', 
@@ -4911,6 +4909,410 @@ export let questionBank3 = [
       { id: "q50_2", userSeletedOPtion: false, label: "B", text: "Signal strength", isCorrect: false },
       { id: "q50_3", userSeletedOPtion: false, label: "C", text: "Time of change", isCorrect: true },
       { id: "q50_4", userSeletedOPtion: false, label: "D", text: "Urgency of change", isCorrect: false },
+    ]
+  }
+];
+
+
+export let questionBank4B = [
+  {
+    question: "Which CPU register holds the address of the next instruction to be executed?",
+    answeredCount: 0,
+    options: [
+      { id: "g1_1", userSeletedOPtion: false, label: "a", text: "Memory Address Register (MAR)", isCorrect: false },
+      { id: "g1_2", userSeletedOPtion: false, label: "b", text: "Program Counter (PC)", isCorrect: true },
+      { id: "g1_3", userSeletedOPtion: false, label: "c", text: "Instruction Register (IR)", isCorrect: false },
+      { id: "g1_4", userSeletedOPtion: false, label: "d", text: "MRB Register", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which register temporarily holds an instruction fetched from memory for decoding and execution?",
+    answeredCount: 0,
+    options: [
+      { id: "g2_1", userSeletedOPtion: false, label: "a", text: "Memory Address Register (MAR)", isCorrect: false },
+      { id: "g2_2", userSeletedOPtion: false, label: "b", text: "Program Counter (PC)", isCorrect: false },
+      { id: "g2_3", userSeletedOPtion: false, label: "c", text: "Instruction Register (IR)", isCorrect: true },
+      { id: "g2_4", userSeletedOPtion: false, label: "d", text: "MRB Register", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is NOT a characteristic of an algorithm?",
+    answeredCount: 0,
+    options: [
+      { id: "g3_1", userSeletedOPtion: false, label: "a", text: "Unambiguous steps", isCorrect: false },
+      { id: "g3_2", userSeletedOPtion: false, label: "b", text: "Finiteness", isCorrect: false },
+      { id: "g3_3", userSeletedOPtion: false, label: "c", text: "Dependent on programming language", isCorrect: true },
+      { id: "g3_4", userSeletedOPtion: false, label: "d", text: "Feasibility", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following are categories of algorithm?",
+    answeredCount: 0,
+    options: [
+      { id: "g4_1", userSeletedOPtion: false, label: "a", text: "Search", isCorrect: false },
+      { id: "g4_2", userSeletedOPtion: false, label: "b", text: "Sort", isCorrect: false },
+      { id: "g4_3", userSeletedOPtion: false, label: "c", text: "Insert", isCorrect: false },
+      { id: "g4_4", userSeletedOPtion: false, label: "d", text: "All of the above", isCorrect: true }
+    ]
+  },
+  {
+    question: "Which collection is unordered, unchangeable, and does not allow duplicate members?",
+    answeredCount: 0,
+    options: [
+      { id: "g5_1", userSeletedOPtion: false, label: "a", text: "List", isCorrect: false },
+      { id: "g5_2", userSeletedOPtion: false, label: "b", text: "Tuple", isCorrect: false },
+      { id: "g5_3", userSeletedOPtion: false, label: "c", text: "Set", isCorrect: true },
+      { id: "g5_4", userSeletedOPtion: false, label: "d", text: "Dictionary", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the output of the following Python code? myDD = ['praise', 'rita', 'joy']; print(myDD[-2])",
+    answeredCount: 0,
+    options: [
+      { id: "g6_1", userSeletedOPtion: false, label: "a", text: "praise", isCorrect: false },
+      { id: "g6_2", userSeletedOPtion: false, label: "b", text: "rita", isCorrect: true },
+      { id: "g6_3", userSeletedOPtion: false, label: "c", text: "joy", isCorrect: false },
+      { id: "g6_4", userSeletedOPtion: false, label: "d", text: "Error", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the output of the following Python code? mytuple = ('praise', 'rita', 'joy'); print(mytuple[-1])",
+    answeredCount: 0,
+    options: [
+      { id: "g7_1", userSeletedOPtion: false, label: "a", text: "praise", isCorrect: false },
+      { id: "g7_2", userSeletedOPtion: false, label: "b", text: "rita", isCorrect: false },
+      { id: "g7_3", userSeletedOPtion: false, label: "c", text: "joy", isCorrect: true },
+      { id: "g7_4", userSeletedOPtion: false, label: "d", text: "Error", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the main disadvantage of structured programming?",
+    answeredCount: 0,
+    options: [
+      { id: "g8_1", userSeletedOPtion: false, label: "a", text: "Improved code readability", isCorrect: false },
+      { id: "g8_2", userSeletedOPtion: false, label: "b", text: "Reduction in execution efficiency", isCorrect: true },
+      { id: "g8_3", userSeletedOPtion: false, label: "c", text: "Easier debugging", isCorrect: false },
+      { id: "g8_4", userSeletedOPtion: false, label: "d", text: "Code reusability", isCorrect: false }
+    ]
+  },
+  {
+    question: "The principle where a program is divided into smaller, reusable functions focusing on specific tasks is?",
+    answeredCount: 0,
+    options: [
+      { id: "g9_1", userSeletedOPtion: false, label: "a", text: "Sequence", isCorrect: false },
+      { id: "g9_2", userSeletedOPtion: false, label: "b", text: "Iteration", isCorrect: false },
+      { id: "g9_3", userSeletedOPtion: false, label: "c", text: "Selection", isCorrect: false },
+      { id: "g9_4", userSeletedOPtion: false, label: "d", text: "Modularity", isCorrect: true }
+    ]
+  },
+  {
+    question: "How many types of address instructions do we have in a digital computer?",
+    answeredCount: 0,
+    options: [
+      { id: "g10_1", userSeletedOPtion: false, label: "a", text: "4", isCorrect: true },
+      { id: "g10_2", userSeletedOPtion: false, label: "b", text: "3", isCorrect: false },
+      { id: "g10_3", userSeletedOPtion: false, label: "c", text: "2", isCorrect: false },
+      { id: "g10_4", userSeletedOPtion: false, label: "d", text: "1", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the characteristic of Memory Stack?",
+    answeredCount: 0,
+    options: [
+      { id: "g11_1", userSeletedOPtion: false, label: "a", text: "Based on the principle of FIFO", isCorrect: false },
+      { id: "g11_2", userSeletedOPtion: false, label: "b", text: "Collection of finite number of registers", isCorrect: false },
+      { id: "g11_3", userSeletedOPtion: false, label: "c", text: "Implemented in RAM attached to a CPU", isCorrect: true },
+      { id: "g11_4", userSeletedOPtion: false, label: "d", text: "None of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the purpose of the '.*' operator in MATLAB?",
+    answeredCount: 0,
+    options: [
+      { id: "g12_1", userSeletedOPtion: false, label: "a", text: "Matrix multiplication", isCorrect: false },
+      { id: "g12_2", userSeletedOPtion: false, label: "b", text: "Element-wise multiplication", isCorrect: true },
+      { id: "g12_3", userSeletedOPtion: false, label: "c", text: "Concatenation", isCorrect: false },
+      { id: "g12_4", userSeletedOPtion: false, label: "d", text: "Division", isCorrect: false }
+    ]
+  },
+  {
+    question: "In a two-address instruction, how many operand fields are present?",
+    answeredCount: 0,
+    options: [
+      { id: "g13_1", userSeletedOPtion: false, label: "a", text: "1", isCorrect: false },
+      { id: "g13_2", userSeletedOPtion: false, label: "b", text: "2", isCorrect: true },
+      { id: "g13_3", userSeletedOPtion: false, label: "c", text: "3", isCorrect: false },
+      { id: "g13_4", userSeletedOPtion: false, label: "d", text: "0", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the result of the following Python code? mytuple = ('apple', '123', '123', 'banana'); print(mytuple[2])",
+    answeredCount: 0,
+    options: [
+      { id: "g14_1", userSeletedOPtion: false, label: "a", text: "apple", isCorrect: false },
+      { id: "g14_2", userSeletedOPtion: false, label: "b", text: "123", isCorrect: true },
+      { id: "g14_3", userSeletedOPtion: false, label: "c", text: "banana", isCorrect: false },
+      { id: "g14_4", userSeletedOPtion: false, label: "d", text: "None of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "What symbol is typically used for input/output in a flowchart?",
+    answeredCount: 0,
+    options: [
+      { id: "g15_1", userSeletedOPtion: false, label: "A", text: "Circle", isCorrect: false },
+      { id: "g15_2", userSeletedOPtion: false, label: "B", text: "Rectangle", isCorrect: false },
+      { id: "g15_3", userSeletedOPtion: false, label: "C", text: "Parallelogram", isCorrect: true },
+      { id: "g15_4", userSeletedOPtion: false, label: "D", text: "Arrow", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the first step in designing an algorithm?",
+    answeredCount: 0,
+    options: [
+      { id: "g16_1", userSeletedOPtion: false, label: "A", text: "Testing the program", isCorrect: false },
+      { id: "g16_2", userSeletedOPtion: false, label: "B", text: "Writing code", isCorrect: false },
+      { id: "g16_3", userSeletedOPtion: false, label: "C", text: "Defining the problem", isCorrect: true },
+      { id: "g16_4", userSeletedOPtion: false, label: "D", text: "Installing software", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is a characteristic of a good algorithm?",
+    answeredCount: 0,
+    options: [
+      { id: "g17_1", userSeletedOPtion: false, label: "A", text: "Infinite steps", isCorrect: false },
+      { id: "g17_2", userSeletedOPtion: false, label: "B", text: "Ambiguous steps", isCorrect: false },
+      { id: "g17_3", userSeletedOPtion: false, label: "C", text: "Clear and finite steps", isCorrect: true },
+      { id: "g17_4", userSeletedOPtion: false, label: "D", text: "Random structure", isCorrect: false }
+    ]
+  },
+  {
+    question: "A step-by-step procedure to solve a problem is known as:",
+    answeredCount: 0,
+    options: [
+      { id: "g18_1", userSeletedOPtion: false, label: "A", text: "Program", isCorrect: false },
+      { id: "g18_2", userSeletedOPtion: false, label: "B", text: "Code", isCorrect: false },
+      { id: "g18_3", userSeletedOPtion: false, label: "C", text: "Algorithm", isCorrect: true },
+      { id: "g18_4", userSeletedOPtion: false, label: "D", text: "Loop", isCorrect: false }
+    ]
+  },
+  {
+    question: "What does the MATLAB command A = [1 2 3]' create?",
+    answeredCount: 0,
+    options: [
+      { id: "g19_1", userSeletedOPtion: false, label: "A", text: "A column vector", isCorrect: true },
+      { id: "g19_2", userSeletedOPtion: false, label: "B", text: "A row vector", isCorrect: false },
+      { id: "g19_3", userSeletedOPtion: false, label: "C", text: "A 3x3 matrix", isCorrect: false },
+      { id: "g19_4", userSeletedOPtion: false, label: "D", text: "A scalar", isCorrect: false }
+    ]
+  },
+  {
+    question: "What does 'length([5 6 7 8])' return in MATLAB?",
+    answeredCount: 0,
+    options: [
+      { id: "g20_1", userSeletedOPtion: false, label: "A", text: "3", isCorrect: false },
+      { id: "g20_2", userSeletedOPtion: false, label: "B", text: "4", isCorrect: true },
+      { id: "g20_3", userSeletedOPtion: false, label: "C", text: "5", isCorrect: false },
+      { id: "g20_4", userSeletedOPtion: false, label: "D", text: "1", isCorrect: false }
+    ]
+  },
+  {
+    question: "What does 'sum([1 2 3])' return in MATLAB?",
+    answeredCount: 0,
+    options: [
+      { id: "g21_1", userSeletedOPtion: false, label: "A", text: "6", isCorrect: true },
+      { id: "g21_2", userSeletedOPtion: false, label: "B", text: "3", isCorrect: false },
+      { id: "g21_3", userSeletedOPtion: false, label: "C", text: "1", isCorrect: false },
+      { id: "g21_4", userSeletedOPtion: false, label: "D", text: "Error", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which function is used to generate a linearly spaced vector in MATLAB?",
+    answeredCount: 0,
+    options: [
+      { id: "g22_1", userSeletedOPtion: false, label: "A", text: "linspace()", isCorrect: true },
+      { id: "g22_2", userSeletedOPtion: false, label: "B", text: "range()", isCorrect: false },
+      { id: "g22_3", userSeletedOPtion: false, label: "C", text: "interval()", isCorrect: false },
+      { id: "g22_4", userSeletedOPtion: false, label: "D", text: "space()", isCorrect: false }
+    ]
+  },
+  {
+    question: "What does 'max([3 6 2])' return in MATLAB?",
+    answeredCount: 0,
+    options: [
+      { id: "g23_1", userSeletedOPtion: false, label: "A", text: "3", isCorrect: false },
+      { id: "g23_2", userSeletedOPtion: false, label: "B", text: "2", isCorrect: false },
+      { id: "g23_3", userSeletedOPtion: false, label: "C", text: "6", isCorrect: true },
+      { id: "g23_4", userSeletedOPtion: false, label: "D", text: "11", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the default file extension for MATLAB scripts?",
+    answeredCount: 0,
+    options: [
+      { id: "g24_1", userSeletedOPtion: false, label: "A", text: ".txt", isCorrect: false },
+      { id: "g24_2", userSeletedOPtion: false, label: "B", text: ".m", isCorrect: true },
+      { id: "g24_3", userSeletedOPtion: false, label: "C", text: ".mat", isCorrect: false },
+      { id: "g24_4", userSeletedOPtion: false, label: "D", text: ".mlx", isCorrect: false }
+    ]
+  },
+  {
+    question: "What does 'A .* B'' do in MATLAB?",
+    answeredCount: 0,
+    options: [
+      { id: "g25_1", userSeletedOPtion: false, label: "A", text: "Matrix multiplication", isCorrect: false },
+      { id: "g25_2", userSeletedOPtion: false, label: "B", text: "Element-wise multiplication", isCorrect: true },
+      { id: "g25_3", userSeletedOPtion: false, label: "C", text: "Dot product", isCorrect: false },
+      { id: "g25_4", userSeletedOPtion: false, label: "D", text: "Cross product", isCorrect: false }
+    ]
+  },
+  {
+    question: "How do you suppress output in MATLAB?",
+    answeredCount: 0,
+    options: [
+      { id: "g26_1", userSeletedOPtion: false, label: "A", text: "Using '#'", isCorrect: false },
+      { id: "g26_2", userSeletedOPtion: false, label: "B", text: "Using @", isCorrect: false },
+      { id: "g26_3", userSeletedOPtion: false, label: "C", text: "Using '...'", isCorrect: false },
+      { id: "g26_4", userSeletedOPtion: false, label: "D", text: "Using ';'", isCorrect: true }
+    ]
+  },
+  {
+    question: "What is the discriminant of ax^2 + bx + c = 0?",
+    answeredCount: 0,
+    options: [
+      { id: "g27_1", userSeletedOPtion: false, label: "A", text: "b^2 + 4ac", isCorrect: false },
+      { id: "g27_2", userSeletedOPtion: false, label: "B", text: "a^2 - 4bc", isCorrect: false },
+      { id: "g27_3", userSeletedOPtion: false, label: "C", text: "b^2 - 4ac", isCorrect: true },
+      { id: "g27_4", userSeletedOPtion: false, label: "D", text: "b^2 - 2ac", isCorrect: false }
+    ]
+  },
+  {
+    question: "While software engineering deals with practicalities, computer science is concerned with?",
+    answeredCount: 0,
+    options: [
+      { id: "g28_1", userSeletedOPtion: false, label: "a", text: "delivery software", isCorrect: false },
+      { id: "g28_2", userSeletedOPtion: false, label: "b", text: "delivering hardware tools", isCorrect: false },
+      { id: "g28_3", userSeletedOPtion: false, label: "c", text: "software and hardware", isCorrect: false },
+      { id: "g28_4", userSeletedOPtion: false, label: "d", text: "theory and fundamentals", isCorrect: true }
+    ]
+  },
+  {
+    question: "What does software simply refer to?",
+    answeredCount: 0,
+    options: [
+      { id: "g29_1", userSeletedOPtion: false, label: "a", text: "television programs", isCorrect: false },
+      { id: "g29_2", userSeletedOPtion: false, label: "b", text: "computer programs and associated documentation", isCorrect: true },
+      { id: "g29_3", userSeletedOPtion: false, label: "c", text: "hardware tools", isCorrect: false },
+      { id: "g29_4", userSeletedOPtion: false, label: "d", text: "hardcopy", isCorrect: false }
+    ]
+  },
+  {
+    question: "The software engineering discipline deals with?",
+    answeredCount: 0,
+    options: [
+      { id: "g30_1", userSeletedOPtion: false, label: "a", text: "production of software and hardware", isCorrect: false },
+      { id: "g30_2", userSeletedOPtion: false, label: "b", text: "production of engineering tools", isCorrect: false },
+      { id: "g30_3", userSeletedOPtion: false, label: "c", text: "production of software and hardware computing", isCorrect: false },
+      { id: "g30_4", userSeletedOPtion: false, label: "d", text: "production of software", isCorrect: true }
+    ]
+  },
+  {
+    question: "The followings are examples of good software attributes EXCEPT?",
+    answeredCount: 0,
+    options: [
+      { id: "g31_1", userSeletedOPtion: false, label: "a", text: "maintainability", isCorrect: false },
+      { id: "g31_2", userSeletedOPtion: false, label: "b", text: "dependability", isCorrect: false },
+      { id: "g31_3", userSeletedOPtion: false, label: "c", text: "efficiency", isCorrect: false },
+      { id: "g31_4", userSeletedOPtion: false, label: "d", text: "durability", isCorrect: true }
+    ]
+  },
+  {
+    question: "Methods used to manage a software engineering project are collectively referred to as?",
+    answeredCount: 0,
+    options: [
+      { id: "g32_1", userSeletedOPtion: false, label: "a", text: "software engineering methodology", isCorrect: true },
+      { id: "g32_2", userSeletedOPtion: false, label: "b", text: "hardware engineering methodology", isCorrect: false },
+      { id: "g32_3", userSeletedOPtion: false, label: "c", text: "softcopy engineering methodology", isCorrect: false },
+      { id: "g32_4", userSeletedOPtion: false, label: "d", text: "none of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "Professional and ethical considerations in software development are:",
+    answeredCount: 0,
+    options: [
+      { id: "g33_1", userSeletedOPtion: false, label: "a", text: "less relevant", isCorrect: false },
+      { id: "g33_2", userSeletedOPtion: false, label: "b", text: "irrelevant", isCorrect: false },
+      { id: "g33_3", userSeletedOPtion: false, label: "c", text: "not important", isCorrect: false },
+      { id: "g33_4", userSeletedOPtion: false, label: "d", text: "crucial", isCorrect: true }
+    ]
+  },
+  {
+    question: "Ethics of software engineers include the following EXCEPT?",
+    answeredCount: 0,
+    options: [
+      { id: "g34_1", userSeletedOPtion: false, label: "a", text: "should be truthful about qualifications", isCorrect: false },
+      { id: "g34_2", userSeletedOPtion: false, label: "b", text: "should be honest and trustworthy", isCorrect: false },
+      { id: "g34_3", userSeletedOPtion: false, label: "c", text: "should not strive to minimize harm", isCorrect: true },
+      { id: "g34_4", userSeletedOPtion: false, label: "d", text: "capabilities impact of work", isCorrect: false }
+    ]
+  },
+  {
+    question: "The following are issues in ethical software development EXCEPT?",
+    answeredCount: 0,
+    options: [
+      { id: "g35_1", userSeletedOPtion: false, label: "a", text: "accuracy", isCorrect: false },
+      { id: "g35_2", userSeletedOPtion: false, label: "b", text: "privacy", isCorrect: false },
+      { id: "g35_3", userSeletedOPtion: false, label: "c", text: "poor working environment", isCorrect: true },
+      { id: "g35_4", userSeletedOPtion: false, label: "d", text: "property", isCorrect: false }
+    ]
+  },
+  {
+    question: "A software process involves developing and maintaining?",
+    answeredCount: 0,
+    options: [
+      { id: "g36_1", userSeletedOPtion: false, label: "a", text: "printer", isCorrect: false },
+      { id: "g36_2", userSeletedOPtion: false, label: "b", text: "hardware", isCorrect: false },
+      { id: "g36_3", userSeletedOPtion: false, label: "c", text: "software", isCorrect: true },
+      { id: "g36_4", userSeletedOPtion: false, label: "d", text: "monitor", isCorrect: false }
+    ]
+  },
+  {
+    question: "One of the following is a key aspect of software process:",
+    answeredCount: 0,
+    options: [
+      { id: "g37_1", userSeletedOPtion: false, label: "a", text: "processing of hardware component", isCorrect: false },
+      { id: "g37_2", userSeletedOPtion: false, label: "b", text: "efficiency", isCorrect: false },
+      { id: "g37_3", userSeletedOPtion: false, label: "c", text: "transforming input into output", isCorrect: true },
+      { id: "g37_4", userSeletedOPtion: false, label: "d", text: "organization", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the followings is NOT a common software process model?",
+    answeredCount: 0,
+    options: [
+      { id: "g38_1", userSeletedOPtion: false, label: "a", text: "waterfall model", isCorrect: false },
+      { id: "g38_2", userSeletedOPtion: false, label: "b", text: "v-model", isCorrect: false },
+      { id: "g38_3", userSeletedOPtion: false, label: "c", text: "spiral model", isCorrect: false },
+      { id: "g38_4", userSeletedOPtion: false, label: "d", text: "sdlc model", isCorrect: true }
+    ]
+  },
+  {
+    question: "The following are SDLC phases EXCEPT one:",
+    answeredCount: 0,
+    options: [
+      { id: "g39_1", userSeletedOPtion: false, label: "a", text: "requirement analysis", isCorrect: false },
+      { id: "g39_2", userSeletedOPtion: false, label: "b", text: "planning", isCorrect: false },
+      { id: "g39_3", userSeletedOPtion: false, label: "c", text: "design", isCorrect: false },
+      { id: "g39_4", userSeletedOPtion: false, label: "d", text: "waterfall model", isCorrect: true }
+    ]
+  },
+  {
+    question: "CASE technology means what?",
+    answeredCount: 0,
+    options: [
+      { id: "g40_1", userSeletedOPtion: false, label: "a", text: "computer-aided software engineering", isCorrect: true },
+      { id: "g40_2", userSeletedOPtion: false, label: "b", text: "computer-aided software equipment", isCorrect: false },
+      { id: "g40_3", userSeletedOPtion: false, label: "c", text: "computer-aided software equal", isCorrect: false },
+      { id: "g40_4", userSeletedOPtion: false, label: "d", text: "none of the above", isCorrect: false }
     ]
   }
 ];
