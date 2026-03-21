@@ -5316,3 +5316,1010 @@ export let questionBank4B = [
     ]
   }
 ];
+
+export let questionBank4C = [
+  {
+    question: "Which of the following statements best describes the difference between an entrepreneur and entrepreneurship?",
+    answeredCount: 0,
+    options: [
+      { id: "c1_1", userSeletedOPtion: false, label: "A", text: "Entrepreneurs are theories, entrepreneurship is a person", isCorrect: false },
+      { id: "c1_2", userSeletedOPtion: false, label: "B", text: "Entrepreneurship is the person taking the risk, while the entrepreneur is the process", isCorrect: false },
+      { id: "c1_3", userSeletedOPtion: false, label: "C", text: "An entrepreneur is the individual; entrepreneurship is the process or action", isCorrect: true },
+      { id: "c1_4", userSeletedOPtion: false, label: "D", text: "There is no difference between entrepreneur and entrepreneurship", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following best describes the primary purpose of a feasibility study?",
+    answeredCount: 0,
+    options: [
+      { id: "c2_1", userSeletedOPtion: false, label: "A", text: "To promote the product to investors", isCorrect: false },
+      { id: "c2_2", userSeletedOPtion: false, label: "B", text: "To assess if a business idea is viable before launching", isCorrect: true },
+      { id: "c2_3", userSeletedOPtion: false, label: "C", text: "To outline marketing strategies", isCorrect: false },
+      { id: "c2_4", userSeletedOPtion: false, label: "D", text: "To develop employee training programs", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following best describes the ownership structure of a limited company?",
+    answeredCount: 0,
+    options: [
+      { id: "c3_1", userSeletedOPtion: false, label: "A", text: "Owned and run by one person", isCorrect: false },
+      { id: "c3_2", userSeletedOPtion: false, label: "B", text: "Owned by two individuals without legal registration", isCorrect: false },
+      { id: "c3_3", userSeletedOPtion: false, label: "C", text: "Owned by shareholders who may not be involved in daily operations", isCorrect: true },
+      { id: "c3_4", userSeletedOPtion: false, label: "D", text: "Owned collectively by customers", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ is a situation or market gap that can be exploited with a specific product for potential profit.",
+    answeredCount: 0,
+    options: [
+      { id: "c4_1", userSeletedOPtion: false, label: "A", text: "Business testing", isCorrect: false },
+      { id: "c4_2", userSeletedOPtion: false, label: "B", text: "Business opportunity", isCorrect: true },
+      { id: "c4_3", userSeletedOPtion: false, label: "C", text: "Business idea", isCorrect: false },
+      { id: "c4_4", userSeletedOPtion: false, label: "D", text: "Business development", isCorrect: false }
+    ]
+  },
+  {
+    question: "The process where an entrepreneur utilizes the existing business model of another business to develop their own business at a lower risk is known as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c5_1", userSeletedOPtion: false, label: "A", text: "Licensing", isCorrect: false },
+      { id: "c5_2", userSeletedOPtion: false, label: "B", text: "Niche opportunity", isCorrect: false },
+      { id: "c5_3", userSeletedOPtion: false, label: "C", text: "Distributorship", isCorrect: false },
+      { id: "c5_4", userSeletedOPtion: false, label: "D", text: "Franchising", isCorrect: true }
+    ]
+  },
+  {
+    question: "The creation of previously non-existent products, processes, or technology is known as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c6_1", userSeletedOPtion: false, label: "A", text: "Creativity", isCorrect: false },
+      { id: "c6_2", userSeletedOPtion: false, label: "B", text: "Innovation", isCorrect: false },
+      { id: "c6_3", userSeletedOPtion: false, label: "C", text: "Invention", isCorrect: true },
+      { id: "c6_4", userSeletedOPtion: false, label: "D", text: "Competition", isCorrect: false }
+    ]
+  },
+  {
+    question: "A characteristic of an entrepreneur that demands evaluation of situations and exercising flexibility to keep business moving is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c7_1", userSeletedOPtion: false, label: "A", text: "Curiosity", isCorrect: false },
+      { id: "c7_2", userSeletedOPtion: false, label: "B", text: "Adaptability", isCorrect: true },
+      { id: "c7_3", userSeletedOPtion: false, label: "C", text: "Innovation", isCorrect: false },
+      { id: "c7_4", userSeletedOPtion: false, label: "D", text: "Decisiveness", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which type of sustainability emphasizes the value of interpersonal relationships and ideas like cohesiveness and honesty?",
+    answeredCount: 0,
+    options: [
+      { id: "c8_1", userSeletedOPtion: false, label: "A", text: "Economic sustainability", isCorrect: false },
+      { id: "c8_2", userSeletedOPtion: false, label: "B", text: "Social sustainability", isCorrect: true },
+      { id: "c8_3", userSeletedOPtion: false, label: "C", text: "Environmental sustainability", isCorrect: false },
+      { id: "c8_4", userSeletedOPtion: false, label: "D", text: "Human sustainability", isCorrect: false }
+    ]
+  },
+  {
+    question: "What legal or structural challenge affects succession planning in Nigerian family businesses?",
+    answeredCount: 0,
+    options: [
+      { id: "c9_1", userSeletedOPtion: false, label: "A", text: "Too many joint ventures", isCorrect: false },
+      { id: "c9_2", userSeletedOPtion: false, label: "B", text: "Formalized succession laws", isCorrect: false },
+      { id: "c9_3", userSeletedOPtion: false, label: "C", text: "Lack of governance structures and succession plans", isCorrect: true },
+      { id: "c9_4", userSeletedOPtion: false, label: "D", text: "Mandatory external audits", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is considered an internal source of business funding for an entrepreneur?",
+    answeredCount: 0,
+    options: [
+      { id: "c10_1", userSeletedOPtion: false, label: "A", text: "Bank loan", isCorrect: false },
+      { id: "c10_2", userSeletedOPtion: false, label: "B", text: "Personal savings", isCorrect: true },
+      { id: "c10_3", userSeletedOPtion: false, label: "C", text: "Government grant", isCorrect: false },
+      { id: "c10_4", userSeletedOPtion: false, label: "D", text: "Venture capital", isCorrect: false }
+    ]
+  },
+  {
+    question: "The following comprise the phases of the entrepreneurship process EXCEPT ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c11_1", userSeletedOPtion: false, label: "A", text: "Gestation", isCorrect: false },
+      { id: "c11_2", userSeletedOPtion: false, label: "B", text: "Conception", isCorrect: false },
+      { id: "c11_3", userSeletedOPtion: false, label: "C", text: "Infancy", isCorrect: false },
+      { id: "c11_4", userSeletedOPtion: false, label: "D", text: "Finalization", isCorrect: true }
+    ]
+  },
+  {
+    question: "___ is saddled with responsibility for registration of companies, business names and incorporated trustees?",
+    answeredCount: 0,
+    options: [
+      { id: "c12_1", userSeletedOPtion: false, label: "A", text: "ITF", isCorrect: false },
+      { id: "c12_2", userSeletedOPtion: false, label: "B", text: "BOI", isCorrect: false },
+      { id: "c12_3", userSeletedOPtion: false, label: "C", text: "SMEDAN", isCorrect: false },
+      { id: "c12_4", userSeletedOPtion: false, label: "D", text: "CAC", isCorrect: true }
+    ]
+  },
+  {
+    question: "Which of the following social media platforms is most appropriate for career promotion?",
+    answeredCount: 0,
+    options: [
+      { id: "c13_1", userSeletedOPtion: false, label: "A", text: "YouTube", isCorrect: false },
+      { id: "c13_2", userSeletedOPtion: false, label: "B", text: "Twitter", isCorrect: false },
+      { id: "c13_3", userSeletedOPtion: false, label: "C", text: "LinkedIn", isCorrect: true },
+      { id: "c13_4", userSeletedOPtion: false, label: "D", text: "Pinterest", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ describes the real business purpose of the organization.",
+    answeredCount: 0,
+    options: [
+      { id: "c14_1", userSeletedOPtion: false, label: "A", text: "Mission Statement", isCorrect: true },
+      { id: "c14_2", userSeletedOPtion: false, label: "B", text: "Strategic Plan", isCorrect: false },
+      { id: "c14_3", userSeletedOPtion: false, label: "C", text: "Corporate Mission", isCorrect: false },
+      { id: "c14_4", userSeletedOPtion: false, label: "D", text: "Strategic Statement", isCorrect: false }
+    ]
+  },
+  {
+    question: "The most flexible form of business ownership is the ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c15_1", userSeletedOPtion: false, label: "A", text: "Partnership", isCorrect: false },
+      { id: "c15_2", userSeletedOPtion: false, label: "B", text: "Limited Liability", isCorrect: false },
+      { id: "c15_3", userSeletedOPtion: false, label: "C", text: "Corporate Society", isCorrect: false },
+      { id: "c15_4", userSeletedOPtion: false, label: "D", text: "Sole Proprietorship", isCorrect: true }
+    ]
+  },
+  {
+    question: "The basic difference between small-business firm and entrepreneurial venture lies on their views on ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c16_1", userSeletedOPtion: false, label: "A", text: "Risk and return", isCorrect: false },
+      { id: "c16_2", userSeletedOPtion: false, label: "B", text: "Growth and innovation", isCorrect: true },
+      { id: "c16_3", userSeletedOPtion: false, label: "C", text: "Wealth creation", isCorrect: false },
+      { id: "c16_4", userSeletedOPtion: false, label: "D", text: "Growth and risk", isCorrect: false }
+    ]
+  },
+  {
+    question: "After you have refined and packaged your business opportunity in your mind, you can have it documented by writing a ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c17_1", userSeletedOPtion: false, label: "A", text: "Feasibility report", isCorrect: false },
+      { id: "c17_2", userSeletedOPtion: false, label: "B", text: "Business report", isCorrect: false },
+      { id: "c17_3", userSeletedOPtion: false, label: "C", text: "Feasibility study", isCorrect: false },
+      { id: "c17_4", userSeletedOPtion: false, label: "D", text: "Business plan", isCorrect: true }
+    ]
+  },
+  {
+    question: "___ offers the chance to benefit from the existing strength of a business without having to build up your market presence from scratch.",
+    answeredCount: 0,
+    options: [
+      { id: "c18_1", userSeletedOPtion: false, label: "A", text: "Franchising", isCorrect: true },
+      { id: "c18_2", userSeletedOPtion: false, label: "B", text: "Licensing", isCorrect: false },
+      { id: "c18_3", userSeletedOPtion: false, label: "C", text: "Niche opportunity", isCorrect: false },
+      { id: "c18_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "Who defined a business environment as 'a complex system of interacting elements factors or conditions external to the organization but having considerable influence'?",
+    answeredCount: 0,
+    options: [
+      { id: "c19_1", userSeletedOPtion: false, label: "A", text: "Robbins (1987)", isCorrect: false },
+      { id: "c19_2", userSeletedOPtion: false, label: "B", text: "Robbins and Coulter (1996)", isCorrect: true },
+      { id: "c19_3", userSeletedOPtion: false, label: "C", text: "Ferando (2017)", isCorrect: false },
+      { id: "c19_4", userSeletedOPtion: false, label: "D", text: "Agbonifoh and Inegbenebor (2012)", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ is the agency responsible for the assessment, collection and accounting for tax and other revenues accruing to the Federal Government of Nigeria.",
+    answeredCount: 0,
+    options: [
+      { id: "c20_1", userSeletedOPtion: false, label: "A", text: "Federal Tax and Revenue Commission", isCorrect: false },
+      { id: "c20_2", userSeletedOPtion: false, label: "B", text: "Nigeria Internal Revenue Service", isCorrect: false },
+      { id: "c20_3", userSeletedOPtion: false, label: "C", text: "Federal Internal Revenue Board", isCorrect: false },
+      { id: "c20_4", userSeletedOPtion: false, label: "D", text: "Federal Inland Revenue Service", isCorrect: true }
+    ]
+  },
+  {
+    question: "Which of the following is a characteristic of a viable business opportunity?",
+    answeredCount: 0,
+    options: [
+      { id: "c21_1", userSeletedOPtion: false, label: "A", text: "Limited market demand", isCorrect: false },
+      { id: "c21_2", userSeletedOPtion: false, label: "B", text: "High competition", isCorrect: false },
+      { id: "c21_3", userSeletedOPtion: false, label: "C", text: "Sustainable competitive advantage", isCorrect: true },
+      { id: "c21_4", userSeletedOPtion: false, label: "D", text: "Lack of innovation", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which term refers to the process of turning ideas into marketable products or services?",
+    answeredCount: 0,
+    options: [
+      { id: "c22_1", userSeletedOPtion: false, label: "A", text: "Innovation", isCorrect: true },
+      { id: "c22_2", userSeletedOPtion: false, label: "B", text: "Risk management", isCorrect: false },
+      { id: "c22_3", userSeletedOPtion: false, label: "C", text: "Market research", isCorrect: false },
+      { id: "c22_4", userSeletedOPtion: false, label: "D", text: "Feasibility analysis", isCorrect: false }
+    ]
+  },
+  {
+    question: "The stage at which most venture capital firms are interested in investing in a business is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c23_1", userSeletedOPtion: false, label: "A", text: "Rapid growth stage", isCorrect: true },
+      { id: "c23_2", userSeletedOPtion: false, label: "B", text: "Development growth stage", isCorrect: false },
+      { id: "c23_3", userSeletedOPtion: false, label: "C", text: "Maturity stage", isCorrect: false },
+      { id: "c23_4", userSeletedOPtion: false, label: "D", text: "Start up stage", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ is a system of partnership that a firm creates to source and deliver its offering.",
+    answeredCount: 0,
+    options: [
+      { id: "c24_1", userSeletedOPtion: false, label: "A", text: "Value market", isCorrect: false },
+      { id: "c24_2", userSeletedOPtion: false, label: "B", text: "Networking", isCorrect: true },
+      { id: "c24_3", userSeletedOPtion: false, label: "C", text: "Credit-networking", isCorrect: false },
+      { id: "c24_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "Planning is important to the entrepreneur because ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c25_1", userSeletedOPtion: false, label: "A", text: "It helps to provide a clear focus and direction", isCorrect: false },
+      { id: "c25_2", userSeletedOPtion: false, label: "B", text: "It makes it possible to utilize resource more efficiently", isCorrect: false },
+      { id: "c25_3", userSeletedOPtion: false, label: "C", text: "It minimizes risk and uncertainty", isCorrect: false },
+      { id: "c25_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true }
+    ]
+  },
+  {
+    question: "The following are factors considered essential to the success of a new business EXCEPT ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c26_1", userSeletedOPtion: false, label: "A", text: "Managerial expertise", isCorrect: false },
+      { id: "c26_2", userSeletedOPtion: false, label: "B", text: "Industry experience", isCorrect: false },
+      { id: "c26_3", userSeletedOPtion: false, label: "C", text: "Regard for competitors", isCorrect: false },
+      { id: "c26_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: true }
+    ]
+  },
+  {
+    question: "Entrepreneurs are always thinking of new ideas and new ways of doing things. This means they are quite ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c27_1", userSeletedOPtion: false, label: "A", text: "Productive", isCorrect: false },
+      { id: "c27_2", userSeletedOPtion: false, label: "B", text: "Innovative", isCorrect: true },
+      { id: "c27_3", userSeletedOPtion: false, label: "C", text: "Creative", isCorrect: false },
+      { id: "c27_4", userSeletedOPtion: false, label: "D", text: "Expansive", isCorrect: false }
+    ]
+  },
+  {
+    question: "There is an internal satisfaction from owning your business. This is referred to as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c28_1", userSeletedOPtion: false, label: "A", text: "Motivation", isCorrect: false },
+      { id: "c28_2", userSeletedOPtion: false, label: "B", text: "Incentive", isCorrect: false },
+      { id: "c28_3", userSeletedOPtion: false, label: "C", text: "Self-fulfillment", isCorrect: true },
+      { id: "c28_4", userSeletedOPtion: false, label: "D", text: "Self-contentment", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following best describe market gap that can be exploited for potential profit?",
+    answeredCount: 0,
+    options: [
+      { id: "c29_1", userSeletedOPtion: false, label: "A", text: "Business opportunity", isCorrect: true },
+      { id: "c29_2", userSeletedOPtion: false, label: "B", text: "Angel venture", isCorrect: false },
+      { id: "c29_3", userSeletedOPtion: false, label: "C", text: "Business idea", isCorrect: false },
+      { id: "c29_4", userSeletedOPtion: false, label: "D", text: "Start-ups", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ was established to ensure that products of Nigerian industries and those imported meet national and international standards.",
+    answeredCount: 0,
+    options: [
+      { id: "c30_1", userSeletedOPtion: false, label: "A", text: "SON", isCorrect: true },
+      { id: "c30_2", userSeletedOPtion: false, label: "B", text: "NAFDAC", isCorrect: false },
+      { id: "c30_3", userSeletedOPtion: false, label: "C", text: "NSE", isCorrect: false },
+      { id: "c30_4", userSeletedOPtion: false, label: "D", text: "CAC", isCorrect: false }
+    ]
+  },
+  {
+    question: "The YouWin programme was launched in ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c31_1", userSeletedOPtion: false, label: "A", text: "2014", isCorrect: false },
+      { id: "c31_2", userSeletedOPtion: false, label: "B", text: "2013", isCorrect: false },
+      { id: "c31_3", userSeletedOPtion: false, label: "C", text: "2012", isCorrect: false },
+      { id: "c31_4", userSeletedOPtion: false, label: "D", text: "2011", isCorrect: true }
+    ]
+  },
+  {
+    question: "Which of the following is not a component of feasibility study?",
+    answeredCount: 0,
+    options: [
+      { id: "c32_1", userSeletedOPtion: false, label: "A", text: "Analysis and Decision making", isCorrect: false },
+      { id: "c32_2", userSeletedOPtion: false, label: "B", text: "Product quality survey", isCorrect: false },
+      { id: "c32_3", userSeletedOPtion: false, label: "C", text: "Market share and competition", isCorrect: false },
+      { id: "c32_4", userSeletedOPtion: false, label: "D", text: "Production planning", isCorrect: false },
+      { id: "c32_5", userSeletedOPtion: false, label: "E", text: "Staffing levels", isCorrect: true }
+    ]
+  },
+  {
+    question: "The partnership deed or agreement contains the following EXCEPT ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c33_1", userSeletedOPtion: false, label: "A", text: "Parties", isCorrect: false },
+      { id: "c33_2", userSeletedOPtion: false, label: "B", text: "Nature of business", isCorrect: false },
+      { id: "c33_3", userSeletedOPtion: false, label: "C", text: "Share capital", isCorrect: true },
+      { id: "c33_4", userSeletedOPtion: false, label: "D", text: "Profit and loss sharing", isCorrect: false }
+    ]
+  },
+  {
+    question: "The following government agencies facilitates the growth of entrepreneurship in Nigeria EXCEPT ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c34_1", userSeletedOPtion: false, label: "A", text: "NBCI", isCorrect: false },
+      { id: "c34_2", userSeletedOPtion: false, label: "B", text: "NERFUND", isCorrect: false },
+      { id: "c34_3", userSeletedOPtion: false, label: "C", text: "SMEDAN", isCorrect: false },
+      { id: "c34_4", userSeletedOPtion: false, label: "D", text: "NEDBC", isCorrect: true }
+    ]
+  },
+  {
+    question: "All but one of the following are the entrepreneurs critical success factors:",
+    answeredCount: 0,
+    options: [
+      { id: "c35_1", userSeletedOPtion: false, label: "A", text: "Managerial expertise", isCorrect: false },
+      { id: "c35_2", userSeletedOPtion: false, label: "B", text: "Regard for competitor", isCorrect: false },
+      { id: "c35_3", userSeletedOPtion: false, label: "C", text: "Industry experience", isCorrect: false },
+      { id: "c35_4", userSeletedOPtion: false, label: "D", text: "Embracing inertia", isCorrect: true }
+    ]
+  },
+  {
+    question: "The document that governs the internal administration of the company is called ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c36_1", userSeletedOPtion: false, label: "A", text: "Memorandum of Association", isCorrect: false },
+      { id: "c36_2", userSeletedOPtion: false, label: "B", text: "Articles of Association", isCorrect: true },
+      { id: "c36_3", userSeletedOPtion: false, label: "C", text: "All of the above", isCorrect: false },
+      { id: "c36_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is considered a key element in effectively managing a new business?",
+    answeredCount: 0,
+    options: [
+      { id: "c37_1", userSeletedOPtion: false, label: "A", text: "Avoiding written business plans", isCorrect: false },
+      { id: "c37_2", userSeletedOPtion: false, label: "B", text: "Flexible budgeting and random pricing", isCorrect: false },
+      { id: "c37_3", userSeletedOPtion: false, label: "C", text: "Clear vision and strategic planning", isCorrect: true },
+      { id: "c37_4", userSeletedOPtion: false, label: "D", text: "Sole dependence on family labor", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following best describes the business environment of an entrepreneur?",
+    answeredCount: 0,
+    options: [
+      { id: "c38_1", userSeletedOPtion: false, label: "A", text: "Only internal operations of the business", isCorrect: false },
+      { id: "c38_2", userSeletedOPtion: false, label: "B", text: "The global economy only", isCorrect: false },
+      { id: "c38_3", userSeletedOPtion: false, label: "C", text: "All external and internal factors affecting business decisions", isCorrect: true },
+      { id: "c38_4", userSeletedOPtion: false, label: "D", text: "Employee behavior alone", isCorrect: false }
+    ]
+  },
+  {
+    question: "Who defined a product as anything that can be offered to a market to satisfy a want or a need?",
+    answeredCount: 0,
+    options: [
+      { id: "c39_1", userSeletedOPtion: false, label: "A", text: "Busch and Honston (2001)", isCorrect: false },
+      { id: "c39_2", userSeletedOPtion: false, label: "B", text: "Stanton Etzel and Walker (2000)", isCorrect: false },
+      { id: "c39_3", userSeletedOPtion: false, label: "C", text: "Drucker (2005)", isCorrect: false },
+      { id: "c39_4", userSeletedOPtion: false, label: "D", text: "Kotler (2005)", isCorrect: true }
+    ]
+  },
+  {
+    question: "The agency established in 2003 to promote and facilitate the development of Micro, Small and Medium Enterprises (MSME's) is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c40_1", userSeletedOPtion: false, label: "A", text: "NEEDS", isCorrect: false },
+      { id: "c40_2", userSeletedOPtion: false, label: "B", text: "SON", isCorrect: false },
+      { id: "c40_3", userSeletedOPtion: false, label: "C", text: "SMEDAN", isCorrect: true },
+      { id: "c40_4", userSeletedOPtion: false, label: "D", text: "NIPC", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ was mandated to provide short, medium and large term funds for completely owned SMEs in manufacturing agro-allied enterprises.",
+    answeredCount: 0,
+    options: [
+      { id: "c41_1", userSeletedOPtion: false, label: "A", text: "NBCI", isCorrect: false },
+      { id: "c41_2", userSeletedOPtion: false, label: "B", text: "BOI", isCorrect: true },
+      { id: "c41_3", userSeletedOPtion: false, label: "C", text: "NERFUND", isCorrect: false },
+      { id: "c41_4", userSeletedOPtion: false, label: "D", text: "NDE", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ is the introduction of innovation into the marketplace.",
+    answeredCount: 0,
+    options: [
+      { id: "c42_1", userSeletedOPtion: false, label: "A", text: "Economic Approach to Entrepreneurship", isCorrect: true },
+      { id: "c42_2", userSeletedOPtion: false, label: "B", text: "Genetic Power", isCorrect: false },
+      { id: "c42_3", userSeletedOPtion: false, label: "C", text: "Entrepreneurship", isCorrect: false },
+      { id: "c42_4", userSeletedOPtion: false, label: "D", text: "Economic Transformation", isCorrect: false }
+    ]
+  },
+  {
+    question: "The following are channels of marketing entrepreneurial products and services EXCEPT ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c43_1", userSeletedOPtion: false, label: "A", text: "Direct channels", isCorrect: false },
+      { id: "c43_2", userSeletedOPtion: false, label: "B", text: "Traditional channels", isCorrect: false },
+      { id: "c43_3", userSeletedOPtion: false, label: "C", text: "Complex channels", isCorrect: true },
+      { id: "c43_4", userSeletedOPtion: false, label: "D", text: "Digital channels", isCorrect: false }
+    ]
+  },
+  {
+    question: "The process by which companies differentiate their product offerings from competitors is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c44_1", userSeletedOPtion: false, label: "A", text: "Segmenting", isCorrect: false },
+      { id: "c44_2", userSeletedOPtion: false, label: "B", text: "Branding", isCorrect: true },
+      { id: "c44_3", userSeletedOPtion: false, label: "C", text: "Market research", isCorrect: false },
+      { id: "c44_4", userSeletedOPtion: false, label: "D", text: "Equity financing", isCorrect: false }
+    ]
+  },
+  {
+    question: "How can market research serve as a source of business opportunity?",
+    answeredCount: 0,
+    options: [
+      { id: "c45_1", userSeletedOPtion: false, label: "A", text: "By discouraging new product development", isCorrect: false },
+      { id: "c45_2", userSeletedOPtion: false, label: "B", text: "By identifying customer needs and market gaps", isCorrect: true },
+      { id: "c45_3", userSeletedOPtion: false, label: "C", text: "By limiting competition", isCorrect: false },
+      { id: "c45_4", userSeletedOPtion: false, label: "D", text: "By eliminating customer feedback", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is a key feature that distinguishes a business opportunity from a business idea?",
+    answeredCount: 0,
+    options: [
+      { id: "c46_1", userSeletedOPtion: false, label: "A", text: "It is based on passion only", isCorrect: false },
+      { id: "c46_2", userSeletedOPtion: false, label: "B", text: "It requires no resources to implement", isCorrect: false },
+      { id: "c46_3", userSeletedOPtion: false, label: "C", text: "It has a validated market demand and profit potential", isCorrect: true },
+      { id: "c46_4", userSeletedOPtion: false, label: "D", text: "It is purely theoretical", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ is NOT a metric that can be used to measure the performance of a product marketing campaign.",
+    answeredCount: 0,
+    options: [
+      { id: "c47_1", userSeletedOPtion: false, label: "A", text: "Customer satisfaction", isCorrect: false },
+      { id: "c47_2", userSeletedOPtion: false, label: "B", text: "Sales", isCorrect: false },
+      { id: "c47_3", userSeletedOPtion: false, label: "C", text: "Lead generation", isCorrect: false },
+      { id: "c47_4", userSeletedOPtion: false, label: "D", text: "Profit", isCorrect: true }
+    ]
+  },
+  {
+    question: "The operating environment of entrepreneur is also called ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c48_1", userSeletedOPtion: false, label: "A", text: "General environment", isCorrect: false },
+      { id: "c48_2", userSeletedOPtion: false, label: "B", text: "Task environment", isCorrect: true },
+      { id: "c48_3", userSeletedOPtion: false, label: "C", text: "International environment", isCorrect: false },
+      { id: "c48_4", userSeletedOPtion: false, label: "D", text: "Sole environment", isCorrect: false }
+    ]
+  },
+  {
+    question: "The following are characteristics of successful entrepreneur EXCEPT one:",
+    answeredCount: 0,
+    options: [
+      { id: "c49_1", userSeletedOPtion: false, label: "A", text: "Decisiveness", isCorrect: false },
+      { id: "c49_2", userSeletedOPtion: false, label: "B", text: "Team building", isCorrect: false },
+      { id: "c49_3", userSeletedOPtion: false, label: "C", text: "Innovation", isCorrect: false },
+      { id: "c49_4", userSeletedOPtion: false, label: "D", text: "Risk averse", isCorrect: true }
+    ]
+  },
+  {
+    question: "___ is the art and science of exploring, creating, and delivering value at a profit to satisfy the needs of a target group.",
+    answeredCount: 0,
+    options: [
+      { id: "c50_1", userSeletedOPtion: false, label: "A", text: "Entrepreneurship", isCorrect: false },
+      { id: "c50_2", userSeletedOPtion: false, label: "B", text: "Marketing", isCorrect: true },
+      { id: "c50_3", userSeletedOPtion: false, label: "C", text: "Selling", isCorrect: false },
+      { id: "c50_4", userSeletedOPtion: false, label: "D", text: "Management", isCorrect: false }
+    ]
+  }
+];
+
+export let questionBank4E = [
+  {
+    question: "After you have refined and packaged your business opportunity in your mind, you can have it documented by writing a ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c51_1", userSeletedOPtion: false, label: "a", text: "Feasibility report", isCorrect: false },
+      { id: "c51_2", userSeletedOPtion: false, label: "b", text: "Business report", isCorrect: false },
+      { id: "c51_3", userSeletedOPtion: false, label: "c", text: "Feasibility study", isCorrect: false },
+      { id: "c51_4", userSeletedOPtion: false, label: "d", text: "Business plan", isCorrect: true }
+    ]
+  },
+  {
+    question: "___ are essentially research projects, are estimates for the future?",
+    answeredCount: 0,
+    options: [
+      { id: "c52_1", userSeletedOPtion: false, label: "a", text: "Business plan and feasibility study", isCorrect: true },
+      { id: "c52_2", userSeletedOPtion: false, label: "b", text: "Feasibility study and business plan", isCorrect: false },
+      { id: "c52_3", userSeletedOPtion: false, label: "c", text: "Feasibility report and business plan", isCorrect: false },
+      { id: "c52_4", userSeletedOPtion: false, label: "d", text: "Business plan and feasibility report", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ feasibility informs whether enough units will sell?",
+    answeredCount: 0,
+    options: [
+      { id: "c53_1", userSeletedOPtion: false, label: "a", text: "Economic", isCorrect: false },
+      { id: "c53_2", userSeletedOPtion: false, label: "b", text: "Marketing", isCorrect: true },
+      { id: "c53_3", userSeletedOPtion: false, label: "c", text: "Commercial", isCorrect: false },
+      { id: "c53_4", userSeletedOPtion: false, label: "d", text: "Financial", isCorrect: false }
+    ]
+  },
+  {
+    question: "The business name is entered into the register of business names as contained in ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c54_1", userSeletedOPtion: false, label: "a", text: "Section 813 of CAMA (2020)", isCorrect: false },
+      { id: "c54_2", userSeletedOPtion: false, label: "b", text: "Section 814 of CAMA (2020)", isCorrect: false },
+      { id: "c54_3", userSeletedOPtion: false, label: "c", text: "Section 815 of CAMA (2020)", isCorrect: false },
+      { id: "c54_4", userSeletedOPtion: false, label: "d", text: "Section 816 of CAMA (2020)", isCorrect: true }
+    ]
+  },
+  {
+    question: "The minimum membership of a private company in Nigeria according to CAMA (2020) is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c55_1", userSeletedOPtion: false, label: "a", text: "1", isCorrect: true },
+      { id: "c55_2", userSeletedOPtion: false, label: "b", text: "2", isCorrect: false },
+      { id: "c55_3", userSeletedOPtion: false, label: "c", text: "7", isCorrect: false },
+      { id: "c55_4", userSeletedOPtion: false, label: "d", text: "None of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "The ___ model of family business consist of stages and axes?",
+    answeredCount: 0,
+    options: [
+      { id: "c56_1", userSeletedOPtion: false, label: "a", text: "Three cycle", isCorrect: false },
+      { id: "c56_2", userSeletedOPtion: false, label: "b", text: "Developmental model", isCorrect: true },
+      { id: "c56_3", userSeletedOPtion: false, label: "c", text: "Balance point", isCorrect: false },
+      { id: "c56_4", userSeletedOPtion: false, label: "d", text: "Two cycle", isCorrect: false }
+    ]
+  },
+  {
+    question: "Who defined business environment as 'a complex system of interacting elements factors or conditions that are external to the organization...'?",
+    answeredCount: 0,
+    options: [
+      { id: "c57_1", userSeletedOPtion: false, label: "a", text: "Robbins (1987)", isCorrect: false },
+      { id: "c57_2", userSeletedOPtion: false, label: "b", text: "Robbins and Coulter (1996)", isCorrect: true },
+      { id: "c57_3", userSeletedOPtion: false, label: "c", text: "Ferando (2017)", isCorrect: false },
+      { id: "c57_4", userSeletedOPtion: false, label: "d", text: "Agbonifoh and Inegbenebor (2012)", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ suggested three approaches which could be adopted for sorting out information for environmental scanning?",
+    answeredCount: 0,
+    options: [
+      { id: "c58_1", userSeletedOPtion: false, label: "a", text: "Kuber (1980)", isCorrect: false },
+      { id: "c58_2", userSeletedOPtion: false, label: "b", text: "Griffing (1990)", isCorrect: false },
+      { id: "c58_3", userSeletedOPtion: false, label: "c", text: "Jobber (1995)", isCorrect: false },
+      { id: "c58_4", userSeletedOPtion: false, label: "d", text: "Ansoff (1990)", isCorrect: true }
+    ]
+  },
+  {
+    question: "The sales return book is also known as the ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c59_1", userSeletedOPtion: false, label: "a", text: "Return outward book", isCorrect: false },
+      { id: "c59_2", userSeletedOPtion: false, label: "b", text: "Return inward book", isCorrect: true },
+      { id: "c59_3", userSeletedOPtion: false, label: "c", text: "Subsidiary book", isCorrect: false },
+      { id: "c59_4", userSeletedOPtion: false, label: "d", text: "None of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "The process of identifying and exploiting a business opportunity in an environment can be referred to as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c60_1", userSeletedOPtion: false, label: "a", text: "entrepreneur", isCorrect: false },
+      { id: "c60_2", userSeletedOPtion: false, label: "b", text: "entrepreneurship", isCorrect: true },
+      { id: "c60_3", userSeletedOPtion: false, label: "c", text: "entrepreneurial development", isCorrect: false },
+      { id: "c60_4", userSeletedOPtion: false, label: "d", text: "enterpreneurship", isCorrect: false }
+    ]
+  },
+  {
+    question: "Offering discounts and advertising are part of which element of the marketing mix?",
+    answeredCount: 0,
+    options: [
+      { id: "c61_1", userSeletedOPtion: false, label: "A", text: "Price", isCorrect: false },
+      { id: "c61_2", userSeletedOPtion: false, label: "B", text: "Product", isCorrect: false },
+      { id: "c61_3", userSeletedOPtion: false, label: "C", text: "Promotion", isCorrect: true },
+      { id: "c61_4", userSeletedOPtion: false, label: "D", text: "Place", isCorrect: false }
+    ]
+  },
+  {
+    question: "What does the 'Product' element of the marketing mix refer to?",
+    answeredCount: 0,
+    options: [
+      { id: "c62_1", userSeletedOPtion: false, label: "A", text: "The way a product is transported", isCorrect: false },
+      { id: "c62_2", userSeletedOPtion: false, label: "B", text: "The cost of the product", isCorrect: false },
+      { id: "c62_3", userSeletedOPtion: false, label: "C", text: "The features, design, and quality of the item offered", isCorrect: true },
+      { id: "c62_4", userSeletedOPtion: false, label: "D", text: "The timing of a marketing campaign", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is an example of the external business environment?",
+    answeredCount: 0,
+    options: [
+      { id: "c63_1", userSeletedOPtion: false, label: "A", text: "Organizational structure", isCorrect: false },
+      { id: "c63_2", userSeletedOPtion: false, label: "B", text: "Company policies", isCorrect: false },
+      { id: "c63_3", userSeletedOPtion: false, label: "C", text: "Economic conditions", isCorrect: true },
+      { id: "c63_4", userSeletedOPtion: false, label: "D", text: "Employee behavior", isCorrect: false }
+    ]
+  },
+  {
+    question: "The legal environment of business includes:",
+    answeredCount: 0,
+    options: [
+      { id: "c64_1", userSeletedOPtion: false, label: "A", text: "Company mission and vision", isCorrect: false },
+      { id: "c64_2", userSeletedOPtion: false, label: "B", text: "Government laws and regulations", isCorrect: true },
+      { id: "c64_3", userSeletedOPtion: false, label: "C", text: "Employee motivation techniques", isCorrect: false },
+      { id: "c64_4", userSeletedOPtion: false, label: "D", text: "Product pricing strategies", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is NOT a component of the micro environment?",
+    answeredCount: 0,
+    options: [
+      { id: "c65_1", userSeletedOPtion: false, label: "A", text: "Customers", isCorrect: false },
+      { id: "c65_2", userSeletedOPtion: false, label: "B", text: "Competitors", isCorrect: false },
+      { id: "c65_3", userSeletedOPtion: false, label: "C", text: "Technological changes", isCorrect: true },
+      { id: "c65_4", userSeletedOPtion: false, label: "D", text: "Suppliers", isCorrect: false }
+    ]
+  },
+  {
+    question: "Changes in consumer preferences fall under which type of business environment?",
+    answeredCount: 0,
+    options: [
+      { id: "c66_1", userSeletedOPtion: false, label: "A", text: "Legal environment", isCorrect: false },
+      { id: "c66_2", userSeletedOPtion: false, label: "B", text: "Social environment", isCorrect: true },
+      { id: "c66_3", userSeletedOPtion: false, label: "C", text: "Political environment", isCorrect: false },
+      { id: "c66_4", userSeletedOPtion: false, label: "D", text: "Internal environment", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is a common challenge faced by family-owned businesses?",
+    answeredCount: 0,
+    options: [
+      { id: "c67_1", userSeletedOPtion: false, label: "A", text: "High employee turnover", isCorrect: false },
+      { id: "c67_2", userSeletedOPtion: false, label: "B", text: "Lack of innovation", isCorrect: false },
+      { id: "c67_3", userSeletedOPtion: false, label: "C", text: "Succession planning and leadership transition", isCorrect: true },
+      { id: "c67_4", userSeletedOPtion: false, label: "D", text: "Too much external ownership", isCorrect: false }
+    ]
+  },
+  {
+    question: "One key advantage of a family business is:",
+    answeredCount: 0,
+    options: [
+      { id: "c68_1", userSeletedOPtion: false, label: "A", text: "Less control over decisions", isCorrect: false },
+      { id: "c68_2", userSeletedOPtion: false, label: "B", text: "Short-term focus", isCorrect: false },
+      { id: "c68_3", userSeletedOPtion: false, label: "C", text: "Strong values and long-term vision", isCorrect: true },
+      { id: "c68_4", userSeletedOPtion: false, label: "D", text: "Frequent leadership changes", isCorrect: false }
+    ]
+  },
+  {
+    question: "What is the primary goal of product marketing?",
+    answeredCount: 0,
+    options: [
+      { id: "c69_1", userSeletedOPtion: false, label: "A", text: "To develop software for the company", isCorrect: false },
+      { id: "c69_2", userSeletedOPtion: false, label: "B", text: "To ensure product meets customer needs and is successfully promoted", isCorrect: true },
+      { id: "c69_3", userSeletedOPtion: false, label: "C", text: "To manage the company's finances", isCorrect: false },
+      { id: "c69_4", userSeletedOPtion: false, label: "D", text: "To design employee training programs", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is not a model for businesses owned by related persons?",
+    answeredCount: 0,
+    options: [
+      { id: "c70_1", userSeletedOPtion: false, label: "a", text: "Two-cycle model", isCorrect: false },
+      { id: "c70_2", userSeletedOPtion: false, label: "b", text: "Developmental model", isCorrect: false },
+      { id: "c70_3", userSeletedOPtion: false, label: "c", text: "Balanced point model", isCorrect: true },
+      { id: "c70_4", userSeletedOPtion: false, label: "d", text: "Three cycle model", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ spells out the way and manner a partnership business is managed.",
+    answeredCount: 0,
+    options: [
+      { id: "c71_1", userSeletedOPtion: false, label: "a", text: "Memorandum of association", isCorrect: false },
+      { id: "c71_2", userSeletedOPtion: false, label: "b", text: "Deed of partnership", isCorrect: true },
+      { id: "c71_3", userSeletedOPtion: false, label: "c", text: "Article of association", isCorrect: false },
+      { id: "c71_4", userSeletedOPtion: false, label: "d", text: "Partners' Constitution", isCorrect: false }
+    ]
+  },
+  {
+    question: "The model that explains the competition with an industry is credited to ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c72_1", userSeletedOPtion: false, label: "a", text: "Adam Smith", isCorrect: false },
+      { id: "c72_2", userSeletedOPtion: false, label: "b", text: "Ansoff", isCorrect: false },
+      { id: "c72_3", userSeletedOPtion: false, label: "c", text: "Michael Porter", isCorrect: true },
+      { id: "c72_4", userSeletedOPtion: false, label: "d", text: "Robbins Coulter", isCorrect: false }
+    ]
+  },
+  {
+    question: "The level of uncertainty in the business environment is a combination of the degree of change and degree of ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c73_1", userSeletedOPtion: false, label: "a", text: "Risk", isCorrect: false },
+      { id: "c73_2", userSeletedOPtion: false, label: "b", text: "Competition", isCorrect: false },
+      { id: "c73_3", userSeletedOPtion: false, label: "c", text: "Flexibility", isCorrect: false },
+      { id: "c73_4", userSeletedOPtion: false, label: "d", text: "Complexity", isCorrect: true }
+    ]
+  },
+  {
+    question: "The first academic usage of the term entrepreneur is credited to a/an ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c74_1", userSeletedOPtion: false, label: "a", text: "Accountant", isCorrect: false },
+      { id: "c74_2", userSeletedOPtion: false, label: "b", text: "Engineer", isCorrect: false },
+      { id: "c74_3", userSeletedOPtion: false, label: "c", text: "Economist", isCorrect: true },
+      { id: "c74_4", userSeletedOPtion: false, label: "d", text: "Manager", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ approach involves the identification of a business opportunity first before considering the resources for funding.",
+    answeredCount: 0,
+    options: [
+      { id: "c75_1", userSeletedOPtion: false, label: "a", text: "Effectuation", isCorrect: false },
+      { id: "c75_2", userSeletedOPtion: false, label: "b", text: "Factual", isCorrect: false },
+      { id: "c75_3", userSeletedOPtion: false, label: "c", text: "Causation", isCorrect: true },
+      { id: "c75_4", userSeletedOPtion: false, label: "d", text: "Snowballing", isCorrect: false }
+    ]
+  },
+  {
+    question: "___ approach involves conducting special surveys to deal with specific environmental issues observed when organizations monitor their environment.",
+    answeredCount: 0,
+    options: [
+      { id: "c76_1", userSeletedOPtion: false, label: "a", text: "Systematic", isCorrect: false },
+      { id: "c76_2", userSeletedOPtion: false, label: "b", text: "Ad hoc", isCorrect: true },
+      { id: "c76_3", userSeletedOPtion: false, label: "c", text: "Processed form", isCorrect: false },
+      { id: "c76_4", userSeletedOPtion: false, label: "d", text: "Situational", isCorrect: false }
+    ]
+  },
+  {
+    question: "The evidence to show that a financial transaction has occurred is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c77_1", userSeletedOPtion: false, label: "a", text: "Invoice", isCorrect: false },
+      { id: "c77_2", userSeletedOPtion: false, label: "b", text: "Original entry", isCorrect: false },
+      { id: "c77_3", userSeletedOPtion: false, label: "c", text: "Source document", isCorrect: true },
+      { id: "c77_4", userSeletedOPtion: false, label: "d", text: "Book account", isCorrect: false }
+    ]
+  },
+  {
+    question: "The case of Salomon v. Salomon & Co. is associated with ___ principle.",
+    answeredCount: 0,
+    options: [
+      { id: "c78_1", userSeletedOPtion: false, label: "a", text: "Corporate personality", isCorrect: true },
+      { id: "c78_2", userSeletedOPtion: false, label: "b", text: "Ultra Vires", isCorrect: false },
+      { id: "c78_3", userSeletedOPtion: false, label: "c", text: "a & b", isCorrect: false },
+      { id: "c78_4", userSeletedOPtion: false, label: "d", text: "None of the above", isCorrect: false }
+    ]
+  },
+  {
+    question: "The basic difference between a small business firm and an entrepreneurial venture is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c79_1", userSeletedOPtion: false, label: "a", text: "Type of goods/services offered", isCorrect: false },
+      { id: "c79_2", userSeletedOPtion: false, label: "b", text: "View on growth & innovation", isCorrect: true },
+      { id: "c79_3", userSeletedOPtion: false, label: "c", text: "Ownership type", isCorrect: false },
+      { id: "c79_4", userSeletedOPtion: false, label: "d", text: "Registration requirements", isCorrect: false }
+    ]
+  },
+  {
+    question: "Section 386(1) requires ___ directors to sign the final account.",
+    answeredCount: 0,
+    options: [
+      { id: "c80_1", userSeletedOPtion: false, label: "a", text: "5", isCorrect: false },
+      { id: "c80_2", userSeletedOPtion: false, label: "b", text: "4", isCorrect: false },
+      { id: "c80_3", userSeletedOPtion: false, label: "c", text: "3", isCorrect: false },
+      { id: "c80_4", userSeletedOPtion: false, label: "d", text: "2", isCorrect: true }
+    ]
+  },
+  {
+    question: "Continuity of existence is a common feature of a ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c81_1", userSeletedOPtion: false, label: "a", text: "One-man business", isCorrect: false },
+      { id: "c81_2", userSeletedOPtion: false, label: "b", text: "Sole proprietorship", isCorrect: false },
+      { id: "c81_3", userSeletedOPtion: false, label: "c", text: "Partnership", isCorrect: false },
+      { id: "c81_4", userSeletedOPtion: false, label: "d", text: "Company", isCorrect: true }
+    ]
+  },
+  {
+    question: "Ownership and Management is mostly combined in which legal form of business?",
+    answeredCount: 0,
+    options: [
+      { id: "c82_1", userSeletedOPtion: false, label: "a", text: "Sole proprietorship", isCorrect: true },
+      { id: "c82_2", userSeletedOPtion: false, label: "b", text: "Limited partnership", isCorrect: false },
+      { id: "c82_3", userSeletedOPtion: false, label: "c", text: "Corporation", isCorrect: false },
+      { id: "c82_4", userSeletedOPtion: false, label: "d", text: "Company", isCorrect: false }
+    ]
+  },
+  {
+    question: "An example of an indirect tax in Nigeria is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c83_1", userSeletedOPtion: false, label: "a", text: "Value Added Tax (VAT)", isCorrect: true },
+      { id: "c83_2", userSeletedOPtion: false, label: "b", text: "Education Tax", isCorrect: false },
+      { id: "c83_3", userSeletedOPtion: false, label: "c", text: "Companies Income Tax", isCorrect: false },
+      { id: "c83_4", userSeletedOPtion: false, label: "d", text: "Capital Gains Tax", isCorrect: false }
+    ]
+  },
+  {
+    question: "The highest tax authority in Nigeria with respect to personal income tax matters is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c84_1", userSeletedOPtion: false, label: "a", text: "Joint Tax Board", isCorrect: true },
+      { id: "c84_2", userSeletedOPtion: false, label: "b", text: "Federal Inland Revenue Service", isCorrect: false },
+      { id: "c84_3", userSeletedOPtion: false, label: "c", text: "States Internal Revenue Boards/Services", isCorrect: false },
+      { id: "c84_4", userSeletedOPtion: false, label: "d", text: "Local Government Revenue Committee", isCorrect: false }
+    ]
+  },
+  {
+    question: "The Value Added Tax (VAT) is administered in Nigeria by ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c85_1", userSeletedOPtion: false, label: "a", text: "Joint Tax Board", isCorrect: false },
+      { id: "c85_2", userSeletedOPtion: false, label: "b", text: "Federal Inland Revenue Service (FIRS)", isCorrect: true },
+      { id: "c85_3", userSeletedOPtion: false, label: "c", text: "States Internal Revenue Boards/Services", isCorrect: false },
+      { id: "c85_4", userSeletedOPtion: false, label: "d", text: "Local Government Revenue Committee", isCorrect: false }
+    ]
+  },
+  {
+    question: "The company income tax of a company located in Benin City is payable to ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c86_1", userSeletedOPtion: false, label: "a", text: "Joint Tax Board", isCorrect: false },
+      { id: "c86_2", userSeletedOPtion: false, label: "b", text: "Federal Inland Revenue Service", isCorrect: true },
+      { id: "c86_3", userSeletedOPtion: false, label: "c", text: "Edo State Internal Revenue Service", isCorrect: false },
+      { id: "c86_4", userSeletedOPtion: false, label: "d", text: "Oredo Local Government Revenue Committee", isCorrect: false }
+    ]
+  },
+  {
+    question: "A favourable condition in a business environment that an entrepreneur can take advantage of is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c87_1", userSeletedOPtion: false, label: "a", text: "a plan", isCorrect: false },
+      { id: "c87_2", userSeletedOPtion: false, label: "b", text: "idea", isCorrect: false },
+      { id: "c87_3", userSeletedOPtion: false, label: "c", text: "opportunity", isCorrect: true },
+      { id: "c87_4", userSeletedOPtion: false, label: "d", text: "concept", isCorrect: false }
+    ]
+  },
+  {
+    question: "A type of business partner that is chosen due to his reputation and image is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c88_1", userSeletedOPtion: false, label: "a", text: "nominal partner", isCorrect: false },
+      { id: "c88_2", userSeletedOPtion: false, label: "b", text: "active partner", isCorrect: false },
+      { id: "c88_3", userSeletedOPtion: false, label: "c", text: "sleeping partner", isCorrect: false },
+      { id: "c88_4", userSeletedOPtion: false, label: "d", text: "prestige partner", isCorrect: true }
+    ]
+  },
+  {
+    question: "A subsidiary book for recording goods given to customers on credit is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c89_1", userSeletedOPtion: false, label: "a", text: "sales journal", isCorrect: true },
+      { id: "c89_2", userSeletedOPtion: false, label: "b", text: "purchases journal", isCorrect: false },
+      { id: "c89_3", userSeletedOPtion: false, label: "c", text: "general journal", isCorrect: false },
+      { id: "c89_4", userSeletedOPtion: false, label: "d", text: "cash book", isCorrect: false }
+    ]
+  },
+  {
+    question: "A day book for recording goods gotten on credit is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c90_1", userSeletedOPtion: false, label: "a", text: "sales journal", isCorrect: false },
+      { id: "c90_2", userSeletedOPtion: false, label: "b", text: "purchases journal", isCorrect: true },
+      { id: "c90_3", userSeletedOPtion: false, label: "c", text: "general journal", isCorrect: false },
+      { id: "c90_4", userSeletedOPtion: false, label: "d", text: "cash book", isCorrect: false }
+    ]
+  },
+  {
+    question: "An inventor who introduces new ideas into business, community or economy is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c91_1", userSeletedOPtion: false, label: "A", text: "Entrepreneur", isCorrect: true },
+      { id: "c91_2", userSeletedOPtion: false, label: "B", text: "Marketer", isCorrect: false },
+      { id: "c91_3", userSeletedOPtion: false, label: "C", text: "Entrepreneurship", isCorrect: false },
+      { id: "c91_4", userSeletedOPtion: false, label: "D", text: "All of the Above", isCorrect: false }
+    ]
+  },
+  {
+    question: "One of the following is NOT a characteristics of a successful entrepreneur:",
+    answeredCount: 0,
+    options: [
+      { id: "c92_1", userSeletedOPtion: false, label: "A", text: "Curiosity", isCorrect: false },
+      { id: "c92_2", userSeletedOPtion: false, label: "B", text: "Team building", isCorrect: false },
+      { id: "c92_3", userSeletedOPtion: false, label: "C", text: "Decisiveness", isCorrect: false },
+      { id: "c92_4", userSeletedOPtion: false, label: "D", text: "Non-risk taker", isCorrect: true }
+    ]
+  },
+  {
+    question: "A process through which an entrepreneur establishes a new company under his leadership and vision is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c93_1", userSeletedOPtion: false, label: "A", text: "Entrepreneurship", isCorrect: true },
+      { id: "c93_2", userSeletedOPtion: false, label: "B", text: "Invention", isCorrect: false },
+      { id: "c93_3", userSeletedOPtion: false, label: "C", text: "Technology", isCorrect: false },
+      { id: "c93_4", userSeletedOPtion: false, label: "D", text: "Theories", isCorrect: false }
+    ]
+  },
+  {
+    question: "A proven concept that generates ongoing income is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c94_1", userSeletedOPtion: false, label: "A", text: "Business opportunity", isCorrect: true },
+      { id: "c94_2", userSeletedOPtion: false, label: "B", text: "Business Venture", isCorrect: false },
+      { id: "c94_3", userSeletedOPtion: false, label: "C", text: "Product", isCorrect: false },
+      { id: "c94_4", userSeletedOPtion: false, label: "D", text: "Profit", isCorrect: false }
+    ]
+  },
+  {
+    question: "A concept for new products or services is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "c95_1", userSeletedOPtion: false, label: "A", text: "Business idea", isCorrect: true },
+      { id: "c95_2", userSeletedOPtion: false, label: "B", text: "New Market", isCorrect: false },
+      { id: "c95_3", userSeletedOPtion: false, label: "C", text: "Franchise", isCorrect: false },
+      { id: "c95_4", userSeletedOPtion: false, label: "D", text: "Price", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is a type of subsidiary book?",
+    answeredCount: 0,
+    options: [
+      { id: "c96_1", userSeletedOPtion: false, label: "A", text: "Balance Sheet", isCorrect: false },
+      { id: "c96_2", userSeletedOPtion: false, label: "B", text: "Cash Book", isCorrect: true },
+      { id: "c96_3", userSeletedOPtion: false, label: "C", text: "Trial Balance", isCorrect: false },
+      { id: "c96_4", userSeletedOPtion: false, label: "D", text: "Income Statement", isCorrect: false }
+    ]
+  },
+  {
+    question: "The Purchases Book is used to record:",
+    answeredCount: 0,
+    options: [
+      { id: "c97_1", userSeletedOPtion: false, label: "A", text: "All purchases made for cash", isCorrect: false },
+      { id: "c97_2", userSeletedOPtion: false, label: "B", text: "All credit purchases of goods", isCorrect: true },
+      { id: "c97_3", userSeletedOPtion: false, label: "C", text: "All purchases of fixed assets", isCorrect: false },
+      { id: "c97_4", userSeletedOPtion: false, label: "D", text: "All sales transactions", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which subsidiary book is used to record goods returned by customers?",
+    answeredCount: 0,
+    options: [
+      { id: "c98_1", userSeletedOPtion: false, label: "A", text: "Sales Book", isCorrect: false },
+      { id: "c98_2", userSeletedOPtion: false, label: "B", text: "Purchases Book", isCorrect: false },
+      { id: "c98_3", userSeletedOPtion: false, label: "C", text: "Sales Return Book", isCorrect: true },
+      { id: "c98_4", userSeletedOPtion: false, label: "D", text: "Cash Book", isCorrect: false }
+    ]
+  },
+  {
+    question: "Which of the following is NOT one of the 4Ps of the marketing mix?",
+    answeredCount: 0,
+    options: [
+      { id: "c99_1", userSeletedOPtion: false, label: "A", text: "Product", isCorrect: false },
+      { id: "c99_2", userSeletedOPtion: false, label: "B", text: "Price", isCorrect: false },
+      { id: "c99_3", userSeletedOPtion: false, label: "C", text: "Promotion", isCorrect: false },
+      { id: "c99_4", userSeletedOPtion: false, label: "D", text: "Profit", isCorrect: true }
+    ]
+  },
+  {
+    question: "What aspect of the marketing mix focuses on how the product reaches the customer?",
+    answeredCount: 0,
+    options: [
+      { id: "c100_1", userSeletedOPtion: false, label: "A", text: "Price", isCorrect: false },
+      { id: "c100_2", userSeletedOPtion: false, label: "B", text: "Product", isCorrect: false },
+      { id: "c100_3", userSeletedOPtion: false, label: "C", text: "Place", isCorrect: true },
+      { id: "c100_4", userSeletedOPtion: false, label: "D", text: "Promotion", isCorrect: false }
+    ]
+  }
+];
