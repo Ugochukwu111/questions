@@ -116,6 +116,14 @@ export const courses = [
     part: "C",
     coursequestion: "questionBank4E",
   },
+    {
+    id: "id-2",
+    code: "CED300",
+    name: "CED300",
+    type: "Multiple choice",
+    part: "D",
+    coursequestion: "questionBank5A",
+  },
   {
     id: "id-2",
     code: "CED300",
@@ -123,6 +131,14 @@ export const courses = [
     type: "Multiple choice",
     part: "E",
     coursequestion: "questionBank4F",
+  },
+    {
+    id: "id-2",
+    code: "CED300",
+    name: "CED300",
+    type: "Multiple choice",
+    part: "F",
+    coursequestion: "questionBank5B",
   },
   {
     id: "id-2",
