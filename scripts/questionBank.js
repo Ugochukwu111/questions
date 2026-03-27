@@ -6323,3 +6323,506 @@ export let questionBank4E = [
     ]
   }
 ];
+
+export let questionBank4F= [
+  {
+    question: "___ is the process of summarizing, interpreting and communicating financial transactions which were classified in the ledger account.",
+    answeredCount: 0,
+    options: [
+      { id: "n1_1", userSeletedOPtion: false, label: "a", text: "Bookkeeping", isCorrect: false },
+      { id: "n1_2", userSeletedOPtion: false, label: "b", text: "Accounting", isCorrect: true },
+      { id: "n1_3", userSeletedOPtion: false, label: "c", text: "Disclosure", isCorrect: false },
+      { id: "n1_4", userSeletedOPtion: false, label: "d", text: "Foreclosure", isCorrect: false }
+    ]
+  }, // [cite: 163, 649]
+  {
+    question: "A pool of undistributed profits earned over the years that are plugged back to support the capital base of an enterprise is known as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n2_1", userSeletedOPtion: false, label: "a", text: "profit after tax", isCorrect: false },
+      { id: "n2_2", userSeletedOPtion: false, label: "b", text: "profit before tax", isCorrect: false },
+      { id: "n2_3", userSeletedOPtion: false, label: "c", text: "retained earnings", isCorrect: true },
+      { id: "n2_4", userSeletedOPtion: false, label: "d", text: "earning per share", isCorrect: false }
+    ]
+  }, // [cite: 164, 649]
+  {
+    question: "Long term corporate loans given to borrowers with high credit rating which can be converted to equity at maturity are ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n3_1", userSeletedOPtion: false, label: "a", text: "debentures", isCorrect: true },
+      { id: "n3_2", userSeletedOPtion: false, label: "b", text: "long term loans", isCorrect: false },
+      { id: "n3_3", userSeletedOPtion: false, label: "c", text: "term loans", isCorrect: false },
+      { id: "n3_4", userSeletedOPtion: false, label: "d", text: "commercial loans", isCorrect: false }
+    ]
+  }, // [cite: 165, 649]
+  {
+    question: "Informal or private investors who invest directly in small firms in exchange for ownership equity are known as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n4_1", userSeletedOPtion: false, label: "a", text: "business angels", isCorrect: true },
+      { id: "n4_2", userSeletedOPtion: false, label: "b", text: "venture capitalist", isCorrect: false },
+      { id: "n4_3", userSeletedOPtion: false, label: "c", text: "private investor", isCorrect: false },
+      { id: "n4_4", userSeletedOPtion: false, label: "d", text: "entrepreneurs", isCorrect: false }
+    ]
+  }, // [cite: 166, 649]
+  {
+    question: "A situation where communities combine money to fund members who have business ideas is known as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n5_1", userSeletedOPtion: false, label: "a", text: "Community funding", isCorrect: true },
+      { id: "n5_2", userSeletedOPtion: false, label: "b", text: "crowd funding", isCorrect: false },
+      { id: "n5_3", userSeletedOPtion: false, label: "c", text: "community efforts", isCorrect: false },
+      { id: "n5_4", userSeletedOPtion: false, label: "d", text: "family business", isCorrect: false }
+    ]
+  }, // [cite: 167, 649]
+  {
+    question: "___ is a compulsory payment of money to the government by individuals or organizations.",
+    answeredCount: 0,
+    options: [
+      { id: "n6_1", userSeletedOPtion: false, label: "a", text: "tax", isCorrect: true },
+      { id: "n6_2", userSeletedOPtion: false, label: "b", text: "levies", isCorrect: false },
+      { id: "n6_3", userSeletedOPtion: false, label: "c", text: "tax base", isCorrect: false },
+      { id: "n6_4", userSeletedOPtion: false, label: "d", text: "tax rate", isCorrect: false }
+    ]
+  }, // [cite: 168, 649]
+  {
+    question: "The tax rate that applies to the last or next unit of the tax base is known as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n7_1", userSeletedOPtion: false, label: "a", text: "Penultimate tax rate", isCorrect: false },
+      { id: "n7_2", userSeletedOPtion: false, label: "b", text: "maximum tax rate", isCorrect: false },
+      { id: "n7_3", userSeletedOPtion: false, label: "c", text: "minimum tax rate", isCorrect: false },
+      { id: "n7_4", userSeletedOPtion: false, label: "d", text: "marginal tax rate", isCorrect: true }
+    ]
+  }, // [cite: 169, 649]
+  {
+    question: "___ is a temporary period during which government removes certain taxes to encourage consumption or purchases.",
+    answeredCount: 0,
+    options: [
+      { id: "n8_1", userSeletedOPtion: false, label: "a", text: "cessation period", isCorrect: false },
+      { id: "n8_2", userSeletedOPtion: false, label: "b", text: "basic period", isCorrect: false },
+      { id: "n8_3", userSeletedOPtion: false, label: "c", text: "tax holiday", isCorrect: true },
+      { id: "n8_4", userSeletedOPtion: false, label: "d", text: "objectivity", isCorrect: false }
+    ]
+  }, // [cite: 170, 649]
+  {
+    question: "___ ensures the protection of products in the market for the purpose of sale, storage and usage.",
+    answeredCount: 0,
+    options: [
+      { id: "n9_1", userSeletedOPtion: false, label: "a", text: "storage", isCorrect: false },
+      { id: "n9_2", userSeletedOPtion: false, label: "b", text: "protection", isCorrect: false },
+      { id: "n9_3", userSeletedOPtion: false, label: "c", text: "packaging", isCorrect: true },
+      { id: "n9_4", userSeletedOPtion: false, label: "d", text: "branding", isCorrect: false }
+    ]
+  }, // [cite: 171, 649]
+  {
+    question: "Behaviours aimed at building and using informal relationships to facilitate work related activities is known as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n10_1", userSeletedOPtion: false, label: "a", text: "networking", isCorrect: true },
+      { id: "n10_2", userSeletedOPtion: false, label: "b", text: "marketing", isCorrect: false },
+      { id: "n10_3", userSeletedOPtion: false, label: "c", text: "behavioural activities", isCorrect: false },
+      { id: "n10_4", userSeletedOPtion: false, label: "d", text: "integration", isCorrect: false }
+    ]
+  }, // [cite: 172, 649]
+  {
+    question: "___ is mainly related to identifying, measuring and recording of financial transactions.",
+    answeredCount: 0,
+    options: [
+      { id: "n11_1", userSeletedOPtion: false, label: "a", text: "book keeping", isCorrect: true },
+      { id: "n11_2", userSeletedOPtion: false, label: "b", text: "accounting", isCorrect: false },
+      { id: "n11_3", userSeletedOPtion: false, label: "c", text: "disclosure", isCorrect: false },
+      { id: "n11_4", userSeletedOPtion: false, label: "d", text: "measurement", isCorrect: false }
+    ]
+  }, // [cite: 175, 649]
+  {
+    question: "Recording assets at their original costs at the time they were acquired is the ___ concept.",
+    answeredCount: 0,
+    options: [
+      { id: "n12_1", userSeletedOPtion: false, label: "a", text: "realization", isCorrect: false },
+      { id: "n12_2", userSeletedOPtion: false, label: "b", text: "recognition", isCorrect: false },
+      { id: "n12_3", userSeletedOPtion: false, label: "c", text: "historical cost", isCorrect: true },
+      { id: "n12_4", userSeletedOPtion: false, label: "d", text: "matching concept", isCorrect: false }
+    ]
+  }, // [cite: 177, 649]
+  {
+    question: "The accounting principle of conservatism to only recognize profits when realized but losses when foreseeable is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n13_1", userSeletedOPtion: false, label: "a", text: "prudence", isCorrect: true },
+      { id: "n13_2", userSeletedOPtion: false, label: "b", text: "fairness", isCorrect: false },
+      { id: "n13_3", userSeletedOPtion: false, label: "c", text: "materiality", isCorrect: false },
+      { id: "n13_4", userSeletedOPtion: false, label: "d", text: "objectivity", isCorrect: false }
+    ]
+  }, // [cite: 178, 649]
+  {
+    question: "The totality of methods adopted by a business in preparing its financial reports is called ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n14_1", userSeletedOPtion: false, label: "a", text: "accounting period", isCorrect: false },
+      { id: "n14_2", userSeletedOPtion: false, label: "b", text: "accounting basis", isCorrect: true },
+      { id: "n14_3", userSeletedOPtion: false, label: "c", text: "accounting principle", isCorrect: false },
+      { id: "n14_4", userSeletedOPtion: false, label: "d", text: "objectivity", isCorrect: false }
+    ]
+  }, // [cite: 179, 649]
+  {
+    question: "Recording financial transactions on their practical reality instead of legal form is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n15_1", userSeletedOPtion: false, label: "a", text: "Materiality", isCorrect: false },
+      { id: "n15_2", userSeletedOPtion: false, label: "b", text: "prudence", isCorrect: false },
+      { id: "n15_3", userSeletedOPtion: false, label: "c", text: "objectivity", isCorrect: false },
+      { id: "n15_4", userSeletedOPtion: false, label: "d", text: "substance over form", isCorrect: true }
+    ]
+  }, // [cite: 179, 649]
+  {
+    question: "A tax where the rate decreases as the amount subject to taxation increases is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n16_1", userSeletedOPtion: false, label: "a", text: "proportional tax", isCorrect: false },
+      { id: "n16_2", userSeletedOPtion: false, label: "b", text: "digressive tax", isCorrect: false },
+      { id: "n16_3", userSeletedOPtion: false, label: "c", text: "regressive", isCorrect: true },
+      { id: "n16_4", userSeletedOPtion: false, label: "d", text: "progressive", isCorrect: false }
+    ]
+  }, // [cite: 180, 649]
+  {
+    question: "The legal body charged with collecting capital gain, company income, and petroleum profit tax is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n17_1", userSeletedOPtion: false, label: "a", text: "joint tax board", isCorrect: false },
+      { id: "n17_2", userSeletedOPtion: false, label: "b", text: "board of internal revenue", isCorrect: false },
+      { id: "n17_3", userSeletedOPtion: false, label: "c", text: "task force on tax admin", isCorrect: false },
+      { id: "n17_4", userSeletedOPtion: false, label: "d", text: "federal inland revenue service", isCorrect: true }
+    ]
+  }, // [cite: 181, 649]
+  {
+    question: "The statutory body vested with regulating the quality of all products in Nigeria is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n18_1", userSeletedOPtion: false, label: "a", text: "NAFDAC", isCorrect: false },
+      { id: "n18_2", userSeletedOPtion: false, label: "b", text: "Corporate Affairs Commission", isCorrect: false },
+      { id: "n18_3", userSeletedOPtion: false, label: "c", text: "Manufacturers Association of Nigeria", isCorrect: false },
+      { id: "n18_4", userSeletedOPtion: false, label: "d", text: "standards organization of Nigeria", isCorrect: true }
+    ]
+  }, // [cite: 182, 649]
+  {
+    question: "Doing what is right even when not required by law is a/an ___ responsibility.",
+    answeredCount: 0,
+    options: [
+      { id: "n19_1", userSeletedOPtion: false, label: "a", text: "legal responsibility", isCorrect: false },
+      { id: "n19_2", userSeletedOPtion: false, label: "b", text: "Ethical responsibility", isCorrect: true },
+      { id: "n19_3", userSeletedOPtion: false, label: "c", text: "Philanthropic responsibility", isCorrect: false },
+      { id: "n19_4", userSeletedOPtion: false, label: "d", text: "economic responsibility", isCorrect: false }
+    ]
+  }, // [cite: 184, 649]
+  {
+    question: "Which CSR theory charges adherence to standards in law according to public policy?",
+    answeredCount: 0,
+    options: [
+      { id: "n20_1", userSeletedOPtion: false, label: "a", text: "stakeholder theory", isCorrect: false },
+      { id: "n20_2", userSeletedOPtion: false, label: "b", text: "triple bottom lime theory", isCorrect: false },
+      { id: "n20_3", userSeletedOPtion: false, label: "c", text: "corporate citizen theory", isCorrect: false },
+      { id: "n20_4", userSeletedOPtion: false, label: "d", text: "corporate social performance theory", isCorrect: true }
+    ]
+  }, // [cite: 185, 649]
+  {
+    question: "An open and global collection of interconnected networks of computers is the ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n21_1", userSeletedOPtion: false, label: "a", text: "Ethernet", isCorrect: false },
+      { id: "n21_2", userSeletedOPtion: false, label: "b", text: "Internet", isCorrect: true },
+      { id: "n21_3", userSeletedOPtion: false, label: "c", text: "intranet", isCorrect: false },
+      { id: "n21_4", userSeletedOPtion: false, label: "d", text: "Email", isCorrect: false }
+    ]
+  }, // [cite: 187, 649]
+  {
+    question: "A career and business social networking platform for professionals is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n22_1", userSeletedOPtion: false, label: "a", text: "facebook", isCorrect: false },
+      { id: "n22_2", userSeletedOPtion: false, label: "b", text: "email", isCorrect: false },
+      { id: "n22_3", userSeletedOPtion: false, label: "c", text: "twitter", isCorrect: false },
+      { id: "n22_4", userSeletedOPtion: false, label: "d", text: "linked in", isCorrect: true }
+    ]
+  }, // [cite: 188, 649]
+  {
+    question: "Which platform allows users to pin and share images along with their source links?",
+    answeredCount: 0,
+    options: [
+      { id: "n23_1", userSeletedOPtion: false, label: "a", text: "pinterest", isCorrect: true },
+      { id: "n23_2", userSeletedOPtion: false, label: "b", text: "snap chat", isCorrect: false },
+      { id: "n23_3", userSeletedOPtion: false, label: "c", text: "instagram", isCorrect: false },
+      { id: "n23_4", userSeletedOPtion: false, label: "d", text: "you tube", isCorrect: false }
+    ]
+  }, // [cite: 189, 649]
+  {
+    question: "Directing opinions and behaviours of prospects for enhanced business reputation is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n24_1", userSeletedOPtion: false, label: "a", text: "Social Networking", isCorrect: false },
+      { id: "n24_2", userSeletedOPtion: false, label: "b", text: "Social Influencing", isCorrect: true },
+      { id: "n24_3", userSeletedOPtion: false, label: "c", text: "social selling", isCorrect: false },
+      { id: "n24_4", userSeletedOPtion: false, label: "d", text: "social media marketing", isCorrect: false }
+    ]
+  }, // [cite: 190, 649]
+  {
+    question: "Moral ethics concerned with formulating rules that have implications on human actions is ___ ethics.",
+    answeredCount: 0,
+    options: [
+      { id: "n25_1", userSeletedOPtion: false, label: "a", text: "Descriptive ethics", isCorrect: false },
+      { id: "n25_2", userSeletedOPtion: false, label: "b", text: "deontological theories", isCorrect: false },
+      { id: "n25_3", userSeletedOPtion: false, label: "c", text: "meta ethics", isCorrect: false },
+      { id: "n25_4", userSeletedOPtion: false, label: "d", text: "normative ethics", isCorrect: true }
+    ]
+  }, // [cite: 191, 649]
+  {
+    question: "All the following are types of email marketing except ___ emails.",
+    answeredCount: 0,
+    options: [
+      { id: "n26_1", userSeletedOPtion: false, label: "a", text: "educational email", isCorrect: true },
+      { id: "n26_2", userSeletedOPtion: false, label: "b", text: "transaction emails", isCorrect: false },
+      { id: "n26_3", userSeletedOPtion: false, label: "c", text: "relational emails", isCorrect: false },
+      { id: "n26_4", userSeletedOPtion: false, label: "d", text: "promotional emails", isCorrect: false }
+    ]
+  }, // [cite: 194, 649]
+  {
+    question: "A business policy contributing to society through philanthropic activities is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n27_1", userSeletedOPtion: false, label: "a", text: "critical success factor", isCorrect: false },
+      { id: "n27_2", userSeletedOPtion: false, label: "b", text: "social theory", isCorrect: false },
+      { id: "n27_3", userSeletedOPtion: false, label: "c", text: "corporate social responsibility", isCorrect: true },
+      { id: "n27_4", userSeletedOPtion: false, label: "d", text: "corporate citizenship theory", isCorrect: false }
+    ]
+  }, // [cite: 195, 649]
+  {
+    question: "Outdated technologies and ideas substituted with new ones through innovation is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n28_1", userSeletedOPtion: false, label: "a", text: "change management", isCorrect: false },
+      { id: "n28_2", userSeletedOPtion: false, label: "b", text: "creative destruction", isCorrect: true },
+      { id: "n28_3", userSeletedOPtion: false, label: "c", text: "value creation", isCorrect: false },
+      { id: "n28_4", userSeletedOPtion: false, label: "d", text: "growth rate", isCorrect: false }
+    ]
+  }, // [cite: 196, 649]
+  {
+    question: "When entrepreneurial activity accelerates due to unemployment or low pay, it is the ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n29_1", userSeletedOPtion: false, label: "a", text: "survival instinct", isCorrect: false },
+      { id: "n29_2", userSeletedOPtion: false, label: "b", text: "start up business strategies", isCorrect: false },
+      { id: "n29_3", userSeletedOPtion: false, label: "c", text: "refugee effect", isCorrect: true },
+      { id: "n29_4", userSeletedOPtion: false, label: "d", text: "wealth creation", isCorrect: false }
+    ]
+  }, // [cite: 198, 649]
+  {
+    question: "Which approach to entrepreneurship focuses on risk-taking and goal achievement within the entrepreneur's personality?",
+    answeredCount: 0,
+    options: [
+      { id: "n30_1", userSeletedOPtion: false, label: "a", text: "physical", isCorrect: false },
+      { id: "n30_2", userSeletedOPtion: false, label: "b", text: "psychological", isCorrect: true },
+      { id: "n30_3", userSeletedOPtion: false, label: "c", text: "sociological", isCorrect: false },
+      { id: "n30_4", userSeletedOPtion: false, label: "d", text: "management", isCorrect: false }
+    ]
+  }, // [cite: 200, 649]
+  {
+    question: "An entity engaged in commercial activity for profit making is known as a/an ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n31_1", userSeletedOPtion: false, label: "a", text: "business", isCorrect: true },
+      { id: "n31_2", userSeletedOPtion: false, label: "b", text: "commercial trading", isCorrect: false },
+      { id: "n31_3", userSeletedOPtion: false, label: "c", text: "conglomerate", isCorrect: false },
+      { id: "n31_4", userSeletedOPtion: false, label: "d", text: "sole proprietor", isCorrect: false }
+    ]
+  }, // [cite: 201, 649]
+  {
+    question: "___ describes the rationale of how an organization creates and captures value.",
+    answeredCount: 0,
+    options: [
+      { id: "n32_1", userSeletedOPtion: false, label: "a", text: "feasibility plan", isCorrect: false },
+      { id: "n32_2", userSeletedOPtion: false, label: "b", text: "environmental scanning", isCorrect: false },
+      { id: "n32_3", userSeletedOPtion: false, label: "c", text: "business model", isCorrect: true },
+      { id: "n32_4", userSeletedOPtion: false, label: "d", text: "feasibility study", isCorrect: false }
+    ]
+  }, // [cite: 202, 649]
+  {
+    question: "The sum of benefits a vendor promises a customer in return for payment is ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n33_1", userSeletedOPtion: false, label: "a", text: "value addition", isCorrect: false },
+      { id: "n33_2", userSeletedOPtion: false, label: "b", text: "value proposition", isCorrect: true },
+      { id: "n33_3", userSeletedOPtion: false, label: "c", text: "value creation", isCorrect: false },
+      { id: "n33_4", userSeletedOPtion: false, label: "d", text: "customer service delivery", isCorrect: false }
+    ]
+  }, // [cite: 203, 649]
+  {
+    question: "Determining if a business opportunity is viable through a screen of the best ideas is the ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n34_1", userSeletedOPtion: false, label: "a", text: "feasibility analysis", isCorrect: false },
+      { id: "n34_2", userSeletedOPtion: false, label: "b", text: "Business plan", isCorrect: false },
+      { id: "n34_3", userSeletedOPtion: false, label: "c", text: "feasibility test", isCorrect: true },
+      { id: "n34_4", userSeletedOPtion: false, label: "d", text: "business idea", isCorrect: false }
+    ]
+  }, // [cite: 204, 649]
+  {
+    question: "A written narrative describing what a new business intends to accomplish is a/an ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n35_1", userSeletedOPtion: false, label: "a", text: "feasibility study", isCorrect: false },
+      { id: "n35_2", userSeletedOPtion: false, label: "b", text: "feasibility report", isCorrect: false },
+      { id: "n35_3", userSeletedOPtion: false, label: "c", text: "business plan", isCorrect: true },
+      { id: "n35_4", userSeletedOPtion: false, label: "d", text: "business report", isCorrect: false }
+    ]
+  }, // [cite: 206, 649]
+  {
+    question: "An executive summary is a written report of what is known as a/an ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n36_1", userSeletedOPtion: false, label: "a", text: "business report", isCorrect: false },
+      { id: "n36_2", userSeletedOPtion: false, label: "b", text: "expert report", isCorrect: false },
+      { id: "n36_3", userSeletedOPtion: false, label: "c", text: "elevator pitch", isCorrect: true },
+      { id: "n36_4", userSeletedOPtion: false, label: "d", text: "tagline", isCorrect: false }
+    ]
+  }, // [cite: 206, 649]
+  {
+    question: "Project feasibility can be evaluated on all these grounds except ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n37_1", userSeletedOPtion: false, label: "a", text: "physiological", isCorrect: true },
+      { id: "n37_2", userSeletedOPtion: false, label: "b", text: "technical", isCorrect: false },
+      { id: "n37_3", userSeletedOPtion: false, label: "c", text: "financial", isCorrect: false },
+      { id: "n37_4", userSeletedOPtion: false, label: "d", text: "legal", isCorrect: false }
+    ]
+  }, // [cite: 208, 649]
+  {
+    question: "___ specifies the aim and reamed direction of an organization in the future.",
+    answeredCount: 0,
+    options: [
+      { id: "n38_1", userSeletedOPtion: false, label: "a", text: "mission", isCorrect: false },
+      { id: "n38_2", userSeletedOPtion: false, label: "b", text: "objectives", isCorrect: false },
+      { id: "n38_3", userSeletedOPtion: false, label: "c", text: "goals", isCorrect: false },
+      { id: "n38_4", userSeletedOPtion: false, label: "d", text: "strategic vision", isCorrect: true }
+    ]
+  }, // [cite: 209, 649]
+  {
+    question: "Open ended statements of intended results indicating desired state of affairs are ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n39_1", userSeletedOPtion: false, label: "a", text: "goals", isCorrect: true },
+      { id: "n39_2", userSeletedOPtion: false, label: "b", text: "objectives", isCorrect: false },
+      { id: "n39_3", userSeletedOPtion: false, label: "c", text: "vision", isCorrect: false },
+      { id: "n39_4", userSeletedOPtion: false, label: "d", text: "mission", isCorrect: false }
+    ]
+  }, // [cite: 210, 649]
+  {
+    question: "Business strategy is also called ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n40_1", userSeletedOPtion: false, label: "a", text: "corporate strategy", isCorrect: false },
+      { id: "n40_2", userSeletedOPtion: false, label: "b", text: "functional strategy", isCorrect: false },
+      { id: "n40_3", userSeletedOPtion: false, label: "c", text: "business level strategy", isCorrect: false },
+      { id: "n40_4", userSeletedOPtion: false, label: "d", text: "competitive strategy", isCorrect: true }
+    ]
+  }, // [cite: 211, 649]
+  {
+    question: "Which partnership is a hybrid legal entity where units are traded on the stock exchange?",
+    answeredCount: 0,
+    options: [
+      { id: "n41_1", userSeletedOPtion: false, label: "a", text: "limited", isCorrect: false },
+      { id: "n41_2", userSeletedOPtion: false, label: "b", text: "general", isCorrect: false },
+      { id: "n41_3", userSeletedOPtion: false, label: "c", text: "master limited", isCorrect: true },
+      { id: "n41_4", userSeletedOPtion: false, label: "d", text: "limited liability", isCorrect: false }
+    ]
+  }, // [cite: 213, 649]
+  {
+    question: "A partner involved on the basis of wealth or pedigree is a/an ___ partner.",
+    answeredCount: 0,
+    options: [
+      { id: "n42_1", userSeletedOPtion: false, label: "a", text: "general partner", isCorrect: false },
+      { id: "n42_2", userSeletedOPtion: false, label: "b", text: "passive partner", isCorrect: true },
+      { id: "n42_3", userSeletedOPtion: false, label: "c", text: "dormant partner", isCorrect: false },
+      { id: "n42_4", userSeletedOPtion: false, label: "d", text: "secret partner", isCorrect: false }
+    ]
+  }, // [cite: 214, 649]
+  {
+    question: "Which strategy concerns how each business activity contributes towards the corporate strategy?",
+    answeredCount: 0,
+    options: [
+      { id: "n43_1", userSeletedOPtion: false, label: "a", text: "competitive", isCorrect: true },
+      { id: "n43_2", userSeletedOPtion: false, label: "b", text: "functional", isCorrect: false },
+      { id: "n43_3", userSeletedOPtion: false, label: "c", text: "corporate", isCorrect: false },
+      { id: "n43_4", userSeletedOPtion: false, label: "d", text: "marketing", isCorrect: false }
+    ]
+  }, // [cite: 216, 649]
+  {
+    question: "Distinguishing a company's product from competitors is known as ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n44_1", userSeletedOPtion: false, label: "a", text: "bespoke", isCorrect: false },
+      { id: "n44_2", userSeletedOPtion: false, label: "b", text: "cost leadership", isCorrect: false },
+      { id: "n44_3", userSeletedOPtion: false, label: "c", text: "branding", isCorrect: true },
+      { id: "n44_4", userSeletedOPtion: false, label: "d", text: "packaging", isCorrect: false }
+    ]
+  }, // [cite: 216, 649]
+  {
+    question: "Beliefs that consumers hold about a particular brand is the brand ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n45_1", userSeletedOPtion: false, label: "a", text: "brand mark", isCorrect: false },
+      { id: "n45_2", userSeletedOPtion: false, label: "b", text: "brand image", isCorrect: true },
+      { id: "n45_3", userSeletedOPtion: false, label: "c", text: "brand equity", isCorrect: false },
+      { id: "n45_4", userSeletedOPtion: false, label: "d", text: "brand extension", isCorrect: false }
+    ]
+  }, // [cite: 217, 649]
+  {
+    question: "Successful brand quality can be built by all these except ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n46_1", userSeletedOPtion: false, label: "a", text: "repositioning", isCorrect: false },
+      { id: "n46_2", userSeletedOPtion: false, label: "b", text: "external marketing", isCorrect: true },
+      { id: "n46_3", userSeletedOPtion: false, label: "c", text: "long term perspective", isCorrect: false },
+      { id: "n46_4", userSeletedOPtion: false, label: "d", text: "credibility", isCorrect: false }
+    ]
+  }, // [cite: 218, 649]
+  {
+    question: "Which model gives a comparative measure of equity across diverse classes?",
+    answeredCount: 0,
+    options: [
+      { id: "n47_1", userSeletedOPtion: false, label: "a", text: "business model", isCorrect: false },
+      { id: "n47_2", userSeletedOPtion: false, label: "b", text: "brand valuator", isCorrect: false },
+      { id: "n47_3", userSeletedOPtion: false, label: "c", text: "brand asset valuator", isCorrect: true },
+      { id: "n47_4", userSeletedOPtion: false, label: "d", text: "brand model", isCorrect: false }
+    ]
+  }, // [cite: 219, 649]
+  {
+    question: "The ___ model explains how brand loyalty and perceived quality are associated to a brand.",
+    answeredCount: 0,
+    options: [
+      { id: "n48_1", userSeletedOPtion: false, label: "a", text: "brandz", isCorrect: false },
+      { id: "n48_2", userSeletedOPtion: false, label: "b", text: "brand resonance", isCorrect: false },
+      { id: "n48_3", userSeletedOPtion: false, label: "c", text: "brand assets valuator", isCorrect: false },
+      { id: "n48_4", userSeletedOPtion: false, label: "d", text: "Aaker", isCorrect: true }
+    ]
+  }, // [cite: 222, 649]
+  {
+    question: "Assessing viability and uncover sources of brand equity is a brand ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n49_1", userSeletedOPtion: false, label: "a", text: "brand inventory", isCorrect: false },
+      { id: "n49_2", userSeletedOPtion: false, label: "b", text: "brand audit", isCorrect: true },
+      { id: "n49_3", userSeletedOPtion: false, label: "c", text: "customer servicer", isCorrect: false },
+      { id: "n49_4", userSeletedOPtion: false, label: "d", text: "brand exploratory", isCorrect: false }
+    ]
+  }, // [cite: 223, 649]
+  {
+    question: "Value of a brand based on loyalty and name awareness is known as brand ___?",
+    answeredCount: 0,
+    options: [
+      { id: "n50_1", userSeletedOPtion: false, label: "a", text: "brand inflation", isCorrect: false },
+      { id: "n50_2", userSeletedOPtion: false, label: "b", text: "brand equity", isCorrect: true },
+      { id: "n50_3", userSeletedOPtion: false, label: "c", text: "brand mark", isCorrect: false },
+      { id: "n50_4", userSeletedOPtion: false, label: "d", text: "brand extension", isCorrect: false }
+    ]
+  } // [cite: 224, 649]
+];
