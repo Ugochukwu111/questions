@@ -7857,3 +7857,504 @@ export let questionBank5B = [
     ]
   }
 ];
+
+export let questionBank5C = [
+  {
+    question: "From the perspective of conflict studies, the crisis between Ife and Modakeke can best be regarded as ________ conflict",
+    answeredCount: 0,
+    options: [
+      { id: "g1_1", userSeletedOPtion: false, label: "A", text: "Intra-state", isCorrect: true },
+      { id: "g1_2", userSeletedOPtion: false, label: "B", text: "State", isCorrect: false },
+      { id: "g1_3", userSeletedOPtion: false, label: "C", text: "Inter-state", isCorrect: false },
+      { id: "g1_4", userSeletedOPtion: false, label: "D", text: "International", isCorrect: false },
+    ]
+  },
+  {
+    question: "There are how many eras of citizenship",
+    answeredCount: 0,
+    options: [
+      { id: "g2_1", userSeletedOPtion: false, label: "A", text: "2", isCorrect: true },
+      { id: "g2_2", userSeletedOPtion: false, label: "B", text: "6", isCorrect: false },
+      { id: "g2_3", userSeletedOPtion: false, label: "C", text: "7", isCorrect: false },
+      { id: "g2_4", userSeletedOPtion: false, label: "D", text: "9", isCorrect: false },
+    ]
+  },
+  {
+    question: "Which of this ombuds term is gender inclusive",
+    answeredCount: 0,
+    options: [
+      { id: "g3_1", userSeletedOPtion: false, label: "A", text: "Ombudsperson", isCorrect: false },
+      { id: "g3_2", userSeletedOPtion: false, label: "B", text: "Ombudsoffice", isCorrect: false },
+      { id: "g3_3", userSeletedOPtion: false, label: "C", text: "Ombudsman", isCorrect: true },
+      { id: "g3_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "A mode of exploitation where an exploiter goes through someone else to exploit another is known as ________ exploitation",
+    answeredCount: 0,
+    options: [
+      { id: "g4_1", userSeletedOPtion: false, label: "A", text: "Mediated", isCorrect: true },
+      { id: "g4_2", userSeletedOPtion: false, label: "B", text: "Modified", isCorrect: false },
+      { id: "g4_3", userSeletedOPtion: false, label: "C", text: "Exemplified", isCorrect: false },
+      { id: "g4_4", userSeletedOPtion: false, label: "D", text: "Direct", isCorrect: false },
+    ]
+  },
+  {
+    question: "Infant dependency and maternal shaping characterizes ________",
+    answeredCount: 0,
+    options: [
+      { id: "g5_1", userSeletedOPtion: false, label: "A", text: "Biological Citizenship", isCorrect: true },
+      { id: "g5_2", userSeletedOPtion: false, label: "B", text: "Family Citizenship", isCorrect: false },
+      { id: "g5_3", userSeletedOPtion: false, label: "C", text: "Stratified Social Citizenship", isCorrect: false },
+      { id: "g5_4", userSeletedOPtion: false, label: "D", text: "Formative Citizenship", isCorrect: false },
+    ]
+  },
+  {
+    question: "Conflict that occurs due to the presence of poor communication or miscommunication is called?",
+    answeredCount: 0,
+    options: [
+      { id: "g6_1", userSeletedOPtion: false, label: "A", text: "Data Conflict", isCorrect: false },
+      { id: "g6_2", userSeletedOPtion: false, label: "B", text: "Perceived Conflict", isCorrect: false },
+      { id: "g6_3", userSeletedOPtion: false, label: "C", text: "Relationship Conflict", isCorrect: true },
+      { id: "g6_4", userSeletedOPtion: false, label: "D", text: "Interest Conflict", isCorrect: false },
+    ]
+  },
+  {
+    question: "United Nations Security Council Resolution 1325 was promulgated in ________",
+    answeredCount: 0,
+    options: [
+      { id: "g7_1", userSeletedOPtion: false, label: "A", text: "October 2000", isCorrect: true },
+      { id: "g7_2", userSeletedOPtion: false, label: "B", text: "September 2000", isCorrect: false },
+      { id: "g7_3", userSeletedOPtion: false, label: "C", text: "August 2000", isCorrect: false },
+      { id: "g7_4", userSeletedOPtion: false, label: "D", text: "November 2000", isCorrect: false },
+    ]
+  },
+  {
+    question: "Competition over perceived incompatible needs is a form of",
+    answeredCount: 0,
+    options: [
+      { id: "g8_1", userSeletedOPtion: false, label: "A", text: "Data conflict", isCorrect: false },
+      { id: "g8_2", userSeletedOPtion: false, label: "B", text: "Structural conflict", isCorrect: false },
+      { id: "g8_3", userSeletedOPtion: false, label: "C", text: "Relationship conflict", isCorrect: false },
+      { id: "g8_4", userSeletedOPtion: false, label: "D", text: "Interest conflict", isCorrect: true },
+    ]
+  },
+  {
+    question: "Conflict as a Literary concept seeks to analyse ________",
+    answeredCount: 0,
+    options: [
+      { id: "g9_1", userSeletedOPtion: false, label: "A", text: "Individuals", isCorrect: false },
+      { id: "g9_2", userSeletedOPtion: false, label: "B", text: "Nations", isCorrect: false },
+      { id: "g9_3", userSeletedOPtion: false, label: "C", text: "Plots", isCorrect: true },
+      { id: "g9_4", userSeletedOPtion: false, label: "D", text: "States", isCorrect: false },
+    ]
+  },
+  {
+    question: "Conflict involves all but ONE of the following",
+    answeredCount: 0,
+    options: [
+      { id: "g10_1", userSeletedOPtion: false, label: "A", text: "Battle", isCorrect: false },
+      { id: "g10_2", userSeletedOPtion: false, label: "B", text: "Fighting", isCorrect: false },
+      { id: "g10_3", userSeletedOPtion: false, label: "C", text: "Strife", isCorrect: false },
+      { id: "g10_4", userSeletedOPtion: false, label: "D", text: "Affection", isCorrect: true },
+    ]
+  },
+  {
+    question: "The conflict that occurs when people lack necessary information to make wise decision is known as",
+    answeredCount: 0,
+    options: [
+      { id: "g11_1", userSeletedOPtion: false, label: "A", text: "data", isCorrect: true },
+      { id: "g11_2", userSeletedOPtion: false, label: "B", text: "interest", isCorrect: false },
+      { id: "g11_3", userSeletedOPtion: false, label: "C", text: "value", isCorrect: false },
+      { id: "g11_4", userSeletedOPtion: false, label: "D", text: "structural", isCorrect: false },
+    ]
+  },
+  {
+    question: "Inspite of women being targeted in conflict men ________",
+    answeredCount: 0,
+    options: [
+      { id: "g12_1", userSeletedOPtion: false, label: "A", text: "Get detained", isCorrect: false },
+      { id: "g12_2", userSeletedOPtion: false, label: "B", text: "Some get missing", isCorrect: false },
+      { id: "g12_3", userSeletedOPtion: false, label: "C", text: "Some get constricted", isCorrect: false },
+      { id: "g12_4", userSeletedOPtion: false, label: "D", text: "All the above", isCorrect: true },
+    ]
+  },
+  {
+    question: "The Boko Haram issue in Nigeria is more of a ________",
+    answeredCount: 0,
+    options: [
+      { id: "g13_1", userSeletedOPtion: false, label: "A", text: "Political conflict", isCorrect: false },
+      { id: "g13_2", userSeletedOPtion: false, label: "B", text: "Religious Conflict", isCorrect: true },
+      { id: "g13_3", userSeletedOPtion: false, label: "C", text: "Economic Conflict", isCorrect: false },
+      { id: "g13_4", userSeletedOPtion: false, label: "D", text: "Cultural Conflict", isCorrect: false },
+    ]
+  },
+  {
+    question: "A conflict term which seeks to change the negative energy of violence and destruction associated with conflict into a positive energy for peace and development is know as conflict ________",
+    answeredCount: 0,
+    options: [
+      { id: "g14_1", userSeletedOPtion: false, label: "A", text: "Resolution", isCorrect: false },
+      { id: "g14_2", userSeletedOPtion: false, label: "B", text: "Management", isCorrect: false },
+      { id: "g14_3", userSeletedOPtion: false, label: "C", text: "Transformation", isCorrect: true },
+      { id: "g14_4", userSeletedOPtion: false, label: "D", text: "Prevention", isCorrect: false },
+    ]
+  },
+  {
+    question: "Causes of Electoral Violence in Nigeria include the following except?",
+    answeredCount: 0,
+    options: [
+      { id: "g15_1", userSeletedOPtion: false, label: "A", text: "unemployment", isCorrect: false },
+      { id: "g15_2", userSeletedOPtion: false, label: "B", text: "Week penalties", isCorrect: false },
+      { id: "g15_3", userSeletedOPtion: false, label: "C", text: "Corruption", isCorrect: false },
+      { id: "g15_4", userSeletedOPtion: false, label: "D", text: "Education", isCorrect: true },
+    ]
+  },
+  {
+    question: "Data conflict occur as a result of the following behaviour except when people ________",
+    answeredCount: 0,
+    options: [
+      { id: "g16_1", userSeletedOPtion: false, label: "A", text: "Are well informed", isCorrect: true },
+      { id: "g16_2", userSeletedOPtion: false, label: "B", text: "Are misinformed", isCorrect: false },
+      { id: "g16_3", userSeletedOPtion: false, label: "C", text: "Disagree on which data is relevant", isCorrect: false },
+      { id: "g16_4", userSeletedOPtion: false, label: "D", text: "Interprete information differently", isCorrect: false },
+    ]
+  },
+  {
+    question: "Morality in Africa Traditional thoughts is essentially ________ and social",
+    answeredCount: 0,
+    options: [
+      { id: "g17_1", userSeletedOPtion: false, label: "A", text: "Personal", isCorrect: false },
+      { id: "g17_2", userSeletedOPtion: false, label: "B", text: "Interpersonal", isCorrect: false },
+      { id: "g17_3", userSeletedOPtion: false, label: "C", text: "Individual", isCorrect: true },
+      { id: "g17_4", userSeletedOPtion: false, label: "D", text: "Antithetical", isCorrect: false },
+    ]
+  },
+  {
+    question: "In conflict issues, there is always substantive needs in addition to psychological and ________ needs.",
+    answeredCount: 0,
+    options: [
+      { id: "g18_1", userSeletedOPtion: false, label: "A", text: "Perceived", isCorrect: false },
+      { id: "g18_2", userSeletedOPtion: false, label: "B", text: "procedural", isCorrect: true },
+      { id: "g18_3", userSeletedOPtion: false, label: "C", text: "true", isCorrect: false },
+      { id: "g18_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "The means of dispute resolution fall into two broad categories namely ________",
+    answeredCount: 0,
+    options: [
+      { id: "g19_1", userSeletedOPtion: false, label: "A", text: "Diplomatic procedures and adjudication", isCorrect: true },
+      { id: "g19_2", userSeletedOPtion: false, label: "B", text: "War and Peace", isCorrect: false },
+      { id: "g19_3", userSeletedOPtion: false, label: "C", text: "International politics and balance of power", isCorrect: false },
+      { id: "g19_4", userSeletedOPtion: false, label: "D", text: "Gun-boat diplomacy and divide and rule", isCorrect: false },
+    ]
+  },
+  {
+    question: "Social institution is made of the following except ________",
+    answeredCount: 0,
+    options: [
+      { id: "g20_1", userSeletedOPtion: false, label: "A", text: "Society", isCorrect: true },
+      { id: "g20_2", userSeletedOPtion: false, label: "B", text: "Family", isCorrect: false },
+      { id: "g20_3", userSeletedOPtion: false, label: "C", text: "Education", isCorrect: false },
+      { id: "g20_4", userSeletedOPtion: false, label: "D", text: "Religion", isCorrect: false },
+    ]
+  },
+  {
+    question: "Evidence show that worse hit in conflict are, except",
+    answeredCount: 0,
+    options: [
+      { id: "g21_1", userSeletedOPtion: false, label: "A", text: "Children", isCorrect: false },
+      { id: "g21_2", userSeletedOPtion: false, label: "B", text: "Women", isCorrect: false },
+      { id: "g21_3", userSeletedOPtion: false, label: "C", text: "Both above", isCorrect: true },
+      { id: "g21_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "________ is the protagonist of contemporary conflict theory:",
+    answeredCount: 0,
+    options: [
+      { id: "g22_1", userSeletedOPtion: false, label: "A", text: "C. Wright Mills", isCorrect: true },
+      { id: "g22_2", userSeletedOPtion: false, label: "B", text: "Francis Bacon", isCorrect: false },
+      { id: "g22_3", userSeletedOPtion: false, label: "C", text: "Karl Marx", isCorrect: false },
+      { id: "g22_4", userSeletedOPtion: false, label: "D", text: "Wilhelm Leibnitz", isCorrect: false },
+    ]
+  },
+  {
+    question: "Citizenship Education means teaching people their rights and obligations to their country because ________",
+    answeredCount: 0,
+    options: [
+      { id: "g23_1", userSeletedOPtion: false, label: "A", text: "It is the education for peaceful co-existence", isCorrect: true },
+      { id: "g23_2", userSeletedOPtion: false, label: "B", text: "It is a product of critical social relationships among individuals and groups", isCorrect: false },
+    ]
+  },
+  {
+    question: "The prerequisites for development of international organization include but one of the option below ________",
+    answeredCount: 0,
+    options: [
+      { id: "g24_1", userSeletedOPtion: false, label: "A", text: "Having at least one million naira as take off grant", isCorrect: true },
+      { id: "g24_2", userSeletedOPtion: false, label: "B", text: "The division of the world into small number of independent states", isCorrect: false },
+      { id: "g24_3", userSeletedOPtion: false, label: "C", text: "Existence of substantial contact between the states", isCorrect: false },
+      { id: "g24_4", userSeletedOPtion: false, label: "D", text: "Awareness of the problems of coexistence", isCorrect: false },
+    ]
+  },
+  {
+    question: "Conflict occurs when there is ________",
+    answeredCount: 0,
+    options: [
+      { id: "g25_1", userSeletedOPtion: false, label: "A", text: "Perceived threat", isCorrect: false },
+      { id: "g25_2", userSeletedOPtion: false, label: "B", text: "Disagreement", isCorrect: false },
+      { id: "g25_3", userSeletedOPtion: false, label: "C", text: "Needs and Interest or Concerns and not guaranteed", isCorrect: false },
+      { id: "g25_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: true },
+    ]
+  },
+  {
+    question: "Gender concerns became increased focus at National and International debates since the ________",
+    answeredCount: 0,
+    options: [
+      { id: "g26_1", userSeletedOPtion: false, label: "A", text: "1960s", isCorrect: false },
+      { id: "g26_2", userSeletedOPtion: false, label: "B", text: "1970s", isCorrect: true },
+      { id: "g26_3", userSeletedOPtion: false, label: "C", text: "1980s", isCorrect: false },
+      { id: "g26_4", userSeletedOPtion: false, label: "D", text: "1950s", isCorrect: false },
+    ]
+  },
+  {
+    question: "The German philosopher ________ is most commonly associated with conflict theory",
+    answeredCount: 0,
+    options: [
+      { id: "g27_1", userSeletedOPtion: false, label: "A", text: "Adam Smith", isCorrect: false },
+      { id: "g27_2", userSeletedOPtion: false, label: "B", text: "Karl Marx", isCorrect: true },
+      { id: "g27_3", userSeletedOPtion: false, label: "C", text: "David Easton", isCorrect: false },
+      { id: "g27_4", userSeletedOPtion: false, label: "D", text: "Max Weber", isCorrect: false },
+    ]
+  },
+  {
+    question: "Conflict between fate and freewill could also be referred to as ________",
+    answeredCount: 0,
+    options: [
+      { id: "g28_1", userSeletedOPtion: false, label: "A", text: "Man V. Machine", isCorrect: false },
+      { id: "g28_2", userSeletedOPtion: false, label: "B", text: "Man V. Nature", isCorrect: false },
+      { id: "g28_3", userSeletedOPtion: false, label: "C", text: "Man V. Self", isCorrect: false },
+      { id: "g28_4", userSeletedOPtion: false, label: "D", text: "Man V. Destiny", isCorrect: true },
+    ]
+  },
+  {
+    question: "The two major interpretations of citizenship as private citizen and public citizen stand for ________ and ________ citizenship respectively.",
+    answeredCount: 0,
+    options: [
+      { id: "g29_1", userSeletedOPtion: false, label: "A", text: "Liberal/Social", isCorrect: false },
+      { id: "g29_2", userSeletedOPtion: false, label: "B", text: "Liberal/Civic republican", isCorrect: true },
+      { id: "g29_3", userSeletedOPtion: false, label: "C", text: "Civic republican/social", isCorrect: false },
+      { id: "g29_4", userSeletedOPtion: false, label: "D", text: "Civic republican/liberal", isCorrect: false },
+    ]
+  },
+  {
+    question: "________ Perspective views peace as a value that emanates from just human relationships which enhance social harmony",
+    answeredCount: 0,
+    options: [
+      { id: "g30_1", userSeletedOPtion: false, label: "A", text: "Political", isCorrect: false },
+      { id: "g30_2", userSeletedOPtion: false, label: "B", text: "Economical", isCorrect: false },
+      { id: "g30_3", userSeletedOPtion: false, label: "C", text: "Sociological", isCorrect: true },
+      { id: "g30_4", userSeletedOPtion: false, label: "D", text: "Environment", isCorrect: false },
+    ]
+  },
+  {
+    question: "Conflict can be categorized into the following except ________",
+    answeredCount: 0,
+    options: [
+      { id: "g31_1", userSeletedOPtion: false, label: "A", text: "Relationship Conflict", isCorrect: false },
+      { id: "g31_2", userSeletedOPtion: false, label: "B", text: "Perceived conflict", isCorrect: true },
+      { id: "g31_3", userSeletedOPtion: false, label: "C", text: "Data Conflict", isCorrect: false },
+      { id: "g31_4", userSeletedOPtion: false, label: "D", text: "Interest conflict", isCorrect: false },
+    ]
+  },
+  {
+    question: "The term culture of peace was imitated by ________",
+    answeredCount: 0,
+    options: [
+      { id: "g32_1", userSeletedOPtion: false, label: "A", text: "UNESCO", isCorrect: true },
+      { id: "g32_2", userSeletedOPtion: false, label: "B", text: "ECOWAS", isCorrect: false },
+      { id: "g32_3", userSeletedOPtion: false, label: "C", text: "UNICEFM", isCorrect: false },
+      { id: "g32_4", userSeletedOPtion: false, label: "D", text: "WHO", isCorrect: false },
+    ]
+  },
+  {
+    question: "________ Technique of conflict resolution employs shuttle diplomacy in mediating peace between conflicting parties",
+    answeredCount: 0,
+    options: [
+      { id: "g33_1", userSeletedOPtion: false, label: "A", text: "Conciliation", isCorrect: true },
+      { id: "g33_2", userSeletedOPtion: false, label: "B", text: "Arbitration", isCorrect: false },
+      { id: "g33_3", userSeletedOPtion: false, label: "C", text: "Adjudication", isCorrect: false },
+      { id: "g33_4", userSeletedOPtion: false, label: "D", text: "Mediation", isCorrect: false },
+    ]
+  },
+  {
+    question: "The disagreement over something important to both sides in a dispute is",
+    answeredCount: 0,
+    options: [
+      { id: "g34_1", userSeletedOPtion: false, label: "A", text: "The understanding that exist between two parties", isCorrect: false },
+      { id: "g34_2", userSeletedOPtion: false, label: "B", text: "The bond that bind parties to an agreement", isCorrect: false },
+      { id: "g34_3", userSeletedOPtion: false, label: "C", text: "The general consensus between both parties to a dispute", isCorrect: false },
+      { id: "g34_4", userSeletedOPtion: false, label: "D", text: "The expression of exclusive patterns", isCorrect: true },
+    ]
+  },
+  {
+    question: "Citizenship in Greece was ________",
+    answeredCount: 0,
+    options: [
+      { id: "g35_1", userSeletedOPtion: false, label: "A", text: "Universal", isCorrect: false },
+      { id: "g35_2", userSeletedOPtion: false, label: "B", text: "Participatory", isCorrect: true },
+      { id: "g35_3", userSeletedOPtion: false, label: "C", text: "Dictatorship", isCorrect: false },
+      { id: "g35_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "Despite all its negative aspects, conflict often instigates ________ in the society",
+    answeredCount: 0,
+    options: [
+      { id: "g36_1", userSeletedOPtion: false, label: "A", text: "Peace", isCorrect: false },
+      { id: "g36_2", userSeletedOPtion: false, label: "B", text: "Change", isCorrect: true },
+      { id: "g36_3", userSeletedOPtion: false, label: "C", text: "Love", isCorrect: false },
+      { id: "g36_4", userSeletedOPtion: false, label: "D", text: "Quarrel", isCorrect: false },
+    ]
+  },
+  {
+    question: "The countries in the Global South are prone to conflict due to the following except",
+    answeredCount: 0,
+    options: [
+      { id: "g37_1", userSeletedOPtion: false, label: "A", text: "Coups", isCorrect: false },
+      { id: "g37_2", userSeletedOPtion: false, label: "B", text: "Ethnic insurgency", isCorrect: true },
+      { id: "g37_3", userSeletedOPtion: false, label: "C", text: "Ethnic harmony", isCorrect: false },
+      { id: "g37_4", userSeletedOPtion: false, label: "D", text: "Revolution", isCorrect: false },
+    ]
+  },
+  {
+    question: "John Stuart Mill's dimension of the theory of utilitarianism was ________ oriented",
+    answeredCount: 0,
+    options: [
+      { id: "g38_1", userSeletedOPtion: false, label: "A", text: "materially", isCorrect: true },
+      { id: "g38_2", userSeletedOPtion: false, label: "B", text: "Intellectually", isCorrect: false },
+      { id: "g38_3", userSeletedOPtion: false, label: "C", text: "Greatest happiness", isCorrect: false },
+      { id: "g38_4", userSeletedOPtion: false, label: "D", text: "Least happiness", isCorrect: false },
+    ]
+  },
+  {
+    question: "Conflict entails ________ and ________ dimensions",
+    answeredCount: 0,
+    options: [
+      { id: "g39_1", userSeletedOPtion: false, label: "A", text: "Psychological", isCorrect: false },
+      { id: "g39_2", userSeletedOPtion: false, label: "B", text: "Procedural", isCorrect: false },
+      { id: "g39_3", userSeletedOPtion: false, label: "C", text: "Substantive", isCorrect: true },
+      { id: "g39_4", userSeletedOPtion: false, label: "D", text: "All of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "One of the following is not an element in a peace-building programme ________",
+    answeredCount: 0,
+    options: [
+      { id: "g40_1", userSeletedOPtion: false, label: "A", text: "Disarmament", isCorrect: false },
+      { id: "g40_2", userSeletedOPtion: false, label: "B", text: "Reconstruction", isCorrect: true },
+      { id: "g40_3", userSeletedOPtion: false, label: "C", text: "Re-integration", isCorrect: false },
+      { id: "g40_4", userSeletedOPtion: false, label: "D", text: "Demobilization", isCorrect: false },
+    ]
+  },
+  {
+    question: "Conflict was first described in ancient Greek literature as the agon. Agon according to this context mean",
+    answeredCount: 0,
+    options: [
+      { id: "g41_1", userSeletedOPtion: false, label: "A", text: "Central contest in tragedy", isCorrect: true },
+      { id: "g41_2", userSeletedOPtion: false, label: "B", text: "Act of conflict", isCorrect: false },
+      { id: "g41_3", userSeletedOPtion: false, label: "C", text: "All of the above", isCorrect: false },
+      { id: "g41_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "Resolution 1325 of United Nations Security Council ________",
+    answeredCount: 0,
+    options: [
+      { id: "g42_1", userSeletedOPtion: false, label: "A", text: "Acknowledges the specific gender impact of armed conflicts on women and young girls", isCorrect: false },
+      { id: "g42_2", userSeletedOPtion: false, label: "B", text: "Alludes to the role women and young girls can play in peace-building", isCorrect: true },
+      { id: "g42_3", userSeletedOPtion: false, label: "C", text: "A and B above", isCorrect: false },
+      { id: "g42_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ]
+  },
+  {
+    question: "The ethical theory that was founded on the goodwill principle was developed by ________",
+    answeredCount: 0,
+    options: [
+      { id: "g43_1", userSeletedOPtion: false, label: "A", text: "Jeremy Bentham", isCorrect: false },
+      { id: "g43_2", userSeletedOPtion: false, label: "B", text: "David Ross", isCorrect: false },
+      { id: "g43_3", userSeletedOPtion: false, label: "C", text: "John Rawis", isCorrect: true },
+      { id: "g43_4", userSeletedOPtion: false, label: "D", text: "Immanuel Kant", isCorrect: false },
+    ]
+  },
+  {
+    question: "A well integrated family, would have the following effect on the child's citizenship development",
+    answeredCount: 0,
+    options: [
+      { id: "g44_1", userSeletedOPtion: false, label: "A", text: "Makes the child to lose focus as to his/her role in society", isCorrect: true },
+      { id: "g44_2", userSeletedOPtion: false, label: "B", text: "Makes the child to be in his own world only", isCorrect: false },
+      { id: "g44_3", userSeletedOPtion: false, label: "C", text: "Makes him have the spirit of cooperation and accommodation", isCorrect: false },
+      { id: "g44_4", userSeletedOPtion: false, label: "D", text: "Reject societal environmental regulations always", isCorrect: false },
+    ]
+  },
+  {
+    question: "________ is among the most peace-loving peoples of the world, for they rarely resort to violence.",
+    answeredCount: 0,
+    options: [
+      { id: "g45_1", userSeletedOPtion: false, label: "A", text: "Yanomamo of Venezuela and Brazil borders", isCorrect: false },
+      { id: "g45_2", userSeletedOPtion: false, label: "B", text: "Semai of Malaysia", isCorrect: false },
+      { id: "g45_3", userSeletedOPtion: false, label: "C", text: "All of the above", isCorrect: false },
+      { id: "g45_4", userSeletedOPtion: false, label: "D", text: "None of the above", isCorrect: false },
+    ],
+    note: "BONUS question in original key"
+  },
+  {
+    question: "The public category of international organizations is known as",
+    answeredCount: 0,
+    options: [
+      { id: "g46_1", userSeletedOPtion: false, label: "A", text: "Public corporations", isCorrect: false },
+      { id: "g46_2", userSeletedOPtion: false, label: "B", text: "Intercontinental organizations", isCorrect: false },
+      { id: "g46_3", userSeletedOPtion: false, label: "C", text: "Inter - governmental organizations", isCorrect: true },
+      { id: "g46_4", userSeletedOPtion: false, label: "D", text: "International non-governmental organizations", isCorrect: false },
+    ]
+  },
+  {
+    question: "Conflict is classified into how many?",
+    answeredCount: 0,
+    options: [
+      { id: "g47_1", userSeletedOPtion: false, label: "A", text: "4", isCorrect: false },
+      { id: "g47_2", userSeletedOPtion: false, label: "B", text: "10", isCorrect: false },
+      { id: "g47_3", userSeletedOPtion: false, label: "C", text: "7", isCorrect: false },
+      { id: "g47_4", userSeletedOPtion: false, label: "D", text: "9", isCorrect: true },
+    ]
+  },
+  {
+    question: "Family citizenship starts at the stage of ________",
+    answeredCount: 0,
+    options: [
+      { id: "g48_1", userSeletedOPtion: false, label: "A", text: "Initiation of non-biological dependencies (Age 5-9)", isCorrect: false },
+      { id: "g48_2", userSeletedOPtion: false, label: "B", text: "Infant dependency and maternal shaping (Age 0-3)", isCorrect: false },
+      { id: "g48_3", userSeletedOPtion: false, label: "C", text: "Child's expansion of social scope and", isCorrect: true },
+    ]
+  },
+  {
+    question: "The idea of citizen that is autonomous, private, independent individuals whose participation in the public sphere is fairly thin, aside from voting is known as ________ citizenship.",
+    answeredCount: 0,
+    options: [
+      { id: "g49_1", userSeletedOPtion: false, label: "A", text: "Liberal", isCorrect: false },
+      { id: "g49_2", userSeletedOPtion: false, label: "B", text: "Civic republican", isCorrect: false },
+      { id: "g49_3", userSeletedOPtion: false, label: "C", text: "Social", isCorrect: true },
+      { id: "g49_4", userSeletedOPtion: false, label: "D", text: "Public", isCorrect: false },
+    ]
+  },
+  {
+    question: "The basic difference between peace-building and peacekeeping is that ________",
+    answeredCount: 0,
+    options: [
+      { id: "g50_1", userSeletedOPtion: false, label: "A", text: "Peace-building is structural while peacekeeping is functional", isCorrect: false },
+      { id: "g50_2", userSeletedOPtion: false, label: "B", text: "Peace-building is usually done by men while peacekeeping is the responsibility of women", isCorrect: false },
+      { id: "g50_3", userSeletedOPtion: false, label: "C", text: "Peace-building addresses the prevention of violence while peacekeeping addresses the solution to violence", isCorrect: false },
+      { id: "g50_4", userSeletedOPtion: false, label: "D", text: "Peace-building is divine while peacekeeping is man-made", isCorrect: true },
+    ]
+  }
+];

@@ -1,5 +1,5 @@
 
-import { questionBank1, questionBank2 ,questionBank2B,questionBank2C, questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E, questionBank3F ,questionBank4A, questionBank4B ,questionBank4C,questionBank4E,questionBank4F, questionBank5A ,questionBank5B} from './questionBank.js';
+import { questionBank1, questionBank2 ,questionBank2B,questionBank2C, questionBank3 , questionBank3B ,questionBank3C, questionBank3D, questionBank3E, questionBank3F ,questionBank4A, questionBank4B ,questionBank4C,questionBank4E,questionBank4F, questionBank5A ,questionBank5B,questionBank5C} from './questionBank.js';
 import { getNotificationBox, getRandomMessage , hideSpinner} from "./reuseablefunc.js";
 import { retryMessages, EncouragementMessages , SuccessMessages , ImprovementMessages }  from "./compliments.js";
 
@@ -29,6 +29,7 @@ const questionBankMap = {
   questionBank4F,
   questionBank5A,
   questionBank5B,
+  questionBank5C,
 };
  
 const questionBank = questionBankMap[selected];

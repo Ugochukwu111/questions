@@ -148,4 +148,12 @@ export const courses = [
     part: "A",
     coursequestion: "questionBank4B",
   },
+    {
+    id: "id-2",
+    code: "Gst ",
+    name: "Peace and Conflict ",
+    type: "Multiple choice",
+    part: "A",
+    coursequestion: "questionBank5C",
+  },
 ];
